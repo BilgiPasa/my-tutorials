@@ -1,0 +1,129 @@
+If you are using GNOME, enter this command to the terminal :
+touch ~/Templates/'Empty Document'.txt
+
+If tap to click not working go to settings, enable tap to click in the settings.
+
+To install NVIDIA drivers
+{
+    (if you have a problem in the solution that I am going to give, go to the
+    https://wiki.debian.org/NvidiaGraphicsDrivers website and find your solution.)
+
+    Enter this command to the terminal: sudo apt install linux-headers-amd64
+
+    Then enter this command to the terminal: sudo nano /etc/apt/sources.list
+
+    and change this line
+    {
+        deb http://deb.debian.org/debian/ trixie main non-free-firmware
+    }
+
+    to this line
+    {
+        deb http://deb.debian.org/debian/ trixie main contrib non-free non-free-firmware
+    }
+
+    and save.
+
+    Then enter this command to the terminal: sudo apt update && sudo apt upgrade
+
+    Then enter this command to the terminal: sudo apt install nvidia-kernel-dkms nvidia-driver firmware-misc-nonfree
+
+    If there is no problem, reboot the system and select X11 session when you are logging in.
+}
+
+When installing, there can be a pop up, accept the pop up. Then reboot your pc.
+
+The sources of NVIDIA driver installation :
+    https://wiki.debian.org/NvidiaGraphicsDrivers
+    https://www.youtube.com/watch?v=mOIzYxVD4d0&list=PPSV&t=73s
+
+Enter these commands to the terminal
+{
+    sudo apt update
+    sudo apt install fastfetch adwaita-qt
+    sudo apt purge libreoffice*
+    curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
+    echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list
+    sudo apt update
+    sudo apt install playit
+}
+
+Install flatpak by following the instructions at their site
+
+sudo apt update
+
+sudo reboot
+
+Install Steam from its site (using the .deb package).
+
+Install VS Code by following the instructions at this site: https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
+
+If you are using X11, install touchegg by following the instructions at their site.
+
+If you are using GNOME and if you want to customize, install extension manager from the software app. And in
+this app, you can install a lot of extensions. (you can look gnome customizing youtube videos to install the
+extensions that you want). Also install "AppIndicator and KStatusNotifierItem Support", "Alphabetical App Grid",
+"Desktop Icons NG (DING)", "Logo Activities", "Touchpad On Off", "X11 Gestures" using Extension Manager.
+
+GNOME'da, ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
+
+GNOME kullanıyorsan "GNOME Tweaks"te (indirmediysen sistem paketi olacak şekilde indir) "Middle Click Paste"i
+kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı Adwaita-dark yap.
+
+GNOME'da Nautilus'ta (dosya yöneticisi) Desktop klasörünü ve kendi istediğin klasörleri sol menüde kısayol
+olarak ayarla. Nautilus'ta Ctrl + , (kontrol + virgül) kısayoluyla "Preferences" menüsünü aç ve orada
+"Sort Folders Before Files" ayarını (ilk ayar olması lazım) aç.
+
+GNOME'da uygulamalara büyütme ve küçültme butonları eklemek istiyorsan (ki gerek yok ama istiyorsan
+ekleyebilirsin), "GNOME Tweaks"i aç, "Windows" kısmına gel ve "Titlebar Buttons" kısmından "Maximize" ile
+"Minimize" ayarlarını aç.
+
+KDE'de Dolphin (dosya yöneticisi) açıldığında home folder'ını açmasının ayarını yap. Dolphin'de arkaplan'a çift
+tıkladığında bütün her şeyi seçme ayarını da kapat.
+
+If you use GNOME; in keyboard shortcuts:
+    Make "Switch windows" as "Alt + Tab".
+    Make "Hide all normal windows" as "Super + D".
+    Make a "System Monitor" shortcut as "Ctrl + Shift + Escape". The command is "gnome-system-monitor".
+    Make a "Nautilus" shortcut as "Super + E". The command is "nautilus".
+    If "Ctrl + Alt + T" does not open a terminal, make a custom shortcut named "Terminal" and make its command
+    as what your terminal command is. It is either "ptyxis", "gnome-terminal", "kgx" or something else.
+    If you want, you can make "Switch applications" as "Super + Tab".
+    (İstersen bu keybind'ların hepsini kullanabilirsin ve aşağıda "farklı virtual desktop'lardaki açık
+    penceler arasında Alt + Tab yaparak dolaşma"yı açmayabilirsin. Ya da en son keybind'ı girmeyip aşağıda
+    "farklı virtual desktop'lardaki açık penceler arasında Alt + Tab yaparak dolaşma"yı açabilirsin.)
+
+GNOME'da eğer ki farklı virtual desktop'lardaki açık penceler arasında Alt + Tab yaparak dolaşmak istiyorsan
+(Eğer ki Alt + Tab'ı "Switch windows"a ayarladıysan bunun etkisini görebilirsin.)
+{
+    gsettings set org.gnome.shell.window-switcher current-workspace-only false
+}
+Bunu kapatmak istiyorsan
+{
+    gsettings set org.gnome.shell.window-switcher current-workspace-only true
+}
+
+Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyorsan
+{
+    GNOME'da, ayarlarda "System" kısmında gir ve orada "Region and Language" kısmına gir. "Language"ı
+    "English (United States)" seç, "Formats"ı "United Kingdom (English)" seç. Bilgisayardan çıkış giriş
+    yapınca etki gösterir.
+
+    KDE'de ayarlarda Region and Language ayarı olması lazım. Oraya gir, dil olarak Amerikan İngilizcesini seç,
+    formatlar olarak ise "C" seç. Bilgisayardan çıkış giriş yapınca etki gösterir.
+}
+
+Brave kullanacaksan yüklemeni önerdiğim eklentiler:
+    Dark Reader, Youtube-shorts block, Return Youtube Dislike
+
+Firefox kullanacaksan yüklemeni önerdiğim eklentiler:
+    Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
+
+How to make Firefox scrolling smooth:
+    At the search bar type "about:config", accept the risks.
+    Write "general.smoothScroll.msdPhysics.enabled" in the search preference name menu.
+    Set it to "true".
+
+Ayarlardan mikrofon input sesini kısmayı unutma.
+
+To run playit.gg, write "playit" (with no quote) in the terminal

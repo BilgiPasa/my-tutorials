@@ -1,0 +1,33 @@
+İlk açtığında, "Optimize just for recording" seçeneğini seç. "Next" de.
+Resolution'da "Display 1"i ve FPS'te "60"ı seç. "Next" de ve ayarları kaydet.
+"Sources" kısmına "Display Capture" ekle ve kendi ekranını seç ve "Ok" de.
+
+Ayarlar kısmında "Output" kısmını aç, "Output Mode"u "Advanced" yap.
+
+"Streaming" kısmında "Video Encoder"ını seç kendi ekran kartına göre.
+(NVIDIA kullanıyorsan, "NVIDIA NVENC H.264" seçeneğini seç.)
+"Rate Control" => "Constant Bitrate"
+"Bitrate" => "12000 Kbps"
+"Preset" olarak ya "Slower (Better Quality)" ya da "Slow (Good Quality)"yi seç.
+"Tuning" => "High Quality"
+"Multipass Mode" => "Two Passes (Quarter Resolution)"
+"Profile" => "High"
+
+"Recording" kısmında "Video Encoder"ını seç kendi ekran kartına göre.
+(NVIDIA kullanıyorsan, "NVIDIA NVENC H.264" seçeneğini seç.)
+"Recording Path"i belirle.
+"Rate Control" => "Constant Bitrate"
+"Bitrate" => "12000 Kbps"
+"Preset" olarak ya "Slower (Better Quality)" ya da "Slow (Good Quality)"yi seç.
+"Tuning" => "High Quality"
+"Multipass Mode" => "Two Passes (Quarter Resolution)"
+"Profile" => "High"
+
+"Advanced" kısmında, "Color Range"i full yap.
+
+Eğer ki yanlış bir ayar yaparsan
+{
+    OBS'in ana ekranında "File" kısmında "Show Settings Folder" kısmına tıkla.
+    OBS'i kapat ve o klasör içindeki bütün dosyaları sil.
+    Sonrasında OBS'i geri aç ve yapılacakları yap.
+}

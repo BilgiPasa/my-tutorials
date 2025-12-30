@@ -1,0 +1,3 @@
+Python'da speedtest'i indireceğin zaman "pip install speedtest" YAZMA !
+Onun yerine "pip install speedtest-cli" YAZ !
+Sorunun çözülmesi lazım.

@@ -1,0 +1,9 @@
+Windows'ta sol üstte "Steam" yazısına tıkla ve ayarları aç. Soldaki "İndirme" menüsünden "Oyun esnasında
+indirmelere izin ver"i aç. "Oyun İçi" menüsünden "Oyun içi FPS sayacı"ı "Top-left" yap.
+
+Linux'ta sol üstte "Steam" yazısına tıkla ve ayarları aç. Soldaki "Downloads" menüsünden "Allow downloads
+during gameplay"i aç. "In Game" menüsünden "Show performance monitor"ı "Top-left" yap. "Performance detail
+level"ı "FPS Single Value" yap. "Text size scaling"i en orta, "Text constrast/saturation"ı en sağ ve
+"Background opacity"i en sol yap. Bir de son olarak; eğer ki Hollow Knight'ı yüklersen, Proton ile çalıştırmayı
+aç, Proton Experimental'ı seç ve öyle oyna. Çünkü Windows'taki save'ini yükleyebilmen için Hollow Knight'ta bu
+gerekiyormuş sanırsam. (Test etmedim ama böyle bir şey olduğunu okudum internette.)

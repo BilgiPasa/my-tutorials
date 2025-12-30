@@ -1,0 +1,52 @@
+Make a GitHub account if you don't have an account. Make a repository.
+If you are on Windows, install git from their website. If you use Linux, it is already installed or it is not
+installed but when you install GitHub CLI, it automatically gets installed (i think).
+Then make a new folder named "GitHub" in your "Desktop" folder (or wherever you want).
+Open the "GitHub" folder and do your GitHub work in there.
+
+If you are using Linux, use the terminal for Git and GitHub.
+If you are using Windows, use the "Git Bash" application for Git and GitHub.
+
+To install GitHub CLI
+{
+    If you are using Fedora, enter these commands
+    {
+        sudo dnf install dnf5-plugins
+        sudo dnf config-manager addrepo --from-repofile=https://cli.github.com/packages/rpm/gh-cli.repo
+        sudo dnf install gh --repo gh-cli
+    }
+
+    If you are using Debian, enter these commands
+    {
+        (type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
+	    && sudo mkdir -p -m 755 /etc/apt/keyrings \
+	    && out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \
+	    && cat $out | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
+	    && sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
+	    && sudo mkdir -p -m 755 /etc/apt/sources.list.d \
+	    && echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+	    && sudo apt update \
+	    && sudo apt install gh -y
+    }
+
+    If you are using Windows, enter this command: winget install -e --id GitHub.cli
+
+    Source: https://github.com/cli/cli?tab=readme-ov-file#linux--bsd
+}
+
+Then enter the command "gh auth login" to log in to git using GitHub.
+Then enter the command "git config -l | grep credential" to make sure you logged in.
+If nothing shows up, enter the command "gh auth login" to log in properly.
+
+Lastly, enter these commands (Linux and Windows)
+Write your github email to <your github email goes here> section
+Write your github username to <your github username goes here> section
+{
+    git config --global user.email "<your github email goes here>"
+    git config --global user.name "<your github username goes here>"
+}
+
+You can check your email and name in your git config like this: git config --list
+
+If you are using Windows, if you want, instead of doing these, you can just use the GitHub Desktop app.
+(But I don't use it. I prefer using GitHub in the terminal.)

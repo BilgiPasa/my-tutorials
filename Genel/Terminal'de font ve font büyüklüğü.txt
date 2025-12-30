@@ -1,0 +1,2 @@
+Terminal kullanırken font olarak "Roboto Mono"yu kullan ("VS Code'da bu font'u kullan (Roboto Mono).txt"
+dosyasında nasıl kuracağın yazıyor). Font büyüklüğünü de 16 yap.

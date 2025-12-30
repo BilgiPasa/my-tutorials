@@ -1,0 +1,30 @@
+Haberin olsun bu sıkıntı sadece Minecraft'ta değil de başka oyunlarda da oluyorsa bilgisayar klavyende sorun
+olabilir. Yani buna uğraşmana değmeyebilir. (Ki bu sıkıntı Minecraft'ta artık mevcut mu emin değilim. Ama bu
+çözüm text dosyasını nolur nolmaz bulundurayım dedim.)
+
+https://www.reddit.com/r/Minecraft/comments/qqcgji/linux_minecraft_bug_workaround_for_dropped_key/
+
+Bu sitede ne yapman gerektiği yazıyor ama ben kısaca ATLauncher için özet geçeyim.
+
+1. /usr/share/applications/ kısmına git
+
+2. atlauncher.desktop dosyasını kopyala
+
+3. ~/.local/share/applications/ kısmına git
+
+4. Dosyayı yapıştır
+
+5. Dosyayı aç (text editorü ile)
+
+6. "Exec=atlauncher" yazan yeri şunla değiştir: Exec=env XMODIFIERS="@im=null" atlauncher
+
+7. Dosyayı kaydet ve bilgisayarı yeniden başlat.
+
+8. ATLauncher'da "Settings"e gir.
+
+9. "General" kısmında "Enable Console"u kapat.
+
+10. "Commands" kısmında "Enable Commands"i aç ve "Pre-launch command" kısmına alttaki komutu gir:
+env XMODIFIERS="@im=null"
+
+11. Save butonuna tıkla ve ATLauncher'u kapat ve geri aç.

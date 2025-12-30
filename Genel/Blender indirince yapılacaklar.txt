@@ -1,0 +1,9 @@
+Edit kısmından Preferences kısmına gir.
+
+Interface kısmında Resolution Scale'ini 1.15 yap.
+
+System kısmında:
+    Eğer ki NVIDIA ekran kartı kullanıyorsan Cycles Render Devices'ı CUDA seç ve sadece NVIDIA ekran kartının
+    seçili olduğuna emin ol.
+
+    Display Graphics'te Backend'i Vulkan yap ve Blender'ı kapatıp aç.

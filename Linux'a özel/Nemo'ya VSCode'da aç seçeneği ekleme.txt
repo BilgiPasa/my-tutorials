@@ -1,0 +1,1 @@
+Şu siteye git ve yapılacakları yap: https://github.com/mathiasbaldissera/nemo-open-with-vscode

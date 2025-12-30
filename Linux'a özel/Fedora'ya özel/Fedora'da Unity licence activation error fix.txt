@@ -1,0 +1,1 @@
+Enter this command to the terminal: sudo update-crypto-policies --set DEFAULT:SHA1

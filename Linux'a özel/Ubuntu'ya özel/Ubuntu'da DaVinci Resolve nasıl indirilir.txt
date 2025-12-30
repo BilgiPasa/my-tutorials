@@ -1,0 +1,3 @@
+MakeResolveDeb'i kullanarak DaVinci Resolve'u indir.
+
+Sitesi: https://www.danieltufvesson.com/makeresolvedeb

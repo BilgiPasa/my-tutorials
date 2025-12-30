@@ -1,0 +1,5 @@
+Ventoy klasörünü aç ve "Ventoy2Disk.exe" dosyasını çalıştır. Sol üstten "Option" menüsünden "Partition Style"
+kısmına gel ve "GPT" olanı seç (Disk biçimlendirmesi olarak GPT, MBR'den daha iyi olduğu için GPT seçmeni
+istiyorum). Ardından Ventoy yüklemek istediğin USB'yi seç ve "Install" de. Haberin olsun; Ventoy'u, seçtiğin
+USB'ye yüklersen o USB'deki bütün veriler silinir. Ventoy'u yükledikten sonra, yüklemek istediğin ISO'ları o
+USB'ye kopyala yapıştır yap. Ta da! İşte çok ISO'lu bir USB!

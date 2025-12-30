@@ -1,0 +1,4 @@
+GNOME'da şifren keyring gibi bişey ile uyuşmuyor diyor ise BAŞINA SUDO KOYMADAN şu komutu gir :
+    gio trash ~/.local/share/keyrings; gnome-session-quit --logout
+
+O işe yaramazsa şuna bi göz at: https://forums.linuxmint.com/viewtopic.php?t=439152

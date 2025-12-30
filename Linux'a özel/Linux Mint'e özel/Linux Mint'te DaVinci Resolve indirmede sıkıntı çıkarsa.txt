@@ -1,0 +1,17 @@
+Eğer ki MakeResolveDeb kullanarak DaVinci Resolve'u düzgün bir şekilde indiremiyorsan veya indirdin ama
+kullanamıyorsan aşağıdakileri oku.
+
+Bu sitede anlatılıyor:
+    https://forum.blackmagicdesign.com/viewtopic.php?f=38&t=200276&p=1073051#p1056249
+
+"This is how I installed 19.0B33 on Ubuntu Studio 24.04:" kısmından itibaren oku.
+
+Eğer ki resolve açmaya çalıştığında açılmıyorsa komutuna bak ve terminalde çıkan hataya bak.
+Eğer ki hata "/opt/resolve/bin/resolve: symbol lookup error" ise
+https://www.reddit.com/r/davinciresolve/comments/1d7cr2w/optresolvebinresolve_symbol_lookup_error/?rdt=49015
+sitesindeki çözüm olan şu komutları gir :
+    cd /opt/resolve/libs
+    sudo mkdir disabled-libraries
+    sudo mv libglib* disabled-libraries
+    sudo mv libgio* disabled-libraries
+    sudo mv libgmodule* disabled-libraries

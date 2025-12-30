@@ -1,0 +1,87 @@
+Linux Mint ISO'sunu bilgisayarında çalıştıracağın vakit COMPATIBILITY MODE ŞEKLİNDE GİRİŞ YAP!
+Compatibility değil de normal şekilde girersen indirmede sıkıntı yaşayabilirsin. (Ben yaşamıştım.)
+
+Linux Mint'i harici SSD'ye indirirken bu videodaki yönergeleri takip et ("Install Linux Mint" programını
+çalıştırdıktan itibaren VİDEO SONUNA KADAR TAKİP ET!): https://www.youtube.com/watch?v=thC3NSLEm1g
+
+İndirdikten sonra NVIDIA sürücülerini (gerekiyorsa) kur, güncellemelerini yap ve yeniden başlat.
+
+Ardından şu komutları gir
+{
+    sudo apt install adwaita-qt default-jre default-jdk curl
+    curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
+    echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list
+    sudo apt update
+    sudo apt install playit
+}
+
+Fastfetch'i indirmek için
+{
+    Eğer ki Linux Mint'in tabanı olduğu Ubuntu, 25.04'ten gerideyse şu komutlarla indir
+    {
+        sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
+        sudo apt update
+        sudo apt install fastfetch
+    }
+    Eğer ki 25.04'te ise veya ilerideyse şu komutla indir
+    {
+        sudo apt install fastfetch
+    }
+}
+
+Uygulama mağzasında "Preferences"da doğrulanmamış flatpak paketlerine izin ver seçeneğini aç. Clocks'u flatpak
+olarak indir.
+
+Install Steam from its site (using the .deb package).
+
+Install VS Code by following the instructions at this site: https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
+
+Clipboard manager olarak Diodon'u kullan (uygulama mağazasında sistem paketi olarak yüklenebiliyor) ve Diodon'un
+"Preferences" kısmında "Automatically paste selected item"ı kapat.
+
+Mouse Acceleration'ı "Constant" yap. Gestures'ı aç. Power Management'a gel, ekran kararma ve kapanma sürelerini
+ayarla ve POWER MODE'U PERFORMANCE YAP!
+
+Windows tuşuna bas ve "Window Tiling" uygulamasına gir ve "Maximize, instead of tile, when dragging a window to
+the top edge" seçeneğini aç.
+
+"Files" uygulamasını aç ve "Edit" kısmında "Preferences"ı aç ve "Behaviour" kısmında "Executable Text Files"
+kısmını "Viev executable text files when they are opened" yap.
+
+Arama kısmına "Effects" yaz. İstersen (eksi bir sistemin varsa) "Desktop and window effects"i kapat.
+
+Klavye kısayollarında
+{
+    "Toggle touchpad state"e "Ctrl + ." seçeneğini ekle.
+
+    "Toggle Looking Glass"ı "Ctrl + Alt + L" yap.
+
+    "Lock screen"i "Super + L" yap.
+
+    "Show the workspace selection screen"e "Super + Tab" seçeneğini ekle.
+
+    "Custom Shortcuts" kısmında yeni bir kısayol ekle ve adını "System Monitor", komutu "gnome-system-monitor",
+    kısayolu "Shift + Ctrl + Escape" yap.
+
+    (Klavye kısayolu olarak "Cycle through windows from all workspaces" kısayolunu DEĞİŞTİRME! Çünkü
+    "Ctrl + Alt + Tab" olması bence daha iyi.)
+}
+
+Languages uygulamasına gir, install or remove languages kısmında US, UK, Türkiye ve Kıbrıs haricinde hepsini
+sil. US, UK, Türkiye ve Kıbrıs paketlerinde eksiklik varsa hepsini yüklet. Language'ı US, Region'ı Türkiye ve
+Time format'i UK yap ve "Apply system wide" tuşuna bas. Bilgisayarını kapatıp açınca yenilenir sanırsam.
+
+Brave kullanacaksan yüklemeni önerdiğim eklentiler:
+    Dark Reader, Youtube-shorts block, Return Youtube Dislike
+
+Firefox kullanacaksan yüklemeni önerdiğim eklentiler:
+    Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
+
+How to make Firefox scrolling smooth:
+    At the search bar type "about:config", accept the risks.
+    Write "general.smoothScroll.msdPhysics.enabled" in the search preference name menu.
+    Set it to "true".
+
+Ayarlardan mikrofon input sesini kısmayı unutma.
+
+Linux Mint kişiselliştirmesi için şu videoya bakabilirsin : https://www.youtube.com/watch?v=Q_Uoe5H4ORs

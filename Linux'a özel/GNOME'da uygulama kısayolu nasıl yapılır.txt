@@ -1,0 +1,23 @@
+~/.local/share/applications yerinde bir tane .desktop uzantılı dosya oluştur ve ardından içine şunları yaz :
+
+[Desktop Entry]
+Name = <buraya uygulama adını yaz>
+Exec = <buraya uygulama dosyasının konumunu yaz ve aşağıdaki uyarımı oku>
+Type = Application
+Icon = <bunu aşağı kısımda anlatıyorum>
+Terminal = false
+StartupNotify = true
+
+Dosya yolu yazarken eğer ki boşluklu bir klasörün veya dosyan varsa onu tek tırnak içine alarak yaz. Örneğin,
+/home/bilgipasa/Desktop/Linux Dosyalarım/bi doysa.x86_64 diye değil de,
+/home/bilgipasa/Desktop/'Linux Dosyalarım'/'bi doysa'.x86_64 diye yaz. Yoksa çalışmayabilir.
+
+Icon kısmında yapman gereken şey şu:
+    ~/.local/share/icons klasörüne gir (icons klasörü yoksa oluştur ve gir).
+    Sonra logonu o klasörün içine at. Ardından "Icon" kısmına logonun adını direk yaz. Örnek: GodotIcon.svg
+
+Üsttekileri yaptıktan sonra, bu yapmış olduğun .desktop dosyasını çalıştırılabilir yap (ya sağ click menüsünden
+yap ya da şu komutu girerek yap: chmod +x <.desktop dosyasının konumu>).
+
+Artık uygulama menüsünde kısayolun çıkması lazım. Eğer ki çıkmıyorsa veya çıkıyor ama belirlediğin ikon
+gözükmüyorsa bilgisayarını yeniden başlat.

@@ -1,0 +1,16 @@
+Eğer ki bilgisayar teman karanlıksa ama VLC'yi açtığında karanlık değilse ilk önce VLC'yi kapat.
+
+Sonrasında
+{
+    Debian kullanıyorsan şu komutu gir
+    {
+        sudo apt install adwaita-qt
+    }
+
+    Fedora kullanıyorsan şu komutu gir
+    {
+        sudo dnf install gnome-themes-extra
+    }
+}
+
+Sonrasında "Tools" kısmından, "Preferences"ı aç ve "Force Window Style" kısmından karaklık tema seç.

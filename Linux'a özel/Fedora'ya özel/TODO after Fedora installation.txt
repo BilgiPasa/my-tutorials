@@ -1,0 +1,225 @@
+Fedora indireceksen, Fedora Workstation ISO'su veya Fedora KDE ISO'su ile indirme yapmanı öneririm. Çünkü eğer
+ki o ikisi hariç başka bir ISO ile Fedora'yı indirirsen, başlangıç penceresi çıkmayabilir ya da çıkarsa
+"Enable third party repositories" seçeneği çıkmayabilir. Yani kurulum sonrası 3. parti repoları tek bi tuşla
+açmak yerine kendin açman gerekir.
+
+Fedora Workstation indiriyorsan ve kurulumda konum seçmeye geldiysen, oradaki arama kısmında konumunu yazma.
+Oradaki haritadan seç ve devam et (harita üstündeki simgenin gitmesi için haritada simgesiz olan kısma tıkla ve
+sonra kendi konumuna tıkla ve "Next" de). Çünkü arama kısmına yazıp devam etmeye çalışırsan Fedora donabilir.
+
+Fedora Workstation veya Fedora KDE indiriyorsan, "Enable third party repositories" butonuna tıkla ve öyle devam
+et (3. parti depoları açman için). Eğer ki bunu açmayı unutup kurulum yaparsan, uygulama mağazasında software
+repositories kısmından aç.
+
+Bilgisayarın güç modunu Performans yap, ekran kilitleme zamanını ayarla.
+
+Bilgisayarının sistem güncelleştirmelerini uygulama mağazasından yap ve uygulamada çıkan "Restart" tuşu ile
+yeniden başlat.
+
+Fedora'da dnf'i daha hızlı yapmak için şunu yap
+{
+    şu komut ile nano'dan bir dosyayı aç: sudo nano /etc/dnf/dnf.conf
+
+    ardından o dosyanın içinde, "[main]" KISMININ ALTINA şu 2 şeyi yaz
+    {
+        max_parallel_downloads=10
+        fastestmirror=True
+    }
+
+    ardından kaydet ve kapat.
+}
+
+Fedora masaüstü ortamın ne olursa olsun şunları terminaline gir
+{
+    sudo dnf update -y
+    sudo dnf install fastfetch mesa-libGLU -y
+    sudo dnf remove libreoffice* -y
+}
+
+GNOME kullanıyorsan bunları terminaline gir
+{
+    touch ~/Templates/'Empty Document'.txt
+    sudo dnf install gnome-themes-extra -y
+}
+
+GNOME kullanıyorsan uygulama mağazasında sağ üstteki 3 çizgili menüden "Software Repositories"i aç. Orada eğer
+ki açık olan "Fedora Flatpaks" reposu varsa kapat. (Merak etme. Bu, Flathub reposunu etkilemiyor.)
+
+KDE kullanıyorsan "Discover"ı aç. Settings'e gel. Orada eğer ki açık olan "Fedora Flatpaks" reposu varsa kapat.
+(Merak etme. Bu, Flathub reposunu etkilemiyor.)
+
+NVIDIA sürücülerini indireceksen şunları terminale gir (Kaynak : https://rpmfusion.org/Howto/NVIDIA)
+(CUDA sürücülerinin adında xorg ve x11 geçiyor ama Wayland'de de çalışıyor yani haberin olsun.)
+{
+    sudo dnf update -y
+    sudo dnf install akmod-nvidia -y
+    sudo dnf install xorg-x11-drv-nvidia-cuda -y
+}
+
+Sürücüleri indirince 5 dakika zamanlayıcı kur ve bekle. Ardından yeniden başlat.
+
+Settings'te tap to click'i aç, mouse acceleration'ı kapat.
+Ayarlardan mikrofon input sesini kısmayı unutma.
+
+VSCode'u bu sitedeki yönergelere uyarak indir: https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
+
+Steam'i uygulama mağazasından rpmfusion haliyle indir.
+
+GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı indir. Ve extension manager'dan,
+alphabetic app grid, blur my shell, (grroot'un) extension list, (fmuellner'in) removable drive menu,
+(Tudmotu'nun) clipboard indicator, (fmuellner'in) system monitor, touchpad on off ve
+(yüklü değilse) appindicator and kstatusnotifieritem support indir. Hangilerini kullanmak
+istiyorsan onları aç ve diğerlerini kapat. (Bir de orada "System Extensions" kısmında "Background Logo"
+eklentisini KAPAT! Yoksa 2 kere Super tuşuna basıp uygulamaların olduğu yere gelirken animasyon
+takılabiliyor.)
+
+GNOME'da Blur my shell indirirsen o eklentinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override
+background" kısmında daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
+
+GNOME'da, ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
+
+GNOME kullanıyorsan "GNOME Tweaks"te (indirmediysen sistem paketi olacak şekilde indir) "Middle Click Paste"i
+kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı Adwaita-dark yap.
+
+GNOME'da Nautilus'ta (dosya yöneticisi) Desktop klasörünü ve kendi istediğin klasörleri sol menüde kısayol
+olarak ayarla. Nautilus'ta Ctrl + , (kontrol + virgül) kısayoluyla "Preferences" menüsünü aç ve orada
+"Sort Folders Before Files" ayarını (ilk ayar olması lazım) aç.
+
+GNOME'da uygulamalara büyütme ve küçültme butonları eklemek istiyorsan (ki gerek yok ama istiyorsan
+ekleyebilirsin), "GNOME Tweaks"i aç, "Windows" kısmına gel ve "Titlebar Buttons" kısmından "Maximize" ile
+"Minimize" ayarlarını aç.
+
+KDE'de Dolphin (dosya yöneticisi) açıldığında home folder'ını açmasının ayarını yap. Dolphin'de arkaplan'a çift
+tıkladığında bütün her şeyi seçme ayarını da kapat.
+
+If you use GNOME; in keyboard shortcuts:
+    Make "Switch windows" as "Alt + Tab".
+    Make "Hide all normal windows" as "Super + D".
+    Make a "System Monitor" shortcut as "Ctrl + Shift + Escape". The command is "gnome-system-monitor".
+    Make a "Nautilus" shortcut as "Super + E". The command is "nautilus".
+    If "Ctrl + Alt + T" does not open a terminal, make a custom shortcut named "Terminal" and make its command
+    as what your terminal command is. It is either "ptyxis", "gnome-terminal", "kgx" or something else.
+    If you want, you can make "Switch applications" as "Super + Tab".
+    (İstersen bu keybind'ların hepsini kullanabilirsin ve aşağıda "farklı virtual desktop'lardaki açık
+    penceler arasında Alt + Tab yaparak dolaşma"yı açmayabilirsin. Ya da en son keybind'ı girmeyip aşağıda
+    "farklı virtual desktop'lardaki açık penceler arasında Alt + Tab yaparak dolaşma"yı açabilirsin.)
+
+GNOME'da eğer ki farklı virtual desktop'lardaki açık penceler arasında Alt + Tab yaparak dolaşmak istiyorsan
+(Eğer ki Alt + Tab'ı "Switch windows"a ayarladıysan bunun etkisini görebilirsin.)
+{
+    gsettings set org.gnome.shell.window-switcher current-workspace-only false
+}
+Bunu kapatmak istiyorsan
+{
+    gsettings set org.gnome.shell.window-switcher current-workspace-only true
+}
+
+Eğer ki GNOME'da default terminalini değiştirmek istemiyorsan
+{
+    Terminal uygulamasını aç. Sağ üstteki 3 çizgi menüden "Preferences"ı aç. "Profiles" kısmına gel ve profil
+    adını "Main Profile" yap. "Appearance" kısmına gel ve "Palette" kısmında "Show All Palettes"e tıkla. Oradan
+    "Argonaut"u seç. "Show Fewer Palettes"e tıkla ve aşağıya in. "Use System Font"u kapat. Custom Font olarak
+    "Roboto Mono Regular"ı seç ve font boyutunu 16 yap (ve eğer ki Roboto Mono çıkmıyor ise Roboto Mono fontunu
+    sistemine yükle ve ardından bunu yap). Cursor'dan "Cursor Shape"i "Underline" yap. "Behaviour" kısmına gel
+    ve "Interface" kısmında "Restore Session"ı ve "Restore Window Size"ı kapat. "Restore Window Size" kısmından
+    çıkan yerdeki seçenekleri fastfetch'e göre ayarla. ("Coloumns"u 97, "Rows"u 29 yap. Olmazsa değişirirsin.)
+    Sonra "Behaviour" menüsünde en aşağıya in ve "Set as Default Terminal"e tıkla.
+}
+Eğer ki GNOME'da default terminalini değiştirmek istiyorsan
+{
+    Eğer ki "Desktop Icons NG" isimli GNOME extension eklentisine uygun bir terminal uygulaması istiyorsan,
+    "gnome-terminal" olan terminali indirebilirsin.
+
+    Sonrasında şu siteden https://github.com/Stunkymonkey/nautilus-open-any-terminal sitedeki uygulamayı yükle
+    (ve haberin olsun komutların başında sudo yazmıyorsa komutların başına sudo yazman lazım). Ardından
+    yönergelere uyarak default terminali yapmak istediğin terminal yap (Dconf Editor ile yaptım ben. Dconf
+    Editor uygulamasını flatpak olarak yükleyebilirsin). Terminal uygulamasını klayve kısayoluyla açmak için
+    ayarlardan yapmış olduğun klavye kısayolu ayarını değiştirmeyi unutma. Terminalin adı "Terminal" veya
+    "Console" ise komutları "gnome-terminal", "kgx" veya "ptyxis" olabilir. Ve eğer ki Nautilus'ta
+    "Open Terminal Here" diye bir şey yazmıyorsa bilgisayarını yeniden başlat.
+}
+
+Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyorsan
+{
+    GNOME'da, ayarlarda "System" kısmında gir ve orada "Region and Language" kısmına gir. "Language"ı
+    "English (United States)" seç, "Formats"ı "United Kingdom (English)" seç. Bilgisayardan çıkış giriş
+    yapınca etki gösterir.
+
+    KDE'de ayarlarda Region and Language ayarı olması lazım. Oraya gir, dil olarak Amerikan İngilizcesini seç,
+    formatlar olarak ise "C" seç. Bilgisayardan çıkış giriş yapınca etki gösterir.
+}
+
+Brave kullanacaksan yüklemeni önerdiğim eklentiler:
+    Dark Reader, Youtube-shorts block, Return Youtube Dislike
+
+Firefox kullanacaksan yüklemeni önerdiğim eklentiler:
+    Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
+
+How to make Firefox scrolling smooth:
+    At the search bar type "about:config", accept the risks.
+    Write "general.smoothScroll.msdPhysics.enabled" in the search preference name menu.
+    Set it to "true".
+
+KDE'de masaüstüne bir çift tıklanabilir çöp kutusu koymak için Dolphin'i aç, "Trash" yazan yan menüyü mouse ile
+masaüstüne sürükle ve bırak. Al sana çöp kutusu. Masaüstüne home uzantısını eklemek için de aynı şeyi yap ama
+sürükleyip bıraktığında çıkan minik menüde "Link here" seçeneğini seç. Çıkan uzantı adı kullanıcı adın
+olabilir, onu değiştirmek için de normal bir şekilde dosya adı değiştirir gibi uzantı adını değiştirmen lazım.
+(Kaynak : https://www.reddit.com/r/kde/comments/gn2l3z/trash_can_widget_behavior/)
+
+Boot menüsünde çıkan kernel seçeneklerini ayarlamak için:
+    https://discussion.fedoraproject.org/t/old-kernels-removal/77046
+
+Eğer ki NVIDIA ekran kartı kullanıyorsan ve Wayland'de problemler yaşıyorsan X11'e geçebilirsin ama ilk önce
+Wayland'e şans ver. Bi bak. Olmazsa X11'e geçmek için şunları yap
+{
+    KDE'de
+    {
+        İlk önce şu komutu gir: sudo nano /etc/sddm.conf
+
+        Ve dosya içinde "[General]" kısmında "DisplayServer" ile ilgili ayarı "DisplayServer=x11" yap.
+
+        Ardından şu komutu gir: sudo dnf install plasma-workspace-x11 -y
+
+        Ve bilgisayarını yeniden başlat.
+
+        Ardından giriş yapmak için şifreni girmeden öncesinde sol üstte (orda yoksa başka bir yerde) masaüstü
+        ortamı seçeneği olarak Plazma (veya Plazma (Wayland)) değil, Plazma (X11)'i seç.
+
+        Ardından şifreni girip bilgisayarına giriş yap.
+
+        Sonrasında şu komutu gir: sudo dnf install vdpauinfo libva-vdpau-driver libva-utils -y
+
+        Eğer ki komut çalışmaz ve "libva-vdpau-driver" paketini bulamama ile ilgili mesaj yazarsa bu komutu
+        gir: sudo dnf install vdpauinfo libva-utils -y
+
+        Ardından şu "https://github.com/JoseExposito/touchegg" siteden Fedora indirme yönergelerine uyarak
+        touchegg'i yükle.
+
+        Bilgisayarı yeniden başlattıktan sonra Fedora, mouse acceleration açık gibi çalışıyor olabilir. Eğer
+        ki mouse acceleration açık gibi hissediyorsan mouse acceleration'ı aç kapa yap.
+
+        Taskbar'a (alttaki uzun çubuk) sağ tık yap ve "Show panel configuration"a tıkla. NVIDIA GPU ile X11
+        kullanmak, şu şu şeylerde sıkıntı çıkarabilir gibi bi yazı olması lazım. Onun yanındaki "Fix it"
+        butonuna tıkla ve fix edince "Exit edit mode" butonuna tıkla.
+    }
+    GNOME'da (GNOME 49'dan itibaren artık bunu yapamayabilirsin.)
+    {
+        İlk önce şu komutu gir: sudo dnf install gnome-session-xsession -y
+
+        Ardından bilgisayarını yeniden başlat.
+
+        Bilgisayara giriş yapmak için kullanıcını seç ve şifreni girmeden öncesinde sağ alt kısımdaki (orada
+        yoksa başka bir yerdeki) dişli çark görünümlü butona tıkla ve seçenek olarak "GNOME" yerine
+        "GNOME on Xorg" seçeneğini seç ve şifreni girerek bilgisayarına giriş yap.
+
+        Ardından şu komutu gir: sudo dnf install vdpauinfo libva-vdpau-driver libva-utils -y
+
+        Sonrasında şu "https://github.com/JoseExposito/touchegg" siteden Fedora indirme yönergelerine uyarak
+        touchegg'i yükle.
+
+        Sonra Fedora'nın uygulama mağazasından "Extension Manager"ı flathub şekliyle yükle ve Extension
+        Manager'dan "X11 Gestures" eklentisini yükle.
+    }
+
+    Kaynak : https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/7/
+}

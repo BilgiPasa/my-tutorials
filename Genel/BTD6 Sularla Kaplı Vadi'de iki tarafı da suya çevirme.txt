@@ -1,0 +1,2 @@
+BTD6 Sularla Kaplı Vadı iki tarafı da suya çevirme işlemi:
+    5 kere yukarı butona tıkla, 5 kere aşağı butona tıkla, yukarı butonu yeşil yap, aşağı butonu yeşil yap.

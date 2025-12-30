@@ -1,0 +1,42 @@
+Kendi distrona göre yapmış olduğum tutorial'ı takip ettikten sonrasında bunları indir.
+
+ATLauncher'ı kendi sitesinden indir.
+
+GNOME kullanıyorsan, sistem paketi olarak GNOME Mines'ı indir.
+
+Flatpak olarak bu uygulamaları indir:
+    Audacity
+    Battery Info (Laptop kullanıyorsan)
+    Bitwarden
+    Blender
+    Bottles
+    File Roller (GNOME kullanıyorsan ve zip dosya oluşturucu uygulaman yoksa)
+    GIMP
+    Hex Colordle
+    LocalSend
+    OBS
+    OnlyOffice
+    Shortwave
+    VLC
+
+File Roller'ı indirdikten sonra, sıkıştırılmış dosyalar için "default app" yap.
+
+GIMP'i indirdikten sonra, PhotoGIMP'i GitHub sayfasındaki yönergelere göre kur.
+
+Belki kullanmak isteyebileceğin flatpak uygulamaları:
+    Gradia (Hızlıca fotoğraf editleme ve havalı bir şekilde kod sergileme uygulaması)
+    Solanum (Pomodoro tekniği zaman tutma uygulaması)
+    Varia (Dosya ve torrent indirici)
+
+Eğer ki Varia'yı indirirsen, Web tarayıcında eklenti mağazasını aç ve oradan "Varia Integrator" eklentisini
+indir. Eğer ki kullanmak istemiyorsan eklentiyi kapatırsın.
+
+Eğer ki DaVinci Resolve'u indirmek istiyorsan; Debian, Fedora, Linux Mint ve Ubuntu'da nasıl indirebileceğine
+dair hazırlamış olduğum dosyalara bakabilirsin.
+
+Neden OnlyOffice ve VLC'yi flatpak olarak indirmemi istediğimi soruyorsan
+{
+    1. Flatpak olarak yüklediğinde güncellemeler daha erkenden geliyor.
+    2. Wayland kullanıyorsan, VLC'yi dnf ile indirme. Çünkü ses gelmeme sıkıntısı çıkabilir.
+    3. Fedora'da OnlyOffice'i dnf ile indirmede sıkıntı yaşayabileceğin için flatpak olarak indir.
+}

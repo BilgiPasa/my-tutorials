@@ -1,0 +1,8 @@
+https://github.com/vanlocvo/Nautilus-OpenInVSCode sitesine git ve proje GitHub sayfasında indirme öncesi yapman
+gereken şeyler varsa yap ve o projenin zip dosyasını indir. Sonra Ardından zip'ten dosyaları çıkar ve klasör
+içinde şu komutu gir: sudo ./install.sh
+
+Her user için yükleyim mi sorusuna yes de ve bilgisayarında Nautilus açık ise onu kapat.
+Ardından Nautilus'u yeniden başlatayım mı sorusuna yes de ve bitmesini bekle. Bu kadar.
+
+Sonrasında o indirme klasörünü silmeyi unutma.

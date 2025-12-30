@@ -1,0 +1,145 @@
+Linux kullanıyorsan buradaki şeyleri yapmadan öncesinde "Linux Dosyalarım"daki kendi distrona göre olan TODO
+listeni tamamla ve ardından buradaki şeyleri yap.
+
+Linux kullanıyorsan şunları yap
+{
+    Dotnet'i, şu sitedeki yönergelere uyarak indir: https://dotnet.microsoft.com/en-us/download
+    (İndireceğin vakit dotnet sdk, dotnet runtime ve aspnetcore runtime'ın LTS versiyonlarını indir.)
+
+    Ardından şu komutları gir:
+
+    Fedora tabanlı ise
+    {
+        sudo dnf update
+        sudo dnf install java-latest-openjdk.x86_64 java-latest-openjdk-devel.x86_64 python3-tkinter texlive-scheme-full python3-devel pkg-config cairo-devel pango-devel python3-pip
+        sudo dnf swap ffmpeg-free ffmpeg --allowerasing
+    }
+
+    Debian tabanlı ise
+    {
+        sudo apt update
+        sudo apt install default-jre default-jdk texlive-full build-essential python3-dev libcairo2-dev libpango1.0-dev ffmpeg
+        sudo apt-get install python3-tk python3-pip
+    }
+
+    (Not: Bilgisayarında birden çok java versiyonu yüklüyse ve bunları yönetmek istiyorsan
+    "sudo alternatives --config java" komutunu gir. Buradaki versiyonlardan ana olarak kullanmak istediğini
+    seç. Eğer ki eksi bir java versiyonunu silmek istiyorsan silmemeni öneririm çünkü bu java versiyonuna bağlı
+    olan kullandığın uygulama veya paket olabilir. Örneğin ben java 21'i silecektim ki meğer atlauncher
+    java 21'i kullanıyormuş. O yüzden dikkali ol silme işlerinde felan.)
+
+    Fedora'da Java indirme komutunun kaynağı: https://docs.fedoraproject.org/en-US/quick-docs/installing-java/
+    Debian'da Java indirme komutunun kaynağı: https://wiki.debian.org/Java
+    Debian'da FFmpeg indirme komutunun kaynağı: https://www.geeksforgeeks.org/linux-unix/how-to-install-ffmpeg-in-linux/
+    Tkinter (tk) indirme komutlarının kaynağı: https://stackoverflow.com/questions/76105218/why-does-tkinter-or-turtle-seem-to-be-missing-or-broken-shouldnt-it-be-part
+    PIP indirme komutlarının kaynağı: https://www.geeksforgeeks.org/python/how-to-install-pip-in-linux/
+    Fedora için FFmpeg komutunun kaynağı (Fedora 37 başlıklı kısma bak): https://rpmfusion.org/CommonBugs
+    Diğer komutları ise Manim Community'nin sayfasından baktım da yazdım.
+
+    Haberin olsun; texlive'ı indirmemin sebebi, Manim'de LaTeX'i kullanmak için.
+
+    Python dosyalarını kullanacaksan .venv ile kullan. .venv kurmak için internete bağlan, F1 tuşuna bas ve
+    "Python: Ortam Oluşturun" veya "Python: Create Environment" yaz ve o seçeneğe tıkla. Çıkan menüde Venv'yi
+    seç ve yorumlayıcı olarak sağında "Genel" yazanı seç. Ardından VSCode'u KAPAT VE AÇ, sonrasında bir Python
+    dosyasını çalıştır. Sağ altta yorumlayıcı olarak .venv kullanıldığını görüyorsan .venv çalışıyor demektir.
+    (Nolur nolmaz Python ile ilgili bilgisayarın kendi terminalinde bir şey yüklersen veya silersen, .venv
+    sanal ortamını sil ve yeniden oluştur.) (Ve eğer ki indireceğin şeyi .venv'ye değil de bilgisayara
+    indirirsen, o indirdiklerini "pip3 uninstall paket_adı" şeklinde sil ve o şeyleri .venv'de indir. Bir
+    problem çıktığı için değil, nolur nolmaz bir problem çıkmaması için bunu yapmanı öneriyorum.)
+
+    Yukarıdaki yönergeleri takip ettikten sonrasında VS Code'da sanal alan içineki terminale şu komutları gir:
+        pip3 install manim speedtest-cli pygame-ce ursina
+}
+
+Windows kullanıyorsan şunları yap
+{
+    https://dotnet.microsoft.com/en-us/download sitesine gidip dotnet sdk'i indir. Eğer ki C# veya Unity dotnet
+    framework istiyorsa https://dotnet.microsoft.com/en-us/download/dotnet-framework sitesine gidip indir.
+
+    Python'un sitesine girip Windows indirmelerinden en yukarıdaki stabil versiyonunu indir. İndirirken
+    Python'u indirme ekranında çıkan "Python'u PATH'e ekle" ve "Yönetici olarak çalıştır" gibi şeyler yazan o
+    iki seçeneği işaretle ve öyle indir. Sonra bilgisayarda powershell'i aç ve şu komutu gir :
+        winget install ffmpeg
+
+    Java indirmek için şu https://www.oracle.com/tr/java/technologies/downloads/#jdk24-windows siteye gir ve
+    windows msi installer ile java'yı indir. (exe'yi de kullanabilirsin ama msi daha güvenli diye biliyorum.)
+    Java'nın eski sürümlerini silmek için Windows arama kısmına "Program ekle veya kaldır" yaz ve o kısımdan
+    Java'nın eski sürümlerini sil. JDK indirmen yeterli bu arada. Ayrıca JRE indirmene gerek yok.
+
+    MiKTeX'i, kendi indirme sitesinden (https://miktex.org/download) normal bir şekilde indir. (Bunu Manim'de
+    LaTeX'i kullanmak için indiriyorsun haberin olsun.)
+
+    Python dosyalarını kullanacaksan .venv ile kullan. .venv kurmak için internete bağlan, F1 tuşuna bas ve
+    "Python : Ortam Oluşturun" veya "Python: Create Environment" yaz ve o seçeneğe tıkla. Çıkan menüde Venv'yi
+    seç ve yorumlayıcı olarak sağında "Genel" yazanı seç. Ardından VSCode'u KAPAT VE AÇ, sonrasında bir Python
+    dosyasını çalıştır. Sağ altta yorumlayıcı olarak .venv kullanıldığını görüyorsan .venv çalışıyor demektir.
+    (Nolur nolmaz Python ile ilgili bilgisayarın kendi terminalinde bir şey yüklersen veya silersen, .venv
+    sanal ortamını sil ve yeniden oluştur.) (Ve eğer ki indireceğin şeyi .venv'ye değil de bilgisayara
+    indirirsen, o indirdiklerini "pip3 uninstall paket_adı" şeklinde sil ve o şeyleri .venv'de indir. Bir
+    problem çıktığı için değil, nolur nolmaz bir problem çıkmaması için bunu yapmanı öneriyorum.)
+
+    Yukarıdaki yönergeleri takip ettikten sonrasında VS Code'da sanal alan içineki terminale şu komutları gir:
+        python -m pip install manim
+        pip3 install ursina speedtest-cli pygame-ce
+}
+
+C# veya Java ile ilgili şeyler yapacaksan proje oluşturarak yap.
+
+C# projesi oluşturacaksan yapılacaklar
+{
+    İlk önce kendi oluşturacağın projenin adında boş bir klasör oluştur.
+
+    Ardından o oluşturduğun boş klasörü VSCode ile aç. Sonra F1'e tıkla ve ".NET: Yeni Proje"
+    (yani ".NET: New Project") olan seçeneği seç.
+
+    Proje "Konsol Uygulaması" olsun (yani "Console App").
+
+    Proje adını ver ve proje konumu varsayılan ne ise o olsun.
+
+    Çözüm dosyası biçimi seçeneği çıkarsa .slnx'i seç çünkü .sln seçersen sıkıntı çıkabilir.
+
+    Ardından projeyi oluşturmadan önce "Tüm şablon seçeneklerini göster" kısmını seç.
+
+    Oradan "Üst düzey deyimler kullanmayın" seçeneğini aç ve "True" yap.
+
+    Ardından projeyi oluştur.
+}
+
+Java projesi oluşturacaksan yapılacaklar
+{
+    Projeyi oluşturmak istediğin yerde VSCode'u aç ve F1'e tıkla.
+
+    Çıkan menüde "Java: Create Java Project" seçeneğini seç.
+
+    Proje hali olarak "No Build Tools" seçeneğini seç.
+
+    Ardından ekrana çıkan proje kısmı seçme menüsünden (eğer ki o menüde çıkan dizin senin VSCode'da açmış
+    olduğun dizin ise) bir şeyi seçmeden direk "Select the project location"a tıkla. (Öyle değilse VSCode'da
+    açmış olduğun dizine gel.)
+
+    Ardından Java projene bir ad ver.
+
+    Yeni bir pencere açılarak senin Java projeni göstermesi lazım.
+
+    Bu arada haberin olsun oluşturduğun Java projende .java dosyaların (evet aynı projede birkaç tane .java
+    dosyası koyabilirsin) "src" isimli klasörün içinde olması lazım ve adı ne istersen olabilir. Yani ismi
+    "App" olmak zorunda değil ama Class adın ile dosya adının uyuştuğuna emin ol.
+
+    Bu arada Java projesinin içineki "src" klasörünün içine başka bir yerden aldığın .java dosyasını koyacaksan
+    (genellikle ilk satırda olan) "package" satırını sil. Eğer ki VSCode projen özel bir package kullanıyor
+    ise o package satırındaki package adını VSCode projendeki package adı ne ise o yap.
+}
+
+Not1:
+    VS Code'da run and debug butonunu gizleyip geri açamıyorsan sağ üstte üç nokta kısmına sağ tık yap ve "run
+    and debug" seçeneğine tıkla.
+
+Not2:
+    Aynı python sanal ortamını hem Linux'ta hem de Windows'ta kullanamazsın. O yüzden hangi işletim sisteminde
+    python ile uğraşacaksan ona göre kur.
+
+Not3:
+    Eğer ki kod projelerini aktaracaksan (ki artık burada maintain etmiyorum. O kod projelerini github
+    üzerinden maintain ediyorum), ve Python projelerinin klasörünün içinde ".venv" klösürü varsa, ".venv"
+    klasörünü aktarma. (Diğerlerini aktaracaksan aktar ama .venv'ye elleme diyorum yani.) ".venv" klasörünü
+    kendi cihazında kurmak için, yukarıda anlattığım yönergeleri takip et.

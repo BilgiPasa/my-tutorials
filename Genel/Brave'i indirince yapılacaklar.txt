@@ -1,0 +1,24 @@
+Appereance
+{
+    Show autocomplete suggestions in address bar'da Leo AI'ı kapat
+
+    Use wide address bar'ı aç
+}
+
+Leo
+{
+    İlk 3 ayarı kapat
+}
+
+Search Engine
+{
+    2'sini de Google yap.
+}
+
+Extensions
+{
+    Get more extensions'a tıkla ve şu extension'ları yükle
+    {
+        Dark Reader, Youtube-shorts block, Return Youtube Dislike
+    }
+}

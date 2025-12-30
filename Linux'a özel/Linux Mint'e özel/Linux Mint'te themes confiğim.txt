@@ -1,0 +1,13 @@
+Arama kısmına "Themes" yaz ve uygulamayı aç.
+
+Sytle: Mint-Y
+Appereance: Dark
+Color: Yeşil olan
+
+Sonrasında "Advanced Settings"e tıkla.
+
+"Desktop" kısmına tıkla ve en sol üstte olan "cinnamon" seçeneğini seç.
+
+"Simplified settings" seçeneğine tıkla.
+
+Bu kadar.

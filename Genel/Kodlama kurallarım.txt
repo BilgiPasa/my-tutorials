@@ -1,0 +1,48 @@
+Generitive AI prompt'u (yani ChatGPT, Gemini, Claude vs.) kullanma.
+
+Autocomplete kullanmak istiyorsan kullan.
+
+Sevdiğin bir text editörünü veya IDE'yi kullan. (Ben şahsen VS Code kullanıyorum.)
+
+Sevdiğin bir font'u kullan. (Ben şahsen Roboto Mono'yu kullanıyorum.)
+
+Gereksiz yere yorum satırı yazma.
+
+Değişkenleri oluştururken, tiplerine göre sırala. Örnek:
+    byte verySmallNumber;
+    short smallNumber
+    int number;
+    long bigNumber;
+    float decimalNumber;
+    double bigDecimalNumber;
+    bool trueOrFalse;
+    char someCharacter;
+    string someText;
+
+Değişken adları, fonksiyon adları, class adları, obje adları, dosya adları ve klasör adları açıklayıcı olsun
+ama 30 karakteri geçmesin (boşluklar, alt tireler ve kısa çizgiler dahil).
+
+Gerektiğinde bir adı kısaltabilirsin.
+
+Ve ad koyarken bu kısaltmaları kullan:
+    object => obj
+    manager => mng
+    temporary => temp
+    information => info
+    multiplier => mult
+    summation => sum
+    field of view => FOV
+    collider => coll
+    rotation => rot
+    rigidbody => rb
+    camera => cam
+    frames per second => fps
+    velocity => vel
+    position => pos
+    image => img
+    maximum => max
+    minimum => min
+    magnitude => mag
+    normalized => normd
+
+    Başka kısaltmalar aklına gelirse, buraya yaz.

@@ -1,0 +1,70 @@
+Yönergelerini takip ettiğim video : https://www.youtube.com/watch?v=gOZT9NiMn2o&t=798s
+
+Haberin olsun, yönergeleri NVIDIA GPU'ya göre anlatacağım.
+
+Arch'ın ISO'sunu açtıktan sonra "archinstall" yaz ve seçenekler olarak şunları seç.
+Archinstall language : English
+Mirrors (sırasıyla) : Türkiye, Worldwide
+Locales : Keyboard layout => trq
+          Locale language => en_US
+          Locale encoding => UTF-8
+Disc configuration : Use a best-effort default partition layout
+                     SSD'ni space ile seç ve enter yap, ext4'ü seç, /home ayrı olsun mu kısmına hayır de.
+Disc encription yapma.
+Bootloader : Systemd-boot olur yani.
+Unified kernel images : False
+Swap : Default ne ise o olsun.
+Hostname'i kendin koyarsın.
+Root password olmasın
+User account'ta kendini ekle ve super user yap.
+Profile : Type => Desktop => istediğin bir masaüstü ortamını space ile seç ve enter yap.
+          Graphics driver => Nvidia (propriatery)
+          Greeter => Default ne ise o olsun.
+Audio : Pipewire
+Kernel : linux
+Additional packages : obs-studio blender audacity fastfetch firefox
+Network configuration : Use NetworkManager
+Timezone : Türkiye
+Automatic time sync (NTP) : True
+Optional repositories : multilib'i space ile seç ve enter yap. (Eğe ki öyle bir seçenek yoksa yükleme bitince
+internetten nasıl aktive edileceğini araştır ve multilib'i aktive et.)
+Ardından Install'a enter yap ve konfigürasyonu kabul edip indirmeyi başlat.
+İndirme bitince post-install configuration'a "no" de ve "reboot" yazıp yeniden başlat.
+
+Açtığında yapılacaklar
+{
+    Bilgisayarı koyu tema yap.
+
+    Konsole'u aç ve şunları yaz
+    {
+        sudo pacman -Syu
+        sudo pacman -S --needed base-devel git
+        git clone https://aur.archlinux.org/yay.git
+        cd yay
+        makepkg -si
+        yay -S atlauncher-bin
+        yay -S visual-studio-code-bin
+        yay -S pacseek
+        sudo pacman -S flatpak
+        (çıkan java-runtime seçeneklerinden default olanı seç. Çıkan opencl seçeneklerinden NVIDIA propriatery
+        olanı seç (propriatery yazmıyorsa Nvidia olanı seç ama nouveau olanı SEÇME!) Packages to cleanBuild
+        için "I" yap. Diffs to show için "N" yap. Remove make dependicies için default ne ise o olsun. Bu son
+        3 seçenek aur paketi yüklerken çıkıyor. Yani normal.)
+    }
+
+    Komutlarla işin bitice bilgisayarını yeniden başlat.
+}
+
+Sonra Konsole'a şunu yaz :
+    sudo pacman -S steam
+    (Eğer ki bu işe yaramazsa https://www.youtube.com/watch?v=gOZT9NiMn2o&t=798s videosunun 21.dakikasının
+    39. saniyesinden itibaren anlatıyor.) (Çalıştığında NVIDIA olan seçeneği seç.)
+
+yay ile yüklemede sıkıntı çekersen "yay -Sc" yap. Cache'i temizliyor. Ve bu arada indirme yöneticisi olarak
+pacseek kullanabilirsin. İndirmek için "yay -S pacseek" komutunu kullan.
+
+Unity Hub'da Windows Mono ve Mac Mono yükleyebilmek için şu komutu gir: sudo pacman -S cpio
+(Ki zaten Unity'i, Ubuntu tabanlı olmayan bir dağıtımda kullanmanı önermem ama eğer ki yüklemek istersen bu
+komutu da gir.)
+
+Ayarlardan mikrofon input sesini kısmayı unutma.

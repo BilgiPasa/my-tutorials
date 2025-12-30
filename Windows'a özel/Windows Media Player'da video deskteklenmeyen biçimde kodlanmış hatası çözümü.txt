@@ -1,0 +1,5 @@
+Windows Media Player kullanmak yerine VLC indir ve VLC kullan.
+VLC kullanmak istemiyorsan VLC yerine K-Lite Codec indirip kullanabilirsin.
+
+VLC'nin sitesi: https://www.videolan.org/vlc/
+K-Lite Codec'in sitesi: https://codecguide.com/download_kl.htm

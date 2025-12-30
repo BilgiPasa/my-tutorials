@@ -1,0 +1,1 @@
+Şu komutu kullan: sudo flatpak repair

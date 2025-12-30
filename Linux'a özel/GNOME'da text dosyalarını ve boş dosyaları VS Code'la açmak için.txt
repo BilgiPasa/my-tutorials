@@ -1,0 +1,13 @@
+Normalde açmak istediğin dosyaya sağ tık yapıp hangi uygulama ile açmak istediğini belirleyebiliyorsun ama
+eğer ki yapamazsan, şunları yap
+{
+    /home/{Kullanıcı adın}/.config/mimeapps.list dosyasını aç. (Yok ise oluştur ve aç.)
+
+    "[Default Applications]" kısmının altına şunları yaz :
+        text/plain=code.desktop
+        application/x-zerosize=code.desktop
+
+    "[Added Associations]" kısmının altına şunları yaz :
+        text/plain=code.desktop;
+        application/x-zerosize=code.desktop;
+}
