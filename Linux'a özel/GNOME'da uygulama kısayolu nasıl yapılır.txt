@@ -4,15 +4,14 @@
 Name = <buraya uygulama adını yaz>
 Exec = <buraya uygulama dosyasının konumunu yaz ve aşağıdaki uyarımı oku>
 Type = Application
-Icon = <bunu aşağı kısımda anlatıyorum>
+Icon = <bu kısım için ne yapman gerektiğini aşağıda anlatıyorum>
 Terminal = false
 StartupNotify = true
 
-Dosya yolu yazarken eğer ki boşluklu bir klasörün veya dosyan varsa onu tek tırnak içine alarak yaz. Örneğin,
-/home/bilgipasa/Desktop/Linux Dosyalarım/bi doysa.x86_64 diye değil de,
-/home/bilgipasa/Desktop/'Linux Dosyalarım'/'bi doysa'.x86_64 diye yaz. Yoksa çalışmayabilir.
+Dosya yolu yazarken eğer ki dosya yolunda boşluklu bir ada sahip klasörün veya dosyan varsa onu tek tırnak
+içine alarak yaz. Yoksa çalışmayabilir.
 
-Icon kısmında yapman gereken şey şu:
+Icon kısmı için yapman gereken şey şu:
     ~/.local/share/icons klasörüne gir (icons klasörü yoksa oluştur ve gir).
     Sonra logonu o klasörün içine at. Ardından "Icon" kısmına logonun adını direk yaz. Örnek: GodotIcon.svg
 

@@ -2,14 +2,14 @@ Eğer ki bilgisayar teman karanlıksa ama VLC'yi açtığında karanlık değils
 
 Sonrasında
 {
-    Debian kullanıyorsan şu komutu gir
-    {
-        sudo apt install adwaita-qt
-    }
-
     Fedora kullanıyorsan şu komutu gir
     {
         sudo dnf install gnome-themes-extra
+    }
+
+    Debian kullanıyorsan şu komutu gir
+    {
+        sudo apt install adwaita-qt
     }
 }
 

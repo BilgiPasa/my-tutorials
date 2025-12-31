@@ -22,11 +22,11 @@ Linux kullanıyorsan şunları yap
         sudo apt-get install python3-tk python3-pip
     }
 
-    (Not: Bilgisayarında birden çok java versiyonu yüklüyse ve bunları yönetmek istiyorsan
+    (Not: Bilgisayarında birden çok Java versiyonu yüklüyse ve bunları yönetmek istiyorsan
     "sudo alternatives --config java" komutunu gir. Buradaki versiyonlardan ana olarak kullanmak istediğini
-    seç. Eğer ki eksi bir java versiyonunu silmek istiyorsan silmemeni öneririm çünkü bu java versiyonuna bağlı
-    olan kullandığın uygulama veya paket olabilir. Örneğin ben java 21'i silecektim ki meğer atlauncher
-    java 21'i kullanıyormuş. O yüzden dikkali ol silme işlerinde felan.)
+    seç. Eğer ki eksi bir Java versiyonunu silmek istiyorsan silmemeni öneririm çünkü o Java versiyonuna bağlı
+    olan kullandığın uygulama veya paket olabilir. Örneğin ben Java 21'i silecektim ki meğer atlauncher
+    Java 21'i kullanıyormuş. O yüzden dikkali ol silme işlerinde felan.)
 
     Fedora'da Java indirme komutunun kaynağı: https://docs.fedoraproject.org/en-US/quick-docs/installing-java/
     Debian'da Java indirme komutunun kaynağı: https://wiki.debian.org/Java
@@ -62,10 +62,12 @@ Windows kullanıyorsan şunları yap
     iki seçeneği işaretle ve öyle indir. Sonra bilgisayarda powershell'i aç ve şu komutu gir :
         winget install ffmpeg
 
-    Java indirmek için şu https://www.oracle.com/tr/java/technologies/downloads/#jdk24-windows siteye gir ve
-    windows msi installer ile java'yı indir. (exe'yi de kullanabilirsin ama msi daha güvenli diye biliyorum.)
+    Java indirmek için şu https://www.oracle.com/java/technologies/downloads/ siteye gir ve Windows MSI
+    Installer ile Java'yı indir. (exe'yi de kullanabilirsin ama msi daha güvenli diye biliyorum.)
+
     Java'nın eski sürümlerini silmek için Windows arama kısmına "Program ekle veya kaldır" yaz ve o kısımdan
-    Java'nın eski sürümlerini sil. JDK indirmen yeterli bu arada. Ayrıca JRE indirmene gerek yok.
+    Java'nın eski sürümlerini sil. Windows'ta JDK indirmen yeterli bu arada. Yani Windows'ta ayrıca JRE
+    indirmene gerek yok.
 
     MiKTeX'i, kendi indirme sitesinden (https://miktex.org/download) normal bir şekilde indir. (Bunu Manim'de
     LaTeX'i kullanmak için indiriyorsun haberin olsun.)
