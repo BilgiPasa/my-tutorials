@@ -3,6 +3,6 @@ Bloons TD 5'i açtığında ana menüde ayarlar logosuna tıkla, bulut logosuna 
 Bloons TD 5 oynadıktan sonra ise ana menüde ayarlar logosuna tıkla, bulut logosuna tıkla ve oyun gelişmeni
 kaydet.
 
-Bunu yapmanın sebebi şu, Bloons TD 5'te otomatik gelişme kaydetme diye bir şey olmadığı için manuel kaydetmen
+Bunu yapmanın sebebi, Bloons TD 5'te otomatik gelişme kaydetme diye bir şey olmadığı için manuel kaydetmen
 lazım. Ayrıca, eğer ki birden fazla cihazda oynuyorsan ve aynı gelişmeyi diğer cihazlarda da devam ettirmek
 istiyorsan bunu yapman lazım.

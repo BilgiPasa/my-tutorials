@@ -1,9 +1,0 @@
-1. VS Code'dan C# eklentisi indirilmiş mi diye bak.
-
-2. Nolur nolmaz dotnet sdk, dotnet runtime ve mono'nun en güncel versiyonlarını indir. (Bunları elle
-indirmene ihtiyaç var mı emin değilim.)
-
-3. Dotnet Framework'ü indir.
-
-4. Düzelmediyse, internete VS Code terminalinde çıkış kısmındaki hata uyarısını yaz ve arat. Çözümü bul ve
-bulduğun çözümü buraya yaz.

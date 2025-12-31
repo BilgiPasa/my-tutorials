@@ -31,10 +31,10 @@ Belki kullanmak isteyebileceğin flatpak uygulamaları:
     Solanum (Pomodoro tekniği zaman tutma uygulaması)
     Varia (Dosya ve torrent indirici)
 
-Eğer ki Varia'yı indirirsen, web tarayıcında eklenti mağazasını aç ve oradan "Varia Integrator" eklentisini
+Eğer ki Varia'yı indirirsen web tarayıcında eklenti mağazasını aç ve oradan "Varia Integrator" eklentisini
 indir. Eğer ki kullanmak istemiyorsan eklentiyi kapatırsın.
 
-Eğer ki DaVinci Resolve'u indirmek istiyorsan; Debian, Fedora, Linux Mint ve Ubuntu'da nasıl indirebileceğine
+Eğer ki DaVinci Resolve'u indirmek istiyorsan Debian, Fedora, Linux Mint ve Ubuntu'da nasıl indirebileceğine
 dair hazırlamış olduğum dosyalara bakabilirsin.
 
 Neden OnlyOffice ve VLC'yi flatpak olarak indirmeni istediğimi soruyorsan

@@ -31,7 +31,7 @@ To install NVIDIA drivers
     If there is no problem, reboot the system and select X11 session when you are logging in.
 }
 
-When installing, there can be a pop up, accept the pop up. Then reboot your pc.
+When installing, there can be a pop up. Accept the pop up. Then reboot your pc.
 
 The sources of NVIDIA driver installation :
     https://wiki.debian.org/NvidiaGraphicsDrivers

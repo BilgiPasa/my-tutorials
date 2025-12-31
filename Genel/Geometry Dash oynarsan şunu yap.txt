@@ -4,6 +4,6 @@ oyun gelişmeni yükle.
 Geometry Dash oynadıktan sonra ise ana menüde ayarlar logosuna tıkla, "Account" seçeneğini seç ve "Save"e
 tıkla. Yani oyun gelişmeni kaydet.
 
-Bunu yapmanın sebebi şu, Geometry Dash'te otomatik gelişme kaydetme diye bir şey olmadığı için manuel kaydetmen
+Bunu yapmanın sebebi, Geometry Dash'te otomatik gelişme kaydetme diye bir şey olmadığı için manuel kaydetmen
 lazım. Ayrıca, eğer ki birden fazla cihazda oynuyorsan ve aynı gelişmeyi diğer cihazlarda da devam ettirmek
 istiyorsan bunu yapman lazım.

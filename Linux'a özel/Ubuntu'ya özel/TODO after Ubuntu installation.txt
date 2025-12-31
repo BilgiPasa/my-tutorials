@@ -77,7 +77,7 @@ Nautilus'ta (dosya yöneticisi) Desktop klasörünü ve kendi istediğin klasör
 ayarla. Nautilus'ta Ctrl + , (kontrol + virgül) kısayoluyla "Preferences" menüsünü aç ve orada
 "Sort Folders Before Files" ayarını (ilk ayar olması lazım) aç.
 
-Uygulamalara büyütme ve küçültme butonları eklemek istiyorsan (ki gerek yok ama istiyorsan ekleyebilirsin),
+Uygulamalara büyütme ve küçültme butonları eklemek istiyorsan (ki gerek yok ama istiyorsan ekleyebilirsin)
 "GNOME Tweaks"i aç, "Windows" kısmına gel ve "Titlebar Buttons" kısmından "Maximize" ile "Minimize" ayarlarını
 aç.
 

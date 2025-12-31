@@ -1,5 +1,5 @@
 Fedora indireceksen, Fedora Workstation ISO'su veya Fedora KDE ISO'su ile indirme yapmanı öneririm. Çünkü eğer
-ki o ikisi hariç başka bir ISO ile Fedora'yı indirirsen, başlangıç penceresi çıkmayabilir ya da çıkarsa
+ki o ikisi hariç başka bir ISO ile Fedora'yı indirirsen başlangıç penceresi çıkmayabilir ya da çıkarsa
 "Enable third party repositories" seçeneği çıkmayabilir. Yani kurulum sonrası 3. parti repoları tek bi tuşla
 açmak yerine kendin açman gerekir.
 
@@ -7,11 +7,11 @@ Fedora Workstation indiriyorsan ve kurulumda konum seçmeye geldiysen, oradaki a
 Oradaki haritadan seç ve devam et (harita üstündeki simgenin gitmesi için haritada simgesiz olan kısma tıkla ve
 sonra kendi konumuna tıkla ve "Next" de). Çünkü arama kısmına yazıp devam etmeye çalışırsan Fedora donabilir.
 
-Fedora Workstation veya Fedora KDE indiriyorsan, "Enable third party repositories" butonuna tıkla ve öyle devam
-et (3. parti depoları açman için). Eğer ki bunu açmayı unutup kurulum yaparsan, uygulama mağazasında software
+Fedora Workstation veya Fedora KDE indiriyorsan "Enable third party repositories" butonuna tıkla ve öyle devam
+et (3. parti depoları açman için). Eğer ki bunu açmayı unutup kurulum yaparsan uygulama mağazasında software
 repositories kısmından aç.
 
-Bilgisayarın güç modunu Performans yap, ekran kilitleme zamanını ayarla.
+Bilgisayarın güç modunu performans yap, ekran kilitleme zamanını ayarla.
 
 Bilgisayarının sistem güncelleştirmelerini uygulama mağazasından yap ve uygulamada çıkan "Restart" tuşu ile
 yeniden başlat.
@@ -86,7 +86,7 @@ olarak ayarla. Nautilus'ta Ctrl + , (kontrol + virgül) kısayoluyla "Preference
 "Sort Folders Before Files" ayarını (ilk ayar olması lazım) aç.
 
 GNOME'da uygulamalara büyütme ve küçültme butonları eklemek istiyorsan (ki gerek yok ama istiyorsan
-ekleyebilirsin), "GNOME Tweaks"i aç, "Windows" kısmına gel ve "Titlebar Buttons" kısmından "Maximize" ile
+ekleyebilirsin) "GNOME Tweaks"i aç, "Windows" kısmına gel ve "Titlebar Buttons" kısmından "Maximize" ile
 "Minimize" ayarlarını aç.
 
 KDE'de Dolphin (dosya yöneticisi) açıldığında home folder'ını açmasının ayarını yap. Dolphin'de arkaplan'a çift

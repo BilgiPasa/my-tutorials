@@ -1,6 +1,6 @@
-Dotnet'i indirmiş olduğuna emin ol ve VS Code'da dotnet eklentilerinin indiğine emin ol.
-Eğer ki hala çalışmıyorsa ve VS Code terminalde "error NU1101" hatası geliyorsa,
-terminalden şu paketi indir: dotnet-sdk-aot-10.0
+.NET'i indirmiş olduğuna emin ol ve VS Code'da dotnet eklentilerinin indiğine emin ol.
+Eğer ki hala çalışmıyorsa ve VS Code terminalde "error NU1101" hatası geliyorsa, terminalden şu paketi
+indir: dotnet-sdk-aot-10.0
 
 İndirme komutları
 {

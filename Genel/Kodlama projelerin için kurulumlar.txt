@@ -3,8 +3,8 @@ listeni tamamla ve ardından buradaki şeyleri yap.
 
 Linux kullanıyorsan şunları yap
 {
-    Dotnet'i, şu sitedeki yönergelere uyarak indir: https://dotnet.microsoft.com/en-us/download
-    (İndireceğin vakit dotnet sdk, dotnet runtime ve aspnetcore runtime'ın LTS versiyonlarını indir.)
+    .NET'i, şu sitedeki yönergelere uyarak indir: https://dotnet.microsoft.com/en-us/download
+    (İndireceğin vakit; .NET SDK, ASP.NET Core Runtime ve .NET Runtime'ın en yeni LTS versiyonlarını indir.)
 
     Ardından şu komutları gir:
 
@@ -44,7 +44,7 @@ Linux kullanıyorsan şunları yap
     dosyasını çalıştır. Sağ altta yorumlayıcı olarak .venv kullanıldığını görüyorsan .venv çalışıyor demektir.
     (Nolur nolmaz Python ile ilgili bilgisayarın kendi terminalinde bir şey yüklersen veya silersen, .venv
     sanal ortamını sil ve yeniden oluştur.) (Ve eğer ki indireceğin şeyi .venv'ye değil de bilgisayara
-    indirirsen, o indirdiklerini "pip3 uninstall paket_adı" şeklinde sil ve o şeyleri .venv'de indir. Bir
+    indirirsen o indirdiklerini "pip3 uninstall paket_adı" şeklinde sil ve o şeyleri .venv'de indir. Bir
     problem çıktığı için değil, nolur nolmaz bir problem çıkmaması için bunu yapmanı öneriyorum.)
 
     Yukarıdaki yönergeleri takip ettikten sonrasında VS Code'da sanal alan içineki terminale şu komutları gir:
@@ -53,8 +53,9 @@ Linux kullanıyorsan şunları yap
 
 Windows kullanıyorsan şunları yap
 {
-    https://dotnet.microsoft.com/en-us/download sitesine gidip dotnet sdk'i indir. Eğer ki C# veya Unity dotnet
-    framework istiyorsa https://dotnet.microsoft.com/en-us/download/dotnet-framework sitesine gidip indir.
+    .NET SDK'i şu siteden indir: https://dotnet.microsoft.com/en-us/download
+
+    Eğer ki; C# veya Unity, .NET Framework'ü indirmeni istiyorsa şu siteden indir: https://dotnet.microsoft.com/en-us/download/dotnet-framework
 
     Python'un sitesine girip Windows indirmelerinden en yukarıdaki stabil versiyonunu indir. İndirirken
     Python'u indirme ekranında çıkan "Python'u PATH'e ekle" ve "Yönetici olarak çalıştır" gibi şeyler yazan o
@@ -75,7 +76,7 @@ Windows kullanıyorsan şunları yap
     dosyasını çalıştır. Sağ altta yorumlayıcı olarak .venv kullanıldığını görüyorsan .venv çalışıyor demektir.
     (Nolur nolmaz Python ile ilgili bilgisayarın kendi terminalinde bir şey yüklersen veya silersen, .venv
     sanal ortamını sil ve yeniden oluştur.) (Ve eğer ki indireceğin şeyi .venv'ye değil de bilgisayara
-    indirirsen, o indirdiklerini "pip3 uninstall paket_adı" şeklinde sil ve o şeyleri .venv'de indir. Bir
+    indirirsen o indirdiklerini "pip3 uninstall paket_adı" şeklinde sil ve o şeyleri .venv'de indir. Bir
     problem çıktığı için değil, nolur nolmaz bir problem çıkmaması için bunu yapmanı öneriyorum.)
 
     Yukarıdaki yönergeleri takip ettikten sonrasında VS Code'da sanal alan içineki terminale şu komutları gir:
@@ -140,6 +141,6 @@ Not2:
 
 Not3:
     Eğer ki kod projelerini aktaracaksan (ki artık burada maintain etmiyorum. O kod projelerini github
-    üzerinden maintain ediyorum), ve Python projelerinin klasörünün içinde ".venv" klösürü varsa, ".venv"
+    üzerinden maintain ediyorum), ve Python projelerinin klasörünün içinde ".venv" klösürü varsa ".venv"
     klasörünü aktarma. (Diğerlerini aktaracaksan aktar ama .venv'ye elleme diyorum yani.) ".venv" klasörünü
     kendi cihazında kurmak için, yukarıda anlattığım yönergeleri takip et.
