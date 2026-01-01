@@ -1,8 +1,9 @@
-İlk açtığında, "Optimize just for recording" seçeneğini seç. "Next" de.
+İlk açtığında "Optimize just for recording" seçeneğini seç ve "Next" de.
 Resolution'da "Display 1"i ve FPS'te "60"ı seç. "Next" de ve ayarları kaydet.
-"Sources" kısmına "Display Capture" ekle ve kendi ekranını seç ve "Ok" de.
 
-Ayarlar kısmında "Output" kısmını aç, "Output Mode"u "Advanced" yap.
+"Sources" kısmına "Screen Capture" ekle ve kendi ekranını seç ve "Ok" de.
+
+Ayarlar kısmında "Output" kısmını aç. "Output Mode"u "Advanced" yap.
 
 "Streaming" kısmında "Video Encoder"ını seç kendi ekran kartına göre.
 (NVIDIA kullanıyorsan, "NVIDIA NVENC H.264" seçeneğini seç.)
@@ -23,7 +24,7 @@ Ayarlar kısmında "Output" kısmını aç, "Output Mode"u "Advanced" yap.
 "Multipass Mode" => "Two Passes (Quarter Resolution)"
 "Profile" => "High"
 
-"Advanced" kısmında, "Color Range"i full yap.
+"Advanced" kısmında "Color Range"i full yap.
 
 Eğer ki yanlış bir ayar yaparsan
 {
