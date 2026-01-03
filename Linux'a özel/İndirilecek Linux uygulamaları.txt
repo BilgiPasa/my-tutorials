@@ -21,6 +21,8 @@ Flatpak olarak bu uygulamaları indir:
 
 File Roller'ı indirdikten sonra, sıkıştırılmış dosyalar için "default app" yap.
 
+GIMP'i indirdikten sonra; "PhotoGIMP"i, PhotoGIMP GitHub sayfasındaki yönergelere uyarak kur.
+
 Eğer ki OnlyOffice'te "Times New Roman" font'u yüklü gelmediyse, OnlyOffice'i indirdikten sonra internetten
 Times New Roman font'unu indir ve bilgisayarına kur.
 
