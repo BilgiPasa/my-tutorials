@@ -19,4 +19,4 @@ Icon kısmı için yapman gereken şey şu:
 yap ya da şu komutu girerek yap: chmod +x <.desktop dosyasının konumu>).
 
 Artık uygulama menüsünde kısayolun çıkması lazım. Eğer ki çıkmıyorsa veya çıkıyor ama belirlediğin ikon
-gözükmüyorsa bilgisayarını yeniden başlat.
+gözükmüyorsa "log out/log in" yap.
