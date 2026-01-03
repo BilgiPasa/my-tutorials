@@ -1,6 +1,2 @@
-Repo'da değişiklik yaptığın dosyaların yedeğini al. Repo'yu sil ve clone et. Yedeğini aldığın, değişiklik
-yaptığın dosyaları, repoda olması gereken yerlerine koy. Sonrasında düzgün bir şekilde şunları yazarak
-pushlamanı yap. (Main'e pushlayacaksan "git push origin main"i kullan. Yoksa ne kullanman lazımsa onu kullan):
-    git add .
-    git commit -m "(Commit için ne mesaj yazacaksan buraya yaz)"
-    git push origin main
+Bu videoyu izle: https://youtu.be/xN1-2p06Urc?si=aWSMXaYNG8N6Aurg
+İşine yarayabilir.
