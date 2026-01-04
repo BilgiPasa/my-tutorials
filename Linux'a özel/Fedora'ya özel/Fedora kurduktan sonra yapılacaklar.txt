@@ -1,13 +1,13 @@
-Fedora indireceksen, Fedora Workstation ISO'su veya Fedora KDE ISO'su ile indirme yapmanı öneririm. Çünkü eğer
-ki o ikisi hariç başka bir ISO ile Fedora'yı indirirsen başlangıç penceresi çıkmayabilir ya da çıkarsa
+Fedora kuracaksan, Fedora Workstation ISO'su veya Fedora KDE ISO'su ile kurulum yapmanı öneririm. Çünkü eğer
+ki o ikisi hariç başka bir ISO ile Fedora'yı kurarsan başlangıç penceresi çıkmayabilir ya da çıkarsa
 "Enable third party repositories" seçeneği çıkmayabilir. Yani kurulum sonrası 3. parti repoları tek bi tuşla
 açmak yerine kendin açman gerekir.
 
-Fedora Workstation indiriyorsan ve kurulumda konum seçmeye geldiysen, oradaki arama kısmında konumunu yazma.
+Fedora Workstation kuruyorsan ve kurulumda konum seçmeye geldiysen, oradaki arama kısmında konumunu yazma.
 Oradaki haritadan seç ve devam et (harita üstündeki simgenin gitmesi için haritada simgesiz olan kısma tıkla ve
 sonra kendi konumuna tıkla ve "Next" de). Çünkü arama kısmına yazıp devam etmeye çalışırsan Fedora donabilir.
 
-Fedora Workstation veya Fedora KDE indiriyorsan "Enable third party repositories" butonuna tıkla ve öyle devam
+Fedora Workstation veya Fedora KDE kuruyorsan "Enable third party repositories" butonuna tıkla ve öyle devam
 et (3. parti depoları açman için). Eğer ki bunu açmayı unutup kurulum yaparsan uygulama mağazasında software
 repositories kısmından aç.
 
@@ -48,7 +48,7 @@ ki açık olan "Fedora Flatpaks" reposu varsa kapat. (Merak etme. Bu, Flathub re
 KDE kullanıyorsan "Discover"ı aç. Settings'e gel. Orada eğer ki açık olan "Fedora Flatpaks" reposu varsa kapat.
 (Merak etme. Bu, Flathub reposunu etkilemiyor.)
 
-NVIDIA sürücülerini indireceksen şunları terminale gir (Kaynak : https://rpmfusion.org/Howto/NVIDIA)
+NVIDIA sürücülerini kuracaksan şunları terminale gir (Kaynak : https://rpmfusion.org/Howto/NVIDIA)
 (CUDA sürücülerinin adında xorg ve x11 geçiyor ama Wayland'de de çalışıyor yani haberin olsun.)
 {
     sudo dnf update -y
@@ -56,30 +56,41 @@ NVIDIA sürücülerini indireceksen şunları terminale gir (Kaynak : https://rp
     sudo dnf install xorg-x11-drv-nvidia-cuda -y
 }
 
-Sürücüleri indirince 5 dakika zamanlayıcı kur ve bekle. Ardından yeniden başlat.
+Sürücüleri kurunca 5 dakika zamanlayıcı kur ve bekle. Ardından yeniden başlat.
 
 Settings'te tap to click'i aç, mouse acceleration'ı kapat.
 Ayarlardan mikrofon input sesini kısmayı unutma.
 
-VSCode'u bu sitedeki yönergelere uyarak indir: https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
+VSCode'u şu sitedeki yönergelere uyarak indir: https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
 
 Steam'i uygulama mağazasından rpmfusion haliyle indir.
 
-GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı indir. Ve extension manager'dan,
-alphabetic app grid, blur my shell, (grroot'un) extension list, (fmuellner'in) removable drive menu,
-(Tudmotu'nun) clipboard indicator, (fmuellner'in) system monitor, touchpad on off ve
-(yüklü değilse) appindicator and kstatusnotifieritem support indir. Hangilerini kullanmak
-istiyorsan onları aç ve diğerlerini kapat. (Bir de orada "System Extensions" kısmında "Background Logo"
-eklentisini KAPAT! Yoksa 2 kere Super tuşuna basıp uygulamaların olduğu yere gelirken animasyon
-takılabiliyor.)
+GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı indir. Ardından, Extension Manager'dan bu
+eklentileri indir:
+    Alphabetic App Grid
+    Blur my Shell,
+    Extension List (grroot'un)
+    Removable Drive Menu (fmuellner'in)
+    Clipboard Indicator (Tudmotu'nun)
+    System Monitor (fmuellner'in)
+    Touchpad On Off
+    Appindicator and KStatusNotifierItem Support
 
-GNOME'da Blur my shell indirirsen o eklentinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override
-background" kısmında daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
+Ardından Extension Manager'da "System Extensions" kısmındaki "Background Logo" eklentisini KAPAT! Yoksa 2 kere
+Super tuşuna basıp uygulamaların olduğu yere gelirken animasyon takılabiliyor veya sağ alttaki logo
+takılabiliyor.
+
+GNOME'da Blur my Shell eklentisinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override background"
+kısmında daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
+
+GNOME'da Alphabetic App Grid eklentisinin ayarlarına gir ve "Position of ordered folders" ayarını "End" olarak
+ayarla.
 
 GNOME'da, ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
 
-GNOME kullanıyorsan "GNOME Tweaks"te (indirmediysen sistem paketi olacak şekilde indir) "Middle Click Paste"i
-kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı Adwaita-dark yap.
+GNOME kullanıyorsan "GNOME Tweaks"i sistem paketi olacak şekilde indir. Ardından GNOME Tweaks'te
+"Middle Click Paste"i kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı "Adwaita-dark"
+olarak ayarla.
 
 GNOME'da Nautilus'ta (dosya yöneticisi) Desktop klasörünü ve kendi istediğin klasörleri sol menüde kısayol
 olarak ayarla. Nautilus'ta Ctrl + , (kontrol + virgül) kısayoluyla "Preferences" menüsünü aç ve orada
@@ -130,10 +141,10 @@ Eğer ki GNOME'da default terminalini değiştirmek istiyorsan
     Eğer ki "Desktop Icons NG" isimli GNOME extension eklentisine uygun bir terminal uygulaması istiyorsan,
     "gnome-terminal" olan terminali indirebilirsin.
 
-    Sonrasında şu siteden https://github.com/Stunkymonkey/nautilus-open-any-terminal sitedeki uygulamayı yükle
+    Sonrasında şu siteden https://github.com/Stunkymonkey/nautilus-open-any-terminal sitedeki uygulamayı indir
     (ve haberin olsun komutların başında sudo yazmıyorsa komutların başına sudo yazman lazım). Ardından
     yönergelere uyarak default terminali yapmak istediğin terminal yap (Dconf Editor ile yaptım ben. Dconf
-    Editor uygulamasını flatpak olarak yükleyebilirsin). Terminal uygulamasını klayve kısayoluyla açmak için
+    Editor uygulamasını flatpak olarak indirebilirsin). Terminal uygulamasını klayve kısayoluyla açmak için
     ayarlardan yapmış olduğun klavye kısayolu ayarını değiştirmeyi unutma. Terminalin adı "Terminal" veya
     "Console" ise komutları "gnome-terminal", "kgx" veya "ptyxis" olabilir. Ve eğer ki Nautilus'ta
     "Open Terminal Here" diye bir şey yazmıyorsa bilgisayarını yeniden başlat.

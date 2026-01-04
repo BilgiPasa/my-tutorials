@@ -33,11 +33,11 @@ To install NVIDIA drivers
 
 When installing, there can be a pop up. Accept the pop up. Then reboot your pc.
 
-The sources of NVIDIA driver installation :
+NVIDIA indirme yönergelerimin kaynakları:
     https://wiki.debian.org/NvidiaGraphicsDrivers
     https://www.youtube.com/watch?v=mOIzYxVD4d0&list=PPSV&t=73s
 
-Enter these commands to the terminal
+Bu komutları terminale gir
 {
     sudo apt update
     sudo apt install fastfetch adwaita-qt
@@ -48,22 +48,22 @@ Enter these commands to the terminal
     sudo apt install playit
 }
 
-Install flatpak by following the instructions at their site
+Flatpak'i şu sitedeki yönergelere uyarak kur: https://flatpak.org/setup/Debian
 
-sudo apt update
+VSCode'u şu sitedeki yönergelere uyarak kur: https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
 
-sudo reboot
+Şu siteden Steam'in .deb dosyasını indir ve kur: https://store.steampowered.com/about/
 
-Install Steam from its site (using the .deb package).
+X11 kullanıyorsan "touchegg"i şu sitedeki yönergelere uyarak kur: https://github.com/JoseExposito/touchegg
 
-Install VS Code by following the instructions at this site: https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
-
-If you are using X11, install touchegg by following the instructions at their site.
-
-If you are using GNOME and if you want to customize, install extension manager from the software app. And in
-this app, you can install a lot of extensions. (you can look gnome customizing youtube videos to install the
-extensions that you want). Also install "AppIndicator and KStatusNotifierItem Support", "Alphabetical App Grid",
-"Desktop Icons NG (DING)", "Logo Activities", "Touchpad On Off", "X11 Gestures" using Extension Manager.
+GNOME kullanıyorsan "Extension Manager"ı uygulama mağazasından flatpak olarak indir. Ardından o uygulama
+içinden şu eklentileri indir:
+    AppIndicator and KStatusNotifierItem Support,
+    Alphabetical App Grid
+    Desktop Icons NG (DING)
+    Logo Activities
+    Touchpad On Off
+    X11 Gestures
 
 GNOME'da, ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
 
