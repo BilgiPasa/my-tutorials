@@ -5,6 +5,7 @@ Winget kullanarak bu uygulamaları indir:
     Audacity
     Bitwarden
     Blender
+    Brave
     Fastfetch
     FFmpeg
     FFmpegforAudacity
@@ -15,7 +16,10 @@ Winget kullanarak bu uygulamaları indir:
     VLC
     VS Code
 
-GIMP'i indirdikten sonra; "PhotoGIMP"i, PhotoGIMP GitHub sayfasındaki yönergelere uyarak kur.
+Eğer ki OnlyOffice'te "Times New Roman" font'u yüklü gelmediyse, OnlyOffice'i indirdikten sonra internetten
+Times New Roman font'unu indir ve bilgisayarına kur.
+
+Blender, Brave, GIMP, OBS ve Steam'de yapılacakları yap.
 
 Microsoft Store'dan Minecraft Launcher'ı indir ve Minecraft Launcher içinden Minecraft Bedrock Edition'ı ve
 Minecraft Legends'ı indir.

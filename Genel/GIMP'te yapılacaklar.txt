@@ -1,0 +1,17 @@
+GIMP'i tam ekran yap. Sol alttaki menülerin hepsini, menülerin üstündeki küçük karelerinden tutup teker teker
+sağ üstteki menülerin olduğu yere taşı ve sol kısmı en ince haline getir.
+
+Sağ üstteki menülerin sıralaması:
+    Tool Options
+    Undo History
+    Brushes
+    Fonts
+    Document History
+    Images
+    Device Status
+    Patterns
+
+Sonra "View" menüsüne tıkla ve oradan "Show Layer Boundary"i kapat.
+(Kullandığın Layer'ın kenarlarında bulunan sarı hattı kapatıyor bu ayar.)
+
+Sarı hattı kapatma ayarı kaynağı: https://smallbusiness.chron.com/rid-yellow-border-text-gimp-68504.html

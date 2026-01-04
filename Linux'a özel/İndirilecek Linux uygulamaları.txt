@@ -10,6 +10,7 @@ Flatpak olarak bu uygulamaları indir:
     Bitwarden
     Blender
     Bottles
+    Brave
     File Roller (GNOME kullanıyorsan ve zip dosya oluşturucu uygulaman yoksa)
     GIMP
     Hex Colordle
@@ -21,10 +22,10 @@ Flatpak olarak bu uygulamaları indir:
 
 File Roller'ı indirdikten sonra, sıkıştırılmış dosyalar için "default app" yap.
 
-GIMP'i indirdikten sonra; "PhotoGIMP"i, PhotoGIMP GitHub sayfasındaki yönergelere uyarak kur.
-
 Eğer ki OnlyOffice'te "Times New Roman" font'u yüklü gelmediyse, OnlyOffice'i indirdikten sonra internetten
 Times New Roman font'unu indir ve bilgisayarına kur.
+
+Blender, Brave, GIMP, OBS ve Steam'de yapılacakları yap.
 
 Belki kullanmak isteyebileceğin flatpak uygulamaları:
     Gradia (Hızlıca fotoğraf editleme ve havalı bir şekilde kod sergileme uygulaması)
