@@ -1,0 +1,15 @@
+Lisans eklemek istediğin git repo'nu (repo = repository = depo) GitHub'da aç.
+
+Repo ana sayfasındaki "Add file" butonuna tıkla ve oradan "Create new file"a tıkla. Çıkan ekranda eklemek
+istediğin dosya adı yerine (tırnaksız bir şekilde) "LICENSE" diye yaz. O yazma yerinin altında çıkan
+"Choose a license template" butonuna tıkla ve değişiklikler kaydedilmesin mi kısmında "OK"e tıkla.
+
+Çıkan ekranda bir lisans seç. Mesela örnek olarak MIT License'ı seçmek için oradaki MIT License butonuna tıkla.
+(HABERİNİZ OLSUN BEN ÖRNEK NİYETİNDE MIT LICENSE'I SÖYLÜYORUM. SİZ HANGİ LİSANSI KULLANMAK İSTİYORSANIZ ONU
+SEÇİN VE KULLANIN.)
+
+Lisans belirlerken eğer ki sağda yıl ve ad bilgileri çıkarsa onları değiştirip değiştirmemek sana kalmış.
+
+Ardından "Review and Submit" butonuna tıkla. Çıkan ekranda dosya adı değiştirme kısmındaki "LICENSE" yazısının
+yanına (tırnaksız bir şekilde) ".md" yaz ki markdown tipinde bir dosya olsun. Ardından commit changes'a tıkla.
+Commit mesajını belirle ve seçmiş olduğun lisansı gerçekten kullanmak istiyorsan commit et.
