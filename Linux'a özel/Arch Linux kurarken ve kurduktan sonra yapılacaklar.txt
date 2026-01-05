@@ -42,7 +42,6 @@ Açtığında yapılacaklar
         git clone https://aur.archlinux.org/yay.git
         cd yay
         makepkg -si
-        yay -S atlauncher-bin
         yay -S visual-studio-code-bin
         yay -S pacseek
         sudo pacman -S flatpak

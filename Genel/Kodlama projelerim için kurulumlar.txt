@@ -1,21 +1,20 @@
-Linux kullanıyorsan buradaki şeyleri yapmadan öncesinde "Linux Dosyalarım"daki kendi distrona göre olan TODO
-listeni tamamla ve ardından buradaki şeyleri yap.
-
 Linux kullanıyorsan şunları yap
 {
+    İlk önce, kendi distrona göre yapmış olduğun tutorial'ı takip et. Oradaki işin bitince buradan devam et.
+
     .NET'i, şu sitedeki yönergelere uyarak indir: https://dotnet.microsoft.com/en-us/download
     (İndireceğin vakit; .NET SDK, ASP.NET Core Runtime ve .NET Runtime'ın en yeni LTS versiyonlarını indir.)
 
     Ardından şu komutları gir:
 
-    Fedora tabanlı ise
+    Sistemin Fedora tabanlı ise
     {
         sudo dnf update
         sudo dnf install java-latest-openjdk.x86_64 java-latest-openjdk-devel.x86_64 python3-tkinter texlive-scheme-full python3-devel pkg-config cairo-devel pango-devel python3-pip
         sudo dnf swap ffmpeg-free ffmpeg --allowerasing
     }
 
-    Debian tabanlı ise
+    Sistemin Debian tabanlı ise
     {
         sudo apt update
         sudo apt install default-jre default-jdk texlive-full build-essential python3-dev libcairo2-dev libpango1.0-dev ffmpeg

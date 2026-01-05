@@ -1,43 +1,42 @@
-If you are using GNOME, enter this command to the terminal :
-touch ~/Templates/'Empty Document'.txt
+GNOME kullanıyorsan terminale şu komutu gir: touch ~/Templates/'Empty Document'.txt
 
-If tap to click not working go to settings, enable tap to click in the settings.
+Eğer ki touchpad'in dokunma ile tıklamıyorsa touchpad ayarlarından "Tap to Click"i aç.
 
-To install NVIDIA drivers
+NVIDIA sürücülerini kurmak için
 {
-    (if you have a problem in the solution that I am going to give, go to the
-    https://wiki.debian.org/NvidiaGraphicsDrivers website and find your solution.)
+    (Eğer ki çözüm yöntemimde sorun yaşarsan şu siteye git ve kendi çözümünü bul ve buraya yaz:
+        https://wiki.debian.org/NvidiaGraphicsDrivers)
 
-    Enter this command to the terminal: sudo apt install linux-headers-amd64
+    Terminale bu komutu gir: sudo apt install linux-headers-amd64
 
-    Then enter this command to the terminal: sudo nano /etc/apt/sources.list
+    Ardından bu komutu gir: sudo nano /etc/apt/sources.list
 
-    and change this line
+    ve şu satırı
     {
         deb http://deb.debian.org/debian/ trixie main non-free-firmware
     }
 
-    to this line
+    şu satıra değiştir
     {
         deb http://deb.debian.org/debian/ trixie main contrib non-free non-free-firmware
     }
 
-    and save.
+    ve kaydet.
 
-    Then enter this command to the terminal: sudo apt update && sudo apt upgrade
+    Ardından terminale bu komutu gir: sudo apt update && sudo apt upgrade
 
-    Then enter this command to the terminal: sudo apt install nvidia-kernel-dkms nvidia-driver firmware-misc-nonfree
+    Ardından bu komutu gir: sudo apt install nvidia-kernel-dkms nvidia-driver firmware-misc-nonfree
 
-    If there is no problem, reboot the system and select X11 session when you are logging in.
+    Eğer ki bir problem yoksa sistemini yeniden başlat ve giriş yaparken X11 session'ını seç.
 }
 
-When installing, there can be a pop up. Accept the pop up. Then reboot your pc.
+Kurulumda bir pop-up çıkabilir. Pop-up'ı kabul et ve ardından bilgisayarını yeniden başlat.
 
-NVIDIA indirme yönergelerimin kaynakları:
+NVIDIA sürücülerini kurma yönergelerimin kaynakları:
     https://wiki.debian.org/NvidiaGraphicsDrivers
     https://www.youtube.com/watch?v=mOIzYxVD4d0&list=PPSV&t=73s
 
-Bu komutları terminale gir
+Ardından şu komutları terminale gir
 {
     sudo apt update
     sudo apt install fastfetch adwaita-qt
@@ -56,8 +55,8 @@ VSCode'u şu sitedeki yönergelere uyarak kur: https://code.visualstudio.com/doc
 
 X11 kullanıyorsan "touchegg"i şu sitedeki yönergelere uyarak kur: https://github.com/JoseExposito/touchegg
 
-GNOME kullanıyorsan "Extension Manager"ı uygulama mağazasından flatpak olarak indir. Ardından o uygulama
-içinden şu eklentileri indir:
+GNOME kullanıyorsan "Extension Manager"ı uygulama mağazasından flatpak olarak kur. Ardından o uygulama
+içinden şu eklentileri kur:
     AppIndicator and KStatusNotifierItem Support,
     Alphabetical App Grid
     Desktop Icons NG (DING)
@@ -67,8 +66,9 @@ içinden şu eklentileri indir:
 
 GNOME'da, ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
 
-GNOME kullanıyorsan "GNOME Tweaks"te (indirmediysen sistem paketi olacak şekilde indir) "Middle Click Paste"i
-kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı Adwaita-dark yap.
+GNOME kullanıyorsan "GNOME Tweaks"i sistem paketi olarak bilgisayarına kur. Ardından GNOME Tweaks'te
+"Middle Click Paste" ayarını kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı
+Adwaita-dark olarak ayarla.
 
 GNOME'da Nautilus'ta (dosya yöneticisi) Desktop klasörünü ve kendi istediğin klasörleri sol menüde kısayol
 olarak ayarla. Nautilus'ta Ctrl + , (kontrol + virgül) kısayoluyla "Preferences" menüsünü aç ve orada
@@ -126,4 +126,4 @@ How to make Firefox scrolling smooth:
 
 Ayarlardan mikrofon input sesini kısmayı unutma.
 
-To run playit.gg, write "playit" (with no quote) in the terminal
+playit.gg'yi çalıştırmak için terminale "playit" (tırnaksız olarak) yaz.

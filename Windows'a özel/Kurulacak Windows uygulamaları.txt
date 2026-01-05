@@ -1,0 +1,25 @@
+ATLauncher'ın, DaVinci Resolve'un, FL Studio'nun, NVIDIA App'in, Steam'in, Unity Hub'ın ve Zoom'un kurulum
+dosyalarını kendi sitelerinden indir ve kur.
+
+Winget kullanarak bu uygulamaları kur:
+    Audacity
+    Bitwarden
+    Blender
+    Brave
+    Fastfetch
+    FFmpeg
+    FFmpegforAudacity
+    GIMP
+    Localsend
+    OBS
+    OnlyOffice
+    VLC
+    VS Code
+
+Eğer ki OnlyOffice'te "Times New Roman" font'u kurulu gelmediyse OnlyOffice'i kurduktan sonra internetten
+Times New Roman font'unu indir ve bilgisayarına kur.
+
+Blender, Brave, GIMP, OBS ve Steam'de yapılacakları yap.
+
+Microsoft Store'dan Minecraft Launcher'ı sistemine kur ve Minecraft Launcher içinden Minecraft Bedrock
+Edition'ı ve Minecraft Legends'ı sistemine kur.

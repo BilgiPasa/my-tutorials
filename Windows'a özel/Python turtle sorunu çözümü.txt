@@ -1,2 +1,2 @@
-Python'un indirmek için kullandığın uygulamayı aç ve "Onar" tuşuna tıkla. İş bittiğinde sorun çözülmüş
-olmalı. Çözülmediyse, internetten çözüm bul ve bulduğun çözümü buraya yaz.
+Python'un kurmak için kullandığın uygulamayı aç ve "Onar" tuşuna tıkla. İş bittiğinde sorun çözülmüş olmalı.
+Çözülmediyse internetten çözüm bul ve bulduğun çözümü buraya yaz.

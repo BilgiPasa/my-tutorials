@@ -1,4 +1,4 @@
-Fedora kuracaksan, Fedora Workstation ISO'su veya Fedora KDE ISO'su ile kurulum yapmanı öneririm. Çünkü eğer
+Fedora kuracaksan Fedora Workstation ISO'su veya Fedora KDE ISO'su ile kurulum yapmanı öneririm. Çünkü eğer
 ki o ikisi hariç başka bir ISO ile Fedora'yı kurarsan başlangıç penceresi çıkmayabilir ya da çıkarsa
 "Enable third party repositories" seçeneği çıkmayabilir. Yani kurulum sonrası 3. parti repoları tek bi tuşla
 açmak yerine kendin açman gerekir.
@@ -29,14 +29,14 @@ Fedora'da dnf'i daha hızlı yapmak için şunu yap
     ardından kaydet ve kapat.
 }
 
-Fedora masaüstü ortamın ne olursa olsun şunları terminaline gir
+Fedora masaüstü ortamın ne olursa olsun şu komutları terminale gir
 {
     sudo dnf update -y
     sudo dnf install fastfetch mesa-libGLU -y
     sudo dnf remove libreoffice* -y
 }
 
-GNOME kullanıyorsan bunları terminaline gir
+GNOME kullanıyorsan bun komutları terminale gir
 {
     touch ~/Templates/'Empty Document'.txt
     sudo dnf install gnome-themes-extra -y
@@ -48,7 +48,7 @@ ki açık olan "Fedora Flatpaks" reposu varsa kapat. (Merak etme. Bu, Flathub re
 KDE kullanıyorsan "Discover"ı aç. Settings'e gel. Orada eğer ki açık olan "Fedora Flatpaks" reposu varsa kapat.
 (Merak etme. Bu, Flathub reposunu etkilemiyor.)
 
-NVIDIA sürücülerini kuracaksan şunları terminale gir (Kaynak : https://rpmfusion.org/Howto/NVIDIA)
+NVIDIA sürücülerini kuracaksan şu komutları terminale gir (Kaynak : https://rpmfusion.org/Howto/NVIDIA)
 (CUDA sürücülerinin adında xorg ve x11 geçiyor ama Wayland'de de çalışıyor yani haberin olsun.)
 {
     sudo dnf update -y
@@ -61,12 +61,12 @@ Sürücüleri kurunca 5 dakika zamanlayıcı kur ve bekle. Ardından yeniden ba�
 Settings'te tap to click'i aç, mouse acceleration'ı kapat.
 Ayarlardan mikrofon input sesini kısmayı unutma.
 
-VSCode'u şu sitedeki yönergelere uyarak indir: https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
+VSCode'u şu sitedeki yönergelere uyarak kur: https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
 
-Steam'i uygulama mağazasından rpmfusion haliyle indir.
+Steam'i uygulama mağazasından rpmfusion haliyle kur.
 
-GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı indir. Ardından, Extension Manager'dan bu
-eklentileri indir:
+GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı kur. Ardından, Extension Manager'dan bu
+eklentileri kur:
     Alphabetic App Grid
     Blur my Shell,
     Extension List (grroot'un)
@@ -88,9 +88,9 @@ ayarla.
 
 GNOME'da, ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
 
-GNOME kullanıyorsan "GNOME Tweaks"i sistem paketi olacak şekilde indir. Ardından GNOME Tweaks'te
-"Middle Click Paste"i kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı "Adwaita-dark"
-olarak ayarla.
+GNOME kullanıyorsan "GNOME Tweaks"i sistem paketi olarak bilgisayarına kur. Ardından GNOME Tweaks'te
+"Middle Click Paste" ayarını kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı
+Adwaita-dark olarak ayarla.
 
 GNOME'da Nautilus'ta (dosya yöneticisi) Desktop klasörünü ve kendi istediğin klasörleri sol menüde kısayol
 olarak ayarla. Nautilus'ta Ctrl + , (kontrol + virgül) kısayoluyla "Preferences" menüsünü aç ve orada
@@ -139,14 +139,14 @@ Eğer ki GNOME'da default terminalini değiştirmek istemiyorsan
 Eğer ki GNOME'da default terminalini değiştirmek istiyorsan
 {
     Eğer ki "Desktop Icons NG" isimli GNOME extension eklentisine uygun bir terminal uygulaması istiyorsan,
-    "gnome-terminal" olan terminali indirebilirsin.
+    "gnome-terminal" olan terminali bilgisayarına kurabilirsin.
 
-    Sonrasında şu siteden https://github.com/Stunkymonkey/nautilus-open-any-terminal sitedeki uygulamayı indir
+    Sonrasında şu siteden https://github.com/Stunkymonkey/nautilus-open-any-terminal sitedeki uygulamayı kur
     (ve haberin olsun komutların başında sudo yazmıyorsa komutların başına sudo yazman lazım). Ardından
     yönergelere uyarak default terminali yapmak istediğin terminal yap (Dconf Editor ile yaptım ben. Dconf
-    Editor uygulamasını flatpak olarak indirebilirsin). Terminal uygulamasını klayve kısayoluyla açmak için
-    ayarlardan yapmış olduğun klavye kısayolu ayarını değiştirmeyi unutma. Terminalin adı "Terminal" veya
-    "Console" ise komutları "gnome-terminal", "kgx" veya "ptyxis" olabilir. Ve eğer ki Nautilus'ta
+    Editor uygulamasını flatpak olarak bilgisayarına kurabilirsin). Terminal uygulamasını klayve kısayoluyla
+    açmak için ayarlardan yapmış olduğun klavye kısayolu ayarını değiştirmeyi unutma. Terminalin adı "Terminal"
+    veya "Console" ise komutları "gnome-terminal", "kgx" veya "ptyxis" olabilir. Ve eğer ki Nautilus'ta
     "Open Terminal Here" diye bir şey yazmıyorsa bilgisayarını yeniden başlat.
 }
 
@@ -203,8 +203,8 @@ Wayland'e şans ver. Bi bak. Olmazsa X11'e geçmek için şunları yap
         Eğer ki komut çalışmaz ve "libva-vdpau-driver" paketini bulamama ile ilgili mesaj yazarsa bu komutu
         gir: sudo dnf install vdpauinfo libva-utils -y
 
-        Ardından şu "https://github.com/JoseExposito/touchegg" siteden Fedora indirme yönergelerine uyarak
-        touchegg'i yükle.
+        Ardından şu "https://github.com/JoseExposito/touchegg" siteden Fedora'ya göre kurma yönergelerine
+        uyarak touchegg'i bilgisayarına kur.
 
         Bilgisayarı yeniden başlattıktan sonra Fedora, mouse acceleration açık gibi çalışıyor olabilir. Eğer
         ki mouse acceleration açık gibi hissediyorsan mouse acceleration'ı aç kapa yap.
@@ -225,8 +225,8 @@ Wayland'e şans ver. Bi bak. Olmazsa X11'e geçmek için şunları yap
 
         Ardından şu komutu gir: sudo dnf install vdpauinfo libva-vdpau-driver libva-utils -y
 
-        Sonrasında şu "https://github.com/JoseExposito/touchegg" siteden Fedora indirme yönergelerine uyarak
-        touchegg'i yükle.
+        Ardından şu "https://github.com/JoseExposito/touchegg" siteden Fedora'ya göre kurma yönergelerine
+        uyarak touchegg'i bilgisayarına kur.
 
         Sonra Fedora'nın uygulama mağazasından "Extension Manager"ı flathub şekliyle yükle ve Extension
         Manager'dan "X11 Gestures" eklentisini yükle.

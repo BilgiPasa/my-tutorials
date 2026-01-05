@@ -1,0 +1,13 @@
+Yazdığın tutorial anlaşılır olsun.
+
+Tutorial'ı Türkçe olarak yazacaksan Türkçe yazım ve noktalama kurallarına uysun.
+
+Tutorial başlığında "yapmak / etmek" kelimelerini kullanmak yerine "yapma / etme" kelimelerini kullan.
+
+İndirmek, kurmak ve yüklemek fiillerini düzgün bir şekilde kullanmak için örnekler:
+    (NOT: ÖRNEKLERİMDE HATALI OLABİLİRİM)
+    Dosyayı internetten bilgisayarına indirirsin veya bilgisayarından internete yüklerin.
+    Paketi sistemine kurarsın. (Paket dosyası, sistemine indirilir ve kurulur.)
+    Uygulamayı sistemine kurarsın.
+    Oyunu sistemine kurarsın.
+    İşletim sistemini bilgisayarına kurarsın.
