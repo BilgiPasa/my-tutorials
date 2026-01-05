@@ -1,3 +1,4 @@
-Eğer ki şu an kullandığın Linux kernel'ı, kullandığın AMD ekran kartı için uygunsa ama DaVinci Resolve AMD
-ekran kartını görmüyorsa ilk önce sistem güncellemeni yap ve tekrar bi bak. Olmuyorsa şu komutu gir :
+Eğer ki şu an kullandığın Linux kernel'ı, kullandığın AMD ekran kartın için uygunsa ama DaVinci Resolve, AMD
+ekran kartını görmüyorsa ilk önce sistem güncellemeni yap. Bilgisayarını yeniden başlat ve DaVinci Resolve,
+AMD ekran kartını görüyor mu diye bak. Hala görmüyorsa terminale şu komutu gir:
     sudo dnf install rocm-opencl --allowerasing
