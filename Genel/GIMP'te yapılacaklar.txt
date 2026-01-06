@@ -11,7 +11,11 @@ Sağ üstteki menülerin sıralaması:
     Device Status
     Patterns
 
-Sonra "View" menüsüne tıkla ve oradan "Show Layer Boundary"i kapat.
-(Kullandığın Layer'ın kenarlarında bulunan sarı hattı kapatıyor bu ayar.)
+Kullandığın Layer'ın kenarlarında bulunan sarı hattı bir seferliğine kapatmak için "View" menüsüne tıkla ve
+oradan "Show Layer Boundary"i kapat. Eğer ki bu ayarın hep kapalı olmasını istiyorsan "Edit" kısmından
+"Preferences"a tıkla. Çıkan penceredeki sol kısımdan "Appearance" yazan yere tıkla. Çıkan menüde "Default
+Appearance in Normal Mode" yazan yerin altındaki "Show layer boundary" seçeneğini kapat ve pencerenin sağ
+altındaki "OK" butonuna tıkla.
 
-Sarı hattı kapatma ayarı kaynağı: https://smallbusiness.chron.com/rid-yellow-border-text-gimp-68504.html
+Sarı hattı kapatma ayarı ile ilgili GIMP'in dokümantasyonu:
+    https://docs.gimp.org/3.0/tr/gimp-view-show-layer-boundary.html
