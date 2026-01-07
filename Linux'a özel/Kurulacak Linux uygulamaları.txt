@@ -29,9 +29,9 @@ Blender, Brave, GIMP, OBS ve Steam'de yapılacakları yap.
 Belki kullanmak isteyebileceğin flatpak uygulamaları:
     Audacity (Ses düzenleme uygulaması)
     Gradia (Hızlıca fotoğraf editleme ve havalı bir şekilde kod sergileme uygulaması)
+    HandBrake (Video dönüştürücü)
     Hex Colordle (Hexadecimal olarak renk bulma oyunu)
     Reaper (Ses düzenleme uygulaması)
-    Shotcut (Video editleme uygulaması)
     Solanum (Pomodoro tekniği zaman tutma uygulaması)
     Varia (Dosya ve torrent indirici)
 

@@ -29,8 +29,8 @@ gereken NVIDIA ekran kartı sürücülerini indir.
 
 Belki kullanmak isteyebileceğin winget ile yüklenebilen uygulamalar:
     Audacity (Ses düzenleme uygulaması)
+    HandBrake (Video dönüştürücü)
     Reaper (Ses düzenleme uygulaması)
-    Shotcut (Video editleme uygulaması)
 
 Eğer ki DaVinci Resolve'u veya FL Studio'yu sistemine kurmak istiyorsan kurulum dosyalarını kendi sitelerinden
 indirip kurabilirsin.
