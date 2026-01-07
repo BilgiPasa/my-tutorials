@@ -4,10 +4,12 @@ Tutorial'ı Türkçe olarak yazacaksan Türkçe yazım ve noktalama kurallarına
 
 Tutorial başlığında "yapmak / etmek" kelimelerini kullanmak yerine "yapma / etme" kelimelerini kullan.
 
-İndirmek, kurmak ve yüklemek fiillerini düzgün bir şekilde kullanmak için örnekler:
+Bazı fiilleri kullanım örneklerim:
     (NOT: ÖRNEKLERİMDE HATA OLABİLİR)
-    Dosyayı internetten bilgisayarına indirirsin veya bilgisayarından internete yüklerin.
+    Bir dosyayı internetten indirirsin veya internete yüklersin.
     Paketi sistemine kurarsın. (Paket dosyası, sistemine indirilir ve kurulur.)
     Uygulamayı sistemine kurarsın.
     Oyunu sistemine kurarsın.
+    Sistemini güncellersin.
     İşletim sistemini bilgisayarına kurarsın.
+    Bilgisayarını yeniden başlatırsın.

@@ -74,7 +74,7 @@ ayarla.
 
 GNOME'da, ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
 
-GNOME kullanıyorsan "GNOME Tweaks"i sistem paketi olarak bilgisayarına kur. Ardından GNOME Tweaks'te
+GNOME kullanıyorsan "GNOME Tweaks"i sistem paketi olarak sistemine kur. Ardından GNOME Tweaks'te
 "Middle Click Paste" ayarını kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı
 Adwaita-dark olarak ayarla.
 
@@ -114,17 +114,17 @@ Bunu kapatmak istiyorsan
 Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyorsan
 {
     GNOME'da, ayarlarda "System" kısmında gir ve orada "Region and Language" kısmına gir. "Language"ı
-    "English (United States)" seç, "Formats"ı "United Kingdom (English)" seç. Bilgisayardan çıkış giriş
+    "English (United States)" seç, "Formats"ı "United Kingdom (English)" seç. Sisteminden çıkıp geri giriş
     yapınca etki gösterir.
 
     KDE'de ayarlarda Region and Language ayarı olması lazım. Oraya gir, dil olarak Amerikan İngilizcesini seç,
-    formatlar olarak ise "C" seç. Bilgisayardan çıkış giriş yapınca etki gösterir.
+    formatlar olarak ise "C" seç. Sisteminden çıkıp geri giriş yapınca etki gösterir.
 }
 
-Brave kullanacaksan yüklemeni önerdiğim eklentiler:
+Brave kullanacaksan kurmanı önerdiğim eklentiler:
     Dark Reader, Youtube-shorts block, Return Youtube Dislike
 
-Firefox kullanacaksan yüklemeni önerdiğim eklentiler:
+Firefox kullanacaksan kurmanı önerdiğim eklentiler:
     Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
 
 Firefox'ta akıcı bir şekilde scroll yapmak için:

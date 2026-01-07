@@ -8,7 +8,6 @@ Winget kullanarak bu uygulamaları kur:
     FFmpeg
     FFmpegforAudacity
     GIMP
-    HandBrake
     Localsend
     OBS
     OnlyOffice
@@ -23,7 +22,7 @@ Times New Roman font'unu indir ve sistemine kur.
 
 Blender, Brave, GIMP, OBS ve Steam'de yapılacakları yap.
 
-DaVinci Resolve'un ve FL Studio'nun kurulum dosyalarını kendi sitelerinden indirip sistemine kur.
+FL Studio'nun kurulum dosyasını kendi sitesinden indirip sistemine kur.
 
 Microsoft Store'dan Minecraft Launcher'ı sistemine kur ve Minecraft Launcher içinden Minecraft Bedrock
 Edition'ı ve Minecraft Legends'ı sistemine kur.

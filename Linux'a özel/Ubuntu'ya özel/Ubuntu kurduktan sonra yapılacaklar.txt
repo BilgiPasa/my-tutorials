@@ -81,16 +81,17 @@ Uygulamalara büyütme ve küçültme butonları eklemek istiyorsan (ki gerek yo
 "GNOME Tweaks"i aç, "Windows" kısmına gel ve "Titlebar Buttons" kısmından "Maximize" ile "Minimize" ayarlarını
 aç.
 
-Brave kullanacaksan yüklemeni önerdiğim eklentiler:
+Brave kullanacaksan kurmanı önerdiğim eklentiler:
     Dark Reader, Youtube-shorts block, Return Youtube Dislike
 
-Firefox kullanacaksan yüklemeni önerdiğim eklentiler:
+Firefox kullanacaksan kurmanı önerdiğim eklentiler:
     Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
 
-How to make Firefox scrolling smooth:
-    At the search bar type "about:config", accept the risks.
-    Write "general.smoothScroll.msdPhysics.enabled" in the search preference name menu.
-    Set it to "true".
+Firefox'ta akıcı bir şekilde scroll yapmak için:
+    Firefox'un arama kısmına şunu yaz: about:config
+    Riskleri kabul et.
+    Oradaki ayar arama kısmına (tırmaksız bir şekilde) "general.smoothScroll.msdPhysics.enabled" yaz.
+    O ayarı "true" yap.
 
 To run playit.gg, write "playit" (with no quote) in the terminal
 

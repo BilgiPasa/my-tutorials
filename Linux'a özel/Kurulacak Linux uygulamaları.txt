@@ -1,8 +1,7 @@
 Başlamadan önce, kendi distrona göre yapmış olduğun tutorial'ı takip et. Oradaki işin bitince buradan devam et.
 
-Sistemin Debian veya Fedora tabanlıysa ATLauncher'ın kurulum dosyasını kendi sitesinden indir ve kur.
-
-Sistemin Arch Linux tabanlıysa ATLauncher'ı, AUR'daki şu paketi indirerek kur: atlauncher-bin
+Sistemin Debian veya Fedora tabanlıysa ATLauncher'ın kurulum dosyasını kendi sitesinden indir ve kur ama eğer
+ki sistemin Arch Linux tabanlıysa AUR'daki şu paketi indirerek ATLauncher'ı kur: atlauncher-bin
 
 GNOME kullanıyorsan sistem paketi olarak GNOME Mines'ı sistemine kur.
 
@@ -15,7 +14,7 @@ Flatpak olarak bu uygulamaları kur:
     Brave
     File Roller (GNOME kullanıyorsan ve zip dosya oluşturucu uygulaman yoksa)
     GIMP
-    HandBrake
+    Hex Colordle
     LocalSend
     OBS
     OnlyOffice
@@ -29,15 +28,8 @@ Times New Roman font'unu indir ve sistemine kur.
 
 Blender, Brave, GIMP, OBS ve Steam'de yapılacakları yap.
 
-Eğer ki Debian, Fedora, Linux Mint veya Ubuntu kullanıyorsan DaVinci Resolve'u nasıl kuracağına dair kendi
-distrona göre hazırlamış olduğum dosyaya bak ve DaVinci Resolve'u sistemine kur.
-
-Eğer ki Arch Linux kullanıyorsan şu sitedeki yönergelere uyarak DaVinci Resolve'u kur:
-    https://aur.archlinux.org/packages/davinci-resolve
-
 Belki kullanmak isteyebileceğin flatpak uygulamaları:
     Gradia (Basit fotoğraf editleme ve kod sergileme uygulaması)
-    Hex Colordle (Hexadecimal olarak renk bulma oyunu)
     Solanum (Pomodoro tekniği zaman tutma uygulaması)
     Varia (Dosya ve torrent indirici)
 

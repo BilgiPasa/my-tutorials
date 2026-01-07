@@ -11,9 +11,9 @@ Fedora Workstation veya Fedora KDE kuruyorsan "Enable third party repositories" 
 et (3. parti depoları açman için). Eğer ki bunu açmayı unutup kurulum yaparsan uygulama mağazasında software
 repositories kısmından aç.
 
-Bilgisayarın güç modunu performans yap, ekran kilitleme zamanını ayarla.
+Ardından, sistem güç modunu performans yap ve ekran kilitleme zamanını ayarla.
 
-Bilgisayarının sistem güncelleştirmelerini uygulama mağazasından yap ve uygulamada çıkan "Restart" tuşu ile
+Ardından, sistem güncellemelerini uygulama mağazasından yap ve uygulamada çıkan "Restart" tuşu ile bilgisayarını
 yeniden başlat.
 
 Fedora'da dnf'i daha hızlı yapmak için şunu yap
@@ -87,7 +87,7 @@ ayarla.
 
 GNOME'da, ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
 
-GNOME kullanıyorsan "GNOME Tweaks"i sistem paketi olarak bilgisayarına kur. Ardından GNOME Tweaks'te
+GNOME kullanıyorsan "GNOME Tweaks"i sistem paketi olarak sistemine kur. Ardından GNOME Tweaks'te
 "Middle Click Paste" ayarını kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı
 Adwaita-dark olarak ayarla.
 
@@ -138,12 +138,12 @@ Eğer ki GNOME'da default terminalini değiştirmek istemiyorsan
 Eğer ki GNOME'da default terminalini değiştirmek istiyorsan
 {
     Eğer ki "Desktop Icons NG" isimli GNOME extension eklentisine uygun bir terminal uygulaması istiyorsan,
-    "gnome-terminal" olan terminali bilgisayarına kurabilirsin.
+    "gnome-terminal" olan terminali sistemine kurabilirsin.
 
     Sonrasında şu siteden https://github.com/Stunkymonkey/nautilus-open-any-terminal sitedeki uygulamayı kur
     (ve haberin olsun komutların başında sudo yazmıyorsa komutların başına sudo yazman lazım). Ardından
     yönergelere uyarak default terminali yapmak istediğin terminal yap (Dconf Editor ile yaptım ben. Dconf
-    Editor uygulamasını flatpak olarak bilgisayarına kurabilirsin). Terminal uygulamasını klayve kısayoluyla
+    Editor uygulamasını flatpak olarak sistemine kurabilirsin). Terminal uygulamasını klayve kısayoluyla
     açmak için ayarlardan yapmış olduğun klavye kısayolu ayarını değiştirmeyi unutma. Terminalin adı "Terminal"
     veya "Console" ise komutları "gnome-terminal", "kgx" veya "ptyxis" olabilir. Ve eğer ki Nautilus'ta
     "Open Terminal Here" diye bir şey yazmıyorsa bilgisayarını yeniden başlat.
@@ -152,17 +152,17 @@ Eğer ki GNOME'da default terminalini değiştirmek istiyorsan
 Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyorsan
 {
     GNOME'da, ayarlarda "System" kısmında gir ve orada "Region and Language" kısmına gir. "Language"ı
-    "English (United States)" seç, "Formats"ı "United Kingdom (English)" seç. Bilgisayardan çıkış giriş
+    "English (United States)" seç, "Formats"ı "United Kingdom (English)" seç. Sisteminden çıkıp geri giriş
     yapınca etki gösterir.
 
     KDE'de ayarlarda Region and Language ayarı olması lazım. Oraya gir, dil olarak Amerikan İngilizcesini seç,
-    formatlar olarak ise "C" seç. Bilgisayardan çıkış giriş yapınca etki gösterir.
+    formatlar olarak ise "C" seç. Sisteminden çıkıp geri giriş yapınca etki gösterir.
 }
 
-Brave kullanacaksan yüklemeni önerdiğim eklentiler:
+Brave kullanacaksan kurmanı önerdiğim eklentiler:
     Dark Reader, Youtube-shorts block, Return Youtube Dislike
 
-Firefox kullanacaksan yüklemeni önerdiğim eklentiler:
+Firefox kullanacaksan kurmanı önerdiğim eklentiler:
     Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
 
 Firefox'ta akıcı bir şekilde scroll yapmak için:
@@ -193,10 +193,10 @@ Wayland'e şans ver. Bi bak. Olmazsa X11'e geçmek için şunları yap
 
         Ve bilgisayarını yeniden başlat.
 
-        Ardından giriş yapmak için şifreni girmeden öncesinde sol üstte (orda yoksa başka bir yerde) masaüstü
-        ortamı seçeneği olarak Plazma (veya Plazma (Wayland)) değil, Plazma (X11)'i seç.
+        Ardından sistemine giriş yapmak için şifreni girmeden öncesinde sol üstte (orda yoksa başka bir yerde)
+        masaüstü ortamı seçeneği olarak Plazma (veya Plazma (Wayland)) değil, Plazma (X11)'i seç.
 
-        Ardından şifreni girip bilgisayarına giriş yap.
+        Ardından şifreni girip sistemine giriş yap.
 
         Sonrasında şu komutu gir: sudo dnf install vdpauinfo libva-vdpau-driver libva-utils -y
 
@@ -204,7 +204,7 @@ Wayland'e şans ver. Bi bak. Olmazsa X11'e geçmek için şunları yap
         gir: sudo dnf install vdpauinfo libva-utils -y
 
         Ardından şu "https://github.com/JoseExposito/touchegg" siteden Fedora'ya göre kurma yönergelerine
-        uyarak touchegg'i bilgisayarına kur.
+        uyarak touchegg'i sistemine kur.
 
         Bilgisayarı yeniden başlattıktan sonra Fedora, mouse acceleration açık gibi çalışıyor olabilir. Eğer
         ki mouse acceleration açık gibi hissediyorsan mouse acceleration'ı aç kapa yap.
@@ -219,14 +219,14 @@ Wayland'e şans ver. Bi bak. Olmazsa X11'e geçmek için şunları yap
 
         Ardından bilgisayarını yeniden başlat.
 
-        Bilgisayara giriş yapmak için kullanıcını seç ve şifreni girmeden öncesinde sağ alt kısımdaki (orada
+        Sistemine giriş yapmak için kullanıcını seç ve şifreni girmeden öncesinde sağ alt kısımdaki (orada
         yoksa başka bir yerdeki) dişli çark görünümlü butona tıkla ve seçenek olarak "GNOME" yerine
-        "GNOME on Xorg" seçeneğini seç ve şifreni girerek bilgisayarına giriş yap.
+        "GNOME on Xorg" seçeneğini seç ve şifreni girerek sistemine giriş yap.
 
         Ardından şu komutu gir: sudo dnf install vdpauinfo libva-vdpau-driver libva-utils -y
 
         Ardından şu "https://github.com/JoseExposito/touchegg" siteden Fedora'ya göre kurma yönergelerine
-        uyarak touchegg'i bilgisayarına kur.
+        uyarak touchegg'i sistemine kur.
 
         Sonra Fedora'nın uygulama mağazasından "Extension Manager"ı flathub şekliyle yükle ve Extension
         Manager'dan "X11 Gestures" eklentisini yükle.

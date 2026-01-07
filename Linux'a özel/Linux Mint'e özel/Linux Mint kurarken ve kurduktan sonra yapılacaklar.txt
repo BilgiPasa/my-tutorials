@@ -1,10 +1,11 @@
 Linux Mint ISO'sunu bilgisayarında çalıştıracağın vakit COMPATIBILITY MODE ŞEKLİNDE GİRİŞ YAP!
-Compatibility değil de normal şekilde girersen indirmede sıkıntı yaşayabilirsin. (Ben yaşamıştım.)
+Compatibility değil de normal şekilde girersen kurulumda sıkıntı yaşayabilirsin. (Ben yaşamıştım.)
 
-Linux Mint'i harici SSD'ye indirirken bu videodaki yönergeleri takip et ("Install Linux Mint" programını
-çalıştırdıktan itibaren VİDEO SONUNA KADAR TAKİP ET!): https://www.youtube.com/watch?v=thC3NSLEm1g
+Linux Mint'i harici bir SSD'ye kuracaksan bu videodaki yönergeleri takip et ("Install Linux Mint" programını
+çalıştırdıktan itibaren VİDEOYU SONUNA KADAR TAKİP ET!): https://www.youtube.com/watch?v=thC3NSLEm1g
 
-İndirdikten sonra NVIDIA sürücülerini (gerekiyorsa) kur, güncellemelerini yap ve yeniden başlat.
+Linux Mint'i kurduktan sonra kurman gereken sürücüleri kur ve sistem güncellemelerini yap. Güncelleme sonunda
+bilgisayarını yeniden başlatman gerekiyorsa yap.
 
 Ardından şu komutları gir
 {
@@ -15,38 +16,38 @@ Ardından şu komutları gir
     sudo apt install playit
 }
 
-Fastfetch'i indirmek için
+Fastfetch'i sistemine kurmak için için
 {
-    Eğer ki Linux Mint'in tabanı olduğu Ubuntu, 25.04'ten gerideyse şu komutlarla indir
+    Eğer ki Linux Mint'in tabanı olduğu Ubuntu'nun sürümü, 25.04'ten daha gerideyse terminale şu komutları gir
     {
         sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
         sudo apt update
         sudo apt install fastfetch
     }
-    Eğer ki 25.04'te ise veya ilerideyse şu komutla indir
+    Eğer ki sürümü 25.04 veya daha ilerideyse terminale şu komutları gir
     {
         sudo apt install fastfetch
     }
 }
 
-Uygulama mağzasında "Preferences"da doğrulanmamış flatpak paketlerine izin ver seçeneğini aç. Clocks'u flatpak
-olarak indir.
+Uygulama mağazasında, "Preferences"da, doğrulanmamış flatpak paketlerine izin ver seçeneğini aç. Ardından
+Clocks'u flatpak olarak indir.
 
-Install Steam from its site (using the .deb package).
+VSCode'u şu sitedeki yönergelere uyarak kur: https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
 
-Install VS Code by following the instructions at this site: https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
+Şu siteden Steam'in .deb dosyasını indir ve kur: https://store.steampowered.com/about/
 
-Clipboard manager olarak Diodon'u kullan (uygulama mağazasında sistem paketi olarak yüklenebiliyor) ve Diodon'un
-"Preferences" kısmında "Automatically paste selected item"ı kapat.
+Uygulama mağazasından, Diodon'u sistem paketi olarak sistemine kur ve Diodon'un "Preferences" kısmında
+"Automatically paste selected item"ı kapat.
 
 Mouse Acceleration'ı "Constant" yap. Gestures'ı aç. Power Management'a gel, ekran kararma ve kapanma sürelerini
 ayarla ve POWER MODE'U PERFORMANCE YAP!
 
-Windows tuşuna bas ve "Window Tiling" uygulamasına gir ve "Maximize, instead of tile, when dragging a window to
-the top edge" seçeneğini aç.
+Super tuşuna (Windows tuşuna) bas ve "Window Tiling" uygulamasına gir ve "Maximize, instead of tile, when
+dragging a window to the top edge" ayarını aç.
 
 "Files" uygulamasını aç ve "Edit" kısmında "Preferences"ı aç ve "Behaviour" kısmında "Executable Text Files"
-kısmını "Viev executable text files when they are opened" yap.
+kısmını "Viev executable text files when they are opened" ayarla.
 
 Arama kısmına "Effects" yaz. İstersen (eksi bir sistemin varsa) "Desktop and window effects"i kapat.
 
@@ -71,16 +72,17 @@ Languages uygulamasına gir, install or remove languages kısmında US, UK, Tür
 sil. US, UK, Türkiye ve Kıbrıs paketlerinde eksiklik varsa hepsini yüklet. Language'ı US, Region'ı Türkiye ve
 Time format'i UK yap ve "Apply system wide" tuşuna bas. Bilgisayarını kapatıp açınca yenilenir sanırsam.
 
-Brave kullanacaksan yüklemeni önerdiğim eklentiler:
+Brave kullanacaksan kurmanı önerdiğim eklentiler:
     Dark Reader, Youtube-shorts block, Return Youtube Dislike
 
-Firefox kullanacaksan yüklemeni önerdiğim eklentiler:
+Firefox kullanacaksan kurmanı önerdiğim eklentiler:
     Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
 
-How to make Firefox scrolling smooth:
-    At the search bar type "about:config", accept the risks.
-    Write "general.smoothScroll.msdPhysics.enabled" in the search preference name menu.
-    Set it to "true".
+Firefox'ta akıcı bir şekilde scroll yapmak için:
+    Firefox'un arama kısmına şunu yaz: about:config
+    Riskleri kabul et.
+    Oradaki ayar arama kısmına (tırmaksız bir şekilde) "general.smoothScroll.msdPhysics.enabled" yaz.
+    O ayarı "true" yap.
 
 Ayarlardan mikrofon input sesini kısmayı unutma.
 
