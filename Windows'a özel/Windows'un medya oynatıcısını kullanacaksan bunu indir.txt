@@ -1,8 +1,0 @@
-https://www.microsoft.com/store/productId/9N4D0MSMP0PT
-
-Bu indirmeni istediğim şey, normalde Windows'un medya oynatıcısında çalışamayan bazı video türlerinin
-çalıştırmanı sağlıyor ama (gördüğüm kadarıyla) her video türünü çalıştıramıyorsun ne yazık ki. O yüzden, video
-türü açamama sıkıntısı çekmemen için VLC veya K-Lite Codec kullanmanı öneririm.
-
-VLC'nin sitesi: https://www.videolan.org/vlc/
-K-Lite Codec'in sitesi: https://codecguide.com/download_kl.htm

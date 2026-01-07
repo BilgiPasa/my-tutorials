@@ -1,5 +1,9 @@
-Windows Media Player kullanmak yerine VLC indir ve VLC kullan.
-VLC kullanmak istemiyorsan VLC yerine K-Lite Codec indirip kullanabilirsin.
+https://www.microsoft.com/store/productId/9N4D0MSMP0PT
+
+Şu üstte bulunan linkteki paketi sistemine kurmanı önerebilirim. O paket, normalde Windows'un medya
+oynatıcısında çalışamayan bazı video türlerinin çalıştırmanı sağlıyor ama gördüğüm kadarıyla o paketi kursan
+bile Windows'un medya oynatıcısında hala her video türünü çalıştıramıyorsun ne yazık ki. O yüzden, video
+açamama sıkıntısı çekmemen için VLC veya K-Lite Codec kullanmanı öneririm.
 
 VLC'nin sitesi: https://www.videolan.org/vlc/
 K-Lite Codec'in sitesi: https://codecguide.com/download_kl.htm

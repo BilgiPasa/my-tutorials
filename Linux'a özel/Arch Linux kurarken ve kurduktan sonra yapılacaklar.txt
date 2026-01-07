@@ -28,12 +28,12 @@ Timezone : Türkiye
 Automatic time sync (NTP) : True
 Optional repositories : multilib'i space ile seç ve enter yap. (Eğe ki öyle bir seçenek yoksa yükleme bitince
 internetten nasıl aktive edileceğini araştır ve multilib'i aktive et.)
-Ardından Install'a enter yap ve konfigürasyonu kabul edip indirmeyi başlat.
-İndirme bitince post-install configuration'a "no" de ve "reboot" yazıp yeniden başlat.
+Ardından Install'a enter yap ve konfigürasyonu kabul edip kurulumu başlat.
+Kurulum bitince post-install configuration'a "no" de ve "reboot" yazıp yeniden başlat.
 
 Açtığında yapılacaklar
 {
-    Bilgisayarı koyu tema yap.
+    Sistemini koyu tema yap.
 
     Konsole'u aç ve şunları yaz
     {
@@ -59,11 +59,13 @@ Sonra Konsole'a şunu yaz :
     (Eğer ki bu işe yaramazsa https://www.youtube.com/watch?v=gOZT9NiMn2o&t=798s videosunun 21.dakikasının
     39. saniyesinden itibaren anlatıyor.) (Çalıştığında NVIDIA olan seçeneği seç.)
 
-yay ile yüklemede sıkıntı çekersen "yay -Sc" yap. Cache'i temizliyor. Ve bu arada indirme yöneticisi olarak
-pacseek kullanabilirsin. İndirmek için "yay -S pacseek" komutunu kullan.
+yay ile yüklemede sıkıntı çekersen "yay -Sc" yap. Cache'i temizliyor.
 
-Unity Hub'da Windows Mono ve Mac Mono yükleyebilmek için şu komutu gir: sudo pacman -S cpio
-(Ki zaten Unity'i, Ubuntu tabanlı olmayan bir dağıtımda kullanmanı önermem ama eğer ki yüklemek istersen bu
+İstersen paket kurulumu yöneticisi olarak pacseek uygulamasını kullanabilirsin.
+Sistemine kurmak için terminalde "yay -S pacseek" komutunu kullanabilirsin.
+
+Unity Hub'da Windows Mono ve Mac Mono'yu yükleyebilmek için terminale şu komutu gir: sudo pacman -S cpio
+(Zaten Unity'i, Ubuntu tabanlı olmayan bir dağıtımda kullanmanı önermem ama eğer ki Unity'i kurduysan bu
 komutu da gir.)
 
 Ayarlardan mikrofon input sesini kısmayı unutma.

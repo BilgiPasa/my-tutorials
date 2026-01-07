@@ -1,15 +1,23 @@
-Şu 2 komutu terminale gir :
+İlk önce, şu 2 komutu terminale gir :
     cd /var/lib/ubuntu-advantage/apt-esm/etc/apt/sources.list.d
     ls
 
-Sonra çıkan dosyayı (ubuntu-esm-apps.sources gibi bişey olması lazım) "sudo nano" yazıp yanına dosya adını
-yazarak aç. Sonra dosyanın içindeki satırları "#" işareti ile yorum haline getir. Ve bilgisayarı nolur nolmaz
-yeniden başlat. Bilgisayarını açınca terminale "sudo apt update && sudo apt upgrade" yaz. Update sonrasında
-"The following upgrades have been deferred due to phasing" yazıyor ise endişelenme, bu normal. Bu yazı Linux
-Mint'te de çıkıyor. Yani "The following upgrades have been deferred due to phasing" yazması "Esm Apps" şeyinin
-kapanmadığı anlamına gelmiyor, merak etme. "Esm Apps" bildirimlerin kapanmış olmalı. AMA eğer ki Ubuntu Pro
-alırsan yukarıdaki yönergelerle değiştirmiş olduğun dosyadaki yorum satırı yapmış olduğun yerleri eski haline
-getir. (O değiştirmiş olduğun kısımları unutmamak için yorum haline getirdiğin yerlerde başa # koy ve yanına
-boşluk KOYMA. Boşluk koyarsan sanki o kısım başta da öyleymiş gibi zannedebilirsin.)
+Sonra, çıkan dosyayı (ubuntu-esm-apps.sources gibi bişey olması lazım) terminalde "sudo nano" yazıp yanına
+dosya adını yazarak aç.
+
+Sonra, dosyanın içindeki satırları "#" işareti ile yorum satırı haline getir.
+
+Ardından, nano'yu kaydet ve kapat ve bilgisayarı nolur nolmaz yeniden başlat.
+
+Sistemin açıldıktan sonra terminale şu komutu gir: sudo apt update && sudo apt upgrade
+
+Eğer ki update sonrasında "The following upgrades have been deferred due to phasing" yazıyor ise endişelenme,
+bu normal. Bu yazı Linux Mint'te de çıkıyor. Yani "The following upgrades have been deferred due to phasing"
+yazması "Esm Apps" şeyinin kapanmadığı anlamına gelmiyor, merak etme.
+
+"Esm Apps" bildirimlerin kapanmış olmalı. AMA eğer ki Ubuntu Pro alırsan yukarıdaki yönergelerle değiştirmiş
+olduğun dosyadaki yorum satırı yapmış olduğun yerleri eski haline getir. (O değiştirmiş olduğun kısımları
+unutmamak için yorum haline getirdiğin yerlerde başa # koy ve yanına boşluk KOYMA. Boşluk koyarsan sanki o
+kısım başta da öyleymiş gibi zannedebilirsin.)
 
 Kaynak: https://ubuntu-mate.community/t/how-to-turn-off-esm-nag-in-every-update/27131

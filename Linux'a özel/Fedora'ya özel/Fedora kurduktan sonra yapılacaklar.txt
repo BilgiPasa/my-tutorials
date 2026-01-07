@@ -18,7 +18,7 @@ yeniden başlat.
 
 Fedora'da dnf'i daha hızlı yapmak için şunu yap
 {
-    şu komut ile nano'dan bir dosyayı aç: sudo nano /etc/dnf/dnf.conf
+    Terminale şu komutu girerek nano'dan bir dosyayı aç: sudo nano /etc/dnf/dnf.conf
 
     ardından o dosyanın içinde, "[main]" KISMININ ALTINA şu 2 şeyi yaz
     {
@@ -29,14 +29,14 @@ Fedora'da dnf'i daha hızlı yapmak için şunu yap
     ardından kaydet ve kapat.
 }
 
-Fedora masaüstü ortamın ne olursa olsun şu komutları terminale gir
+Fedora masaüstü ortamın ne olursa olsun terminale şu komutları gir
 {
     sudo dnf update -y
     sudo dnf install fastfetch mesa-libGLU -y
     sudo dnf remove libreoffice* -y
 }
 
-GNOME kullanıyorsan bun komutları terminale gir
+GNOME kullanıyorsan terminale şu komutları gir
 {
     touch ~/Templates/'Empty Document'.txt
     sudo dnf install gnome-themes-extra -y
@@ -48,7 +48,7 @@ ki açık olan "Fedora Flatpaks" reposu varsa kapat. (Merak etme. Bu, Flathub re
 KDE kullanıyorsan "Discover"ı aç. Settings'e gel. Orada eğer ki açık olan "Fedora Flatpaks" reposu varsa kapat.
 (Merak etme. Bu, Flathub reposunu etkilemiyor.)
 
-NVIDIA sürücülerini kuracaksan şu komutları terminale gir (Kaynak : https://rpmfusion.org/Howto/NVIDIA)
+NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak : https://rpmfusion.org/Howto/NVIDIA)
 (CUDA sürücülerinin adında xorg ve x11 geçiyor ama Wayland'de de çalışıyor yani haberin olsun.)
 {
     sudo dnf update -y
@@ -56,17 +56,16 @@ NVIDIA sürücülerini kuracaksan şu komutları terminale gir (Kaynak : https:/
     sudo dnf install xorg-x11-drv-nvidia-cuda -y
 }
 
-Sürücüleri kurunca 5 dakika zamanlayıcı kur ve bekle. Ardından yeniden başlat.
+Sürücüleri kurunca 5 dakika zamanlayıcı kur ve bekle. Ardından bilgisayarını yeniden başlat.
 
-Settings'te tap to click'i aç, mouse acceleration'ı kapat.
-Ayarlardan mikrofon input sesini kısmayı unutma.
+Settings'te tap to click'i aç, mouse acceleration'ı kapat ve mikrofon input sesini kısmayı unutma.
 
 VSCode'u şu sitedeki yönergelere uyarak kur: https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
 
 Steam'i uygulama mağazasından rpmfusion haliyle kur.
 
-GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı kur. Ardından, Extension Manager'dan bu
-eklentileri kur:
+GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı flatpak olarak kur. Ardından, Extension
+Manager'dan bu eklentileri sistemine kur:
     Alphabetic App Grid
     Blur my Shell,
     Extension List (grroot'un)
@@ -76,7 +75,7 @@ eklentileri kur:
     Touchpad On Off
     Appindicator and KStatusNotifierItem Support
 
-Ardından Extension Manager'da "System Extensions" kısmındaki "Background Logo" eklentisini KAPAT! Yoksa 2 kere
+Ardından, Extension Manager'da "System Extensions" kısmındaki "Background Logo" eklentisini KAPAT! Yoksa 2 kere
 Super tuşuna basıp uygulamaların olduğu yere gelirken animasyon takılabiliyor veya sağ alttaki logo
 takılabiliyor.
 
@@ -166,10 +165,11 @@ Brave kullanacaksan yüklemeni önerdiğim eklentiler:
 Firefox kullanacaksan yüklemeni önerdiğim eklentiler:
     Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
 
-How to make Firefox scrolling smooth:
-    At the search bar type "about:config", accept the risks.
-    Write "general.smoothScroll.msdPhysics.enabled" in the search preference name menu.
-    Set it to "true".
+Firefox'ta akıcı bir şekilde scroll yapmak için:
+    Firefox'un arama kısmına şunu yaz: about:config
+    Riskleri kabul et.
+    Oradaki ayar arama kısmına (tırmaksız bir şekilde) "general.smoothScroll.msdPhysics.enabled" yaz.
+    O ayarı "true" yap.
 
 KDE'de masaüstüne bir çift tıklanabilir çöp kutusu koymak için Dolphin'i aç, "Trash" yazan yan menüyü mouse ile
 masaüstüne sürükle ve bırak. Al sana çöp kutusu. Masaüstüne home uzantısını eklemek için de aynı şeyi yap ama

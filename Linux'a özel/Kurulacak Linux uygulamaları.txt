@@ -1,11 +1,13 @@
 Başlamadan önce, kendi distrona göre yapmış olduğun tutorial'ı takip et. Oradaki işin bitince buradan devam et.
 
-Sistemin Fedora veya Debian tabanlıysa ATLauncher'ın kurulum dosyasını kendi sitesinden indir ve kur.
+Sistemin Debian veya Fedora tabanlıysa ATLauncher'ın kurulum dosyasını kendi sitesinden indir ve kur.
+
 Sistemin Arch Linux tabanlıysa ATLauncher'ı, AUR'daki şu paketi indirerek kur: atlauncher-bin
 
-GNOME kullanıyorsan, sistem paketi olarak GNOME Mines'ı sistemine kur.
+GNOME kullanıyorsan sistem paketi olarak GNOME Mines'ı sistemine kur.
 
 Flatpak olarak bu uygulamaları kur:
+    Audacity
     Battery Info (Laptop kullanıyorsan)
     Bitwarden
     Blender
@@ -13,6 +15,7 @@ Flatpak olarak bu uygulamaları kur:
     Brave
     File Roller (GNOME kullanıyorsan ve zip dosya oluşturucu uygulaman yoksa)
     GIMP
+    HandBrake
     LocalSend
     OBS
     OnlyOffice
@@ -22,24 +25,24 @@ Flatpak olarak bu uygulamaları kur:
 File Roller'ı kurduktan sonra, sıkıştırılmış dosyalar için "default app" yap.
 
 Eğer ki OnlyOffice'te "Times New Roman" font'u kurulu gelmediyse OnlyOffice'i kurduktan sonra internetten
-Times New Roman font'unu indir ve bilgisayarına kur.
+Times New Roman font'unu indir ve sistemine kur.
 
 Blender, Brave, GIMP, OBS ve Steam'de yapılacakları yap.
 
+Eğer ki Debian, Fedora, Linux Mint veya Ubuntu kullanıyorsan DaVinci Resolve'u nasıl kuracağına dair kendi
+distrona göre hazırlamış olduğum dosyaya bak ve DaVinci Resolve'u sistemine kur.
+
+Eğer ki Arch Linux kullanıyorsan şu sitedeki yönergelere uyarak DaVinci Resolve'u kur:
+    https://aur.archlinux.org/packages/davinci-resolve
+
 Belki kullanmak isteyebileceğin flatpak uygulamaları:
-    Audacity (Ses düzenleme uygulaması)
-    Gradia (Hızlıca fotoğraf editleme ve havalı bir şekilde kod sergileme uygulaması)
-    HandBrake (Video dönüştürücü)
+    Gradia (Basit fotoğraf editleme ve kod sergileme uygulaması)
     Hex Colordle (Hexadecimal olarak renk bulma oyunu)
-    Reaper (Ses düzenleme uygulaması)
     Solanum (Pomodoro tekniği zaman tutma uygulaması)
     Varia (Dosya ve torrent indirici)
 
 Eğer ki Varia'yı sistemine kurarsan web tarayıcında eklenti mağazasını aç ve oradan "Varia Integrator"
-eklentisini tarayıcına kur. Eğer ki kullanmak istemiyorsan eklentiyi kapatırsın.
-
-Eğer ki DaVinci Resolve'u sistemine kurmak istiyorsan Debian, Fedora, Linux Mint ve Ubuntu'da nasıl
-kurabileceğine dair hazırlamış olduğum dosyalara bakabilirsin.
+eklentisini tarayıcına kur. Eğer ki kullanmak istemiyorsan eklentiyi kapatabilirsin.
 
 Neden OnlyOffice ve VLC'yi flatpak olarak kurmanı istediğimi soruyorsan
 {

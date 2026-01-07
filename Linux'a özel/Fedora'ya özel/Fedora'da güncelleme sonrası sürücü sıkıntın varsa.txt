@@ -1,3 +1,3 @@
 Fedora'da NVIDIA marka bir GPU kullanıyorsan ve sürücü güncelleştirmesi sonrası sürücüler çalışmayı bıraktıysa
-bilgisayarı yeniden başlat. Wayland kullanıyorsan Wayland ile, X11 kullanıyorsan X11 ile giriş yap. Düzelmezse
-çözüm bul ve buraya yaz.
+bilgisayarını yeniden başlat. Wayland kullanıyorsan Wayland ile, X11 kullanıyorsan X11 ile giriş yap.
+Düzelmezse çözüm bul ve buraya yaz.

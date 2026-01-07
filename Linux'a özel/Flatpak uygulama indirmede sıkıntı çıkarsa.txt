@@ -1,1 +1,1 @@
-Şu komutu kullan: sudo flatpak repair
+Terminale şu komutu gir: sudo flatpak repair

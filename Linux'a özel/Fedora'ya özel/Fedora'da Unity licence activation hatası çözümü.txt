@@ -1,0 +1,1 @@
+Terminale bu komutu gir: sudo update-crypto-policies --set DEFAULT:SHA1

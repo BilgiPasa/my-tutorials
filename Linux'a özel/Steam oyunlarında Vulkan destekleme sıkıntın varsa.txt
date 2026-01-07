@@ -1,0 +1,2 @@
+Sıkıntı çıkan Steam oyununun başlatma seçeneklerine (launch options) şu komutu gir ve oyunu öyle çalıştırmayı
+dene: PROTON_USE_WINED3D=1 MESA_LOADER_DRIVER_OVERRIDE=crocus %command%

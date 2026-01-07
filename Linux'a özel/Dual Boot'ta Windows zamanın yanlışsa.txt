@@ -1,15 +1,15 @@
-Linux sisteminde şu komutu gir:
+Linux sisteminde terminale şu komutu gir:
     timedatectl
 
-Eğer ki "RTC in local TZ: no" yazıyorsa, şu komut gir ve Windows'ta saat bozuk mu bak:
+Eğer ki "RTC in local TZ: no" yazıyorsa, terminale şu komut gir ve Windows'ta saat bozuk mu bak:
     sudo timedatectl set-local-rtc 1
 
-Eğer ki "RTC in local TZ: yes" yazıyorsa, şu komut gir ve Windows'ta saat bozuk mu bak:
+Eğer ki "RTC in local TZ: yes" yazıyorsa, terminale şu komut gir ve Windows'ta saat bozuk mu bak:
     sudo timedatectl set-local-rtc 0
 
 Eğer ki daha beter olduysa eski haline döndürmek için:
-    "RTC in local TZ: no" yapmak için şu komutu gir:
+    "RTC in local TZ: no" yapmak için terminale şu komutu gir:
         sudo timedatectl set-local-rtc 0
 
-    "RTC in local TZ: yes" yapmak için şu komutu gir:
+    "RTC in local TZ: yes" yapmak için terminale şu komutu gir:
         sudo timedatectl set-local-rtc 1

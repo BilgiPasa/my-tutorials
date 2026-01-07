@@ -1,4 +1,4 @@
-Bir paketi indirirken sorun çıkarırsa ve sudo apt upgrade yapmıyorsan çözümü şu
+Bir paketi kurarken sorun çıkarırsa ve sudo apt upgrade yapmıyorsan çözümü şu
 {
     "sudo apt upgrade" yaz. Şu pakette sıkıntı var tarzı bir yazı çıkabilir. Sıkıntılı olan paketin adını
     unutma. "sudo dpkg --remove --force-all (sıkıntı paketin adı)" yaz. Sonra tekrardan "sudo apt update" yap.

@@ -1,6 +1,6 @@
-Proton VPN'i 2 şekilde indirebilirsin. Kendi sitesindeki yönergelerle veya flatpak hali ile.
+Proton VPN'i 2 şekilde sistemine kurabilirsin. Kendi sitesindeki yönergelerle veya flatpak hali ile.
 
 Kendi sitesini direk bir şekilde bile açamıyorum. Brave'in Tor'u ile açınca anca açıldı site. Fedora'da,
-sitedeki yönergelere göre indirirken indirmesi çok uzun sürdü ve hem de birkaç kere indirmeyi iptal etti.
-Bu yüzden, sitedeki yönergelere göre indirmenin gereksiz olduğu kanısına vardım ve flatpak olarak yükledim.
-Linux'ta Roblox oynamak için Sober'ı kullanabilirsin.
+sitedeki yönergelere göre kurarken paketleri indirmesi çok uzun sürdü ve hem de birkaç kere indirmeyi iptal
+etti. Bu yüzden, sitedeki yönergelere göre kurmaya çalışmanın gereksiz olduğunun kanısına vardım ve flatpak
+olarak sistemime kurdum. Linux'ta Roblox oynamak için Sober'ı kullanabilirsin.

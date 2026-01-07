@@ -1,15 +1,15 @@
-Eğer ki bilgisayar teman karanlıksa ama VLC'yi açtığında karanlık değilse ilk önce VLC'yi kapat.
+Eğer ki bilgisayar teman karanlıksa ama VLC'yi açtığında VLC karanlık tema değilse ilk önce VLC'yi kapat.
 
 Sonrasında
 {
-    Fedora kullanıyorsan şu komutu gir
-    {
-        sudo dnf install gnome-themes-extra
-    }
-
-    Debian kullanıyorsan şu komutu gir
+    Debian kullanıyorsan terminale şu komutu gir
     {
         sudo apt install adwaita-qt
+    }
+
+    Fedora kullanıyorsan terminale şu komutu gir
+    {
+        sudo dnf install gnome-themes-extra
     }
 }
 

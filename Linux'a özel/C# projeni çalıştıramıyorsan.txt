@@ -1,10 +1,10 @@
-.NET'i indirmiş olduğuna emin ol ve VS Code'da dotnet eklentilerinin indiğine emin ol.
+.NET'i sistemine kurmuş olduğuna ve VS Code'da .NET eklentilerinin kurmuş olduğuna emin ol.
 Eğer ki hala çalışmıyorsa ve VS Code terminalde "error NU1101" hatası geliyorsa, terminalden şu paketi
-indir: dotnet-sdk-aot-10.0
+sistemine kur: dotnet-sdk-aot-10.0
 
 İndirme komutları
 {
-    Fedora tabanlı sistemler için: sudo dnf install dotnet-sdk-aot-10.0
-
     Debian tabanlı sistemler için: sudo apt install dotnet-sdk-aot-10.0
+
+    Fedora tabanlı sistemler için: sudo dnf install dotnet-sdk-aot-10.0
 }

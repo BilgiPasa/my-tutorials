@@ -2,8 +2,8 @@
 yap. Sonra, yükleme ekranında hata çıkarsa yine de Minecraft'ın ekranına gel ve başlat de. Ardından hata
 ekranını kapat. Minecraft'ın açılması lazım.
 
-Eğer uygulamayı açarken hata çıkarsa, hataya aldırmadan uygulamaya birkaç kere tıklayarak açmaya çalış. Hala
+Eğer uygulamayı açarken hata çıkarsa hataya aldırmadan uygulamaya birkaç kere tıklayarak açmaya çalış. Hala
 hata çıkarsa hata ekranlarını kapat ve tekrar açmayı dene. 1 ila 2 deneme sonra açılmalı.
 
-Bu her bilgisayarı açışında oluyorsa Minecraft'ın hem yükleyicisini hem de kendisini sil ve Minecraft'ı, ana
-sitesinden geri yükle.
+Bu olay, bilgisayarı her açışından sonra tekrar oluyorsa Minecraft'ın hem yükleyicisini hem de kendisini sil ve
+Minecraft'ı ana sitesinden tekrar yükle.

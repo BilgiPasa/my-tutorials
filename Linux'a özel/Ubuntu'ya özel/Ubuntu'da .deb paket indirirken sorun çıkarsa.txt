@@ -1,2 +1,2 @@
 Paketi indirirken sorun çıkıyorsa ve paketi silemiyorsan, o paketi şu komut ile indir:
-    sudo apt install ./<.deb halinde indirme dosyası>
+    sudo apt install ./<.deb halindeki indirme dosyası>

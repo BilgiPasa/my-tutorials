@@ -1,9 +1,9 @@
-1. VS Code'dan C# eklentisi indirilmiş mi diye bak.
+1. VS Code'da C# eklentisi kurulmuş mu diye bak.
 
-2. Nolur nolmaz; .NET SDK, .NET Runtime ve Mono'nun en güncel versiyonlarını indir. (Bunları elle indirmene
-ihtiyaç var mı emin değilim.)
+2. Nolur nolmaz; .NET SDK, .NET Runtime ve Mono'nun en güncel versiyonlarını sistemine kur. (Bunları elle
+indirmene ihtiyaç var mı emin değilim.)
 
-3. .NET Framework'ü indir.
+3. .NET Framework'ü sistemine kur.
 
-4. Düzelmediyse, VS Code terminalinde çıkış kısmındaki hata uyarısını internete yaz ve arat. Çözümü bul ve
+4. Düzelmediyse, VS Code terminalinde çıkış kısmındaki hata uyarısını internete yaz ve arat. Çözüm bul ve
 bulduğun çözümü buraya yaz.

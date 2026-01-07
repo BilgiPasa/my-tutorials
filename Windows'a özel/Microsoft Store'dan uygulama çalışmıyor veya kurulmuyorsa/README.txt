@@ -1,4 +1,4 @@
-Microsoft Store'dan uygulama çalışmıyor veya inmiyorsa yapılacaklar:
+Microsoft Store'dan uygulama çalışmıyor veya kurulmuyorsa yapılacaklar:
     1. Bu dosyanın bulunduğu klasörde bulunan "clipSVC fix" klasörünün içindeki "clipSVC fix.reg" dosyasını
     çalıştır ve çıkan pencerelere "Tamam" de.
 
@@ -6,4 +6,4 @@ Microsoft Store'dan uygulama çalışmıyor veya inmiyorsa yapılacaklar:
 
     3. Sağ click yaparak "Başlat" de.
 
-    4. Yüklemeye çalıştığın veya çalışmayan uygulamayı sil ve geri yükle.
+    4. Kurmaya çalıştığın veya çalışmayan uygulamayı sil ve geri yükle.

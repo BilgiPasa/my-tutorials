@@ -1,15 +1,13 @@
 GNOME kullanıyorsan terminale şu komutu gir: touch ~/Templates/'Empty Document'.txt
 
-Eğer ki touchpad'in dokunma ile tıklamıyorsa touchpad ayarlarından "Tap to Click"i aç.
-
 NVIDIA sürücülerini kurmak için
 {
     (Eğer ki çözüm yöntemimde sorun yaşarsan şu siteye git ve kendi çözümünü bul ve buraya yaz:
         https://wiki.debian.org/NvidiaGraphicsDrivers)
 
-    Terminale bu komutu gir: sudo apt install linux-headers-amd64
+    Terminale şu komutu gir: sudo apt install linux-headers-amd64
 
-    Ardından bu komutu gir: sudo nano /etc/apt/sources.list
+    Ardından şu komutu gir: sudo nano /etc/apt/sources.list
 
     ve şu satırı
     {
@@ -23,9 +21,9 @@ NVIDIA sürücülerini kurmak için
 
     ve kaydet.
 
-    Ardından terminale bu komutu gir: sudo apt update && sudo apt upgrade
+    Ardından terminale şu komutu gir: sudo apt update && sudo apt upgrade
 
-    Ardından bu komutu gir: sudo apt install nvidia-kernel-dkms nvidia-driver firmware-misc-nonfree
+    Ardından şu komutu gir: sudo apt install nvidia-kernel-dkms nvidia-driver firmware-misc-nonfree
 
     Eğer ki bir problem yoksa sistemini yeniden başlat ve giriş yaparken X11 session'ını seç.
 }
@@ -36,7 +34,7 @@ NVIDIA sürücülerini kurma yönergelerimin kaynakları:
     https://wiki.debian.org/NvidiaGraphicsDrivers
     https://www.youtube.com/watch?v=mOIzYxVD4d0&list=PPSV&t=73s
 
-Ardından şu komutları terminale gir
+Ardından terminalde şu komutları gir
 {
     sudo apt update
     sudo apt install fastfetch adwaita-qt
@@ -47,6 +45,8 @@ Ardından şu komutları terminale gir
     sudo apt install playit
 }
 
+Settings'te tap to click'i aç, mouse acceleration'ı kapat ve mikrofon input sesini kısmayı unutma.
+
 Flatpak'i şu sitedeki yönergelere uyarak kur: https://flatpak.org/setup/Debian
 
 VSCode'u şu sitedeki yönergelere uyarak kur: https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
@@ -55,14 +55,22 @@ VSCode'u şu sitedeki yönergelere uyarak kur: https://code.visualstudio.com/doc
 
 X11 kullanıyorsan "touchegg"i şu sitedeki yönergelere uyarak kur: https://github.com/JoseExposito/touchegg
 
-GNOME kullanıyorsan "Extension Manager"ı uygulama mağazasından flatpak olarak kur. Ardından o uygulama
-içinden şu eklentileri kur:
-    AppIndicator and KStatusNotifierItem Support,
-    Alphabetical App Grid
-    Desktop Icons NG (DING)
-    Logo Activities
+GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı flatpak olarak kur. Ardından, Extension
+Manager'dan bu eklentileri sistemine kur:
+    Alphabetic App Grid
+    Blur my Shell,
+    Extension List (grroot'un)
+    Removable Drive Menu (fmuellner'in)
+    Clipboard Indicator (Tudmotu'nun)
+    System Monitor (fmuellner'in)
     Touchpad On Off
-    X11 Gestures
+    Appindicator and KStatusNotifierItem Support
+
+GNOME'da Blur my Shell eklentisinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override background"
+kısmında daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
+
+GNOME'da Alphabetic App Grid eklentisinin ayarlarına gir ve "Position of ordered folders" ayarını "End" olarak
+ayarla.
 
 GNOME'da, ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
 
@@ -119,11 +127,16 @@ Brave kullanacaksan yüklemeni önerdiğim eklentiler:
 Firefox kullanacaksan yüklemeni önerdiğim eklentiler:
     Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
 
-How to make Firefox scrolling smooth:
-    At the search bar type "about:config", accept the risks.
-    Write "general.smoothScroll.msdPhysics.enabled" in the search preference name menu.
-    Set it to "true".
+Firefox'ta akıcı bir şekilde scroll yapmak için:
+    Firefox'un arama kısmına şunu yaz: about:config
+    Riskleri kabul et.
+    Oradaki ayar arama kısmına (tırmaksız bir şekilde) "general.smoothScroll.msdPhysics.enabled" yaz.
+    O ayarı "true" yap.
 
-Ayarlardan mikrofon input sesini kısmayı unutma.
+KDE'de masaüstüne bir çift tıklanabilir çöp kutusu koymak için Dolphin'i aç, "Trash" yazan yan menüyü mouse ile
+masaüstüne sürükle ve bırak. Al sana çöp kutusu. Masaüstüne home uzantısını eklemek için de aynı şeyi yap ama
+sürükleyip bıraktığında çıkan minik menüde "Link here" seçeneğini seç. Çıkan uzantı adı kullanıcı adın
+olabilir, onu değiştirmek için de normal bir şekilde dosya adı değiştirir gibi uzantı adını değiştirmen lazım.
+(Kaynak : https://www.reddit.com/r/kde/comments/gn2l3z/trash_can_widget_behavior/)
 
-playit.gg'yi çalıştırmak için terminale "playit" (tırnaksız olarak) yaz.
+playit.gg'yi çalıştırmak için terminale "playit" komutunu girmen yeterli.

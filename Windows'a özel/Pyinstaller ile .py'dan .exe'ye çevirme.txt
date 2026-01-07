@@ -6,18 +6,18 @@ yapılmışsa) şunu komut istemine yaz: pyinstaller --onefile --noconsole dosya
 Ama eğer ki python uygulaman bir konsol uygulaması ise şunu komut istemine yaz:
     pyinstaller --onefile dosya.py
 
-Ve dist kısmındaki dosyayı açarsan, oyunun arkada konsolsuz bir şekilde açılması lazım.
+Ve "dist" kısmındaki dosyayı çalıştırırsan oyunun konsolsuz bir şekilde açılması lazım.
 
 Eğer ki açılırken hata veriyor ve şu paket bulunamadı diyorsa
 {
-    Eğer ki o paketi bilgisayarın kendisine yüklediysen ve çevirmeyi bilgisayardan yaptıysan bilgisayarının
-    komut istemini aç ve o paketi ve pyinstaller'ı pip3 kullanarak tekrar indir ve çevirmeyi boş bir klasörde
+    Eğer ki o paketi Windows sisteminin kendisine yüklediysen ve çevirmeyi Windows'un kendisinden yaptıysan
+    komut istemini aç ve o paketi ve pyinstaller'ı pip3 kullanarak tekrar kur ve çevirmeyi boş bir klasörde
     sadece .py olacak şekilde tekrar yap.
 
     Eğer ki o paketi bir sanal ortamda bulunduruyorsan çevirmeyi şöyle bir şekilde tekrar yap
     {
         İlk o sanal ortama erişebileceğin şekilde terminali aç.
-        Sonra pip3 ile pyinstaller'ı ve o paketi tekrar indir.
+        Sonra pip3 ile pyinstaller'ı ve o paketi tekrar kur.
         Ardından çevirmeyi boş bir klasörde sadece .py olacak şekilde tekrar yap.
     }
 }

@@ -1,5 +1,5 @@
-İlk önce Zoom açıksa tamamen kapat. Sonra Zoom'u flatpak olarak indirdiğine emin ol. Eğer ki öyle indirmediysen
-Zoom'u sil ve flatpak olarak indir. Sonra Flatseal'ı indir. Flatseal'dan Zoom'u seç ve oradaki menüden
-"Wayland windowing system"ı kapat, "Fallback to X11 windowing system"ı aç ve "D-bus session bus"ı aç.
-Sonrasında Zoom'u aç ve dene. Çalışması lazım. (Toplantıdayken Zoom penceresinin kaybolmaması için
-"D-bus session bus" ayarını açtım.)
+İlk önce, Zoom açıksa tamamen kapat. Sonra, Zoom'u flatpak olarak sistemine kurduğuna emin ol. Eğer ki öyle
+kurmadıysan Zoom'u sil ve flatpak olarak sistemine kur. Sonra, Flatseal'ı sistemine flatpak olarak kur.
+Flatseal'dan Zoom'u seç ve oradaki menüden "Wayland windowing system" ayarını kapat,
+"Fallback to X11 windowing system" ayarını aç ve "D-bus session bus" ayarını aç. Sonrasında, Zoom'u aç ve dene.
+Çalışması lazım. (Toplantıdayken Zoom penceresinin kaybolmaması için "D-bus session bus" ayarını açtım.)
