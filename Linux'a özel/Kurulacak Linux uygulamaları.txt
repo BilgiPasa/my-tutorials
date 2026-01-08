@@ -11,7 +11,6 @@ Flatpak olarak bu uygulamaları kur:
     Bitwarden
     Blender
     Bottles
-    Brave
     File Roller (GNOME kullanıyorsan ve zip dosya oluşturucu uygulaman yoksa)
     GIMP
     Hex Colordle
@@ -26,7 +25,7 @@ File Roller'ı kurduktan sonra, sıkıştırılmış dosyalar için "default app
 Eğer ki OnlyOffice'te "Times New Roman" font'u kurulu gelmediyse OnlyOffice'i kurduktan sonra internetten
 Times New Roman font'unu indir ve sistemine kur.
 
-Blender, Brave, GIMP, OBS ve Steam'de yapılacakları yap.
+Blender, GIMP, OBS ve Steam'de yapılacakları yap.
 
 Belki kullanmak isteyebileceğin flatpak uygulamaları:
     Gradia (Basit fotoğraf editleme ve kod sergileme uygulaması)

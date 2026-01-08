@@ -3,7 +3,6 @@ Winget kullanarak bu uygulamaları kur:
     ATLauncher
     Bitwarden
     Blender
-    Brave
     Fastfetch
     FFmpeg
     FFmpegforAudacity
@@ -12,7 +11,6 @@ Winget kullanarak bu uygulamaları kur:
     OBS
     OnlyOffice
     Steam
-    Unity Hub
     VLC
     VS Code
     Zoom
@@ -20,7 +18,7 @@ Winget kullanarak bu uygulamaları kur:
 Eğer ki OnlyOffice'te "Times New Roman" font'u kurulu gelmediyse OnlyOffice'i kurduktan sonra internetten
 Times New Roman font'unu indir ve sistemine kur.
 
-Blender, Brave, GIMP, OBS ve Steam'de yapılacakları yap.
+Blender, GIMP, OBS ve Steam'de yapılacakları yap.
 
 FL Studio'nun kurulum dosyasını kendi sitesinden indirip sistemine kur.
 
