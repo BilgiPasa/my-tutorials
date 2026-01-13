@@ -16,6 +16,11 @@ Eğer ki KDE Plazma kullanıyorsan:
     "RobotoMono-VariableFont_wght.ttf" dosyasını seç ve o fontu ekle. Sonrasında, gerekiyorsa sistemini yeniden
     başlat.
 
+Eğer ki Windows kullanıyorsan:
+    Windows'un arama kısmına "Yazı tipi ayarları" yaz ve çıkan menüde "Yazı tiplerine göz atın ve yükleyin"
+    butonuna bas. Bilgisayarında "Documents" kısmına koymuş olduğun "Roboto_Mono" klasörünün içindeki
+    "RobotoMono-VariableFont_wght.ttf" dosyasını seç ve o fontu ekle.
+
 Eğer ki VS Code ayarlarında, kullanmak istediğin font'u belirlemek istiyorsan:
     VS Code'u aç. VS Code'da "Font Family" ayarındaki yazanları SAKIN SİLME! Yapacağın şey, o ayardaki
     yazanların önüne "'Roboto Mono', " (çift tırnaksız bir şekilde) yazılı değilse yazmak. Yani örnek olarak, o

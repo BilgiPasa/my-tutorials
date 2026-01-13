@@ -40,17 +40,19 @@ GitHub CLI'ı sistemine kurmak için terminale şu komutları gir
     Kaynak: https://github.com/cli/cli?tab=readme-ov-file#linux--bsd
 }
 
+Windows kullanıyorsan terminali kapat ve tekrardan aç.
+
 Ardından, GitHub hesabınla giriş yapmak için terminale şu komutu gir: gh auth login
 
-Ardından, giriş yaptığına emin olmak için şu komutu gir: git config -l | grep credential
+Linux kullanıyorsan giriş yaptığına emin olmak için şu komutu gir: git config -l | grep credential
 Eğer ki hiçbir yazı çıkmazsa "gh auth login" komutu ile düzgün bir şekilde giriş yapmaya çalış.
 
 Son olarak, terminale bu komutları gir
 (<GitHub mailini buraya yaz> kısmına kendi GitHub mailine yaz.)
 (<GitHub kullanıcı adını buraya yaz> kısmına kendi GitHub kullanıcı adını yaz.)
 {
-    git config --global user.email "<your github email goes here>"
-    git config --global user.name "<your github username goes here>"
+    git config --global user.email "<GitHub mailini buraya yaz>"
+    git config --global user.name "<GitHub kullanıcı adını buraya yaz>"
 }
 
 Git config'ine girmiş olduğun maili ve ismi görmek için şu komutu kullanabilirsin: git config --list
