@@ -1,0 +1,32 @@
+Kurulumu yaparken "Eski bilgisayarındaki bilgileri buraya aktarayım mı yoksa bunu yeni bir bilgisayar olarak
+mu tanıyayım" kısmına geline yeni bir bilgisayar olarak tanımasını iste.
+
+Kurulum tamamlanınca sağ alttaki OneDrive logosuna tıkla. Çıkan penceredeki çark butonuna tıkla. Çıkan menüde
+ayarlar seçeneğine tıkla ve OneDrive ayarlarını aç. Çıkan pencerede "Eşitle ve yedekle" kısmında
+"Önemli bilgisayar klasörlerini OneDrive'da yedekleyin" yazısının yanındaki "Yedeklemeyi yönet" butonuna tıkla.
+Çıkan pencerede hepsinin yedeklemesini teker teker kapat ve hepsinde kapatırken
+"Yalnızca benim Kişisel bilgisayar" seçeneğini seçip kapat. Sonra sağ alttaki OneDrive logosuna tekrar tıkla.
+Çıkan penceredeki çark butonuna tekrar tıkla. Çıkan menüde "Eşitlemeyi duraklat" seçeneğine tıkla ve çıkan
+"OneDrive'dan çık" seçeneğine tıkla. Sonra görev çubuğuna sağ tık yap ve göre yöneticisini aç. Görev
+yöneticisinde "Başlangıç uygulamaları" kısmına gel ve bilgisayarın açıldığında açılmasını istemediğin
+uygulamaların hepsini devre dışı bırak.
+
+Sistem temasını koyu tema yap.
+
+Denetim masasından Denetim Masası\Donanım ve Ses\Güç Seçenekleri\Sistem Ayarları kısmından hızlı başlatma
+ayarını kapat.
+
+Dosya uzantıları göstermeyi aç. (Dosya gezgini, üç çizgi, seçenekler, görünüm, bilinen dosya türleri için
+uzantıları gizleyi kapat.)
+
+Dosya gezgininden gizli dosyaları göster.
+
+Gereksiz olduğunu düşündüğün uygulamaları sil. (Örnek: Copilot, Clipchamp vs.)
+
+Notepad'de yazı denetimi, otomatik yazı düzeltmeyi ve Copilot'u devre dışı bırak.
+
+Fedora için (Windows'a göre) 380 GB yer ayırdın. Bilgisayar yönetiminde Disk yönetimine girdiğinde orada 2 GB
+ve 378 GB olarak iki partition olarak bulunabilir. Eğer ki Fedora'yı sıfırlayacaksan o 2 ve 378 GB'lik
+yerleri sil. Eğer ki Fedora'nın boot option'ını silmek istersen bir tane Linux live ISO'sunda bilgisayarın
+EFI system partition kısmını aç ve oradan fedora dosyasını sil. Sildikten sonra çöp kutusu oluşabilir. O çöp
+kutusunu da sil.
