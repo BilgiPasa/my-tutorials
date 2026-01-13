@@ -1,0 +1,3 @@
+Şu linkteki tutorial'ı takip et: https://github.com/Torbuntu/fl-studio-linux-setup
+
+Eğer ki başka bir tutorial'a bakmak istiyorsan: https://youtu.be/92tDUgDkIuM
