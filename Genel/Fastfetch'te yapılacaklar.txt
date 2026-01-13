@@ -1,0 +1,8 @@
+Fastfetch'i kurduktan sonra terminale şu komutu git: fastfetch --gen-config
+
+Sonra oluşturmuş olduğu config dosyasını aç ve orada localip yazan yeri yorum satırı yapmak için localip yazan
+yerin başına // koy.
+
+Yani o satırın şöyle gözükmesi lazım: //"localip",
+
+Son olarak dosyayı kaydet ve config dosyasını editlediğin programı kapat.
