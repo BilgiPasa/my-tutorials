@@ -16,13 +16,13 @@ Flatpak olarak bu uygulamaları kur:
     Hex Colordle
     LocalSend
     OBS
-    OnlyOffice
+    ONLYOFFICE Desktop Editors
     Shortwave
     VLC
 
 File Roller'ı kurduktan sonra, sıkıştırılmış dosyalar için "default app" yap.
 
-Eğer ki OnlyOffice'te "Times New Roman" font'u kurulu gelmediyse OnlyOffice'i kurduktan sonra internetten
+Eğer ki ONLYOFFICE'te "Times New Roman" font'u kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
 Times New Roman font'unu indir ve sistemine kur.
 
 Blender, GIMP, OBS ve Steam'de yapılacakları yap.
@@ -35,9 +35,9 @@ Belki kullanmak isteyebileceğin flatpak uygulamaları:
 Eğer ki Varia'yı sistemine kurarsan web tarayıcında eklenti mağazasını aç ve oradan "Varia Integrator"
 eklentisini tarayıcına kur. Eğer ki kullanmak istemiyorsan eklentiyi kapatabilirsin.
 
-Neden OnlyOffice ve VLC'yi flatpak olarak kurmanı istediğimi soruyorsan
+Neden ONLYOFFICE ve VLC'yi flatpak olarak kurmanı istediğimi soruyorsan
 {
     1. Flatpak olarak yüklediğinde güncellemeler daha erkenden geliyor.
     2. Wayland kullanıyorsan, VLC'yi dnf ile kurma. Çünkü ses gelmeme sıkıntısı çıkabilir.
-    3. Fedora'da OnlyOffice'i dnf ile kurmada sıkıntı yaşayabileceğin için flatpak olarak kur.
+    3. Fedora'da ONLYOFFICE'i dnf ile kurmada sıkıntı yaşayabileceğin için flatpak olarak kur.
 }

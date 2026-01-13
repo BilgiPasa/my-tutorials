@@ -21,12 +21,9 @@ uzantıları gizleyi kapat.)
 
 Dosya gezgininden gizli dosyaları göster.
 
+Eğer ki NVIDIA ekran kartın varsa NVIDIA App'in kurulum dosyasını kendi sitesinden indir ve kur. Ardından
+gereken NVIDIA ekran kartı sürücülerini indir. (Game Ready sürücüsünü tercih et.)
+
 Gereksiz olduğunu düşündüğün uygulamaları sil. (Örnek: Copilot, Clipchamp vs.)
 
 Notepad'de yazı denetimi, otomatik yazı düzeltmeyi ve Copilot'u devre dışı bırak.
-
-Fedora için (Windows'a göre) 380 GB yer ayırdın. Bilgisayar yönetiminde Disk yönetimine girdiğinde orada 2 GB
-ve 378 GB olarak iki partition olarak bulunabilir. Eğer ki Fedora'yı sıfırlayacaksan o 2 ve 378 GB'lik
-yerleri sil. Eğer ki Fedora'nın boot option'ını silmek istersen bir tane Linux live ISO'sunda bilgisayarın
-EFI system partition kısmını aç ve oradan fedora dosyasını sil. Sildikten sonra çöp kutusu oluşabilir. O çöp
-kutusunu da sil.

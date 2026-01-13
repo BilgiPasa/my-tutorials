@@ -1,7 +1,12 @@
+Başlamadan önce, Windows kurduktan sonra yapılacaklar listeni takip et. Oradaki işin bitince buradan devam et.
+
 Winget kullanarak bu uygulamaları kur:
     ATLauncher
+    Audacity
     Bitwarden
+    Blender
     FFmpeg
+    FFmpegforAudacity
     Localsend
     OBS
     Steam
@@ -14,23 +19,14 @@ Fastfetch'i, terminale şu komutu girerek kur: winget install fastfetch
 GIMP'i eğer ki PhotoGIMP ile kullanmayacaksan Microsoft Store'dan kur.
 GIMP'i eğer ki PhotoGIMP ile kullanacaksan GIMP'in kendi sitesindeki kurulum dosyasını kullanarak kur.
 
-GIMP, OBS ve Steam'de yapılacakları yap.
+Blender, GIMP, OBS ve Steam'de yapılacakları yap.
 
 FL Studio'nun kurulum dosyasını kendi sitesinden indirip sistemine kur.
 
 Microsoft Store'dan Minecraft Launcher'ı sistemine kur. Minecraft Launcher içinden Minecraft Bedrock
 Edition'ı ve Minecraft Legends'ı sistemine kur.
 
-Eğer ki NVIDIA ekran kartın varsa NVIDIA App'in kurulum dosyasını kendi sitesinden indir ve kur. Ardından
-gereken NVIDIA ekran kartı sürücülerini indir.
+Eğer ki Microsoft Office kullanmıyorsan Winget ile ONLYOFFICE Desktop Editors'ü sistemine kur.
 
-Eğer ki dual boot yapmıyorsan Winget ile bu uygulamaları da kur:
-    Audacity
-    Blender
-    FFmpegforAudacity
-    OnlyOffice
-
-Eğer ki OnlyOffice'te "Times New Roman" font'u kurulu gelmediyse OnlyOffice'i kurduktan sonra internetten
+Eğer ki ONLYOFFICE'te "Times New Roman" font'u kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
 Times New Roman font'unu indir ve sistemine kur.
-
-Blender'da yapılacakları yap.
