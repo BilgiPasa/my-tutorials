@@ -9,7 +9,9 @@ Bazı fiilleri kullanım örneklerim:
     Bir dosyayı internetten indirirsin veya internete yüklersin.
     Paketi sistemine kurarsın. (Paket dosyası, sistemine indirilir ve kurulur.)
     Uygulamayı sistemine kurarsın.
+    Uygulamayı sisteminden kaldırırsın.
     Oyunu sistemine kurarsın.
+    Oyunu sisteminden kaldırırsın.
     Sistemini güncellersin.
     İşletim sistemini bilgisayarına kurarsın.
     Bilgisayarını yeniden başlatırsın.

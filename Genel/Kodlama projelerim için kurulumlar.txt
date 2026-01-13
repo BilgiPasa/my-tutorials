@@ -5,20 +5,21 @@ Linux kullanıyorsan şunları yap
     .NET'i, şu sitedeki yönergelere uyarak indir: https://dotnet.microsoft.com/en-us/download
     (İndireceğin vakit; .NET SDK, ASP.NET Core Runtime ve .NET Runtime'ın en yeni LTS versiyonlarını indir.)
 
-    Ardından şu komutları gir:
-
-    Sistemin Fedora tabanlı ise
+    Ardından terminale şu komutları gir
     {
-        sudo dnf update
-        sudo dnf install java-latest-openjdk.x86_64 java-latest-openjdk-devel.x86_64 python3-tkinter texlive-scheme-full python3-devel pkg-config cairo-devel pango-devel python3-pip
-        sudo dnf swap ffmpeg-free ffmpeg --allowerasing
-    }
+        Sistemin Debian tabanlı ise
+        {
+            sudo apt update
+            sudo apt-get install python3-tk python3-pip
+            sudo apt install default-jre default-jdk texlive-full build-essential python3-dev libcairo2-dev libpango1.0-dev ffmpeg
+        }
 
-    Sistemin Debian tabanlı ise
-    {
-        sudo apt update
-        sudo apt install default-jre default-jdk texlive-full build-essential python3-dev libcairo2-dev libpango1.0-dev ffmpeg
-        sudo apt-get install python3-tk python3-pip
+        Sistemin Fedora tabanlı ise
+        {
+            sudo dnf update
+            sudo dnf swap ffmpeg-free ffmpeg --allowerasing
+            sudo dnf install java-latest-openjdk.x86_64 java-latest-openjdk-devel.x86_64 python3-tkinter texlive-scheme-full python3-devel pkg-config cairo-devel pango-devel python3-pip
+        }
     }
 
     (Not: Bilgisayarında birden çok Java versiyonu yüklüyse ve bunları yönetmek istiyorsan
@@ -27,12 +28,12 @@ Linux kullanıyorsan şunları yap
     olan kullandığın uygulama veya paket olabilir. Örneğin ben Java 21'i silecektim ki meğer atlauncher
     Java 21'i kullanıyormuş. O yüzden dikkali ol silme işlerinde felan.)
 
-    Fedora'da Java indirme komutunun kaynağı: https://docs.fedoraproject.org/en-US/quick-docs/installing-java/
     Debian'da Java indirme komutunun kaynağı: https://wiki.debian.org/Java
     Debian'da FFmpeg indirme komutunun kaynağı: https://www.geeksforgeeks.org/linux-unix/how-to-install-ffmpeg-in-linux/
+    Fedora'da Java indirme komutunun kaynağı: https://docs.fedoraproject.org/en-US/quick-docs/installing-java/
+    Fedora için FFmpeg komutunun kaynağı (Fedora 37 başlıklı kısma bak): https://rpmfusion.org/CommonBugs
     Tkinter (tk) indirme komutlarının kaynağı: https://stackoverflow.com/questions/76105218/why-does-tkinter-or-turtle-seem-to-be-missing-or-broken-shouldnt-it-be-part
     PIP indirme komutlarının kaynağı: https://www.geeksforgeeks.org/python/how-to-install-pip-in-linux/
-    Fedora için FFmpeg komutunun kaynağı (Fedora 37 başlıklı kısma bak): https://rpmfusion.org/CommonBugs
     Diğer komutları ise Manim Community'nin sayfasından baktım da yazdım.
 
     Haberin olsun; texlive'ı indirmemin sebebi, Manim'de LaTeX'i kullanmak için.

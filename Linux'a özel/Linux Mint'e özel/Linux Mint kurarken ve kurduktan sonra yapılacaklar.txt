@@ -40,8 +40,10 @@ VSCode'u şu sitedeki yönergelere uyarak kur: https://code.visualstudio.com/doc
 Uygulama mağazasından, Diodon'u sistem paketi olarak sistemine kur ve Diodon'un "Preferences" kısmında
 "Automatically paste selected item"ı kapat.
 
-Mouse Acceleration'ı "Constant" yap. Gestures'ı aç. Power Management'a gel, ekran kararma ve kapanma sürelerini
-ayarla ve POWER MODE'U PERFORMANCE YAP!
+Mouse Acceleration'ı "Constant" yap. Kullanmıyorsan bluetooth'u kapat. Gestures'ı aç. Power Management'a gel.
+Ekran kararma ve kapanma sürelerini ayarla ve POWER MODE'U PERFORMANCE YAP!
+
+Ayarlardan mikrofon input sesini kısmayı unutma.
 
 Super tuşuna (Windows tuşuna) bas ve "Window Tiling" uygulamasına gir ve "Maximize, instead of tile, when
 dragging a window to the top edge" ayarını aç.
@@ -78,12 +80,10 @@ Brave kullanacaksan kurmanı önerdiğim eklentiler:
 Firefox kullanacaksan kurmanı önerdiğim eklentiler:
     Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
 
-Firefox'ta akıcı bir şekilde scroll yapmak için:
+Firefox'ta akıcı bir şekilde scroll yapabilmek için:
     Firefox'un arama kısmına şunu yaz: about:config
     Riskleri kabul et.
     Oradaki ayar arama kısmına (tırmaksız bir şekilde) "general.smoothScroll.msdPhysics.enabled" yaz.
     O ayarı "true" yap.
-
-Ayarlardan mikrofon input sesini kısmayı unutma.
 
 Linux Mint kişiselliştirmesi için şu videoya bakabilirsin : https://www.youtube.com/watch?v=Q_Uoe5H4ORs

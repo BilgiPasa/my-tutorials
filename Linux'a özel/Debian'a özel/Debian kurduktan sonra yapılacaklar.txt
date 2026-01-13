@@ -45,6 +45,9 @@ Ardından terminalde şu komutları gir
     sudo apt install playit
 }
 
+Ardından; sistem güç modunu "Performance" yap, "Dim Screen" ayarını kapat, ekran kilitleme zamanını ayarla ve
+kullanmıyorsan bluetooth'u kapat.
+
 Settings'te tap to click'i aç, mouse acceleration'ı kapat ve mikrofon input sesini kısmayı unutma.
 
 Flatpak'i şu sitedeki yönergelere uyarak kur: https://flatpak.org/setup/Debian
@@ -58,7 +61,7 @@ X11 kullanıyorsan "touchegg"i şu sitedeki yönergelere uyarak kur: https://git
 GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı flatpak olarak kur. Ardından, Extension
 Manager'dan bu eklentileri sistemine kur:
     Alphabetic App Grid
-    Blur my Shell,
+    Blur my Shell
     Extension List (grroot'un)
     Removable Drive Menu (fmuellner'in)
     Clipboard Indicator (Tudmotu'nun)
@@ -89,14 +92,21 @@ ekleyebilirsin), "GNOME Tweaks"i aç, "Windows" kısmına gel ve "Titlebar Butto
 KDE'de Dolphin (dosya yöneticisi) açıldığında home folder'ını açmasının ayarını yap. Dolphin'de arkaplan'a çift
 tıkladığında bütün her şeyi seçme ayarını da kapat.
 
-If you use GNOME; in keyboard shortcuts:
-    Make "Switch windows" as "Alt + Tab".
-    Make "Hide all normal windows" as "Super + D".
-    Make a "System Monitor" shortcut as "Ctrl + Shift + Escape". The command is "gnome-system-monitor".
-    Make a "Nautilus" shortcut as "Super + E". The command is "nautilus".
-    If "Ctrl + Alt + T" does not open a terminal, make a custom shortcut named "Terminal" and make its command
-    as what your terminal command is. It is either "ptyxis", "gnome-terminal", "kgx" or something else.
-    If you want, you can make "Switch applications" as "Super + Tab".
+GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında:
+    "Switch windows"u "Alt + Tab" yap.
+
+    "Hide all normal windows"u "Super + D" yap.
+
+    "System Monitor" adında bir kısayol yap. Kısayolu "Ctrl + Shift + Escape" olsun. Komutu ise
+    "gnome-system-monitor" olsun.
+
+    "Nautilus" adında bir kısayol yap. Kısayolu "Super + E" olsun. Komutu ise "nautilus" olsun.
+
+    Eğer ki "Ctrl + Alt + T" komutu terminal açmazsa "Terminal" ismine bir kısayol yap. Kısayolu
+    "Ctrl + Alt + T" olsun. Komutu ise o terminalin komutu ne ise o olsun. (Komut; "ptyxis", "gnome-terminal",
+    "kgx" veya başka bişey olabilir.)
+
+    İstersen "Switch applications"ı "Super + Tab" yap.
     (İstersen bu keybind'ların hepsini kullanabilirsin ve aşağıda "farklı virtual desktop'lardaki açık
     penceler arasında Alt + Tab yaparak dolaşma"yı açmayabilirsin. Ya da en son keybind'ı girmeyip aşağıda
     "farklı virtual desktop'lardaki açık penceler arasında Alt + Tab yaparak dolaşma"yı açabilirsin.)
@@ -127,7 +137,7 @@ Brave kullanacaksan kurmanı önerdiğim eklentiler:
 Firefox kullanacaksan kurmanı önerdiğim eklentiler:
     Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
 
-Firefox'ta akıcı bir şekilde scroll yapmak için:
+Firefox'ta akıcı bir şekilde scroll yapabilmek için:
     Firefox'un arama kısmına şunu yaz: about:config
     Riskleri kabul et.
     Oradaki ayar arama kısmına (tırmaksız bir şekilde) "general.smoothScroll.msdPhysics.enabled" yaz.

@@ -1,24 +1,29 @@
-Appereance
-{
-    Show autocomplete suggestions in address bar'da Leo AI'ı kapat
+Bookmarks kısmını her zaman görünür yap. Başlangıç ekranını kendine göre ayarla.
 
-    Use wide address bar'ı aç
-}
-
-Leo
+Ayarlar'da
 {
-    İlk 3 ayarı kapat
-}
-
-Search Engine
-{
-    2'sini de Google yap.
-}
-
-Extensions
-{
-    Get more extensions'a tıkla ve şu extension'ları yükle
+    "Appereance" kısmında
     {
-        Dark Reader, Youtube-shorts block, Return Youtube Dislike
+        "Show autocomplete suggestions in address bar"da "Leo AI"ı kapat.
+
+        "Use wide address bar"ı aç.
+    }
+
+    Leo
+    {
+        İlk 3 ayarı kapat.
+    }
+
+    Search Engine
+    {
+        2'sini de Google yap.
+    }
+
+    Extensions
+    {
+        "Get more extensions"a tıkla ve şu eklentileri yükle
+        {
+            Dark Reader, Youtube-shorts block, Return Youtube Dislike
+        }
     }
 }

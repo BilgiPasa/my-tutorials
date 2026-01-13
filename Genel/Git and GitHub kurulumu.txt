@@ -1,0 +1,56 @@
+GitHub hesabın yoksa bir GitHub hesabı oluştur. Ardından, istersen bir GitHub deposu (repository) oluştur.
+
+Eğer ki Windows kullanıyorsan sonraki adımları yapmak yerine GitHub Desktop uygulamasını kullanabilirsin.
+(Ama ben kullanmıyorum. GitHub'ı terminalde kullanmayı tercih ediyorum.)
+
+Eğer ki Windows kullanıyorsan Git'i, terminale şu komutu girerek kur: winget install -e --id Git.Git
+
+Eğer ki Linux kullanıyorsan Git, sisteminde zaten yüklü olabilir veya GitHub CLI kurduğunda otomatik
+kurulabilir.
+
+Masaütünde (veya başka istediğin bir yerde) "GitHub" isimli bir klasör oluştur. Kullanacağım GitHub depolarını
+bu klasöre klonla.
+
+Git'i terminalde kullanmak ve GitHub ile bağlamak için GitHub CLI'ı kur.
+
+GitHub CLI'ı sistemine kurmak için terminale şu komutları gir
+{
+    Sistemin Debian tabanlı ise
+    {
+        (type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
+	    && sudo mkdir -p -m 755 /etc/apt/keyrings \
+	    && out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \
+	    && cat $out | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
+	    && sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
+	    && sudo mkdir -p -m 755 /etc/apt/sources.list.d \
+	    && echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+	    && sudo apt update \
+	    && sudo apt install gh -y
+    }
+
+    Sistemin Fedora tabanlı ise
+    {
+        sudo dnf install dnf5-plugins
+        sudo dnf config-manager addrepo --from-repofile=https://cli.github.com/packages/rpm/gh-cli.repo
+        sudo dnf install gh --repo gh-cli
+    }
+
+    Windows kullanıyorsan: winget install -e --id GitHub.cli
+
+    Kaynak: https://github.com/cli/cli?tab=readme-ov-file#linux--bsd
+}
+
+Ardından, GitHub hesabınla giriş yapmak için terminale şu komutu gir: gh auth login
+
+Ardından, giriş yaptığına emin olmak için şu komutu gir: git config -l | grep credential
+Eğer ki hiçbir yazı çıkmazsa "gh auth login" komutu ile düzgün bir şekilde giriş yapmaya çalış.
+
+Son olarak, terminale bu komutları gir
+(<GitHub mailini buraya yaz> kısmına kendi GitHub mailine yaz.)
+(<GitHub kullanıcı adını buraya yaz> kısmına kendi GitHub kullanıcı adını yaz.)
+{
+    git config --global user.email "<your github email goes here>"
+    git config --global user.name "<your github username goes here>"
+}
+
+Git config'ine girmiş olduğun maili ve ismi görmek için şu komutu kullanabilirsin: git config --list

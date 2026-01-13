@@ -2,21 +2,20 @@ Godot'u kendi sitesinden .NET haliyle yükle.
 
 Godot'ta "Editor Settings"i aç. Advanced Settings'i aç.
 
-Interface > Editor kısmında
-{
+Interface > Editor kısmında:
     Code Font Size = 20 (veya istediğin başka bir büyüklük)
     Code Font'unu, "Roboto Mono" fontu yap (istersen).
-}
 
-Text Editor > Completion kısmında
-{
+Text Editor > Completion kısmında:
     Idle Parse Delay = 0.5
     Idle Parse Delay With Errors Found = 0.25
     Code Complete Delay = 0.25
-}
 
-Godot'u VS Code'da GDScript ile kullanmak istiyorsan
-{
+Godot'ta Editor > Editor Settings içinde "Shortcuts" kısmına gel. Oradaki arama kısmına "Add Child Node" yaz.
+Oradaki Add Child Node kısayolunun sağındaki artı butonuna tıkla ve Shift + A event'ini de ekle oraya.
+Bunu yapmamın sebebi ise Blender'daki Shift A kısayoluna benzemesi için.
+
+Godot'u VS Code'da GDScript ile kullanmak istiyorsan:
     VS Code'da "godot-tools" eklentisini indir.
 
     O eklentinin ayarlarını aç ve GDScript Language Server Port'u ayarına, Godot'ta "Editor Settings"te
@@ -29,20 +28,15 @@ Godot'u VS Code'da GDScript ile kullanmak istiyorsan
     Artık Godot'ta script açmaya çalıştığında VS Code'dan açılması lazım. İlk kez açıldığında Godot
     executable'ının nerede olduğunu belirtmeni isteyebilir. Onu belirttikten sonra VS Code'u reload etme
     butonu çıkması lazım. Ona tıkla.
-}
 
-Godot'u VS Code'da C# ile kullanmak istiyorsan
-{
+Godot'u VS Code'da C# ile kullanmak istiyorsan:
     VS Code'da "C# Tools for Godot" eklentisini indir.
 
     Godot'ta "Editor Settings"te Dotnet > Editor kısmında "Visual Studio Code" bulunan seçeneği seç ve
     "Custom Exec Path" yerine "code" yaz (tırnaksız bir şekilde. Olmazsa VS Code'un bulunduğu yeri bul ve
     dosya yolunu yaz).
-}
 
-Eğer ki Godot'u PascalCase ile kullanmak istiyorsan
-{
+Eğer ki Godot'u PascalCase ile kullanmak istiyorsan:
     Project Settings'e gir, "Default Signal Callback Name"i (tırnaksız şekilde) "On{NodeName}{SignalName}" yap
     ve "Default Signal Callback to Self Name"i (tırnaksız şekilde) "On{SignalName}" yap. "Scene Name Casing"
     ve "Script Name Casing"te "PascalCase" seçeneğini seç.
-}
