@@ -1,4 +1,4 @@
-Token kullanmak istemiyorsan
+Token kullanmak istemiyorsan ve GitHub CLI programını sistemine kurduysan
 {
     Terminale şu komutu gir ve GitHub hesabınla giriş yap: gh auth login
 

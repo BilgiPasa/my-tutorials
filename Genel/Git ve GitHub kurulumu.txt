@@ -37,7 +37,7 @@ GitHub CLI'ı sistemine kurmak için terminale şu komutları gir
 
     Windows kullanıyorsan: winget install -e --id GitHub.cli
 
-    Kaynak: https://github.com/cli/cli?tab=readme-ov-file#linux--bsd
+    Kaynak: https://github.com/cli/cli?tab=readme-ov-file#installation
 }
 
 Windows kullanıyorsan terminali kapat ve tekrardan aç.
