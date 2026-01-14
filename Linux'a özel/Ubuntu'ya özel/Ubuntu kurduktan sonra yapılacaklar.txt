@@ -34,14 +34,14 @@ Eğer ki snap'leri kaldırdıysan home directory'sindeki "snap" klasörünü sil
 
 Uygulama mağazasından "Extension Manager"ı flatpak olarak kur. Ardından, Extension Manager'dan bu eklentileri
 sistemine kur:
-    Alphabetic App Grid
-    Blur my Shell
+    Alphabetic App Grid (stuarthayhurst'ın)
+    Appindicator and KStatusNotifierItem Support (3v1n0'nun)
+    Blur my Shell (aunetx'in)
+    Clipboard Indicator (Tudmotu'nun)
     Extension List (grroot'un)
     Removable Drive Menu (fmuellner'in)
-    Clipboard Indicator (Tudmotu'nun)
     System Monitor (fmuellner'in)
-    Touchpad On Off
-    Appindicator and KStatusNotifierItem Support
+    Touchpad On Off (r_mano'nun)
 
 Blur my shell indirirsen o eklentinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override background"
 kısmında daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
@@ -64,13 +64,15 @@ Uygulamalara büyütme ve küçültme butonları eklemek istiyorsan (ki gerek yo
 "GNOME Tweaks"i aç, "Windows" kısmına gel ve "Titlebar Buttons" kısmından "Maximize" ile "Minimize" ayarlarını
 aç.
 
+GNOME kullanıyorsan (nokyan'ın) "Resources" uygulamasını flatpak olarak uygulama mağazasından indir.
+
 Settings'te klavye kısayolları kısmında:
     "Switch windows"u "Alt + Tab" yap.
 
     "Hide all normal windows"u "Super + D" yap.
 
-    "System Monitor" adında bir kısayol yap. Kısayolu "Ctrl + Shift + Escape" olsun. Komutu ise
-    "gnome-system-monitor" olsun.
+    "Resources" adında bir kısayol yap. Kısayolu "Ctrl + Shift + Escape" olsun. Komutu ise
+    "flatpak run net.nokyan.Resources" olsun.
 
     "Nautilus" adında bir kısayol yap. Kısayolu "Super + E" olsun. Komutu ise "nautilus" olsun.
 

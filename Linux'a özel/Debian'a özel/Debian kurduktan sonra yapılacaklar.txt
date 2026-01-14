@@ -60,14 +60,14 @@ X11 kullanıyorsan "touchegg"i şu sitedeki yönergelere uyarak kur: https://git
 
 GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı flatpak olarak kur. Ardından, Extension
 Manager'dan bu eklentileri sistemine kur:
-    Alphabetic App Grid
-    Blur my Shell
+    Alphabetic App Grid (stuarthayhurst'ın)
+    Appindicator and KStatusNotifierItem Support (3v1n0'nun)
+    Blur my Shell (aunetx'in)
+    Clipboard Indicator (Tudmotu'nun)
     Extension List (grroot'un)
     Removable Drive Menu (fmuellner'in)
-    Clipboard Indicator (Tudmotu'nun)
     System Monitor (fmuellner'in)
-    Touchpad On Off
-    Appindicator and KStatusNotifierItem Support
+    Touchpad On Off (r_mano'nun)
 
 GNOME'da Blur my Shell eklentisinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override background"
 kısmında daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
@@ -92,13 +92,15 @@ ekleyebilirsin), "GNOME Tweaks"i aç, "Windows" kısmına gel ve "Titlebar Butto
 KDE'de Dolphin (dosya yöneticisi) açıldığında home folder'ını açmasının ayarını yap. Dolphin'de arkaplan'a çift
 tıkladığında bütün her şeyi seçme ayarını da kapat.
 
+GNOME kullanıyorsan (nokyan'ın) "Resources" uygulamasını flatpak olarak uygulama mağazasından indir.
+
 GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında:
     "Switch windows"u "Alt + Tab" yap.
 
     "Hide all normal windows"u "Super + D" yap.
 
-    "System Monitor" adında bir kısayol yap. Kısayolu "Ctrl + Shift + Escape" olsun. Komutu ise
-    "gnome-system-monitor" olsun.
+    "Resources" adında bir kısayol yap. Kısayolu "Ctrl + Shift + Escape" olsun. Komutu ise
+    "flatpak run net.nokyan.Resources" olsun.
 
     "Nautilus" adında bir kısayol yap. Kısayolu "Super + E" olsun. Komutu ise "nautilus" olsun.
 

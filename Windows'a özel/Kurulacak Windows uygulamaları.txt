@@ -16,8 +16,7 @@ Winget kullanarak bu uygulamaları kur:
 
 Fastfetch'i, terminale şu komutu girerek kur: winget install fastfetch
 
-GIMP'i eğer ki PhotoGIMP ile kullanmayacaksan Microsoft Store'dan kur.
-GIMP'i eğer ki PhotoGIMP ile kullanacaksan GIMP'in kendi sitesindeki kurulum dosyasını kullanarak kur.
+GIMP'i Microsoft Store'dan kur. (Eğer ki PhotoGIMP ile kullanacaksan GIMP'i Microsoft Store'dan kurma.)
 
 Blender, GIMP, OBS ve Steam'de yapılacakları yap.
 
