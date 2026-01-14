@@ -1,2 +1,7 @@
-Bu videoyu izle: https://youtu.be/xN1-2p06Urc?si=aWSMXaYNG8N6Aurg
-İşine yarayabilir.
+Eğer ki "remote: Invalid username or token. Password authentication is not supported for Git operations." diye
+bir hata alıyorsan bu dosyanın bulunduğu klasörde olan "GitHub 'Invalid username or token' hatası çözümü.txt"
+isimli dosyaya bakmanı öneririm.
+
+
+Eğer ki yukarıda bahsettiğim gibi bir hata almıyorsan bu videoyu izle:
+    https://youtu.be/xN1-2p06Urc?si=aWSMXaYNG8N6Aurg

@@ -48,7 +48,7 @@ Linux kullanıyorsan giriş yaptığına emin olmak için şu komutu gir: git co
 Eğer ki hiçbir yazı çıkmazsa "gh auth login" komutu ile düzgün bir şekilde giriş yapmaya çalış.
 
 Son olarak, terminale bu komutları gir
-(<GitHub mailini buraya yaz> kısmına kendi GitHub mailine yaz.)
+(<GitHub mailini buraya yaz> kısmına kendi GitHub mailini yaz.)
 (<GitHub kullanıcı adını buraya yaz> kısmına kendi GitHub kullanıcı adını yaz.)
 {
     git config --global user.email "<GitHub mailini buraya yaz>"

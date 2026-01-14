@@ -116,5 +116,5 @@ Firefox'ta akıcı bir şekilde scroll yapabilmek için:
 
 playit.gg'yi çalıştırmak için terminale "playit" komutunu girmen yeterli.
 
-Bu dosyanın olduğu klasörde "Ubuntu Esm Apps bildirimi kapatma.txt" diye bir dosya olmalı.
+Bu dosyanın olduğu klasörde "Ubuntu'da Esm Apps bildirimini kapatma.txt" diye bir dosya olmalı.
 Güncelleme yaptığında çıkan bildirimden rahatsız oluyorsan o dosyadaki yönergeleri denemeni öneririm.
