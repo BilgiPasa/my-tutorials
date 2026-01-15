@@ -1,7 +1,13 @@
 Eğer ki ismi "Camera" olan, asıl ismi ise "Snapshot" olan uygulamayı açmaya çalıştığında açılmıyorsa ve
 çöküyorsa şunları yap:
     Uygulamayı sil ve o uygulamanın flatpak halini sistemine kur.
+
     Flatseal'ı, uygulama mağazasından flatpak olarak sistemine kur.
-    Flatseal'da, Camera uygulamasının ayarlarındaki "Wayland windowing system" ayarını kapat.
+
+    Flatseal'da Camera uygulamasının ayarlarının olduğu yere gel.
+
+    "Wayland windowing system" ayarını kapat.
+
     "X11 windowing system" ve "Fallback to X11 windowing system" ayarları açık değilse aç.
-    Artık Camera uygulamasının çalışması lazım.
+
+Artık Camera uygulamasının çalışması lazım.
