@@ -1,4 +1,5 @@
-.NET'i sistemine kurmuş olduğuna ve VS Code'da .NET eklentilerinin kurmuş olduğuna emin ol.
+.NET'i sistemine kurmuş olduğuna ve VS Code'da .NET eklentilerini kurmuş olduğuna emin ol.
+
 Eğer ki hala çalışmıyorsa ve VS Code terminalde "error NU1101" hatası geliyorsa, terminalden şu paketi
 sistemine kur: dotnet-sdk-aot-10.0
 
