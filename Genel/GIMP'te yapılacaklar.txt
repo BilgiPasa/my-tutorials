@@ -3,21 +3,20 @@ sağ üstteki menülerin olduğu yere taşı ve sol kısmı en ince haline getir
 
 Sağ üstteki menülerin sıralaması:
     Tool Options
-    Undo History
     Brushes
     Fonts
-    Document History
     Images
-    Device Status
+    Undo History
+    Document History
     Patterns
+    Device Status
 
-Edit > Keyboard Shortcuts içinde "Clone tool"a "V" kısayolunu ata. "Pencil tool"a da "C" kısayolunu ata.
+Edit > Keyboard Shortcuts içinde "Clone" tool'una "V" kısayolunu ata. "Pencil" tool'una da "C" kısayolunu ata.
 
 Kullandığın Layer'ın kenarlarında bulunan sarı hattı bir seferliğine kapatmak için "View" menüsüne tıkla ve
 oradan "Show Layer Boundary"i kapat. Eğer ki bu ayarın hep kapalı olmasını istiyorsan "Edit" kısmından
 "Preferences"a tıkla. Çıkan penceredeki sol kısımdan "Appearance" yazan yere tıkla. Çıkan menüde "Default
-Appearance in Normal Mode" yazan yerin altındaki "Show layer boundary" seçeneğini kapat ve pencerenin sağ
-altındaki "OK" butonuna tıkla.
+Appearance in Normal Mode" yazan yerin altındaki "Show layer boundary" seçeneğini kapat ve "OK" butonuna tıkla.
 
 Sarı hattı kapatma ayarı ile ilgili GIMP'in dokümantasyonu:
     https://docs.gimp.org/3.0/tr/gimp-view-show-layer-boundary.html
