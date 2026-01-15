@@ -18,7 +18,7 @@ Fastfetch'i, terminale şu komutu girerek kur: winget install fastfetch
 
 GIMP'i Microsoft Store'dan kur. (Eğer ki PhotoGIMP ile kullanacaksan GIMP'i Microsoft Store'dan kurma.)
 
-Blender, GIMP, OBS ve Steam'de yapılacakları yap.
+ATLauncher, Blender, GIMP, OBS ve Steam'de yapılacakları yap.
 
 FL Studio'nun kurulum dosyasını kendi sitesinden indirip sistemine kur.
 

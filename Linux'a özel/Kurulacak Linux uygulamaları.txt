@@ -25,7 +25,7 @@ File Roller'ı kurduktan sonra, sıkıştırılmış dosyalar için "default app
 Eğer ki ONLYOFFICE'te "Times New Roman" font'u kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
 Times New Roman font'unu indir ve sistemine kur.
 
-Blender, GIMP, OBS ve Steam'de yapılacakları yap.
+ATLauncher, Blender, GIMP, OBS ve Steam'de yapılacakları yap.
 
 Belki kullanmak isteyebileceğin flatpak uygulamaları:
     Gradia (Basit fotoğraf editleme ve kod sergileme uygulaması)
