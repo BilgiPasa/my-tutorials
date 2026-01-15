@@ -2,10 +2,10 @@ Fedora'da Unity indirmeni önermiyorum. Çünkü Unity, Fedora'yı desteklediği
 Ubuntu desteklediğini söylüyor. O yüzden Unity'yi Linux'ta kullanmak istiyorsan Ubuntu tabanlı bir dağıtıma
 yüklemeni öneririm.
 
-Şimdi, eğer ki hala Unity'i Fedora'da indirmek istiyorsan şu siteden indir:
+Şimdi, eğer ki hala Unity'i Fedora'da indirmek istiyorsan şu siteden indirebilirsin:
     https://docs.unity3d.com/hub/manual/InstallHub.html
 
-Ama bu sitedeki yönergelere uymana rağmen hala Unity Hub'ı indiremiyorsan bu adımları takip et.
+Ama bu sitedeki yönergelere uymana rağmen hala Unity Hub'ı indiremiyorsan bu adımları takip edebilirsin.
 
 İlk adım, yum repos'dan Unity Hub'ın reposunu şu komut ile sil: sudo rm /etc/yum.repos.d/unityhub.repo
 

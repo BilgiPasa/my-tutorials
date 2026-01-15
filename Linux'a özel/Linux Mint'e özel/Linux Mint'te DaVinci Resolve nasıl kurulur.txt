@@ -1,3 +1,0 @@
-MakeResolveDeb'i kullanarak DaVinci Resolve'u sistemine kur.
-
-Sitesi: https://www.danieltufvesson.com/makeresolvedeb

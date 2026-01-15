@@ -59,8 +59,6 @@ Sonra Konsole'a şunu yaz :
     (Eğer ki bu işe yaramazsa https://www.youtube.com/watch?v=gOZT9NiMn2o&t=798s videosunun 21.dakikasının
     39. saniyesinden itibaren anlatıyor.) (Çalıştığında NVIDIA olan seçeneği seç.)
 
-yay ile yüklemede sıkıntı çekersen "yay -Sc" yap. Cache'i temizliyor.
-
 İstersen paket kurulumu yöneticisi olarak pacseek uygulamasını kullanabilirsin.
 Sistemine kurmak için terminalde "yay -S pacseek" komutunu kullanabilirsin.
 

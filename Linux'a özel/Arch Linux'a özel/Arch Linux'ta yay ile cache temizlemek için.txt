@@ -1,0 +1,1 @@
+Terminale bu komutu gir: yay -Sc

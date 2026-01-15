@@ -1,0 +1,3 @@
+DaVinci Resolve'un AUR paketini kullanarak DaVinci Resolve'u sistemine kurabilirsin.
+
+Sitesi: https://aur.archlinux.org/packages/davinci-resolve
