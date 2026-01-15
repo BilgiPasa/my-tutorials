@@ -1,9 +1,11 @@
 Başlamadan önce, kendi distrona göre olan yapılacaklar listeni takip et. Oradaki işin bitince buradan devam et.
 
+Sistemin Debian veya Fedora tabanlıysa ATLauncher'ın kurulum dosyasını kendi sitesinden indir ve kur ama eğer
+ki sistemin Arch Linux tabanlıysa AUR'daki şu paketi indirerek ATLauncher'ı kur: atlauncher-bin
+
 GNOME kullanıyorsan sistem paketi olarak GNOME Mines'ı sistemine kur.
 
 Flatpak olarak bu uygulamaları kur:
-    ATLauncher
     Audacity
     Battery Info (Laptop kullanıyorsan)
     Bitwarden
