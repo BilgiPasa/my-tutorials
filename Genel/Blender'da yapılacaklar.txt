@@ -3,27 +3,22 @@ Edit kısmından Preferences kısmına gir.
 Interface kısmında Resolution Scale'ini 1.15 yap.
 
 Keymap kısmında:
-    Bütün "Zoom In"lerde "Wheel In" olanları "Ctrl Wheel Up" yap.
+    Bütün "Zoom In"lerde "Wheel In" olanları "Alt Wheel Up" yap.
 
-    Bütün "Zoom Out"larda "Wheel Out" olanları "Ctrl Wheel Down" yap.
-
-    Bütün "Scroll Left"lerde "Ctrl Wheel Up" olanları "Shift Wheel Up" yap.
-
-    Bütün "Scroll Right"larda "Ctrl Wheel Down" olanları "Shift Wheel Down" yap.
+    Bütün "Zoom Out"larda "Wheel Out" olanları "Alt Wheel Down" yap.
 
     Bütün "Scroll Up"larda "Shift Wheel Up" olanları "Wheel Up" yap.
 
     Bütün "Scroll Down"larda "Shift Wheel Down" olanları "Wheel Down" yap.
 
-    Bunları yaptıktan sonra sol aşağıdaki "Save Preferences" butonuna bas.
+    Ardından, sol aşağıdaki "Save Preferences" butonuna tıkla.
 
 System kısmında:
     Eğer ki NVIDIA ekran kartı kullanıyorsan Cycles Render Devices'ı CUDA seç ve sadece NVIDIA ekran kartının
     seçili olduğuna emin ol.
 
-    Display Graphics'te Backend'i Vulkan yap ve Blender'ı kapatıp aç.
+    Display Graphics'te Backend'i Vulkan yap.
+
+    Ardından, sol aşağıdaki "Save Preferences" butonuna tıkla.
 
 Eğer ki ayarlarını sıfırlamak istiyorsan: File > Defaults > Load Factory Settings
-
-"Video Editing" kısmında seçim ile kesme araçları arasında kolay bir şekilde geçiş yapabilmen için
-Shift ile Space Bar'a basıp o menüde istediğine tıklayarak kullanmanı öneririm.

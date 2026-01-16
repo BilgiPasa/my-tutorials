@@ -20,7 +20,7 @@ GIMP'i Microsoft Store'dan kur. (Eğer ki PhotoGIMP ile kullanacaksan GIMP'i Mic
 
 ATLauncher, Blender, GIMP, OBS ve Steam'de yapılacakları yap.
 
-FL Studio'nun kurulum dosyasını kendi sitesinden indirip sistemine kur.
+DaVinci Resolve ve FL Studio'nun kurulum dosyalarını kendi sitelerinden indirip sistemine kur.
 
 Microsoft Store'dan Minecraft Launcher'ı sistemine kur. Minecraft Launcher içinden Minecraft Bedrock
 Edition'ı ve Minecraft Legends'ı sistemine kur.

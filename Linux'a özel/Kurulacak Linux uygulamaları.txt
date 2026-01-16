@@ -32,8 +32,11 @@ Belki kullanmak isteyebileceğin flatpak uygulamaları:
     Solanum (Pomodoro tekniği zaman tutma uygulaması)
     Varia (Dosya ve torrent indirici)
 
-Eğer ki Varia'yı sistemine kurarsan web tarayıcında eklenti mağazasını aç ve oradan "Varia Integrator"
+Eğer ki sistemine Varia'yı kurarsan web tarayıcında eklenti mağazasını aç ve oradan "Varia Integrator"
 eklentisini tarayıcına kur. Eğer ki kullanmak istemiyorsan eklentiyi kapatabilirsin.
+
+Eğer ki sistemine DaVinci Resolve kurmak istiyorsan Arch Linux, Debian, Fedora, Linux Mint ve Ubuntu'da
+nasıl kurabileceğine dair yönergeleri, distrolara özel olarak hazıladığım klasörlerden bulabilirsin.
 
 Neden ONLYOFFICE ve VLC'yi flatpak olarak kurmanı istediğimi soruyorsan
 {
