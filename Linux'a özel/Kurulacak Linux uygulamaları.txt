@@ -13,30 +13,29 @@ Flatpak olarak bu uygulamaları kur:
     Bottles
     File Roller (GNOME kullanıyorsan ve zip dosya oluşturucu uygulaman yoksa)
     GIMP
+    Gradia
     Hex Colordle
     LocalSend
     OBS
     ONLYOFFICE Desktop Editors
     Shortwave
+    Solanum
+    Varia
     VLC
 
 File Roller'ı kurduktan sonra, sıkıştırılmış dosyalar için "default app" yap.
+
+Varia'yı kurduktan sonra web tarayıcında eklenti mağazasını aç ve oradan "Varia Integrator" eklentisini
+tarayıcına kur. Eğer ki o eklentiyi kullanmak istemiyorsan eklentiyi kapatabilirsin.
 
 Eğer ki ONLYOFFICE'te "Times New Roman" font'u kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
 Times New Roman font'unu indir ve sistemine kur.
 
 ATLauncher, Blender, GIMP, OBS ve Steam'de yapılacakları yap.
 
-Belki kullanmak isteyebileceğin flatpak uygulamaları:
-    Gradia (Basit fotoğraf editleme ve kod sergileme uygulaması)
-    Solanum (Pomodoro tekniği zaman tutma uygulaması)
-    Varia (Dosya ve torrent indirici)
-
-Eğer ki sistemine Varia'yı kurarsan web tarayıcında eklenti mağazasını aç ve oradan "Varia Integrator"
-eklentisini tarayıcına kur. Eğer ki kullanmak istemiyorsan eklentiyi kapatabilirsin.
-
-Eğer ki sistemine DaVinci Resolve kurmak istiyorsan Arch Linux, Debian, Fedora, Linux Mint ve Ubuntu'da
-nasıl kurabileceğine dair yönergeleri, distrolara özel olarak hazıladığım klasörlerden bulabilirsin.
+DaVinci Resolve'u, kendi distrona göre nasıl kurman gerekiyorsa ona göre sistemine kur. Arch Linux, Debian,
+Fedora, Linux Mint ve Ubuntu'da nasıl kurabileceğine dair yönergeleri, distrolara özel olarak hazıladığım
+klasörlerden bulabilirsin.
 
 Neden ONLYOFFICE ve VLC'yi flatpak olarak kurmanı istediğimi soruyorsan
 {

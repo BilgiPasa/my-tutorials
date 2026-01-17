@@ -1,0 +1,12 @@
+Not: Başlıktaki repo derken, terminal komutlarıyla kurmuş olduğun uygulamanın repo'sunu bahsediyorum.
+
+Şu siteye bakmanı öneririm:
+    https://docs.fedoraproject.org/en-US/quick-docs/adding-or-removing-software-repositories-in-fedora/
+
+Önerilerim:
+    Sileceğin uygulamanın sadece kendisini sil, dependency'lerini silme. Yani örneğin bir paket kurmadan önce
+    o pakete bağlı olan başka bir paket kurduysan o bağlı paketi silme. Onun yerine, asıl uygulamayı ve onun
+    repo'sunu sildikten sonra terminale "sudo dnf autoremove" komutunu gir.
+
+    Sileceğin repo'nun adını ne olduğunu bilmek için, o uygulamanın kurulum sitesine git ve oradaki kurulum
+    komutlarından o repo'nun adını bul.
