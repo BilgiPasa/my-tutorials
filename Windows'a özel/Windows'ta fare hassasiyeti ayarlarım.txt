@@ -3,10 +3,10 @@ Fare DPI'ım 1600 DPI.
 Ayarlardan mouse acceleration'u kapat, onun dışında mouse hızına elleme. (Ama tabii ki normal değerinde değilse
 normal değerine getir.)
 
-Source oyun motoru ile yapılmış oyunlar için fare hassasiyetini 3.286 yap ve "Raw Input" ayarı varsa aç.
+Source oyun motoru ile yapılmış oyunlar için fare hassasiyetini 3.28 yap ve "Raw Input" ayarı varsa aç.
 
-Redmatch 2'de normal fare hassasiyetini 1.446 yap, ads fare hassasiyetini 1.446 yap ve scoped fare
-hassasiyetini 0.723 yap.
+Redmatch 2'de normal fare hassasiyetini 1.44 yap, ads fare hassasiyetini 1.44 yap ve scoped fare
+hassasiyetini 0.72 yap.
 
 Repo'da fare hassasiyetini 32 yap.
 
