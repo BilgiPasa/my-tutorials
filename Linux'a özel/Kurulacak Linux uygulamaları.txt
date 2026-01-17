@@ -22,6 +22,7 @@ Flatpak olarak bu uygulamaları kur:
     Solanum
     Varia
     VLC
+    Zoom
 
 File Roller'ı kurduktan sonra, sıkıştırılmış dosyalar için "default app" yap.
 
