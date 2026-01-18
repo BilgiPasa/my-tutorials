@@ -1,5 +1,5 @@
 Terminalde şu komutu kullanarak mov uzantılı videoyu mp4'e çevirebilirsin:
-    ffmpeg -i input.mov -qscale 0 output.mp4
+    ffmpeg -i input.mov output.mp4
 
 input.mov olan yere çevireceğin videonun adını yaz.
 Video çevrildikten sonra output.mp4 isimli bir dosya oluşmalı.
