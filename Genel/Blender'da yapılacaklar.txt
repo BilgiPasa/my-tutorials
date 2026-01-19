@@ -1,23 +1,12 @@
 Edit kısmından Preferences kısmına gir.
 
-Interface kısmında Resolution Scale'ini 1.15 yap.
-
-Keymap kısmında:
-    Bütün "Zoom In"lerde "Wheel In" olanları "Alt Wheel Up" yap.
-
-    Bütün "Zoom Out"larda "Wheel Out" olanları "Alt Wheel Down" yap.
-
-    Bütün "Scroll Up"larda "Shift Wheel Up" olanları "Wheel Up" yap.
-
-    Bütün "Scroll Down"larda "Shift Wheel Down" olanları "Wheel Down" yap.
-
-    Ardından, sol aşağıdaki "Save Preferences" butonuna tıkla.
+Interface kısmında Resolution Scale'ini 1.15 yap ve sol aşağıdaki "Save Preferences" butonuna tıkla.
 
 System kısmında:
-    Eğer ki NVIDIA ekran kartı kullanıyorsan Cycles Render Devices'ı CUDA seç ve sadece NVIDIA ekran kartının
-    seçili olduğuna emin ol.
+    Eğer ki NVIDIA ekran kartı kullanıyorsan "Cycles Render Devices"ı "CUDA" seç ve sadece NVIDIA ekran
+    kartının seçili olduğuna emin ol.
 
-    Display Graphics'te Backend'i Vulkan yap.
+    "Display Graphics"te "Backend"i "Vulkan" yap.
 
     Ardından, sol aşağıdaki "Save Preferences" butonuna tıkla.
 
