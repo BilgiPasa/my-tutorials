@@ -1,34 +1,35 @@
-İlk açtığında "Optimize just for recording" seçeneğini seç ve "Next" de.
-Resolution'da "Display 1"i ve FPS'te "60"ı seç. "Next" de ve ayarları kaydet.
+İlk önce kendi sisteminin "home" klasöründeki "Videos" klasörünün içine "OBS Captures" diye bir klasör
+oluştur. Ardından OBS'i aç.
+
+OBS'i ilk açtığında "Optimize just for recording"li seçeneğini seç ve "Next"e tıkla.
+Resolution'da "Display 1"i ve FPS'te "60"ı seç. "Next"e tıkla ve ayarları kaydet.
 
 Ana menüde "Sources" kısmında "Screen Capture" ekle. Eklerken kendi ekranını seç.
 
-Ayarlar kısmında "Output" kısmını aç. "Output Mode"u "Advanced" yap.
+Ayarlar kısmında "Output" kısmını aç ve "Output Mode"u "Advanced" yap.
 
-"Streaming" kısmında "Video Encoder"ını seç kendi ekran kartına göre.
-(NVIDIA kullanıyorsan, "NVIDIA NVENC H.264" seçeneğini seç.)
-"Rate Control" => "Constant Bitrate"
-"Bitrate" => "12000 Kbps"
-"Preset" olarak ya "Slower (Better Quality)" ya da "Slow (Good Quality)"yi seç.
-"Tuning" => "High Quality"
-"Multipass Mode" => "Two Passes (Quarter Resolution)"
-"Profile" => "high"
+"Recording" kısmına gel.
 
-"Recording" kısmında "Video Encoder"ını seç kendi ekran kartına göre.
-(NVIDIA kullanıyorsan, "NVIDIA NVENC H.264" seçeneğini seç.)
-"Recording Path"i belirle.
-"Rate Control" => "Constant Bitrate"
-"Bitrate" => "12000 Kbps"
-"Preset" olarak ya "Slower (Better Quality)" ya da "Slow (Good Quality)"yi seç.
-"Tuning" => "High Quality"
-"Multipass Mode" => "Two Passes (Quarter Resolution)"
-"Profile" => "high"
+Recording Settings kısmında:
+    "Recording Path"i, o oluşturduğun OBS Captures klasörüne ayarla.
+    "Video Encoder"ını kendi ekran kartına göre seç.
+    (NVIDIA kullanıyorsan, "NVIDIA NVENC H.264" seçeneğini seç.)
 
-"Advanced" kısmında "Color Range"i full yap.
+Encoder Settings kısmında:
+    Rate Control => Constant Bitrate
+    Bitrate => 36000 Kbps
+    "Preset" olarak ya "Slower (Better Quality)" ya da "Slow (Good Quality)"yi seç.
+    Tuning => High Quality
+    Multipass Mode => Two Passes (Quarter Resolution)
+    Profile => high
+
+"Apply"a tıklayarak ayarlarını kaydet ve "OK"e tıkla.
 
 Eğer ki yanlış bir ayar yaparsan
 {
     OBS'in ana ekranında "File" kısmında "Show Settings Folder" kısmına tıkla.
     OBS'i kapat ve o klasör içindeki bütün dosyaları sil.
     Sonrasında OBS'i geri aç ve yapılacakları yap.
+
+    Kaynak: https://youtu.be/us3yiCOVrh8
 }
