@@ -35,10 +35,6 @@ Times New Roman font'unu indir ve sistemine kur.
 
 ATLauncher, Blender, Brave, GIMP, OBS ve Steam'de yapılacakları yap.
 
-DaVinci Resolve'u, kendi distrona göre nasıl kurman gerekiyorsa ona göre sistemine kur. Arch Linux, Debian,
-Fedora, Linux Mint ve Ubuntu'da nasıl kurabileceğine dair yönergeleri, distrolara özel olarak hazıladığım
-klasörlerden bulabilirsin.
-
 Neden ONLYOFFICE ve VLC'yi flatpak olarak kurmanı istediğimi soruyorsan
 {
     1. Flatpak olarak yüklediğinde güncellemeler daha erkenden geliyor.

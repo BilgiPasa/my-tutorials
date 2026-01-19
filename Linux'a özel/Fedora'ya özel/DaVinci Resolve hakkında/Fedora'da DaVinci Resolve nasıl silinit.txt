@@ -1,0 +1,8 @@
+DaVinci Resolve'un kendi silme programını çalıştır.
+
+O programda işin bitince "/opt"ye bak. orada "resolve" diye bir klasör varsa DaVinci Resolve tamamiyle silinmiş
+anlamına gelmiyor. Oradaki klasörü direk silmek için /opt içinde terminal aç ve şu komutu gir:
+    sudo rm -r resolve
+
+Haberin olsun, terminalde rm komutunu kullandığında o komutu geri alamazsın. Sildiğin şey çöp kutusunu gitmez,
+kalıcı olarak silinir.
