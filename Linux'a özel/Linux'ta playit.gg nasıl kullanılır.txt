@@ -1,0 +1,21 @@
+Bu siteye git: https://playit.gg/download/linux
+
+Eğer ki Debian tabanlı bir dağıtım kullanıyorsan
+{
+    İlk önce; "sudo apt install curl" komutunu, ardından da sitedeki Debian için kurulum komutlarını kullanarak
+    playit'i sistemine kur.
+
+    Ardından, playit'i çalıştırmak için terminale "playit" komutunu girmen yeterli.
+}
+Eğer ki başka bir dağıtım kullanıyorsan (Örnek: Fedora, Arch Linux vs.)
+{
+    Raw Binaries kısmında x86-64 butonuna tıkla ve indir.
+
+    Ardından indirdiğin çalıştırma dosyasının olduğu yere terminal aç ve şu komutu gir:
+        chmod +x playit-linux-amd64
+
+    Yukarıdaki komut, dosyayı çalıştırılabilir hale getiriyor.
+
+    Playit'i açmak istediğinde çalıştırma dosyasının konumuna terminal aç ve şu komutu girerek çalıştır:
+        ./playit-linux-amd64
+}

@@ -26,4 +26,4 @@ gereken NVIDIA ekran kartı sürücülerini indir. (Game Ready sürücüsünü t
 
 Gereksiz olduğunu düşündüğün uygulamaları sil. (Örnek: Copilot, Clipchamp vs.)
 
-Notepad'de yazı denetimi, otomatik yazı düzeltmeyi ve Copilot'u devre dışı bırak.
+Notepad'de yazı denetimini, otomatik yazı düzeltmeyi ve Copilot'u devre dışı bırak.
