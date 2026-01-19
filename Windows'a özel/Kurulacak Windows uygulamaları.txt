@@ -27,7 +27,7 @@ DaVinci Resolve ve FL Studio'nun kurulum dosyalarını kendi sitelerinden indiri
 Microsoft Store'dan Minecraft Launcher'ı sistemine kur. Minecraft Launcher içinden Minecraft Bedrock
 Edition'ı ve Minecraft Legends'ı sistemine kur.
 
-Eğer ki Microsoft Office kullanmıyorsan Winget ile ONLYOFFICE Desktop Editors'ü sistemine kur.
+Eğer ki Microsoft Office kullanmıyorsan winget ile ONLYOFFICE Desktop Editors'ı sistemine kur.
 
 Eğer ki ONLYOFFICE'te "Times New Roman" font'u kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
 Times New Roman font'unu indir ve sistemine kur.
