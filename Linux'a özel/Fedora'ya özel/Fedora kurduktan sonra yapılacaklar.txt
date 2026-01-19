@@ -61,10 +61,6 @@ Sürücüleri kurunca 5 dakika zamanlayıcı kur ve bekle. Ardından bilgisayar�
 
 Settings'te tap to click'i aç, mouse acceleration'ı kapat ve mikrofon input sesini kısmayı unutma.
 
-VSCode'u şu sitedeki yönergelere uyarak kur: https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
-
-Steam'i şu sitedeki yönergelere uyarak kur: https://docs.fedoraproject.org/en-US/gaming/proton/
-
 GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı flatpak olarak kur. Ardından, Extension
 Manager'dan bu eklentileri sistemine kur:
     Alphabetic App Grid (stuarthayhurst'ın)

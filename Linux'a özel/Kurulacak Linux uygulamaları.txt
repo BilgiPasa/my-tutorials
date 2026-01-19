@@ -1,13 +1,23 @@
 Başlamadan önce, kendi distrona göre olan yapılacaklar listeni takip et. Oradaki işin bitince buradan devam et.
 
+VS Code'u şu sitedeki yönergelere uyarak kur:
+    https://code.visualstudio.com/docs/setup/linux#_install-vs-code-on-linux
+
 Sistemin Debian veya Fedora tabanlıysa ATLauncher'ın kurulum dosyasını kendi sitesinden indir ve kur ama eğer
-ki sistemin Arch Linux tabanlıysa AUR'daki şu paketi indirerek ATLauncher'ı kur: atlauncher-bin
+ki sistemin Arch Linux tabanlıysa şu AUR paketi ile ATLauncher'ı kur: atlauncher-bin
+
+Sistemin Debian tabanlıysa şu siteden Steam'in .deb dosyasını indir ve kur:
+    https://store.steampowered.com/about/
+
+Sistemin Fedora tabanlıysa şu sitedeki yönergelere uyarak Steam'i kur:
+    https://docs.fedoraproject.org/en-US/gaming/proton/
+
+Sistemin Arch Linux tabanlıysa terminale şu komutu girerek Steam'i kur: sudo pacman -S steam
 
 GNOME kullanıyorsan sistem paketi olarak GNOME Mines'ı sistemine kur.
 
 Flatpak olarak bu uygulamaları kur:
     Audacity
-    Battery Info (Laptop kullanıyorsan)
     Bitwarden
     Blender
     Bottles
@@ -16,6 +26,7 @@ Flatpak olarak bu uygulamaları kur:
     GIMP
     Gradia
     Hex Colordle
+    Kdenlive
     LocalSend
     OBS
     ONLYOFFICE Desktop Editors

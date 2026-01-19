@@ -20,10 +20,6 @@ Settings'te tap to click'i aç, mouse acceleration'ı kapat ve mikrofon input se
 
 Flatpak'i şu sitedeki yönergelere uyarak kur: https://flatpak.org/setup/Ubuntu
 
-VSCode'u şu sitedeki yönergelere uyarak kur: https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
-
-Şu siteden Steam'in .deb dosyasını indir ve kur: https://store.steampowered.com/about/
-
 X11 kullanıyorsan "touchegg"i şu sitedeki yönergelere uyarak kur: https://github.com/JoseExposito/touchegg
 
 Eğer ki snap'leri sisteminden kaldırmak istiyorsan ilk önce Firefox'u veya başka ne tarayıcı kullanmak istiyorsan

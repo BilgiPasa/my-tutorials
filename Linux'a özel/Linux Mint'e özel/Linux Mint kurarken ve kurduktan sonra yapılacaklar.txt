@@ -33,10 +33,6 @@ Fastfetch'i sistemine kurmak için için
 Uygulama mağazasında, "Preferences"da, doğrulanmamış flatpak paketlerine izin ver seçeneğini aç. Ardından
 Clocks'u flatpak olarak indir.
 
-VSCode'u şu sitedeki yönergelere uyarak kur: https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
-
-Şu siteden Steam'in .deb dosyasını indir ve kur: https://store.steampowered.com/about/
-
 Uygulama mağazasından, Diodon'u sistem paketi olarak sistemine kur ve Diodon'un "Preferences" kısmında
 "Automatically paste selected item"ı kapat.
 

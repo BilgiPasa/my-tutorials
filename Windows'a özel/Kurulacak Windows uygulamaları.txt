@@ -10,6 +10,7 @@ Winget kullanarak bu uygulamaları kur:
     FFmpegforAudacity
     Localsend
     OBS
+    playit.gg
     Steam
     VLC
     VS Code
