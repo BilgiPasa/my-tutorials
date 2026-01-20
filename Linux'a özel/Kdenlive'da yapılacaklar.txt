@@ -1,0 +1,13 @@
+Kdenlive'ı ilk açınca çıkan ekranda 1080p 60fps olarak Kdenlive'ı ayarla ve başlat.
+
+Kdenlive kullanmayı bilmiyorsan bu videoyu izle: https://youtu.be/YnSE9qgGui4
+
+Scroll => Sağ sola hareket etme
+Shift + Scroll => Aşağı yukarı hareket etme
+Ctrl + Scroll => Yakınlaştırma ve uzaklaştırma
+Shift + R => Kesme
+Del => Silme
+Shift + Del => Aradaki boşluğu kapatarak silme
+Shift + Left click and drag => Belli bir alandaki klipleri seçme
+Middle click and drag => Timeline'da 2 boyutlu olarak gezinebilme
+Alt + Left/Right arrows => Sonraki kesilmiş yere timeline'ı hareket ettirme

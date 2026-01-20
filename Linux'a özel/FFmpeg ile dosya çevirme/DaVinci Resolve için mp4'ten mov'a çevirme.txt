@@ -1,7 +1,10 @@
 Terminalindeki bulunduğun yerdeki bütün mp4 dosyalarını mov'a çevirmek için bu komutu kullanabilirsin:
-    mkdir transcoded_videos; for i in *.mp4; do ffmpeg -i "$i" -vcodec mjpeg -q:v 3 -acodec pcm_s16be -q:a 0 -f mov "transcoded_videos/${i%.*}.mov"; done
+    mkdir transcoded_videos; for i in *.mp4; do ffmpeg -i "$i" -vcodec mjpeg -q:v 2 -acodec pcm_s16be -q:a 0 -f mov "transcoded_videos/${i%.*}.mov"; done
 
-3 yazdığım yere 2 ile 32 arasında istediğin sayıyı yazabilirsin. 2 koyarsan daha fazla yer kaplar ama daha
+2 yazdığım yere 2 ile 32 arasında istediğin sayıyı yazabilirsin. 2 koyarsan daha fazla yer kaplar ama daha
 kaliteli gözükebilir. 32 yazarsan daha az yer kaplar ama daha kalitesiz gözükebilir.
 
+Bu arada şunu fark ettim. Videoyu mp4'ten mov'a çevirince videon bi tık daha karalık olabiliyor haberin olsun.
+
 Kaynak: https://brushlesswhoop.com/converting-fpv-footage-for-davinci-resolve/
+(Linki açamıyorsan Tor kullan.)
