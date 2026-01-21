@@ -1,7 +1,7 @@
-İlk önce kendi sisteminin "home" klasöründeki "Videos" klasörünün içine "OBS Captures" diye bir klasör
-oluştur. Ardından OBS'i aç.
+İlk önce kendi sisteminin "home" klasöründeki "Videos" klasörünün içine "OBS Studio Captures" diye bir klasör
+oluştur. Ardından OBS Studio'yu aç.
 
-OBS'i ilk açtığında "Optimize just for recording"li seçeneğini seç ve "Next"e tıkla.
+OBS Studio'yu ilk açtığında "Optimize just for recording"li seçeneğini seç ve "Next"e tıkla.
 Resolution'da "Display 1"i ve FPS'te "60"ı seç. "Next"e tıkla ve ayarları kaydet.
 
 Ana menüde "Sources" kısmında "Screen Capture" ekle. Eklerken kendi ekranını seç.
@@ -11,7 +11,7 @@ Ayarlar kısmında "Output" kısmını aç ve "Output Mode"u "Advanced" yap.
 "Recording" kısmına gel.
 
 Recording Settings kısmında:
-    "Recording Path"i, o oluşturduğun OBS Captures klasörüne ayarla.
+    "Recording Path"i, o oluşturduğun OBS Studio Captures klasörüne ayarla.
     "Video Encoder"ını kendi ekran kartına göre seç.
     (NVIDIA kullanıyorsan, "NVIDIA NVENC H.264" seçeneğini seç.)
 
@@ -27,9 +27,9 @@ Encoder Settings kısmında:
 
 Eğer ki yanlış bir ayar yaparsan
 {
-    OBS'in ana ekranında "File" kısmında "Show Settings Folder" kısmına tıkla.
-    OBS'i kapat ve o klasör içindeki bütün dosyaları sil.
-    Sonrasında OBS'i geri aç ve yapılacakları yap.
+    OBS Studio'nun ana ekranında "File" kısmında "Show Settings Folder" kısmına tıkla.
+    OBS Studio'yu kapat ve o klasör içindeki bütün dosyaları sil.
+    Sonrasında OBS Studio'yu geri aç ve yapılacakları yap.
 
     Kaynak: https://youtu.be/us3yiCOVrh8
 }

@@ -28,7 +28,7 @@ Flatpak olarak bu uygulamaları kur:
     Hex Colordle
     Kdenlive
     LocalSend
-    OBS
+    OBS Studio
     ONLYOFFICE Desktop Editors
     Shortwave
     Solanum
@@ -44,7 +44,7 @@ tarayıcına kur. Eğer ki o eklentiyi kullanmak istemiyorsan eklentiyi kapatabi
 Eğer ki ONLYOFFICE'te "Times New Roman" font'u kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
 Times New Roman font'unu indir ve sistemine kur.
 
-ATLauncher, Blender, Brave, GIMP, Kdenlive, OBS ve Steam'de yapılacakları yap.
+ATLauncher, Blender, Brave, GIMP, Kdenlive, OBS Studio ve Steam'de yapılacakları yap.
 
 Neden ONLYOFFICE ve VLC'yi flatpak olarak kurmanı istediğimi soruyorsan
 {

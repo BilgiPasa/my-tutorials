@@ -9,7 +9,7 @@ Winget kullanarak bu uygulamaları kur:
     FFmpeg
     FFmpegforAudacity
     Localsend
-    OBS
+    OBS Studio
     Steam
     VLC
     VS Code
@@ -19,7 +19,7 @@ Fastfetch'i, terminale şu komutu girerek kur: winget install fastfetch
 
 GIMP'i Microsoft Store'dan kur. (Eğer ki PhotoGIMP ile kullanacaksan GIMP'i Microsoft Store'dan kurma.)
 
-ATLauncher, Blender, Brave, GIMP, OBS ve Steam'de yapılacakları yap.
+ATLauncher, Blender, Brave, GIMP, OBS Studio ve Steam'de yapılacakları yap.
 
 DaVinci Resolve, Everything, FL Studio ve playit.gg'nin kurulum dosyalarını kendi sitelerinden indirip
 sistemine kur.
