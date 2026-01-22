@@ -17,6 +17,12 @@ Ayarlar uygulamasından Hesaplar > Oturum açma seçenekleri sayfasında Ek ayar
 amacıyla bu cihazdaki Microsoft hesapları için yalnızca Windows Hello oturum açmaya izin ver (Önerilen)"
 ayarını kapat.
 
+Ayarlar uygulamasından Kişiselleştirme > Kilit ekranı sayfasında:
+    "Kilit ekranınızı kişiselleştirin" ayarını "Resim" olarak ayarla.
+    "Kilit ekranınızda eğlenceli bilgileri, ipuçlarını, ilginç numaraları ve çok daha fazlasını görün" ayarını
+    kapat.
+    "Kilit ekranı durumu" ayarını "Yok" olarak ayarla.
+
 Denetim masasından Denetim Masası\Donanım ve Ses\Güç Seçenekleri\Sistem Ayarları kısmından hızlı başlatma
 ayarını kapat.
 

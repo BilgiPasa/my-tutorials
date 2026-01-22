@@ -21,8 +21,7 @@ GIMP'i Microsoft Store'dan kur. (Eğer ki PhotoGIMP ile kullanacaksan GIMP'i Mic
 
 ATLauncher, Blender, Brave, GIMP, OBS Studio ve Steam'de yapılacakları yap.
 
-DaVinci Resolve, Everything, FL Studio ve playit.gg'nin kurulum dosyalarını kendi sitelerinden indirip
-sistemine kur.
+Everything, FL Studio, Kdenlive ve playit.gg'nin kurulum dosyalarını kendi sitelerinden indirip sistemine kur.
 
 Minecraft Launcher'ın kurulum dosyasını şu siteden indir ve sistemine kur:
     https://www.minecraft.net/en-us/download
