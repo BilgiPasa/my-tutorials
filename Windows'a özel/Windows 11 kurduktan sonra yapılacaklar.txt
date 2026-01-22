@@ -13,6 +13,10 @@ uygulamaların hepsini devre dışı bırak.
 
 Sistem temasını koyu tema yap.
 
+Ayarlar uygulamasından Hesaplar > Oturum açma seçenekleri sayfasında Ek ayarlar kısmında "Gelişmiş güvenlik
+amacıyla bu cihazdaki Microsoft hesapları için yalnızca Windows Hello oturum açmaya izin ver (Önerilen)"
+ayarını kapat.
+
 Denetim masasından Denetim Masası\Donanım ve Ses\Güç Seçenekleri\Sistem Ayarları kısmından hızlı başlatma
 ayarını kapat.
 
