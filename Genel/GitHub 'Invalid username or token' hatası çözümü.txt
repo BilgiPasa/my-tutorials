@@ -1,16 +1,14 @@
-Token kullanmak istemiyorsan ve GitHub CLI programını sistemine kurduysan
-{
-    Terminale şu komutu gir ve GitHub hesabınla giriş yap: gh auth login
+GitHub CLI programı sisteminde kurulu değilse ilk önce onu kur.
 
-    Eğer ki sorunun hala çözülmediyse terminale bu komutları gir
-    (<GitHub mailini buraya yaz> kısmına kendi GitHub mailini yaz.)
-    (<GitHub kullanıcı adını buraya yaz> kısmına kendi GitHub kullanıcı adını yaz.)
-    {
-        git config --global user.email "<GitHub mailini buraya yaz>"
-        git config --global user.name "<GitHub kullanıcı adını buraya yaz>"
-    }
-}
-Token kullanarak sorunu çözmek istiyorsan
+Ardından terminale şu komutu gir ve GitHub hesabınla giriş yap: gh auth login
+
+Eğer ki sorunun hala çözülmediyse terminale bu komutları gir
+(<GitHub mailini buraya yaz> kısmına kendi GitHub mailini yaz.)
+(<GitHub kullanıcı adını buraya yaz> kısmına kendi GitHub kullanıcı adını yaz.)
 {
-    Şu siteye bak: https://www.geeksforgeeks.org/git/git-how-to-solve-remote-invalid-username-or-password-fatal-authentication-failed/
+    git config --global user.email "<GitHub mailini buraya yaz>"
+    git config --global user.name "<GitHub kullanıcı adını buraya yaz>"
 }
+
+Eğer ki sorunun hala çözülmediyse ve sorununu, GitHub'da token oluşturarak çözmek istiyorsan şu siteye bak:
+    https://www.geeksforgeeks.org/git/git-how-to-solve-remote-invalid-username-or-password-fatal-authentication-failed/
