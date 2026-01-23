@@ -15,8 +15,7 @@ Mesela Lutris'i flatpak olarak kurmak istediğimde çok uzun sürüyordu ben de 
 Bir flatpak uygulamasının ID'sini aramak için terminale şu komutu gir:
     sudo flatpak search (uygulamanın adı)
 
-3. yolu kullanmanı önermem. Genel olarak 1. ve 2. yol daha iyi. 3. yolu, anca zorunda kalırsan kullanmanı
-öneririm.
+3. yolu, zorunda kaldığında kullanmanı öneririm.
 
 Eğer ki flatpak uygulama indirmede sıkıntı çıkarsa terminale şu komutu gir:
     sudo flatpak repair
