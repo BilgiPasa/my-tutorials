@@ -17,3 +17,6 @@ O sitedeki bir kısım:
     If your MP4's video is AV1, but the audio is AAC, transcode just the audio to a supported codec.
 
     Command: ffmpeg -i input.mp4 -c:v copy -c:a pcm_s32le output.mp4
+
+Haberin olsun, input.mov olan yere çevireceğin videonun adını yaz. Komutu girdikten sonra output.mp4 isimli
+bir dosya oluşmalı. Çevirme bitene kadar bekle.
