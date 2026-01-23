@@ -24,6 +24,7 @@ Flatpak olarak bu uygulamaları kur:
     File Roller (GNOME kullanıyorsan ve zip dosya oluşturucu uygulaman yoksa)
     GIMP
     Gradia
+    Handbrake
     Hex Colordle
     Kdenlive
     LocalSend
@@ -32,14 +33,10 @@ Flatpak olarak bu uygulamaları kur:
     ONLYOFFICE Desktop Editors
     Shortwave
     Solanum
-    Varia
     VLC
     Zoom
 
 File Roller'ı kurduktan sonra, sıkıştırılmış dosyalar için "default app" yap.
-
-Varia'yı kurduktan sonra web tarayıcında eklenti mağazasını aç ve oradan "Varia Integrator" eklentisini
-tarayıcına kur. Eğer ki o eklentiyi kullanmak istemiyorsan eklentiyi kapatabilirsin.
 
 Eğer ki ONLYOFFICE'te "Times New Roman" font'u kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
 Times New Roman font'unu indir ve sistemine kur.

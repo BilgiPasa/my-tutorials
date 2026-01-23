@@ -1,22 +1,32 @@
-Şu sitedeki komutlara bakmanı öneririm:
-    https://wiki.archlinux.org/title/DaVinci_Resolve#MP4,_H.264,_H.265_and_AAC_Support
+mp4'ten mov'a çevirmek için
+{
+    mp4'ün video codec'i H.264 veya H.265 ise ve ses codec'i AAC ise hem video codec'ini hem de ses codec'ini
+    çevirmen lazım.
+    Komut: ffmpeg -i input.mp4 -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a alac output.mov
 
-O sitedeki bir kısım:
-    If your MP4's video is H.264 or H.265, but audio is MP3 or PCM, you need only transcode your video to a
-    supported codec, as the audio is already supported.
+    mp4'ün video codec'i H.264 veya H.265 ise ama ses codec'i MP3 veya PCM ise sadece video'yu çevirmen
+    yeterli.
+    Komut: ffmpeg -i input.mp4 -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a copy output.mov
 
-    Command: ffmpeg -i input.mp4 -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a copy output.mov
+    mp4'ün video codec'i AV1 ise ama ama ses codec'i AAC ise sadece ses codec'ini çevirmen yeterli.
+        ffmpeg -i input.mp4 -c:v copy -c:a pcm_s32le output.mp4
 
+    Kaynak: https://wiki.archlinux.org/title/DaVinci_Resolve#MP4,_H.264,_H.265_and_AAC_Support
+}
+m4a'dan mp3'e çevirmek için terminale şu komutu gir
+{
+    ffmpeg -i input.m4a -acodec libmp3lame -aq 2 output.mp3
 
-    If your MP4's video is H.264 or H.265, and the audio is AAC, you need to transcode both your video and
-    audio to a supported codec.
-
-    Command: ffmpeg -i input.mp4 -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a alac output.mov
-
-
-    If your MP4's video is AV1, but the audio is AAC, transcode just the audio to a supported codec.
-
-    Command: ffmpeg -i input.mp4 -c:v copy -c:a pcm_s32le output.mp4
+    Kaynak: https://tinkering.vandoeselaar.com/convert-m4a-to-mp3-with-ffmpeg/
+}
 
 Haberin olsun, input.mov olan yere çevireceğin videonun adını yaz. Komutu girdikten sonra output.mp4 isimli
 bir dosya oluşmalı. Çevirme bitene kadar bekle.
+
+mov'dan mp4'e çevirmek için ise Handbrake uygulamasını kullan. Handbrake ile çevirme yapacaksan çevireceğin
+videoyu seçtikten sonra "Video" kısmında "framerate"i 60 yap. "Bitrate" ayarını aç ve o "Bitrate" ayarını
+36000 olarak ayarla. ("OBS Studio'da yapılacaklar.txt" dosyasında ekran kaydı için bitrate ayarını 36000
+olarak ayarlamıştım. Belki değiştirmiş olabilirim. Sen video için bitrate olarak ne kullandıysan çevirme
+bitrate değeri olarak onu yaz.)
+
+Çevirdiğin şeylerin kalitesini karşılaştırmak için Identity uygulamasını kullanabilirsin. (Flathub'da var.)
