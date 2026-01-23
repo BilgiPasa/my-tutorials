@@ -1,0 +1,15 @@
+Lutris ile kurmak istiyorsan
+{
+    // Lutris için tutorial yaz.
+}
+Bottles ile kurmak istiyorsan
+{
+    Şu linkteki tutorial'ı takip et ("Next Steps" kısmını nasıl yapacağımı anlamadım.):
+        https://github.com/Torbuntu/fl-studio-linux-setup
+
+    Bütün sistem dosyalarına Bottles uygulaman içinde erişebilmen için ilk önce kurulu değilse Flatseal'ı flatpak
+    olarak sistemine kur. Ardından Flatseal'ı aç ve Bottles ayarlarından "Filesystem" ayarlarından
+    "All system files" ayarını aç.
+
+    Eğer ki başka bir tutorial'a bakmak istiyorsan: https://youtu.be/92tDUgDkIuM
+}

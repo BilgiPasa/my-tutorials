@@ -20,7 +20,6 @@ Flatpak olarak bu uygulamaları kur:
     Audacity
     Bitwarden
     Blender
-    Bottles
     Brave
     File Roller (GNOME kullanıyorsan ve zip dosya oluşturucu uygulaman yoksa)
     GIMP
@@ -28,6 +27,7 @@ Flatpak olarak bu uygulamaları kur:
     Hex Colordle
     Kdenlive
     LocalSend
+    Lutris
     OBS Studio
     ONLYOFFICE Desktop Editors
     Shortwave

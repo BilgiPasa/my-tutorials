@@ -1,0 +1,37 @@
+Sisteminde Flathub kurulu değilse ilk önce onu şu sitedeki yönergelere uyarak kendi distrona göre kur:
+    https://flathub.org/en/setup
+
+Flathub'ı kullanarak flatpak olarak uygulama kurmanın 3 yolu var.
+
+1. yol: Uygulama mağazasından
+2. yol: Terminalle
+3. yol: İnternetten .flatpakref kurulum dosyasını indirerek
+
+Genel olarak 1. yolu kullanmanı öneririm.
+
+2. yolu kullanarak kurmak için terminale şu komutu gir: flatpak install flathub (uygulamanın ID'si)
+Mesela Lutris'i flatpak olarak kurmak istediğimde çok uzun sürüyordu ben de o yüzden terminali kullandım.
+
+Bir flatpak uygulamasının ID'sini aramak için terminale şu komutu gir:
+    flatpak search (uygulamanın adı)
+
+3. yolu kullanmanı önermem. Genel olarak 1. ve 2. yol daha iyi. 3. yolu, anca zorunda kalırsan kullanmanı
+öneririm.
+
+Eğer ki flatpak uygulama indirmede sıkıntı çıkarsa terminale şu komutu gir:
+    sudo flatpak repair
+
+Flatpak olarak kurduğun uygulamayı silmenin de 3 yolu var.
+
+1. yol: Uygulama mağazasından
+2. yol: Terminalle
+
+Kullanabiliyorsan 1. yolu kullanmanı öneririm.
+
+1. yolu kullanamıyorsan 2. yolu kullanman için terminale şu komutu gir:
+    flatpak uninstall (uygulamanın ID'si)
+
+Sildiğin flatpak uygulamalarından arta kalan gereksiz dosyaları silmek için:
+    flatpak uninstall --unused
+
+Kaynak: https://docs.flatpak.org/en/latest/using-flatpak.html

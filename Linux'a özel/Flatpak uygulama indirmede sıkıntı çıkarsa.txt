@@ -1,1 +1,0 @@
-Terminale şu komutu gir: sudo flatpak repair
