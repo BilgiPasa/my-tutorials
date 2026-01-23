@@ -1,0 +1,19 @@
+Şu sitedeki komutlara bakmanı öneririm:
+    https://wiki.archlinux.org/title/DaVinci_Resolve#MP4,_H.264,_H.265_and_AAC_Support
+
+O sitedeki bir kısım:
+    If your MP4's video is H.264 or H.265, but audio is MP3 or PCM, you need only transcode your video to a
+    supported codec, as the audio is already supported.
+
+    Command: ffmpeg -i input.mp4 -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a copy output.mov
+
+
+    If your MP4's video is H.264 or H.265, and the audio is AAC, you need to transcode both your video and
+    audio to a supported codec.
+
+    Command: ffmpeg -i input.mp4 -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a alac output.mov
+
+
+    If your MP4's video is AV1, but the audio is AAC, transcode just the audio to a supported codec.
+
+    Command: ffmpeg -i input.mp4 -c:v copy -c:a pcm_s32le output.mp4

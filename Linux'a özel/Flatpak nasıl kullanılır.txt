@@ -13,7 +13,7 @@ Genel olarak 1. yolu kullanmanı öneririm.
 Mesela Lutris'i flatpak olarak kurmak istediğimde çok uzun sürüyordu ben de o yüzden terminali kullandım.
 
 Bir flatpak uygulamasının ID'sini aramak için terminale şu komutu gir:
-    flatpak search (uygulamanın adı)
+    sudo flatpak search (uygulamanın adı)
 
 3. yolu kullanmanı önermem. Genel olarak 1. ve 2. yol daha iyi. 3. yolu, anca zorunda kalırsan kullanmanı
 öneririm.
@@ -29,9 +29,9 @@ Flatpak olarak kurduğun uygulamayı silmenin de 3 yolu var.
 Kullanabiliyorsan 1. yolu kullanmanı öneririm.
 
 1. yolu kullanamıyorsan 2. yolu kullanman için terminale şu komutu gir:
-    flatpak uninstall (uygulamanın ID'si)
+    sudo flatpak uninstall (uygulamanın ID'si)
 
 Sildiğin flatpak uygulamalarından arta kalan gereksiz dosyaları silmek için:
-    flatpak uninstall --unused
+    sudo flatpak uninstall --unused
 
 Kaynak: https://docs.flatpak.org/en/latest/using-flatpak.html
