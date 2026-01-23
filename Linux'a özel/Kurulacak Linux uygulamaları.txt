@@ -44,7 +44,11 @@ tarayıcına kur. Eğer ki o eklentiyi kullanmak istemiyorsan eklentiyi kapatabi
 Eğer ki ONLYOFFICE'te "Times New Roman" font'u kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
 Times New Roman font'unu indir ve sistemine kur.
 
-ATLauncher, Blender, Brave, GIMP, Kdenlive, OBS Studio ve Steam'de yapılacakları yap.
+ATLauncher, Blender, Brave, GIMP, OBS Studio ve Steam'de yapılacakları yap.
+
+DaVinci Resolve'u, kendi distrona göre nasıl kurman gerekiyorsa ona göre sistemine kur. Arch Linux, Debian,
+Fedora, Linux Mint ve Ubuntu'da nasıl kurabileceğine dair yönergeleri, distrolara özel olarak hazıladığım
+klasörlerden bulabilirsin.
 
 Neden ONLYOFFICE ve VLC'yi flatpak olarak kurmanı istediğimi soruyorsan
 {
