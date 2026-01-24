@@ -1,11 +1,13 @@
 Birkaç farklı kurma yöntemi var.
 
-1. yöntem ise şu sitedeki yönergelere uymak: https://github.com/seapear/AffinityOnLinux
+1. yöntem:
+    Şu sitedeki yönergelere uyarak kur: https://github.com/seapear/AffinityOnLinux
 
-2. yöntem, Lutris'i sistemine flatpak olarak kur. Lutris'i aç ve ekranın sol altında kurulumlar bitene kadar
-bekle. Oradaki kurulumlar bitince ekranın sol üstündeki artı butonuna tıkla. Çıkan ekranda
-"Search the Lutris website for installers" seçeneğine tıkla. Çıkan menüde arama kısmına "Affinity" yaz. Hangi
-sürümünü indirmek istiyorsan onu seç ve kurulumu yap.
+2. yöntem:
+    Lutris'i sistemine flatpak olarak kur. Lutris'i aç ve ekranın sol altında kurulumlar bitene kadar
+    bekle. Oradaki kurulumlar bitince ekranın sol üstündeki artı butonuna tıkla. Çıkan ekranda
+    "Search the Lutris website for installers" seçeneğine tıkla. Çıkan menüde arama kısmına "Affinity" yaz.
+    Hangi sürümünü indirmek istiyorsan onu seç ve kurulumu yap.
 
 Haberin olsun, bu kurulumların hangileri çalışabilir hangileri çalışamaz emin değilim. Ben 1. yöntemi Bottles
 ve Lutris ile denediğimde çalışmadı. 2. yöntemi denediğimde de çalışmadı. Ama belki sende çalışabilir. Eskiden
