@@ -14,8 +14,4 @@ Lutris ile kurmak istiyorsan
     bekle. Oradaki kurulumlar bitince ekranın sol üstündeki artı butonuna tıkla. Çıkan ekranda
     "Search the Lutris website for installers" seçeneğine tıkla. Çıkan menüde arama kısmına "FL Studio" yaz.
     Oradan FL Studio'yu seç. En son sürümünü kurmayı seç ve kurulumu yap.
-
-    Bu yöntemi kullarak kurduğumda FL Studio hesabımla giriş yaparken sıkıntı yaşadım. Sıkıntım ise
-    hesabımla giriş yapmaya çalışırken doğrulama mailinin gelmemesiydi. Belki siz de bu sorunu yaşayabilirsiniz
-    veya yaşamayabilirsiniz.
 }
