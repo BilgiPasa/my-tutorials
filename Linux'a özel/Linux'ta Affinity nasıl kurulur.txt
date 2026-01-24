@@ -1,7 +1,12 @@
-Şu sitedeki yönergelere uyarak Affinity'i Lutris ile kurabilirsin:
-    https://github.com/seapear/AffinityOnLinux/blob/main/Guides/Lutris/Guide.md
+Birkaç farklı kurma yöntemi var.
 
-Kurulum için Lutris'i flatpak olarak kur ve ElementalWarrior-x86_64'ü kullan.
+1. yöntem ise şu sitedeki yönergelere uymak: https://github.com/seapear/AffinityOnLinux
 
-(Evet, biliyorum. O repo'da Bottles için de kurulumu anlatıyor ama denediğimde .NET 3.5 yüklenemiyor diye hata
-veriyor bende ve kuramıyorum. Sorunu çözmeyi denedim ama çözemedim. O yüzden Lutris kullanmanı öneririm.)
+2. yöntem, Lutris'i sistemine flatpak olarak kur. Lutris'i aç ve ekranın sol altında kurulumlar bitene kadar
+bekle. Oradaki kurulumlar bitince ekranın sol üstündeki artı butonuna tıkla. Çıkan ekranda
+"Search the Lutris website for installers" seçeneğine tıkla. Çıkan menüde arama kısmına "Affinity" yaz. Hangi
+sürümünü indirmek istiyorsan onu seç ve kurulumu yap.
+
+Haberin olsun, bu kurulumların hangileri çalışabilir hangileri çalışamaz emin değilim. Ben 1. yöntemi Bottles
+ve Lutris ile denediğimde çalışmadı. 2. yöntemi denediğimde de çalışmadı. Ama belki sende çalışabilir. Eskiden
+1. yöntemi Bottles ile denediğimde çalışmıştı ama en son denediğimde olmadı. Belki tekrar denerim.
