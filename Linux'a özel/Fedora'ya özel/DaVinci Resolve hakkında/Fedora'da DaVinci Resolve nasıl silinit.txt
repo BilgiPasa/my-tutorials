@@ -6,3 +6,7 @@ silinmemiş demektir. Oradaki klasörü direk silmek için /opt içinde terminal
 
 Haberin olsun, terminalde rm komutunu kullandığında o komutu geri alamazsın. Sildiğin şey çöp kutusunu gitmez,
 kalıcı olarak silinir.
+
+Ve bu arada sisteminin home yolunun içindeki Documents klasöründe BlackmagicDesign isimli bir klasör, .cache
+klasöründe DaVinci_Resolve_Welcome isimli bir klasör ve .local klasörünün içindeki share klasörünün içinde
+DaVinciResolve isimli bir klasör olabilir. İstersen onları da silebilirsin.

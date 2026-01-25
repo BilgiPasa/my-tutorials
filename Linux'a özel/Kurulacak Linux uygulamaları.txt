@@ -24,7 +24,6 @@ Flatpak olarak bu uygulamaları kur:
     File Roller (GNOME kullanıyorsan ve zip dosya oluşturucu uygulaman yoksa)
     GIMP
     Gradia
-    Handbrake
     Hex Colordle
     Kdenlive
     LocalSend
@@ -42,10 +41,6 @@ Eğer ki ONLYOFFICE'te "Times New Roman" font'u kurulu gelmediyse ONLYOFFICE'i k
 Times New Roman font'unu indir ve sistemine kur.
 
 ATLauncher, Blender, Brave, GIMP, OBS Studio ve Steam'de yapılacakları yap.
-
-DaVinci Resolve'u, kendi distrona göre nasıl kurman gerekiyorsa ona göre sistemine kur. Arch Linux, Debian,
-Fedora, Linux Mint ve Ubuntu'da nasıl kurabileceğine dair yönergeleri, distrolara özel olarak hazıladığım
-klasörlerden bulabilirsin.
 
 Affinity ve FL Studio'yu Lutris ise nasıl kurman gerekiyorsa ona göre sistemine kur. Lutris ile nasıl
 kurabileceğine dair yönergeleri, bu dosyanın olduğu klasörde bulunan "Linux'ta Affinity nasıl kurulur.txt" ve
