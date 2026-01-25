@@ -1,3 +1,17 @@
+Lutris ile kurmak istiyorsan
+{
+    Lutris'i sistemine flatpak olarak kur. Lutris'i aç ve ekranın sol altındaki kurulumlar bitene kadar
+    bekle. Oradaki kurulumlar bitince ekranın sol üstündeki artı butonuna tıkla. Çıkan ekranda
+    "Search the Lutris website for installers" seçeneğine tıkla. Çıkan menüde arama kısmına "FL Studio" yaz.
+    Oradan FL Studio'yu seç. En son sürümünü kurmayı seç ve kurulumu yap.
+
+    FL Studio'yu açtıktan sonra çıkan "Welcome to FL Studio" penceresindeki "Unlock FL Studio" butonuna BASMA!
+    Çünkü basarsan FL Studio donabilir. O pencereyi kapat.
+    "The MIDI input device is already allocated. It may be in use by another application." hatası çıkarsa OK'e
+    tıkla. Çıkan Settings penceresinden "Input" kısmında "FAIL" olanlar disable et. Diğerlerini enable et.
+    Ardından o pencereyi de kapat. FL Studio'nun penceresinde sol üstteki menüde "HELP" kısmında
+    "Unlock FL Studio"ya tıkla ve oradan "Unlock with account kısmını kullanarak giriş yaparak aktive et.
+}
 Bottles ile kurmak istiyorsan
 {
     İlk önce, Bottles'ı ve Flatseal'ı sistemine flatpak olarak kur.
@@ -5,13 +19,10 @@ Bottles ile kurmak istiyorsan
     Ardından, şu linkteki tutorial'ı takip et:
         https://github.com/Torbuntu/fl-studio-linux-setup
 
+    FL Studio'yu ilk açtığında
+    "The MIDI input device is already allocated. It may be in use by another application." hatası çıkarsa OK'e
+    tıkla. Çıkan Settings penceresinden "Input" kısmında "FAIL" olanlar disable et. Diğerlerini enable et.
+
     Bütün sistem dosyalarına Bottles uygulaman içinde erişebilmen için Flatseal'ı aç ve Bottles ayarlarından
     "Filesystem" ayarlarından "All system files" ayarını aç.
-}
-Lutris ile kurmak istiyorsan
-{
-    Lutris'i sistemine flatpak olarak kur. Lutris'i aç ve ekranın sol altında kurulumlar bitene kadar
-    bekle. Oradaki kurulumlar bitince ekranın sol üstündeki artı butonuna tıkla. Çıkan ekranda
-    "Search the Lutris website for installers" seçeneğine tıkla. Çıkan menüde arama kısmına "FL Studio" yaz.
-    Oradan FL Studio'yu seç. En son sürümünü kurmayı seç ve kurulumu yap.
 }
