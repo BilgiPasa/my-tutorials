@@ -8,6 +8,7 @@ Winget kullanarak bu uygulamaları kur:
     Brave
     FFmpeg
     FFmpegforAudacity
+    Handbrake
     Localsend
     OBS Studio
     Steam
