@@ -13,7 +13,8 @@ içine alarak yaz. Yoksa çalışmayabilir.
 
 Icon kısmı için yapman gereken şey şu:
     ~/.local/share/icons klasörüne gir (icons klasörü yoksa oluştur ve gir).
-    Sonra logonu o klasörün içine at. Ardından "Icon" kısmına logonun adını direk yaz. Örnek: GodotIcon.svg
+    Sonra, kullanmak istediğin ikonu o klasörün içine at.
+    Ardından, "Icon" kısmına ikonun adını direk yaz. Örnek: GodotIcon.svg
 
 Üsttekileri yaptıktan sonra, bu yapmış olduğun .desktop dosyasını çalıştırılabilir yap (ya sağ click menüsünden
 yap ya da şu komutu girerek yap: chmod +x <.desktop dosyasının konumu>).
