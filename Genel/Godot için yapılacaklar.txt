@@ -1,16 +1,21 @@
 Godot'u, kendi sitesinden .NET haliyle indirdiğine emin ol. Öyle indirmediysen Godot'u sil ve .NET haliyle
 indir.
 
-Godot'ta "Editor Settings"i aç. Advanced Settings'i aç.
+Godot'u ilk açtığında sağ üstteki ayarlar kısmından dili İngilizce yap, "Style"ı "Classic" yap ve
+"Color Preset"i "Godot 3" yap.
+
+Godot'ta bir proje oluştur veya var olan bir projeye gir.
+
+"Editor Settings"i aç. Advanced Settings'i aç.
 
 Interface > Editor kısmında:
-    Code Font Size = 20 (veya istediğin başka bir büyüklük)
+    Code Font Size => 20 (veya istediğin başka bir büyüklük)
     Code Font'unu, "Roboto Mono" fontu yap (istersen).
 
 Text Editor > Completion kısmında:
-    Idle Parse Delay = 0.5
-    Idle Parse Delay With Errors Found = 0.25
-    Code Complete Delay = 0.25
+    Idle Parse Delay => 0.5
+    Idle Parse Delay With Errors Found => 0.25
+    Code Complete Delay => 0.25
 
 Godot'ta Editor > Editor Settings içinde "Shortcuts" kısmına gel. Oradaki arama kısmına "Add Child Node" yaz.
 Oradaki Add Child Node kısayolunun sağındaki artı butonuna tıkla ve Shift + A event'ini de ekle oraya.
