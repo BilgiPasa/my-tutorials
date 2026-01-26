@@ -1,4 +1,5 @@
-GNOME kullanıyorsan terminale şu komutu gir: touch ~/Templates/'Empty Document'.txt
+GNOME kullanıyorsan terminale şu komutu gir:
+    touch ~/Templates/'Empty text file'.txt
 
 NVIDIA sürücülerini kurmak için
 {

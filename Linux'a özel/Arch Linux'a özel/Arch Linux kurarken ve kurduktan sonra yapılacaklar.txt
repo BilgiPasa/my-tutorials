@@ -37,7 +37,7 @@ Açtığında yapılacaklar
 {
     Sistemini koyu tema yap.
 
-    Konsole'u aç ve şunları yaz
+    Terminale şu komutları gir
     {
         sudo pacman -Syu
         sudo pacman -S --needed base-devel git
@@ -51,6 +51,9 @@ Açtığında yapılacaklar
         için "I" yap. Diffs to show için "N" yap. Remove make dependicies için default ne ise o olsun. Bu son
         3 seçenek aur paketi yüklerken çıkıyor. Yani normal.)
     }
+
+    GNOME kullanıyorsan terminale şu komutu da gir:
+        touch ~/Templates/'Empty text file'.txt
 
     Komutlarla işin bitice bilgisayarını yeniden başlat.
 }

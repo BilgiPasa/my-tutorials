@@ -21,7 +21,6 @@ Flatpak olarak bu uygulamaları kur:
     Bitwarden
     Blender
     Brave
-    File Roller (GNOME kullanıyorsan ve zip dosya oluşturucu uygulaman yoksa)
     GIMP
     Gradia
     Handbrake
@@ -34,8 +33,6 @@ Flatpak olarak bu uygulamaları kur:
     Solanum
     VLC
     Zoom
-
-File Roller'ı kurduktan sonra, sıkıştırılmış dosyalar için "default app" yap.
 
 Eğer ki ONLYOFFICE'te "Times New Roman" font'u kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
 Times New Roman font'unu indir ve sistemine kur.

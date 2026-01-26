@@ -1,11 +1,11 @@
-Bu yapılacaklar listesini, Ubuntu'nun GNOME versiyonu için yaptım.
+Haberin olsun. Bu yapılacaklar listemi, Ubuntu'nun GNOME versiyonu için yaptım.
 
 İlk önce, software updater uygulamasıyla sistemini güncelleştir. Güncelleme bitince gerekiyorsa bilgisayarını
 yeniden başlat.
 
 Ardından, terminale şu komutları gir
 {
-    touch ~/Templates/'Empty Document'.txt
+    touch ~/Templates/'Empty text file'.txt
     sudo apt install adwaita-qt curl
     curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
     echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list

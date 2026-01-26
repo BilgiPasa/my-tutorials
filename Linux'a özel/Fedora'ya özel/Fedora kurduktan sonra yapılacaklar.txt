@@ -39,7 +39,7 @@ Fedora masaüstü ortamın ne olursa olsun terminale şu komutları gir
 
 GNOME kullanıyorsan terminale şu komutları gir
 {
-    touch ~/Templates/'Empty Document'.txt
+    touch ~/Templates/'Empty text file'.txt
     sudo dnf install gnome-themes-extra -y
 }
 
