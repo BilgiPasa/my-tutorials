@@ -1,4 +1,5 @@
-Godot'u kendi sitesinden .NET haliyle yükle.
+Godot'u, kendi sitesinden .NET haliyle indirdiğine emin ol. Öyle indirmediysen Godot'u sil ve .NET haliyle
+indir.
 
 Godot'ta "Editor Settings"i aç. Advanced Settings'i aç.
 

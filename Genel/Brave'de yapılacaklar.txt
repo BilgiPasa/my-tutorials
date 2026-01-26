@@ -21,7 +21,7 @@ Ayarlar'da
 
     Extensions
     {
-        "Get more extensions"a tıkla ve şu eklentileri yükle
+        "Get more extensions"a tıkla ve şu eklentileri kur
         {
             Dark Reader, Youtube-shorts block, Return Youtube Dislike
         }

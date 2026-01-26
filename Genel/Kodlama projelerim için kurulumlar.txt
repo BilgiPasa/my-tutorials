@@ -1,9 +1,10 @@
 Linux kullanıyorsan şunları yap
 {
-    İlk önce, kendi distrona göre yapmış olduğun tutorial'ı takip et. Oradaki işin bitince buradan devam et.
+    Başlamadan önce, kendi distrona göre olan yapılacaklar listeni ve Linux'ta kurulacak uygulamalar listeni
+    takip et. Oradaki işlerin bitince buradan devam et.
 
-    .NET'i, şu sitedeki yönergelere uyarak indir: https://dotnet.microsoft.com/en-us/download
-    (İndireceğin vakit; .NET SDK, ASP.NET Core Runtime ve .NET Runtime'ın en yeni LTS versiyonlarını indir.)
+    .NET'i, şu sitedeki yönergelere uyarak sistemine kur:
+        https://dotnet.microsoft.com/en-us/download
 
     Ardından terminale şu komutları gir
     {
@@ -28,60 +29,65 @@ Linux kullanıyorsan şunları yap
     olan kullandığın uygulama veya paket olabilir. Örneğin ben Java 21'i silecektim ki meğer atlauncher
     Java 21'i kullanıyormuş. O yüzden dikkali ol silme işlerinde felan.)
 
-    Debian'da Java indirme komutunun kaynağı: https://wiki.debian.org/Java
-    Debian'da FFmpeg indirme komutunun kaynağı: https://www.geeksforgeeks.org/linux-unix/how-to-install-ffmpeg-in-linux/
-    Fedora'da Java indirme komutunun kaynağı: https://docs.fedoraproject.org/en-US/quick-docs/installing-java/
+    Debian'da Java kurulum komutunun kaynağı: https://wiki.debian.org/Java
+    Debian'da FFmpeg kurulum komutunun kaynağı: https://www.geeksforgeeks.org/linux-unix/how-to-install-ffmpeg-in-linux/
+    Fedora'da Java kurulum komutunun kaynağı: https://docs.fedoraproject.org/en-US/quick-docs/installing-java/
     Fedora için FFmpeg komutunun kaynağı (Fedora 37 başlıklı kısma bak): https://rpmfusion.org/CommonBugs
-    Tkinter (tk) indirme komutlarının kaynağı: https://stackoverflow.com/questions/76105218/why-does-tkinter-or-turtle-seem-to-be-missing-or-broken-shouldnt-it-be-part
-    PIP indirme komutlarının kaynağı: https://www.geeksforgeeks.org/python/how-to-install-pip-in-linux/
+    Tkinter (tk) kurulum komutlarının kaynağı: https://stackoverflow.com/questions/76105218/why-does-tkinter-or-turtle-seem-to-be-missing-or-broken-shouldnt-it-be-part
+    PIP kurulum komutlarının kaynağı: https://www.geeksforgeeks.org/python/how-to-install-pip-in-linux/
     Diğer komutları ise Manim Community'nin sayfasından baktım da yazdım.
 
-    Haberin olsun; texlive'ı indirmemin sebebi, Manim'de LaTeX'i kullanmak için.
+    Haberin olsun; texlive'ı kurmanın sebebi, Manim'de LaTeX'i kullanabilmen için.
 
-    Python dosyalarını kullanacaksan .venv ile kullan. .venv kurmak için internete bağlan, F1 tuşuna bas ve
-    "Python: Ortam Oluşturun" veya "Python: Create Environment" yaz ve o seçeneğe tıkla. Çıkan menüde Venv'yi
-    seç ve yorumlayıcı olarak sağında "Genel" yazanı seç. Ardından VSCode'u KAPAT VE AÇ, sonrasında bir Python
-    dosyasını çalıştır. Sağ altta yorumlayıcı olarak .venv kullanıldığını görüyorsan .venv çalışıyor demektir.
-    (Nolur nolmaz Python ile ilgili bilgisayarın kendi terminalinde bir şey yüklersen veya silersen, .venv
-    sanal ortamını sil ve yeniden oluştur.) (Ve eğer ki indireceğin şeyi .venv'ye değil de bilgisayara
-    indirirsen o indirdiklerini "pip3 uninstall paket_adı" şeklinde sil ve o şeyleri .venv'de indir. Bir
-    problem çıktığı için değil, nolur nolmaz bir problem çıkmaması için bunu yapmanı öneriyorum.)
+    Python dosyalarını kullanacaksan .venv ile kullan. .venv kurmak için internete bağlan, F1'e bas ve arama
+    yerine "Python: Ortam Oluşturun" veya "Python: Create Environment" yaz ve o seçeneğe tıkla. Çıkan menüde
+    Venv'yi seç ve yorumlayıcı olarak sağında "Genel" yazanı seç. Ardından VS Code'u KAPAT VE AÇ. Sonrasında
+    bir Python dosyasını çalıştır. Sağ altta yorumlayıcı olarak .venv kullanıldığını görüyorsan .venv çalışıyor
+    demektir. (Nolur nolmaz Python ile ilgili bilgisayarın kendi terminalinde bir şey kurarsan veya silersen,
+    .venv sanal ortamını sil ve yeniden oluştur.) (Ve eğer ki kuracağın şeyi .venv'ye değil de bilgisayara
+    kurarsan o kurduklarını "pip3 uninstall paket_adı" yazarak sil ve o şeyleri .venv'de kur. Bir problem
+    çıktığı için değil, nolur nolmaz bir problem çıkmaması için bunu yapmanı öneriyorum.)
 
-    Yukarıdaki yönergeleri takip ettikten sonrasında VS Code'da sanal alan içineki terminale şu komutları gir:
+    Yukarıdaki yönergeleri takip ettikten sonra, VS Code'daki sanal alan içindeki terminalde şu komutları gir:
         pip3 install manim speedtest-cli pygame-ce ursina
 }
 
 Windows kullanıyorsan şunları yap
 {
-    .NET SDK'i şu siteden indir: https://dotnet.microsoft.com/en-us/download
+    Başlamadan önce, Windows kurduktan sonra yapılacaklar listeni ve Windows'ta kurulacak uygulamalar listeni
+    takip et. Oradaki işin bitince buradan devam et.
 
-    Eğer ki; C# veya Unity, .NET Framework'ü indirmeni istiyorsa şu siteden indir: https://dotnet.microsoft.com/en-us/download/dotnet-framework
+    .NET SDK'in kurulum dosyalarını şu siteden indir ve kur:
+        https://dotnet.microsoft.com/en-us/download
 
-    Python'un sitesine girip Windows indirmelerinden en yukarıdaki stabil versiyonunu indir. İndirirken
-    Python'u indirme ekranında çıkan "Python'u PATH'e ekle" ve "Yönetici olarak çalıştır" gibi şeyler yazan o
-    iki seçeneği işaretle ve öyle indir. Sonra bilgisayarda powershell'i aç ve şu komutu gir :
+    Eğer ki; C# veya Unity, .NET Framework'ü kurmanı istiyorsa kurulum dosyalarını şu siteden indir ve kur:
+        https://dotnet.microsoft.com/en-us/download/dotnet-framework
+
+    Python'un sitesine girip Windows için en yukarıdaki stabil versiyonunun kurulum dosyasını indir ve kur.
+    Kurarken Python'un kurulum ekranında çıkan "Python'u PATH'e ekle" ve "Yönetici olarak çalıştır" gibi şeyler
+    yazan o iki seçeneği işaretle ve öyle sistemine kur. Ardından terminale şu komutu gir:
         winget install ffmpeg
 
-    Java indirmek için şu https://www.oracle.com/java/technologies/downloads/ siteye gir ve Windows MSI
-    Installer ile Java'yı indir. (exe'yi de kullanabilirsin ama msi daha güvenli diye biliyorum.)
+    Java'yı kurmak için şu https://www.oracle.com/java/technologies/downloads/ siteye gir ve Windows MSI
+    Installer ile Java'yı sistemine kur. (exe'yi de kullanabilirsin ama msi daha güvenli diye biliyorum.)
 
-    Java'nın eski sürümlerini silmek için Windows arama kısmına "Program ekle veya kaldır" yaz ve o kısımdan
-    Java'nın eski sürümlerini sil. Windows'ta JDK indirmen yeterli bu arada. Yani Windows'ta ayrıca JRE
-    indirmene gerek yok.
+    Java'nın eski sürümlerini silmek için Windows arama kısmına "Program ekle veya kaldır" yaz ve çıkan
+    pencereden Java'nın eski sürümlerini sil. Windows'ta sadece JDK kurman yeterli bu arada. Yani Windows'ta
+    ayrıca JRE kurmana gerek yok.
 
-    MiKTeX'i, kendi indirme sitesinden (https://miktex.org/download) normal bir şekilde indir. (Bunu Manim'de
-    LaTeX'i kullanmak için indiriyorsun haberin olsun.)
+    MiKTeX'i şu siteden https://miktex.org/download normal bir şekilde sistemine kur. (MiKTeX'i, Manim'de
+    LaTeX'i kullanabilmek için kuruyorsun haberin olsun.)
 
-    Python dosyalarını kullanacaksan .venv ile kullan. .venv kurmak için internete bağlan, F1 tuşuna bas ve
-    "Python : Ortam Oluşturun" veya "Python: Create Environment" yaz ve o seçeneğe tıkla. Çıkan menüde Venv'yi
-    seç ve yorumlayıcı olarak sağında "Genel" yazanı seç. Ardından VSCode'u KAPAT VE AÇ, sonrasında bir Python
-    dosyasını çalıştır. Sağ altta yorumlayıcı olarak .venv kullanıldığını görüyorsan .venv çalışıyor demektir.
-    (Nolur nolmaz Python ile ilgili bilgisayarın kendi terminalinde bir şey yüklersen veya silersen, .venv
-    sanal ortamını sil ve yeniden oluştur.) (Ve eğer ki indireceğin şeyi .venv'ye değil de bilgisayara
-    indirirsen o indirdiklerini "pip3 uninstall paket_adı" şeklinde sil ve o şeyleri .venv'de indir. Bir
-    problem çıktığı için değil, nolur nolmaz bir problem çıkmaması için bunu yapmanı öneriyorum.)
+    Python dosyalarını kullanacaksan .venv ile kullan. .venv kurmak için internete bağlan, F1'e bas ve arama
+    yerine "Python: Ortam Oluşturun" veya "Python: Create Environment" yaz ve o seçeneğe tıkla. Çıkan menüde
+    Venv'yi seç ve yorumlayıcı olarak sağında "Genel" yazanı seç. Ardından VS Code'u KAPAT VE AÇ. Sonrasında
+    bir Python dosyasını çalıştır. Sağ altta yorumlayıcı olarak .venv kullanıldığını görüyorsan .venv çalışıyor
+    demektir. (Nolur nolmaz Python ile ilgili bilgisayarın kendi terminalinde bir şey kurarsan veya silersen,
+    .venv sanal ortamını sil ve yeniden oluştur.) (Ve eğer ki kuracağın şeyi .venv'ye değil de bilgisayara
+    kurarsan o kurduklarını "pip3 uninstall paket_adı" yazarak sil ve o şeyleri .venv'de kur. Bir problem
+    çıktığı için değil, nolur nolmaz bir problem çıkmaması için bunu yapmanı öneriyorum.)
 
-    Yukarıdaki yönergeleri takip ettikten sonrasında VS Code'da sanal alan içineki terminale şu komutları gir:
+    Yukarıdaki yönergeleri takip ettikten sonra, VS Code'daki sanal alan içindeki terminalde şu komutları gir:
         python -m pip install manim
         pip3 install ursina speedtest-cli pygame-ce
 }
@@ -145,4 +151,4 @@ Not3:
     Eğer ki kod projelerini aktaracaksan (ki artık burada maintain etmiyorum. O kod projelerini github
     üzerinden maintain ediyorum), ve Python projelerinin klasörünün içinde ".venv" klösürü varsa ".venv"
     klasörünü aktarma. (Diğerlerini aktaracaksan aktar ama .venv'ye elleme diyorum yani.) ".venv" klasörünü
-    kendi cihazında kurmak için, yukarıda anlattığım yönergeleri takip et.
+    kendi cihazında kurmak için yukarıda anlattığım yönergeleri takip et.
