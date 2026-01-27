@@ -13,38 +13,23 @@ bu klasöre klonla.
 
 Git'i terminalde kullanmak ve GitHub ile bağlamak için GitHub CLI'ı kur.
 
-GitHub CLI'ı sistemine kurmak için terminale şu komutları gir
-{
-    Sistemin Debian tabanlı ise
-    {
-        (type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
-	    && sudo mkdir -p -m 755 /etc/apt/keyrings \
-	    && out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \
-	    && cat $out | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
-	    && sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
-	    && sudo mkdir -p -m 755 /etc/apt/sources.list.d \
-	    && echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
-	    && sudo apt update \
-	    && sudo apt install gh -y
-    }
+Sistemin Debian tabanlı ise şu sitedeki komutları kullanarak GitHub CLI'ı sistemine kur:
+    https://github.com/cli/cli/blob/trunk/docs/install_linux.md#debian
 
-    Sistemin Fedora tabanlı ise
-    {
-        sudo dnf install dnf5-plugins
-        sudo dnf config-manager addrepo --from-repofile=https://cli.github.com/packages/rpm/gh-cli.repo
-        sudo dnf install gh --repo gh-cli
-    }
+Sistemin Fedora tabanlı ise şu sitedeki komutları kullanarak GitHub CLI'ı sistemine kur:
+    https://github.com/cli/cli/blob/trunk/docs/install_linux.md#rpm
 
-    Windows kullanıyorsan: winget install -e --id GitHub.cli
+Windows kullanıyorsan şu sitedeki komutu kullanarak GitHub CLI'ı sistemine kur:
+    https://github.com/cli/cli/blob/trunk/docs/install_windows.md#winget
 
-    Kaynak: https://github.com/cli/cli?tab=readme-ov-file#installation
-}
+Windows kullanıyorsan GitHub CLI'ı kurduktan sonra terminali kapat ve tekrardan aç.
 
-Windows kullanıyorsan terminali kapat ve tekrardan aç.
+Ardından, GitHub hesabınla giriş yapmak için terminale şu komutu gir:
+    gh auth login
 
-Ardından, GitHub hesabınla giriş yapmak için terminale şu komutu gir: gh auth login
+Linux kullanıyorsan giriş yaptığına emin olmak için şu komutu gir:
+    git config -l | grep credential
 
-Linux kullanıyorsan giriş yaptığına emin olmak için şu komutu gir: git config -l | grep credential
 Eğer ki hiçbir yazı çıkmazsa "gh auth login" komutu ile düzgün bir şekilde giriş yapmaya çalış.
 
 Son olarak, terminale bu komutları gir
@@ -55,4 +40,5 @@ Son olarak, terminale bu komutları gir
     git config --global user.name "<GitHub kullanıcı adını buraya yaz>"
 }
 
-Git config'ine girmiş olduğun maili ve ismi görmek için şu komutu kullanabilirsin: git config --list
+Git config'ine girmiş olduğun maili ve ismi görmek için şu komutu kullanabilirsin:
+    git config --list

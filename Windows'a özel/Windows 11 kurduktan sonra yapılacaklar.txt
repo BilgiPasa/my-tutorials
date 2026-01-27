@@ -37,3 +37,15 @@ gereken NVIDIA ekran kartı sürücülerini indir. (Game Ready sürücüsünü t
 Gereksiz olduğunu düşündüğün uygulamaları sil. (Örnek: Copilot, Clipchamp vs.)
 
 Notepad'de yazı denetimini, otomatik yazı düzeltmeyi ve Copilot'u devre dışı bırak.
+
+Sistemine Roboto Mono fontunu kur. Nasıl kurabileceğinin yönergelerini, bu reponun "Genel" kısmında bulunan
+"VS Code'da bu font'u kullan (Roboto Mono).txt" dosyasında bulabilirsin.
+
+Windows'un terminal uygulaması sisteminde kurulu değilse Windows Store'dan kur. Terminal uygulamasını aç.
+Üstteki artı butonunun yanındaki aşağı ok butonuna tıkla ve oradaki menüden ayarları aç.
+Soldaki "Startup" kısmında "Default Profile"ı "Windows Powershell" olarak ayarla, "Launch size"ı fastfetch'e
+göre ayarla. (Columns'u 113, Rows'u 28 yap. Olmazsa değişirirsin.)
+Soldaki "Profiles" kısmının altındaki "Windows Powershell" kısmından "Additional settings" kısmından
+"Appereance" kısmına gir. Orada, "Text" kısmının altında "Font face"e (tırnaksız olarak) "Roboto Mono" yaz.
+"Font size"ı 16 yap. Aşağıda, "Cursor" kısmında "Cursor shape"i "Underscore" yap.
+Son olarak Sağ alttaki "Save" butonuna tıkla.

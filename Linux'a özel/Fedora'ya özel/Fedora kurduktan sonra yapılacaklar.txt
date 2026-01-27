@@ -130,15 +130,20 @@ Bunu kapatmak istiyorsan
     gsettings set org.gnome.shell.window-switcher current-workspace-only true
 }
 
+Sistemine Roboto Mono fontunu kur. Nasıl kurabileceğinin yönergelerini, bu reponun "Genel" kısmında bulunan
+"VS Code'da bu font'u kullan (Roboto Mono).txt" dosyasında bulabilirsin.
+
 Eğer ki GNOME'da default terminalini değiştirmek istemiyorsan
 {
-    Terminal uygulamasını aç. Sağ üstteki 3 çizgi menüden "Preferences"ı aç. "Profiles" kısmına gel ve profil
-    adını "Main Profile" yap. "Appearance" kısmına gel ve "Palette" kısmında "Show All Palettes"e tıkla. Oradan
-    "Argonaut"u seç. "Show Fewer Palettes"e tıkla ve aşağıya in. "Use System Font"u kapat. Custom Font olarak
-    "Roboto Mono Regular"ı seç ve font boyutunu 16 yap (ve eğer ki Roboto Mono çıkmıyor ise Roboto Mono fontunu
-    sistemine yükle ve ardından bunu yap). Cursor'dan "Cursor Shape"i "Underline" yap. "Behaviour" kısmına gel
-    ve "Interface" kısmında "Restore Session"ı ve "Restore Window Size"ı kapat. "Restore Window Size" kısmından
-    çıkan yerdeki seçenekleri fastfetch'e göre ayarla. ("Coloumns"u 97, "Rows"u 29 yap. Olmazsa değişirirsin.)
+    Terminal uygulamasını aç. Sağ üstteki 3 çizgi menüden "Preferences"ı aç.
+    "Profiles" kısmına gel ve profil adını "Main Profile" yap.
+    "Appearance" kısmına gel ve "Palette" kısmında "Show All Palettes"e tıkla.
+    Oradan "Argonaut"u seç. "Show Fewer Palettes"e tıkla ve aşağıya in. "Use System Font"u kapat.
+    Custom Font olarak "Roboto Mono Regular"ı seç ve font boyutunu 16 yap.
+    Cursor'dan "Cursor Shape"i "Underline" yap.
+    "Behaviour" kısmına gel ve "Interface" kısmında "Restore Session"ı ve "Restore Window Size"ı kapat.
+    "Restore Window Size" kısmından çıkan yerdeki seçenekleri fastfetch'e göre ayarla.
+    (Coloumns'u 97, Rows'u 29 yap. Olmazsa değişirirsin.)
     Sonra "Behaviour" menüsünde en aşağıya in ve "Set as Default Terminal"e tıkla.
 }
 Eğer ki GNOME'da default terminalini değiştirmek istiyorsan
@@ -147,22 +152,24 @@ Eğer ki GNOME'da default terminalini değiştirmek istiyorsan
     "gnome-terminal" olan terminali sistemine kurabilirsin.
 
     Sonrasında şu siteden https://github.com/Stunkymonkey/nautilus-open-any-terminal sitedeki uygulamayı kur
-    (ve haberin olsun komutların başında sudo yazmıyorsa komutların başına sudo yazman lazım). Ardından
-    yönergelere uyarak default terminali yapmak istediğin terminal yap (Dconf Editor ile yaptım ben. Dconf
-    Editor uygulamasını flatpak olarak sistemine kurabilirsin). Terminal uygulamasını klayve kısayoluyla
-    açmak için ayarlardan yapmış olduğun klavye kısayolu ayarını değiştirmeyi unutma. Terminalin adı "Terminal"
-    veya "Console" ise komutları "gnome-terminal", "kgx" veya "ptyxis" olabilir. Ve eğer ki Nautilus'ta
-    "Open Terminal Here" diye bir şey yazmıyorsa bilgisayarını yeniden başlat.
+    (ve haberin olsun komutların başında sudo yazmıyorsa komutların başına sudo yazman lazım).
+    Ardından yönergelere uyarak default terminali, kullanmak istediğin terminal yap
+    (Dconf Editor ile yaptım ben. Dconf Editor uygulamasını flatpak olarak sistemine kurabilirsin).
+    Terminal uygulamasını klayve kısayoluyla açmak için ayarlardan yapmış olduğun klavye kısayolu ayarını
+    değiştirmeyi unutma.
+    Terminalin adı "Terminal" veya "Console" ise komutları "gnome-terminal", "kgx" veya "ptyxis" olabilir.
+    Ve eğer ki Nautilus'ta "Open Terminal Here" diye bir şey yazmıyorsa bilgisayarını yeniden başlat.
 }
 
 Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyorsan
 {
-    GNOME'da, ayarlarda "System" kısmında gir ve orada "Region and Language" kısmına gir. "Language"ı
-    "English (United States)" seç, "Formats"ı "United Kingdom (English)" seç. Sisteminden çıkıp geri giriş
-    yapınca etki gösterir.
+    GNOME'da, ayarlarda "System" kısmında gir ve orada "Region and Language" kısmına gir.
+    "Language"ı "English (United States)" seç ve "Formats"ı "United Kingdom (English)" seç.
+    Sisteminden çıkıp geri giriş yapınca etki gösterir.
 
-    KDE'de ayarlarda Region and Language ayarı olması lazım. Oraya gir, dil olarak Amerikan İngilizcesini seç,
-    formatlar olarak ise "C" seç. Sisteminden çıkıp geri giriş yapınca etki gösterir.
+    KDE'de ayarlarda Region and Language ayarı olması lazım. Oraya gir.
+    Dil olarak Amerikan İngilizcesini seç ve formatlar olarak ise "C" seç.
+    Yaptığın değişiklikler, sisteminden çıkıp geri giriş yapınca etki gösterir.
 }
 
 Brave kullanacaksan kurmanı önerdiğim eklentiler:
