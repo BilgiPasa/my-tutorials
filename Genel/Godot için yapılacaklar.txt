@@ -19,11 +19,6 @@ General kısmında:
         Idle Parse Delay With Errors Found => 0.25
         Code Complete Delay => 0.25
 
-Shortcuts kısmında:
-    Arama kısmına "Add Child Node" yaz. Oradaki Add Child Node kısayolunun sağındaki artı butonuna tıkla ve
-    Shift + A event'ini, "Physical Keycode" olarak DEĞİL, "Keycode" olarak ekle.
-    Bunu yapmamın sebebi, Blender'daki Shift A kısayolu işlevini Godot'ta sağlamak için.
-
 Godot'u VS Code'da GDScript ile kullanmak istiyorsan:
     VS Code'da "godot-tools" eklentisini kur.
 
@@ -33,7 +28,7 @@ Godot'u VS Code'da GDScript ile kullanmak istiyorsan:
 
     Godot'ta "Editor Settings"te General > Text Editor > External kısmına gel, "Use External Editor"ı aç ve
     "Exec Path"e (tırnaksız bir şekilde) "code" yaz. Oraya code yazdıktan sonra eğer ki "Exec Flags"te otomatik
-    olarak (tırnaksız bir şekilde) "{project} --goto {file}:{line}:{col}" yazmıyorsa oraya onu yaz.
+    olarak (tırnaksız bir şekilde) "{project} --goto {file}:{line}:{col}" yazmıyorsa onu oraya yaz.
 
     Artık Godot'ta script açmaya çalıştığında VS Code'dan açılması lazım. İlk kez açıldığında Godot
     çalıştırma dosyasının nerede olduğunu belirtmeni isteyebilir. Onu belirttikten sonra VS Code'u yeniden
