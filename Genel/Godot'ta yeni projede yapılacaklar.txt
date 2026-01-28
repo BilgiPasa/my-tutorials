@@ -1,0 +1,16 @@
+Yeni açmış olduğun projende "Project Settings"e gir.
+
+General > Display > Window kısmında:
+    Viewport Width => 1920
+    Viewport Height => 1080
+    Mode => Fullscreen
+
+General > Rendering > Textures kısmında:
+    Default Texture Filter => Nearest (Eğer ki 2D pixel art kullanıyorsan bunu yap.)
+
+"Advanced Settings" ayarını aç.
+
+General > Physics > Common kısmında:
+    "Physics Interpolation" ayarını aç. (Eğer ki oyunu sabit bir kare hızında oynatmayacaksan bunu yap.)
+
+"Advanced Settings" ayarını kapat.

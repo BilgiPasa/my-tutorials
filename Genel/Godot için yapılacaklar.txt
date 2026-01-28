@@ -7,7 +7,7 @@ haline çevirmek istiyorsan "Style"ı "Modern" yap ve "Color Preset"i "Default" 
 
 Godot'ta bir proje oluştur veya var olan bir projeye gir.
 
-"Editor Settings"i aç. Advanced Settings'i aç.
+"Editor Settings"e gir ve "Advanced Settings" ayarını aç.
 
 General kısmında:
     Interface > Editor kısmında:
@@ -27,23 +27,22 @@ Godot'u VS Code'da GDScript ile kullanmak istiyorsan:
     VS Code'da "godot-tools" eklentisini kur.
 
     O eklentinin ayarlarını aç ve GDScript Language Server Port'u ayarına, Godot'ta "Editor Settings"te
-    Network > Language Server kısmında "Remote Port" kısmı neyse (bende şu an 6005 yazıyor mesela) onu yaz.
+    General > Network > Language Server kısmında "Remote Port" kısmı neyse (bende şu an 6005 yazıyor mesela)
+    onu yaz.
 
-    Godot'ta "Editor Settings"te Text Editor > External kısmına gel, "Use External Editor"ı aç, "Exec Path"e
-    (tırnaksız bir şekilde) "code" yaz. (Olmazsa, VS Code'un bulunduğu yeri bul ve dosya yolunu yaz.)
-    Oraya code yazdıktan sonra eğer ki "Exec Flags"te otomatik olarak (tırnaksız bir şekilde)
-    "{project} --goto {file}:{line}:{col}" yazmıyorsa oraya onu yaz.
+    Godot'ta "Editor Settings"te General > Text Editor > External kısmına gel, "Use External Editor"ı aç ve
+    "Exec Path"e (tırnaksız bir şekilde) "code" yaz. Oraya code yazdıktan sonra eğer ki "Exec Flags"te otomatik
+    olarak (tırnaksız bir şekilde) "{project} --goto {file}:{line}:{col}" yazmıyorsa oraya onu yaz.
 
     Artık Godot'ta script açmaya çalıştığında VS Code'dan açılması lazım. İlk kez açıldığında Godot
-    executable'ının nerede olduğunu belirtmeni isteyebilir. Onu belirttikten sonra VS Code'u reload etme
-    butonu çıkması lazım. Ona tıkla.
+    çalıştırma dosyasının nerede olduğunu belirtmeni isteyebilir. Onu belirttikten sonra VS Code'u yeniden
+    başlatma butonu çıkması lazım. Ona tıkla.
 
 Godot'u VS Code'da C# ile kullanmak istiyorsan:
     VS Code'da "C# Tools for Godot" eklentisini kur.
 
     Godot'ta "Editor Settings"te Dotnet > Editor kısmında "Visual Studio Code" bulunan seçeneği seç ve
-    "Custom Exec Path" yerine (tırnaksız bir şekilde) "code" yaz. (Olmazsa VS Code'un bulunduğu yeri bul ve
-    dosya yolunu yaz.)
+    "Custom Exec Path" yerine (tırnaksız bir şekilde) "code" yaz.
 
 Eğer ki Godot'u PascalCase ile kullanmak istiyorsan:
     Project Settings'e gir, "Default Signal Callback Name"i (tırnaksız şekilde) "On{NodeName}{SignalName}" yap
