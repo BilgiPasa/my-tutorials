@@ -21,7 +21,8 @@ General kısmında:
 
 Shortcuts kısmında:
     Arama kısmına "Add Child Node" yaz. Oradaki Add Child Node kısayolunun sağındaki artı butonuna tıkla ve
-    Shift + A event'ini de ekle oraya. Bunu yapmamın sebebi ise Blender'daki Shift A kısayoluna benzemesi için.
+    Shift + A event'ini, "Physical Keycode" olarak DEĞİL, "Keycode" olarak ekle.
+    Bunu yapmamın sebebi, Blender'daki Shift A kısayolu işlevini Godot'ta sağlamak için.
 
 Godot'u VS Code'da GDScript ile kullanmak istiyorsan:
     VS Code'da "godot-tools" eklentisini kur.
