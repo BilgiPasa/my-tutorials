@@ -1,9 +1,9 @@
 Godot'u, kendi sitesinden .NET haliyle indirdiğine emin ol. Öyle indirmediysen Godot'u sil ve .NET haliyle
 indir.
 
-Godot'u ilk açtığında sağ üstteki ayarlar kısmından dili İngilizce yap. Eğer ki Godot'un görünümünü
-beğenmediysen o ayarlar menüsünden "Style"ı "Classic" yap ve "Color Preset"i "Godot 3" yap. Eğer ki normal
-haline çevirmek istiyorsan "Style"ı "Modern" yap ve "Color Preset"i "Default" yap.
+Godot'u ilk açtığında; Godot, İngilizce değilse sağ üstteki ayarlar kısmından dili İngilizce yap. Eğer ki
+Godot'un görünümünü beğenmediysen o ayarlar menüsünden "Style"ı "Classic" yap ve "Color Preset"i "Godot 3" yap.
+Eğer ki normal haline geri dönmek istiyorsan "Style"ı "Modern" yap ve "Color Preset"i "Default" yap.
 
 Godot'ta bir proje oluştur veya var olan bir projeye gir.
 
@@ -11,8 +11,8 @@ Godot'ta bir proje oluştur veya var olan bir projeye gir.
 
 General kısmında:
     Interface > Editor kısmında:
-        Code Font Size => 20 (veya istediğin başka bir büyüklük)
-        Code Font'unu, "Roboto Mono" fontu yap (istersen).
+        Code Font Size => 20
+        "Code Font" yerinde Roboto Mono fontunun dosyasının yerini belirt.
 
     Text Editor > Completion kısmında:
         Idle Parse Delay => 0.5
@@ -37,8 +37,8 @@ Godot'u VS Code'da GDScript ile kullanmak istiyorsan:
 Godot'u VS Code'da C# ile kullanmak istiyorsan:
     VS Code'da "C# Tools for Godot" eklentisini kur.
 
-    Godot'ta "Editor Settings"te Dotnet > Editor kısmında "Visual Studio Code" bulunan seçeneği seç ve
-    "Custom Exec Path" yerine (tırnaksız bir şekilde) "code" yaz.
+    Godot'ta "Editor Settings"te General > Dotnet > Editor kısmında "Visual Studio Code" bulunan seçeneği seç
+    ve "Custom Exec Path" yerine (tırnaksız bir şekilde) "code" yaz.
 
 Eğer ki Godot'u PascalCase ile kullanmak istiyorsan:
     Project Settings'e gir, "Default Signal Callback Name"i (tırnaksız şekilde) "On{NodeName}{SignalName}" yap
