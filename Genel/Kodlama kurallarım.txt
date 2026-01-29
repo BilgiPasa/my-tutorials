@@ -4,13 +4,13 @@ Generitive AI prompt'u (yani ChatGPT, Gemini, Claude vs.) kullanma.
 
 Autocomplete kullanmak istiyorsan kullan.
 
-Sevdiğin bir text editörünü veya IDE'yi kullan. (Ben şahsen VS Code kullanıyorum.)
+Sevdiğin bir text editörünü veya IDE'yi kullan. (Ben şahsen VS Code'u kullanıyorum.)
 
 Sevdiğin bir font'u kullan. (Ben şahsen Roboto Mono'yu kullanıyorum.)
 
 Gereksiz yere yorum satırı yazma.
 
-Değişkenleri oluştururken, tiplerine göre sırala. Örnek:
+Değişkenleri oluştururken tiplerine göre sıralı bir şekilde yaz. C# dilinden örnek:
     byte verySmallNumber;
     short smallNumber
     int number;
@@ -26,25 +26,28 @@ ama 30 karakteri geçmesin (boşluklar, alt tireler ve kısa çizgiler dahil).
 
 Gerektiğinde bir adı kısaltabilirsin.
 
-Ve ad koyarken bu kısaltmaları kullan:
-    object => obj
-    manager => mng
-    temporary => temp
-    information => info
-    multiplier => mult
-    summation => sum
-    field of view => FOV
-    collider => coll
-    rotation => rot
-    rigidbody => rb
+Ad kısaltmak için bu kısaltmaları kullanabilirsin:
     camera => cam
+    collider => coll
+    collision polygon => coll polygon
+    collision shape => coll shape
+    field of view => FOV
     frames per second => fps
-    velocity => vel
-    position => pos
     image => img
+    information => info
+    object => obj
+    magnitude => mag
+    manager => mng
     maximum => max
     minimum => min
-    magnitude => mag
+    multiplier => mult
     normalized => normd
+    position => pos
+    rigid body => rb
+    rotation => rot
+    static body => sb
+    summation => sum
+    temporary => temp
+    velocity => vel
 
-    Başka kısaltmalar aklına gelirse buraya yaz.
+    Başka kullandığın kısaltmalar olursa buraya yaz. (Sıra alfabetik olarak kalsın.)
