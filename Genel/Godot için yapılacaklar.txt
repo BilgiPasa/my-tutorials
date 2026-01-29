@@ -19,6 +19,12 @@ General kısmında:
         Idle Parse Delay With Errors Found => 0.25
         Code Complete Delay => 0.25
 
+Shortcuts kısmında:
+    Arama kısmına "Add Child Node" yaz. Oradaki Add Child Node kısayolunun sağındaki artı butonuna tıkla ve
+    Shift + A event'ini, "Physical Keycode" olarak DEĞİL, "Keycode" olarak ekle.
+    (Keycode olarak eklemeni istememin sebebi, Ctrl + A kısayolu Keycode olarak bulunduğundan dolayı.)
+    Bunu yapmamın sebebi, Blender'daki Shift A kısayolu işlevini Godot'ta sağlamak için.
+
 Godot'u VS Code'da GDScript ile kullanmak istiyorsan:
     VS Code'da "godot-tools" eklentisini kur.
 
