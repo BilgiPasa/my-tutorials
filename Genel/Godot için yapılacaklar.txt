@@ -1,5 +1,4 @@
-Godot'u, kendi sitesinden .NET haliyle indirdiğine emin ol. Öyle indirmediysen Godot'u sil ve .NET haliyle
-indir.
+Godot'un .NET halini indirdiğine emin ol. Öyle indirmediysen Godot'u sil ve .NET halini sitesinden indir.
 
 Godot'u ilk açtığında; Godot, İngilizce değilse sağ üstteki ayarlar kısmından dili İngilizce yap. Eğer ki
 Godot'un görünümünü beğenmediysen o ayarlar menüsünden "Style"ı "Classic" yap ve "Color Preset"i "Godot 3" yap.
@@ -33,8 +32,9 @@ Godot'u VS Code'da GDScript ile kullanmak istiyorsan:
     onu yaz.
 
     Godot'ta "Editor Settings"te General > Text Editor > External kısmına gel, "Use External Editor"ı aç ve
-    "Exec Path"e (tırnaksız bir şekilde) "code" yaz. Oraya code yazdıktan sonra eğer ki "Exec Flags"te otomatik
-    olarak (tırnaksız bir şekilde) "{project} --goto {file}:{line}:{col}" yazmıyorsa onu oraya yaz.
+    "Exec Path"e (tırnaksız bir şekilde) "code" yaz. Oraya code yazıp enter tuşuna bastıktan sonra eğer ki
+    "Exec Flags"te otomatik olarak (tırnaksız bir şekilde) "{project} --goto {file}:{line}:{col}" yazmıyorsa
+    onu oraya yaz.
 
     Artık Godot'ta script açmaya çalıştığında VS Code'dan açılması lazım. İlk kez açıldığında Godot
     çalıştırma dosyasının nerede olduğunu belirtmeni isteyebilir. Onu belirttikten sonra VS Code'u yeniden
