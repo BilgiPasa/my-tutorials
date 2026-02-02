@@ -10,17 +10,6 @@ Sevdiğin bir font'u kullan. (Ben şahsen Roboto Mono'yu kullanıyorum.)
 
 Gereksiz yere yorum satırı yazma.
 
-Değişkenleri oluştururken tiplerine göre sıralı bir şekilde yaz. C# dilinden örnek:
-    byte verySmallNumber;
-    short smallNumber
-    int number;
-    long bigNumber;
-    float decimalNumber;
-    double bigDecimalNumber;
-    bool trueOrFalse;
-    char someCharacter;
-    string someText;
-
 Değişken adları, fonksiyon adları, class adları, obje adları, dosya adları ve klasör adları açıklayıcı olsun
 ama 30 karakteri geçmesin (boşluklar, alt tireler ve kısa çizgiler dahil).
 
@@ -49,5 +38,27 @@ Ad kısaltmak için bu kısaltmaları kullanabilirsin:
     summation => sum
     temporary => temp
     velocity => vel
-
     Başka kullandığın kısaltmalar olursa buraya yaz. (Sıra alfabetik olarak kalsın.)
+
+Değişkenleri oluştururken tiplerine göre sıralı bir şekilde yaz (C# dilinden örnek):
+    byte verySmallNumber;
+    short smallNumber
+    int number;
+    long bigNumber;
+    float decimalNumber;
+    double bigDecimalNumber;
+    bool trueOrFalse;
+    char someCharacter;
+    string someText;
+
+Enum, array vb. tiplerin değerlerini birden çok sıra halinde yazacaksan son elemanın yanına da virgül koy.
+(Evet, son elemana virgül koyman gerekmiyor. Ama en son elemana virgül koymak; sonrasında eleman ekleme,
+çıkarma ve yer değiştirmeyi daha da kolaylaştırabilir.)
+C# dilinden örnek:
+    enum Seasons
+    {
+        Spring,
+        Summer,
+        Autumn,
+        Winter,
+    }
