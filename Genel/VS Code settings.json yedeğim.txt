@@ -18,5 +18,5 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.navigationControl.enabled": false,
     "workbench.secondarySideBar.defaultVisibility": "hidden",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
 }
