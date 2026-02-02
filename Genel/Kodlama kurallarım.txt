@@ -52,8 +52,6 @@ Değişkenleri oluştururken tiplerine göre sıralı bir şekilde yaz (C# dilin
     string someText;
 
 Enum, array vb. tiplerin değerlerini birden çok sıra halinde yazacaksan son elemanın yanına da virgül koy.
-(Evet, son elemana virgül koyman gerekmiyor. Ama en son elemana virgül koymak; sonrasında eleman ekleme,
-çıkarma ve yer değiştirmeyi daha da kolaylaştırabilir.)
 C# dilinden örnek:
     enum Seasons
     {
@@ -62,3 +60,6 @@ C# dilinden örnek:
         Autumn,
         Winter,
     }
+(Evet, son elemana virgül koyman gerekmiyor. Ama en son elemana virgül koymak; sonrasında eleman ekleme,
+çıkarma ve yer değiştirmeyi daha da kolaylaştırabilir. Ayrıca, Godot da böyle kullanılmasını öneriyor.
+https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html#trailing-comma)
