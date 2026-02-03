@@ -1,5 +1,6 @@
 {
     "C_Cpp.copilotHover": "disabled",
+    "C_Cpp.errorSquiggles": "enabled",
     "chat.agent.enabled": false,
     "chat.commandCenter.enabled": false,
     "chat.disableAIFeatures": true,
