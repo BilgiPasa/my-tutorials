@@ -1,7 +1,0 @@
-F1'e bas ve arama kısmına şunu yazıp o seçeneğe tıkla:
-    C/C++: Enable Error Squiggles
-
-Ardından VS Code'da kullandığın "C/C++" eklentisinini ayarlarına gir ve "Error Squiggles" ayarını "enabled"
-olarak ayarla.
-
-Son olarak VS Code'u nolur nolmaz kapat ve tekrar aç.
