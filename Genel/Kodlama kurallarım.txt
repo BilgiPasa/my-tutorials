@@ -1,6 +1,6 @@
 Yazdığın kod anlaşılır olsun.
 
-Generitive AI prompt'u (yani ChatGPT, Gemini, Claude vs.) kullanma.
+Kod yazacaksan o kodu kendin yaz. (Yani sen kod yazacaksan o kodu makine değil, sen yaz.)
 
 Autocomplete kullanmak istiyorsan kullan.
 
@@ -16,6 +16,7 @@ ama 30 karakteri geçmesin (boşluklar, alt tireler ve kısa çizgiler dahil).
 Gerektiğinde bir adı kısaltabilirsin.
 
 Ad kısaltmak için bu kısaltmaları kullanabilirsin:
+    array => arr
     camera => cam
     collider => coll
     collision polygon => coll polygon
@@ -31,6 +32,8 @@ Ad kısaltmak için bu kısaltmaları kullanabilirsin:
     minimum => min
     multiplier => mult
     normalized => normd
+    number => num
+    pointer => ptr
     position => pos
     rigid body => rb
     rotation => rot
@@ -38,7 +41,7 @@ Ad kısaltmak için bu kısaltmaları kullanabilirsin:
     summation => sum
     temporary => temp
     velocity => vel
-    Başka kullandığın kısaltmalar olursa buraya yaz. (Sıra alfabetik olarak kalsın.)
+    Genel olarak kullanabileceğin başka kısaltmalar olursa buraya yaz. (Sıra alfabetik olarak kalsın.)
 
 Değişkenleri oluştururken tiplerine göre sıralı bir şekilde yaz (C# dilinden örnek):
     byte verySmallNumber;
@@ -52,6 +55,7 @@ Değişkenleri oluştururken tiplerine göre sıralı bir şekilde yaz (C# dilin
     string someText;
 
 Enum, array vb. tiplerin değerlerini birden çok sıra halinde yazacaksan son elemanın yanına da virgül koy.
+(Eğer ki son elemana noktalı virgül koyman gereken bir durum olursa virgül yerine noktalı virgül koy.)
 C# dilinden örnek:
     enum Seasons
     {
