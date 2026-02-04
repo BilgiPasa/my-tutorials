@@ -67,26 +67,24 @@ Manager'dan bu eklentileri sistemine kur:
     Appindicator and KStatusNotifierItem Support (3v1n0'nun)
     Blur my Shell (aunetx'in)
     Clipboard Indicator (Tudmotu'nun)
-    Extension List (grroot'un)
     Removable Drive Menu (fmuellner'in)
-    System Monitor (fmuellner'in)
     Touchpad On Off (r_mano'nun)
 
-Ardından, Extension Manager'da "System Extensions" kısmındaki "Background Logo" eklentisini KAPAT! Yoksa 2 kere
+GNOME'da Extension Manager'da "System Extensions" kısmındaki "Background Logo" eklentisini KAPAT! Yoksa 2 kere
 Super tuşuna basıp uygulamaların olduğu yere gelirken animasyon takılabiliyor veya sağ alttaki logo
 takılabiliyor.
 
-GNOME'da Blur my Shell eklentisinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override background"
-kısmında daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
-
 GNOME'da Alphabetic App Grid eklentisinin ayarlarına gir ve "Position of ordered folders" ayarını "End" olarak
 ayarla.
+
+GNOME'da Blur my Shell eklentisinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override background"
+kısmında daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
 
 GNOME'da, ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
 
 GNOME kullanıyorsan "GNOME Tweaks"i sistem paketi olarak sistemine kur. Ardından GNOME Tweaks'te
 "Middle Click Paste" ayarını kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı
-Adwaita-dark olarak ayarla.
+"Adwaita-dark" olarak ayarla.
 
 GNOME'da Nautilus'ta (dosya yöneticisi) Desktop klasörünü ve kendi istediğin klasörleri sol menüde kısayol
 olarak ayarla. Nautilus'ta Ctrl + , (kontrol + virgül) kısayoluyla "Preferences" menüsünü aç ve orada

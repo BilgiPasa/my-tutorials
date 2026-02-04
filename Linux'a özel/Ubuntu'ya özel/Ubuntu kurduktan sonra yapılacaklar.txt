@@ -34,23 +34,18 @@ sistemine kur:
     Appindicator and KStatusNotifierItem Support (3v1n0'nun)
     Blur my Shell (aunetx'in)
     Clipboard Indicator (Tudmotu'nun)
-    Extension List (grroot'un)
     Removable Drive Menu (fmuellner'in)
-    System Monitor (fmuellner'in)
     Touchpad On Off (r_mano'nun)
 
-Blur my shell indirirsen o eklentinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override background"
-kısmında daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
+Alphabetic App Grid eklentisinin ayarlarına gir ve "Position of ordered folders" ayarını "End" olarak ayarla.
 
-Eğer ki system monitor extension'ı çalışmıyorsa şu komutu terminale gir ve bilgisayarını yeniden başlat:
-    sudo apt install gir1.2-gtop-2.0 libgtop2-dev
-
-Settings'te nolur nolmaz "default apps" kısmına bak.
+Blur my Shell eklentisinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override background" kısmında
+daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
 
 Settings'te "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
 
-"GNOME Tweaks"te (indirmediysen sistem paketi olacak şekilde indir) "Middle Click Paste"i kapat ve
-"Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı Adwaita-dark yap.
+"GNOME Tweaks"i sistem paketi olarak sistemine kur. Ardından GNOME Tweaks'te "Middle Click Paste" ayarını kapat
+ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı "Adwaita-dark" olarak ayarla.
 
 Nautilus'ta (dosya yöneticisi) Desktop klasörünü ve kendi istediğin klasörleri sol menüde kısayol olarak
 ayarla. Nautilus'ta Ctrl + , (kontrol + virgül) kısayoluyla "Preferences" menüsünü aç ve orada
