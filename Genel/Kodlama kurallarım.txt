@@ -10,37 +10,44 @@ Sevdiğin bir font'u kullan. (Ben şahsen Roboto Mono'yu kullanıyorum.)
 
 Gereksiz yere yorum satırı yazma.
 
+Şartlı ifadeler, döngüler ve fonksiyonların öncesine ve sonrasına bir satır boşluk bırak.
+
+Bir dilde kod yazdığında, kodun son hali, o dilin yazım stiline uyacak şekilde olsun.
+
 Değişken adları, fonksiyon adları, class adları, obje adları, dosya adları ve klasör adları açıklayıcı olsun
 ama 30 karakteri geçmesin (boşluklar, alt tireler ve kısa çizgiler dahil).
 
 Gerektiğinde bir adı kısaltabilirsin.
 
 Ad kısaltmak için bu kısaltmaları kullanabilirsin:
-    array => arr
-    camera => cam
-    collider => coll
-    collision polygon => coll polygon
-    collision shape => coll shape
-    field of view => FOV
-    frames per second => fps
-    image => img
-    information => info
-    object => obj
-    magnitude => mag
-    manager => mng
-    maximum => max
-    minimum => min
-    multiplier => mult
-    normalized => normd
-    number => num
-    pointer => ptr
-    position => pos
-    rigid body => rb
-    rotation => rot
-    static body => sb
-    summation => sum
-    temporary => temp
-    velocity => vel
+    array -> arr
+    camera -> cam
+    collider -> coll
+    collision polygon -> coll polygon
+    collision shape -> coll shape
+    degree -> deg
+    field of view -> FOV
+    frames per second -> fps
+    image -> img
+    information -> info
+    object -> obj
+    magnitude -> mag
+    manager -> mng
+    maximum -> max
+    minimum -> min
+    multiplier -> mult
+    normalized -> normd
+    number -> num
+    pointer -> ptr
+    position -> pos
+    radian -> rad
+    rigid body -> rb
+    rotation -> rot
+    static body -> sb
+    summation -> sum
+    temporary -> temp
+    velocity -> vel
+
     Genel olarak kullanabileceğin başka kısaltmalar olursa buraya yaz. (Sıra alfabetik olarak kalsın.)
 
 Değişkenleri oluştururken tiplerine göre sıralı bir şekilde yaz (C# dilinden örnek):
@@ -65,5 +72,5 @@ C# dilinden örnek:
         Winter,
     }
 (Evet, son elemana virgül koyman gerekmiyor. Ama en son elemana virgül koymak; sonrasında eleman ekleme,
-çıkarma ve yer değiştirmeyi daha da kolaylaştırabilir. Ayrıca, Godot da böyle kullanılmasını öneriyor.
+çıkarma ve yer değiştirmeyi daha da kolaylaştırabilir. Ayrıca, Godot Docs da böyle kullanılmasını öneriyor.
 https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html#trailing-comma)
