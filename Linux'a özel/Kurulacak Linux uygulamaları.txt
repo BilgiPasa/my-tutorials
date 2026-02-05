@@ -31,6 +31,7 @@ Flatpak olarak bu uygulamaları kur:
     ONLYOFFICE Desktop Editors
     Shortwave
     Solanum
+    Video Trimmer
     VLC
     Zoom
 
