@@ -71,7 +71,7 @@ Manager'dan bu eklentileri sistemine kur:
     Touchpad On Off (r_mano'nun)
 
 GNOME'da Extension Manager'da "System Extensions" kısmındaki "Background Logo" eklentisini KAPAT! Yoksa 2 kere
-Super tuşuna basıp uygulamaların olduğu yere gelirken animasyon takılabiliyor veya sağ alttaki logo
+Super tuşuna basıp uygulamaların olduğu yere gelirken ekranda takılma olabiliyor veya sağ alttaki logo
 takılabiliyor.
 
 GNOME'da Alphabetic App Grid eklentisinin ayarlarına gir ve "Position of ordered folders" ayarını "End" olarak
