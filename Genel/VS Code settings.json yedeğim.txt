@@ -13,6 +13,7 @@
     "git.autofetch": true,
     "git.openRepositoryInParentFolders": "always",
     "godotTools.lsp.serverPort": 6005,
+    "python.analysis.typeCheckingMode": "off",
     "redhat.telemetry.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
     "workbench.editor.enablePreview": false,
