@@ -1,10 +1,10 @@
-DaVinci Resolve ücretsiz versiyonu için mp4'ten mov'a çevirmek için
+DaVinci Resolve ücretsiz versiyonu için mp4'ten mov'a (hem video hem ses codec'ini) çevirmek için
 {
     mkdir transcoded; for i in *.mp4; do ffmpeg -i "$i" -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a alac "transcoded/${i%.*}.mov"; done
 
     Asıl komut kaynağı: https://wiki.archlinux.org/title/DaVinci_Resolve#Workaround_for_DaVinci_Resolve_Free
 }
-DaVinci Resolve Studio versiyonu için video sesini çevirmek için
+DaVinci Resolve Studio versiyonu için ses codec'ini çevirmek için
 {
     mkdir transcoded; for i in *.mp4; do ffmpeg -i "$i" -c:v copy -c:a alac "transcoded/${i%.*}.mov"; done
 
