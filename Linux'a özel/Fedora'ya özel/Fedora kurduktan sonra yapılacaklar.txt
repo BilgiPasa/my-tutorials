@@ -1,5 +1,5 @@
-Fedora kuracaksan Fedora Workstation ISO'su veya Fedora KDE ISO'su ile kurulum yapmanı öneririm. Çünkü eğer
-ki o ikisi hariç başka bir ISO ile Fedora'yı kurarsan başlangıç penceresi çıkmayabilir ya da çıkarsa
+Fedora kuracaksan Fedora Workstation ISO'su veya Fedora KDE Plasma Desktop ISO'su ile kurulum yapmanı öneririm.
+Çünkü eğer ki o ikisi hariç başka bir ISO ile Fedora'yı kurarsan başlangıç penceresi çıkmayabilir ya da çıkarsa
 "Enable third party repositories" seçeneği çıkmayabilir. Yani kurulum sonrası 3. parti repoları tek bi tuşla
 açmak yerine kendin açman gerekir.
 
@@ -7,12 +7,13 @@ Fedora Workstation kuruyorsan ve kurulumda konum seçmeye geldiysen, oradaki ara
 Oradaki haritadan seç ve devam et (harita üstündeki simgenin gitmesi için haritada simgesiz olan kısma tıkla ve
 sonra kendi konumuna tıkla ve "Next" de). Çünkü arama kısmına yazıp devam etmeye çalışırsan Fedora donabilir.
 
-Fedora Workstation veya Fedora KDE kuruyorsan "Enable third party repositories" butonuna tıkla ve öyle devam
-et (3. parti depoları açman için). Eğer ki bunu açmayı unutup kurulum yaparsan uygulama mağazasında software
-repositories kısmından aç.
+Fedora Workstation veya Fedora KDE Plasma Desktop kuruyorsan "Enable third party repositories" butonuna tıkla
+ve öyle devam et (3. parti depoları açman için). Eğer ki bunu açmayı unutup kurulum yaparsan uygulama
+mağazasında software repositories kısmından aç.
 
-Ardından; sistem güç modunu "Performance" yap, "Dim Screen" ayarını kapat, ekran kilitleme zamanını ayarla ve
-kullanmıyorsan bluetooth'u kapat.
+Ayarlardan sistem güç modunu "Performance" yap, "Dim Screen" ayarını kapat, ekran kilitleme zamanını ayarla,
+bluetooth'u kapat, touchpad ayarlarından "Tap to Click"i aç, fare ayarlarından "Mouse Acceleration"ı kapat ve
+mikrofon input sesini kısmayı unutma.
 
 Ardından, sistem güncellemelerini uygulama mağazasından yap ve uygulamada çıkan "Restart" tuşu ile bilgisayarını
 yeniden başlat.
@@ -46,8 +47,8 @@ GNOME kullanıyorsan terminale şu komutları gir
 GNOME kullanıyorsan uygulama mağazasında sağ üstteki 3 çizgili menüden "Software Repositories"i aç. Orada eğer
 ki açık olan "Fedora Flatpaks" reposu varsa kapat. (Merak etme. Bu, Flathub reposunu etkilemiyor.)
 
-KDE kullanıyorsan "Discover"ı aç. Settings'e gel. Orada eğer ki açık olan "Fedora Flatpaks" reposu varsa kapat.
-(Merak etme. Bu, Flathub reposunu etkilemiyor.)
+KDE Plazma kullanıyorsan "Discover"ı aç. Settings'e gel. Orada eğer ki açık olan "Fedora Flatpaks" reposu varsa
+kapat. (Merak etme. Bu, Flathub reposunu etkilemiyor.)
 
 NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak : https://rpmfusion.org/Howto/NVIDIA)
 (CUDA sürücülerinin adında xorg ve x11 geçiyor ama Wayland'de de çalışıyor yani haberin olsun.)
@@ -58,8 +59,6 @@ NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak : https:/
 }
 
 Sürücüleri kurunca 5 dakika zamanlayıcı kur ve bekle. Ardından bilgisayarını yeniden başlat.
-
-Settings'te tap to click'i aç, mouse acceleration'ı kapat ve mikrofon input sesini kısmayı unutma.
 
 GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı flatpak olarak kur. Ardından, Extension
 Manager'dan bu eklentileri sistemine kur:
@@ -80,7 +79,7 @@ ayarla.
 GNOME'da Blur my Shell eklentisinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override background"
 kısmında daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
 
-GNOME'da, ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
+GNOME'da ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
 
 GNOME kullanıyorsan "GNOME Tweaks"i sistem paketi olarak sistemine kur. Ardından GNOME Tweaks'te
 "Middle Click Paste" ayarını kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı
@@ -94,8 +93,8 @@ GNOME'da uygulamalara büyütme ve küçültme butonları eklemek istiyorsan (ki
 ekleyebilirsin) "GNOME Tweaks"i aç, "Windows" kısmına gel ve "Titlebar Buttons" kısmından "Maximize" ile
 "Minimize" ayarlarını aç.
 
-KDE'de Dolphin (dosya yöneticisi) açıldığında home folder'ını açmasının ayarını yap. Dolphin'de arkaplan'a çift
-tıkladığında bütün her şeyi seçme ayarını da kapat.
+KDE Plazma'da Dolphin (dosya yöneticisi) açıldığında home folder'ını açmasının ayarını yap. Dolphin'de
+arkaplan'a çift tıkladığında bütün her şeyi seçme ayarını da kapat.
 
 GNOME kullanıyorsan (nokyan'ın) "Resources" uygulamasını flatpak olarak uygulama mağazasından indir.
 
@@ -165,36 +164,18 @@ Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak
     "Language"ı "English (United States)" seç ve "Formats"ı "United Kingdom (English)" seç.
     Sisteminden çıkıp geri giriş yapınca etki gösterir.
 
-    KDE'de ayarlarda Region and Language ayarı olması lazım. Oraya gir.
+    KDE Plazma'da ayarlarda Region and Language ayarı olması lazım. Oraya gir.
     Dil olarak Amerikan İngilizcesini seç ve formatlar olarak ise "C" seç.
     Yaptığın değişiklikler, sisteminden çıkıp geri giriş yapınca etki gösterir.
 }
 
-Brave kullanacaksan kurmanı önerdiğim eklentiler:
-    Dark Reader, Youtube-shorts block, Return Youtube Dislike
-
-Firefox kullanacaksan kurmanı önerdiğim eklentiler:
-    Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
-
-Firefox'ta akıcı bir şekilde scroll yapabilmek için:
-    Firefox'un arama kısmına şunu yaz: about:config
-    Riskleri kabul et.
-    Oradaki ayar arama kısmına (tırmaksız bir şekilde) "general.smoothScroll.msdPhysics.enabled" yaz.
-    O ayarı "true" yap.
-
-KDE'de masaüstüne bir çift tıklanabilir çöp kutusu koymak için Dolphin'i aç, "Trash" yazan yan menüyü mouse ile
-masaüstüne sürükle ve bırak. Al sana çöp kutusu. Masaüstüne home uzantısını eklemek için de aynı şeyi yap ama
-sürükleyip bıraktığında çıkan minik menüde "Link here" seçeneğini seç. Çıkan uzantı adı kullanıcı adın
-olabilir, onu değiştirmek için de normal bir şekilde dosya adı değiştirir gibi uzantı adını değiştirmen lazım.
-(Kaynak : https://www.reddit.com/r/kde/comments/gn2l3z/trash_can_widget_behavior/)
-
-Boot menüsünde çıkan kernel seçeneklerini ayarlamak için:
+Boot menüsünde çıkan kernel seçenekleri sayısını ayarlamak için:
     https://discussion.fedoraproject.org/t/old-kernels-removal/77046
 
 Eğer ki NVIDIA ekran kartı kullanıyorsan ve Wayland'de problemler yaşıyorsan X11'e geçebilirsin ama ilk önce
 Wayland'e şans ver. Bi bak. Olmazsa X11'e geçmek için şunları yap
 {
-    KDE'de
+    KDE Plazma'da
     {
         İlk önce şu komutu gir: sudo nano /etc/sddm.conf
 

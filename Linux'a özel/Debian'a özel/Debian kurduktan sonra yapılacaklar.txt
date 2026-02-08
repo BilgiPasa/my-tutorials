@@ -46,10 +46,9 @@ Ardından terminalde şu komutları gir
     sudo apt install playit
 }
 
-Ardından; sistem güç modunu "Performance" yap, "Dim Screen" ayarını kapat, ekran kilitleme zamanını ayarla ve
-kullanmıyorsan bluetooth'u kapat.
-
-Settings'te tap to click'i aç, mouse acceleration'ı kapat ve mikrofon input sesini kısmayı unutma.
+Ayarlardan sistem güç modunu "Performance" yap, "Dim Screen" ayarını kapat, ekran kilitleme zamanını ayarla,
+bluetooth'u kapat, touchpad ayarlarından "Tap to Click"i aç, fare ayarlarından "Mouse Acceleration"ı kapat ve
+mikrofon input sesini kısmayı unutma.
 
 Flatpak'i şu sitedeki yönergelere uyarak kur: https://flatpak.org/setup/Debian
 
@@ -70,7 +69,7 @@ ayarla.
 GNOME'da Blur my Shell eklentisinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override background"
 kısmında daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
 
-GNOME'da, ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
+GNOME'da ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
 
 GNOME kullanıyorsan "GNOME Tweaks"i sistem paketi olarak sistemine kur. Ardından GNOME Tweaks'te
 "Middle Click Paste" ayarını kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı
@@ -84,8 +83,8 @@ GNOME'da uygulamalara büyütme ve küçültme butonları eklemek istiyorsan (ki
 ekleyebilirsin), "GNOME Tweaks"i aç, "Windows" kısmına gel ve "Titlebar Buttons" kısmından "Maximize" ile
 "Minimize" ayarlarını aç.
 
-KDE'de Dolphin (dosya yöneticisi) açıldığında home folder'ını açmasının ayarını yap. Dolphin'de arkaplan'a çift
-tıkladığında bütün her şeyi seçme ayarını da kapat.
+KDE Plazma'da Dolphin (dosya yöneticisi) açıldığında home folder'ını açmasının ayarını yap. Dolphin'de
+arkaplan'a çift tıkladığında bütün her şeyi seçme ayarını da kapat.
 
 GNOME kullanıyorsan (nokyan'ın) "Resources" uygulamasını flatpak olarak uygulama mağazasından indir.
 
@@ -120,30 +119,12 @@ Bunu kapatmak istiyorsan
 
 Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyorsan
 {
-    GNOME'da, ayarlarda "System" kısmında gir ve orada "Region and Language" kısmına gir. "Language"ı
-    "English (United States)" seç, "Formats"ı "United Kingdom (English)" seç. Sisteminden çıkıp geri giriş
-    yapınca etki gösterir.
+    GNOME'da, ayarlarda "System" kısmında gir ve orada "Region and Language" kısmına gir.
+    "Language"ı "English (United States)" seç, "Formats"ı "United Kingdom (English)" seç.
+    Sisteminden çıkıp geri giriş yapınca etki gösterir.
 
-    KDE'de ayarlarda Region and Language ayarı olması lazım. Oraya gir, dil olarak Amerikan İngilizcesini seç,
-    formatlar olarak ise "C" seç. Sisteminden çıkıp geri giriş yapınca etki gösterir.
+    KDE Plazma'da ayarlarda Region and Language ayarı olması lazım. Oraya gir, dil olarak Amerikan
+    İngilizcesi'ni seç, formatlar olarak ise "C" seç. Sisteminden çıkıp geri giriş yapınca etki gösterir.
 }
-
-Brave kullanacaksan kurmanı önerdiğim eklentiler:
-    Dark Reader, Youtube-shorts block, Return Youtube Dislike
-
-Firefox kullanacaksan kurmanı önerdiğim eklentiler:
-    Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
-
-Firefox'ta akıcı bir şekilde scroll yapabilmek için:
-    Firefox'un arama kısmına şunu yaz: about:config
-    Riskleri kabul et.
-    Oradaki ayar arama kısmına (tırmaksız bir şekilde) "general.smoothScroll.msdPhysics.enabled" yaz.
-    O ayarı "true" yap.
-
-KDE'de masaüstüne bir çift tıklanabilir çöp kutusu koymak için Dolphin'i aç, "Trash" yazan yan menüyü mouse ile
-masaüstüne sürükle ve bırak. Al sana çöp kutusu. Masaüstüne home uzantısını eklemek için de aynı şeyi yap ama
-sürükleyip bıraktığında çıkan minik menüde "Link here" seçeneğini seç. Çıkan uzantı adı kullanıcı adın
-olabilir, onu değiştirmek için de normal bir şekilde dosya adı değiştirir gibi uzantı adını değiştirmen lazım.
-(Kaynak : https://www.reddit.com/r/kde/comments/gn2l3z/trash_can_widget_behavior/)
 
 playit.gg'yi çalıştırmak için terminale "playit" komutunu girmen yeterli.

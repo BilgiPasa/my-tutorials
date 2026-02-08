@@ -1,0 +1,8 @@
+Şu eklentileri Firefox'a kur:
+    uBlock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
+
+Firefox'ta akıcı bir şekilde scroll yapabilmek için:
+    Firefox'un arama kısmına şunu yaz: about:config
+    Riskleri kabul et.
+    Oradaki ayar arama kısmına (tırmaksız bir şekilde) "general.smoothScroll.msdPhysics.enabled" yaz.
+    O ayarı "true" yap.

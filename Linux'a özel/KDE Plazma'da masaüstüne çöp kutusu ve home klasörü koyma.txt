@@ -1,0 +1,8 @@
+KDE Plazma'da masaüstüne bir çift tıklanabilir çöp kutusu koymak için Dolphin'i aç, "Trash" yazan yan menüyü
+fare ile masaüstüne sürükle ve bırak. Al sana çöp kutusu.
+
+Masaüstüne home uzantısını eklemek için de aynı şeyi yap ama sürükleyip bıraktığında çıkan minik menüde
+"Link here" seçeneğini seç. Çıkan uzantı adı kullanıcı adın olabilir, onu değiştirmek için de normal bir
+şekilde dosya adı değiştirir gibi uzantı adını değiştirmen lazım.
+
+Kaynak : https://www.reddit.com/r/kde/comments/gn2l3z/trash_can_widget_behavior/
