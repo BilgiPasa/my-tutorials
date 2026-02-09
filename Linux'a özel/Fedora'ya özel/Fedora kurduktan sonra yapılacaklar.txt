@@ -45,10 +45,12 @@ GNOME kullanıyorsan terminale şu komutları gir
 }
 
 GNOME kullanıyorsan uygulama mağazasında sağ üstteki 3 çizgili menüden "Software Repositories"i aç. Orada eğer
-ki açık olan "Fedora Flatpaks" reposu varsa kapat. (Merak etme. Bu, Flathub reposunu etkilemiyor.)
+ki açık olan "Fedora Flatpaks" reposu varsa kapat. (Bu, Flathub reposunu etkilememesi lazım.)
 
-KDE Plazma kullanıyorsan "Discover"ı aç. Settings'e gel. Orada eğer ki açık olan "Fedora Flatpaks" reposu varsa
-kapat. (Merak etme. Bu, Flathub reposunu etkilemiyor.)
+KDE Plazma kullanıyorsan "Discover"ı aç. "Settings"e gel. Orada bulunan "Fedora Flatpaks" reposu varsa sil.
+(Bu, Flathub reposunu etkilememesi lazım. Eğer ki bir sebepten dolayı Flathub reposu silinirse oradaki
+menüde sağ üst kısımda Flathub'ı ekleme butonu çıkması lazım. Eğer ki Flathub reposu silinirse o butona
+tıklayarak Flathub reposunu ekle.)
 
 NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak : https://rpmfusion.org/Howto/NVIDIA)
 (CUDA sürücülerinin adında xorg ve x11 geçiyor ama Wayland'de de çalışıyor yani haberin olsun.)
