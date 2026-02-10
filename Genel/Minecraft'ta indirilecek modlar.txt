@@ -1,5 +1,13 @@
 Eğer ki 1.21.6 gibi yeni bir sürüm indireceksen Fabric olarak indir ve şu modları kur:
-    Fabric Api, Sodium, Cloth Config Api, Entitiy Culling, Ferritecore, Mod Menu, Lithium, Dynamic Fps,
-    LambDynamicLights, OkZoomer.
+    Fabric API,
+    Sodium,
+    Cloth Config Api,
+    Ferritecore,
+    Entitiy Culling,
+    Mod Menu,
+    Lithium,
+    LambDynamicLights,
+    OkZoomer,
+    Dynamic FPS.
 
 Eğer ki 1.8.9 gibi eski bir sürüm indireceksen Forge olarak indir ve sadece OptiFine'ı kur.

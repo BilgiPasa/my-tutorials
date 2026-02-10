@@ -1,29 +1,41 @@
-DaVinci Resolve ücretsiz versiyonu için mp4'ten mov'a (hem video hem ses codec'ini) çevirmek için
+DaVinci Resolve ücretsiz versiyonu için mp4'ten mov'a (hem video hem ses codec'ini) çevirmek için kullandığım
+komut (NVIDIA GPU acceleration kullanıyorum komutta)
 {
-    mkdir transcoded; for i in *.mp4; do ffmpeg -i "$i" -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a alac "transcoded/${i%.*}.mov"; done
+    mkdir transcoded; for i in *.mp4; do ffmpeg -hwaccel cuda -i "$i" -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a alac "transcoded/${i%.*}.mov"; done
 
     Asıl komut kaynağı: https://wiki.archlinux.org/title/DaVinci_Resolve#Workaround_for_DaVinci_Resolve_Free
 }
-DaVinci Resolve Studio versiyonu için ses codec'ini çevirmek için
+
+DaVinci Resolve Studio versiyonu için ses codec'ini çevirmek için kullandığım komut (NVIDIA GPU acceleration
+kullanıyorum komutta)
 {
-    mkdir transcoded; for i in *.mp4; do ffmpeg -i "$i" -c:v copy -c:a alac "transcoded/${i%.*}.mov"; done
+    mkdir transcoded; for i in *.mp4; do ffmpeg -hwaccel cuda -i "$i" -c:v copy -c:a alac "transcoded/${i%.*}.mov"; done
 
     Asıl komut kaynağı: https://wiki.archlinux.org/title/DaVinci_Resolve#Workaround_for_DaVinci_Resolve_Studio
 }
-m4a'dan mp3'e çevirmek için terminale şu komutu gir
+
+m4a'dan mp3'e çevirmek için kullandığım komut (NVIDIA GPU acceleration kullanıyorum komutta)
 {
-    mkdir transcoded; for i in *.m4a; do ffmpeg -i "$i" -acodec libmp3lame -aq 2 "transcoded/${i%.*}.mp3"; done
+    mkdir transcoded; for i in *.m4a; do ffmpeg -hwaccel cuda -i "$i" -acodec libmp3lame -aq 2 "transcoded/${i%.*}.mp3"; done
 
     Asıl komut kaynağı: https://tinkering.vandoeselaar.com/convert-m4a-to-mp3-with-ffmpeg/
 }
 
-Çevirme komutlarını böyle bir şekilde değiştirmemde esinlendiğim kaynak (Siteye giremiyoran Tor ile gir):
-    https://brushlesswhoop.com/converting-fpv-footage-for-davinci-resolve/
-
 DaVinci Resolve'dan export ettiğin mov uzantılı videoyu mp4'e çevirmek için Handbrake uygulamasını kullan.
-Handbrake ile çevirme yapacaksan çevireceğin videoyu seçtikten sonra "Video" kısmında "Framerate"i 60 yap.
-"Bitrate" ayarını aç ve o "Bitrate" ayarını 36000 olarak ayarla. ("OBS Studio'da yapılacaklar.txt" dosyasında
-ekran kaydı için bitrate ayarını 36000 olarak ayarlamıştım. Belki değiştirmiş olabilirim. Sen video için
-bitrate olarak ne kullandıysan çevirme bitrate değeri olarak onu yaz.)
+Handbrake'te çevireceğin videoyu seçtikten sonra "Video" kısmında:
+    "Framerate"i 60 yap.
+    "Bitrate" ayarını aç ve o "Bitrate" ayarını 36000 olarak ayarla.
+    Eğer ki NVIDIA ekran kartın varsa "Video Encoder" olarak "H.264 (NVEnc)" ayarını seç.
+
+("OBS Studio'da yapılacaklar.txt" dosyasında ekran kaydı için bitrate ayarını 36000 olarak ayarlamıştım.
+Belki değiştirmiş olabilirim. Sen videoyu çekerken bitrate olarak ne kullandıysan çevirme bitrate değeri olarak
+onu yaz.)
 
 Çevirdiğin videoların kalitelerini karşılaştırmak için Identity uygulamasını kullanabilirsin. (Flathub'da var.)
+
+FFmpeg çevirme komutlarını böyle bir şekilde değiştirmemde esinlendiğim kaynaklar:
+    https://brushlesswhoop.com/converting-fpv-footage-for-davinci-resolve/ (Siteye giremiyoran Tor ile gir.)
+    https://stackoverflow.com/questions/44510765/gpu-accelerated-video-processing-with-ffmpeg
+
+Handbrake'te encoder ayarı değiştirmemin sebebi, GPU acceleration kullanabilmek için.
+Kaynak: https://youtu.be/Ahc7PpV7uQ4
