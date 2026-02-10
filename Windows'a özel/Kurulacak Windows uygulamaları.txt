@@ -1,4 +1,4 @@
-Başlamadan önce, Windows kurduktan sonra yapılacaklar listeni takip et. Oradaki işin bitince buradan devam et.
+Başlamadan önce, Windows için yapılacaklar listeni takip et. Oradaki işin bitince buradan devam et.
 
 Winget kullanarak bu uygulamaları kur:
     ATLauncher

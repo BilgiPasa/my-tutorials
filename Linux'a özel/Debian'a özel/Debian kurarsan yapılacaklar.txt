@@ -1,3 +1,5 @@
+Debian kurmak için ISO dosyasına şu siteden kolayca ulaşabilirsin: https://www.debian.org/
+
 GNOME kullanıyorsan terminale şu komutu gir:
     touch ~/Templates/'Empty text file'.txt
 
