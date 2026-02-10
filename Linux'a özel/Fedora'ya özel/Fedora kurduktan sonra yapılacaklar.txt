@@ -159,3 +159,6 @@ Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak
 
 Boot menüsünde çıkan kernel seçenekleri sayısını ayarlamak için:
     https://discussion.fedoraproject.org/t/old-kernels-removal/77046
+
+Bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan "Kurulacak Linux uygulamaları.txt" dosyasına
+git ve kurmak istediğin uygulamaları sistemine kur.

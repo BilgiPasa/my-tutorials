@@ -19,8 +19,10 @@ ayarını kapat.
 
 Ayarlar uygulamasından Kişiselleştirme > Kilit ekranı sayfasında:
     "Kilit ekranınızı kişiselleştirin" ayarını "Resim" olarak ayarla.
+
     "Kilit ekranınızda eğlenceli bilgileri, ipuçlarını, ilginç numaraları ve çok daha fazlasını görün" ayarını
     kapat.
+
     "Kilit ekranı durumu" ayarını "Yok" olarak ayarla.
 
 Denetim masasından Denetim Masası\Donanım ve Ses\Güç Seçenekleri\Sistem Ayarları kısmından hızlı başlatma
@@ -29,7 +31,7 @@ ayarını kapat.
 Dosya uzantıları göstermeyi aç. (Dosya gezgini, üç çizgi, seçenekler, görünüm, bilinen dosya türleri için
 uzantıları gizleyi kapat.)
 
-Dosya gezgininden gizli dosyaları göster.
+Dosya gezgininde gizli dosyaları gösterme ayarını aç.
 
 Eğer ki NVIDIA ekran kartın varsa NVIDIA App'in kurulum dosyasını kendi sitesinden indir ve kur. Ardından
 gereken NVIDIA ekran kartı sürücülerini indir. (Game Ready sürücüsünü tercih et.)
@@ -49,3 +51,12 @@ Soldaki "Profiles" kısmının altındaki "Windows Powershell" kısmından "Addi
 "Appereance" kısmına gir. Orada, "Text" kısmının altında "Font face"e (tırnaksız olarak) "Roboto Mono" yaz.
 "Font size"ı 16 yap. Aşağıda, "Cursor" kısmında "Cursor shape"i "Underscore" yap.
 Son olarak Sağ alttaki "Save" butonuna tıkla.
+
+Bu dosyanın bulunduğu dosya dizininde bulunan "Windows 11 arama çubuğundan bing aramasını kaldırma.txt"
+dosyasına bak ve Windows arama çubuğundan bing aramasını kaldır.
+
+Bu dosyanın bulunduğu dosya dizininde bulunan "Windows 11 sağ tık'ı Windows 10 gibi yapma.txt" dosyasına bak ve
+Windows 11 sağ tık'ını Windows 10 gibi yap.
+
+Bu dosyanın bulunduğu dosya dizininde bulunan "Kurulacak Windows uygulamaları.txt" dosyasına git ve kurmak
+istediğin uygulamaları sistemine kur.

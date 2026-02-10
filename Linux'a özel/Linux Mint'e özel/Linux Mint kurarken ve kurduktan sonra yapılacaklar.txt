@@ -9,6 +9,10 @@ Linux Mint'i harici bir SSD'ye kuracaksan bu videodaki yönergeleri takip et ("I
 Linux Mint'i kurduktan sonra kurman gereken sürücüleri kur ve sistem güncellemelerini yap. Güncelleme sonunda
 bilgisayarını yeniden başlatman gerekiyorsa yap.
 
+Ayarlardan Power Management'a gel. Ekran kararma ve kapanma sürelerini ayarla ve "Power Mode"u "Performance"
+yap. Ayrıca; ayarlardan "Mouse Acceleration"ı "Constant" yap, bluetooth'u kapat, gestures'ı aç ve mikrofon input
+sesini kısmayı unutma.
+
 Ardından şu komutları gir
 {
     sudo apt install adwaita-qt default-jre default-jdk curl
@@ -37,11 +41,6 @@ Clocks'u flatpak olarak indir.
 
 Uygulama mağazasından, Diodon'u sistem paketi olarak sistemine kur ve Diodon'un "Preferences" kısmında
 "Automatically paste selected item"ı kapat.
-
-Mouse Acceleration'ı "Constant" yap. Kullanmıyorsan bluetooth'u kapat. Gestures'ı aç. Power Management'a gel.
-Ekran kararma ve kapanma sürelerini ayarla ve POWER MODE'U PERFORMANCE YAP!
-
-Ayarlardan mikrofon input sesini kısmayı unutma.
 
 Super tuşuna (Windows tuşuna) bas ve "Window Tiling" uygulamasına gir ve "Maximize, instead of tile, when
 dragging a window to the top edge" ayarını aç.
@@ -72,16 +71,7 @@ Languages uygulamasına gir, install or remove languages kısmında US, UK, Tür
 sil. US, UK, Türkiye ve Kıbrıs paketlerinde eksiklik varsa hepsini yüklet. Language'ı US, Region'ı Türkiye ve
 Time format'i UK yap ve "Apply system wide" tuşuna bas. Bilgisayarını kapatıp açınca yenilenir sanırsam.
 
-Brave kullanacaksan kurmanı önerdiğim eklentiler:
-    Dark Reader, Youtube-shorts block, Return Youtube Dislike
-
-Firefox kullanacaksan kurmanı önerdiğim eklentiler:
-    Ublock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
-
-Firefox'ta akıcı bir şekilde scroll yapabilmek için:
-    Firefox'un arama kısmına şunu yaz: about:config
-    Riskleri kabul et.
-    Oradaki ayar arama kısmına (tırmaksız bir şekilde) "general.smoothScroll.msdPhysics.enabled" yaz.
-    O ayarı "true" yap.
-
 Linux Mint kişiselliştirmesi için şu videoya bakabilirsin : https://www.youtube.com/watch?v=Q_Uoe5H4ORs
+
+Bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan "Kurulacak Linux uygulamaları.txt" dosyasına
+git ve kurmak istediğin uygulamaları sistemine kur.
