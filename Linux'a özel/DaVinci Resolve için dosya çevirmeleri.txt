@@ -1,20 +1,20 @@
 DaVinci Resolve ücretsiz versiyonu için mp4'ten mov'a (hem video hem ses codec'ini) çevirmek için kullandığım
-komut (NVIDIA GPU acceleration kullanıyorum komutta)
+komut ("-hwaccel cuda" ile NVIDIA GPU acceleration kullanıyorum komutta)
 {
     mkdir transcoded; for i in *.mp4; do ffmpeg -hwaccel cuda -i "$i" -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a alac "transcoded/${i%.*}.mov"; done
 
     Asıl komut kaynağı: https://wiki.archlinux.org/title/DaVinci_Resolve#Workaround_for_DaVinci_Resolve_Free
 }
 
-DaVinci Resolve Studio versiyonu için ses codec'ini çevirmek için kullandığım komut (NVIDIA GPU acceleration
-kullanıyorum komutta)
+DaVinci Resolve Studio versiyonu için ses codec'ini çevirmek için kullandığım komut ("-hwaccel cuda" ile
+NVIDIA GPU acceleration kullanıyorum komutta)
 {
     mkdir transcoded; for i in *.mp4; do ffmpeg -hwaccel cuda -i "$i" -c:v copy -c:a alac "transcoded/${i%.*}.mov"; done
 
     Asıl komut kaynağı: https://wiki.archlinux.org/title/DaVinci_Resolve#Workaround_for_DaVinci_Resolve_Studio
 }
 
-m4a'dan mp3'e çevirmek için kullandığım komut (NVIDIA GPU acceleration kullanıyorum komutta)
+m4a'dan mp3'e çevirmek için kullandığım komut ("-hwaccel cuda" ile NVIDIA GPU acceleration kullanıyorum komutta)
 {
     mkdir transcoded; for i in *.m4a; do ffmpeg -hwaccel cuda -i "$i" -acodec libmp3lame -aq 2 "transcoded/${i%.*}.mp3"; done
 
