@@ -15,7 +15,7 @@ Gereksiz yere yorum satırı yazma.
 Bir dilde kod yazdığında, kodun son hali, o dilin yazım stiline uyacak şekilde olsun.
 
 Değişken adları, fonksiyon adları, class adları, obje adları, dosya adları ve klasör adları açıklayıcı olsun
-ama 30 karakteri geçmesin (boşluklar, alt tireler ve kısa çizgiler dahil).
+ama (alt tireler, kısa çizgiler ve boşluklar dahil) 30 karakteri geçmesin.
 
 Gerektiğinde bir adı kısaltabilirsin.
 
@@ -72,5 +72,5 @@ C# dilinden örnek:
         Winter,
     }
 (Evet, son elemana virgül koyman gerekmiyor. Ama en son elemana virgül koymak; sonrasında eleman ekleme,
-çıkarma ve yer değiştirmeyi daha da kolaylaştırabilir. Ayrıca, Godot Docs da böyle kullanılmasını öneriyor.
+çıkarma ve yer değiştirmeyi daha da kolaylaştırabilir. Ayrıca, Godot Docs'ta da böyle kullanılması öneriliyor.
 https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html#trailing-comma)
