@@ -1,8 +1,10 @@
 Linux Mint ISO'sunu bilgisayarında çalıştıracağın vakit COMPATIBILITY MODE ŞEKLİNDE GİRİŞ YAP!
 Compatibility değil de normal şekilde girersen kurulumda sıkıntı yaşayabilirsin. (Ben yaşamıştım.)
 
+Linux Mint'i kurarken "Install multimedia codecs" kısmındaki checkbox'a tıkla ve öyle devam et.
+
 Linux Mint'i harici bir SSD'ye kuracaksan bu videodaki yönergeleri takip et ("Install Linux Mint" programını
-çalıştırdıktan itibaren VİDEOYU SONUNA KADAR TAKİP ET!): https://www.youtube.com/watch?v=thC3NSLEm1g
+çalıştırdıktan itibaren VİDEOYU SONUNA KADAR TAKİP ET!): https://youtu.be/thC3NSLEm1g?t=198
 
 Linux Mint'i kurduktan sonra kurman gereken sürücüleri kur ve sistem güncellemelerini yap. Güncelleme sonunda
 bilgisayarını yeniden başlatman gerekiyorsa yap.

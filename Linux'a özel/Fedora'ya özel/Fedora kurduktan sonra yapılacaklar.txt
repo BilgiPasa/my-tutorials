@@ -1,15 +1,14 @@
-Fedora kuracaksan Fedora Workstation ISO'su veya Fedora KDE Plasma Desktop ISO'su ile kurulum yapmanı öneririm.
-Çünkü eğer ki o ikisi hariç başka bir ISO ile Fedora'yı kurarsan başlangıç penceresi çıkmayabilir ya da çıkarsa
-"Enable third party repositories" seçeneği çıkmayabilir. Yani kurulum sonrası 3. parti repoları tek bi tuşla
-açmak yerine kendin açman gerekir.
+Eğer ki Fedora Workstation ISO'su veya Fedora KDE Plasma Desktop ISO'su ile kurulum yaptıysan başlangıç
+penceresinde çıkan "Enable third party repositories" seçeneğine tıkla ve 3. parti depoları aktive et.
+Eğer ki bunu açmayı unutup kurulum yaparsan uygulama mağazasındaki software repositories kısmından aç.
+
+Eğer ki başka bir ISO ile kurulum yaptıysan kurulum bitince terminale şu komutu girerek 3. parti depoları
+aktive et:
+    sudo dnf install fedora-workstation-repositories
 
 Fedora Workstation kuruyorsan ve kurulumda konum seçmeye geldiysen, oradaki arama kısmında konumunu yazma.
-Oradaki haritadan seç ve devam et (harita üstündeki simgenin gitmesi için haritada simgesiz olan kısma tıkla ve
-sonra kendi konumuna tıkla ve "Next" de). Çünkü arama kısmına yazıp devam etmeye çalışırsan Fedora donabilir.
-
-Fedora Workstation veya Fedora KDE Plasma Desktop kuruyorsan "Enable third party repositories" butonuna tıkla
-ve öyle devam et (3. parti depoları açman için). Eğer ki bunu açmayı unutup kurulum yaparsan uygulama
-mağazasında software repositories kısmından aç.
+Oradaki haritadan seç ve devam et. (Harita üstündeki simgenin gitmesi için haritada simgesiz olan kısma tıkla ve
+sonra kendi konumuna tıkla ve "Next" de.) Çünkü arama kısmına yazıp devam etmeye çalışırsan Fedora donabilir.
 
 Ayarlardan sistem güç modunu "Performance" yap, "Dim Screen" ayarını kapat, ekran kilitleme zamanını ayarla,
 bluetooth'u kapat, touchpad ayarlarından "Tap to Click"i aç, fare ayarlarından "Mouse Acceleration"ı kapat ve
@@ -101,33 +100,20 @@ arkaplan'a çift tıkladığında bütün her şeyi seçme ayarını da kapat.
 GNOME kullanıyorsan (nokyan'ın) "Resources" uygulamasını flatpak olarak uygulama mağazasından indir.
 
 GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında:
-    "Switch windows"u "Alt + Tab" yap.
+    "Switch applications"ı "Super + Tab" olarak ayarla.
 
-    "Hide all normal windows"u "Super + D" yap.
+    "Switch windows"u "Alt + Tab" olarak ayarla.
 
-    "Resources" adında bir kısayol yap. Kısayolu "Ctrl + Shift + Escape" olsun. Komutu ise
+    "Hide all normal windows"u "Super + D" olarak ayarla.
+
+    "Nautilus" adında bir kısayol oluştur. Kısayolu "Super + E" olsun. Komutu ise "nautilus" olsun.
+
+    "Resources" adında bir kısayol oluştur. Kısayolu "Ctrl + Shift + Escape" olsun. Komutu ise
     "flatpak run net.nokyan.Resources" olsun.
 
-    "Nautilus" adında bir kısayol yap. Kısayolu "Super + E" olsun. Komutu ise "nautilus" olsun.
-
-    Eğer ki "Ctrl + Alt + T" komutu terminal açmazsa "Terminal" ismine bir kısayol yap. Kısayolu
-    "Ctrl + Alt + T" olsun. Komutu ise o terminalin komutu ne ise o olsun. (Komut; "ptyxis", "gnome-terminal",
-    "kgx" veya başka bişey olabilir.)
-
-    İstersen "Switch applications"ı "Super + Tab" yap.
-    (İstersen bu keybind'ların hepsini kullanabilirsin ve aşağıda "farklı virtual desktop'lardaki açık
-    penceler arasında Alt + Tab yaparak dolaşma"yı açmayabilirsin. Ya da en son keybind'ı girmeyip aşağıda
-    "farklı virtual desktop'lardaki açık penceler arasında Alt + Tab yaparak dolaşma"yı açabilirsin.)
-
-GNOME'da eğer ki farklı virtual desktop'lardaki açık penceler arasında Alt + Tab yaparak dolaşmak istiyorsan
-(Eğer ki Alt + Tab'ı "Switch windows"a ayarladıysan bunun etkisini görebilirsin.)
-{
-    gsettings set org.gnome.shell.window-switcher current-workspace-only false
-}
-Bunu kapatmak istiyorsan
-{
-    gsettings set org.gnome.shell.window-switcher current-workspace-only true
-}
+    Eğer ki "Ctrl + Alt + T" kısayolu terminal açmazsa "Terminal" isminde bir kısayol oluştur.
+    Kısayolu "Ctrl + Alt + T" olsun. Komutu ise kullandığın terminalin komutu ne ise o olsun.
+    (Yüklü gelen terminalin komutu "ptyxis" olabilir.)
 
 Sistemine Roboto Mono fontunu kur. Nasıl kurabileceğinin yönergelerini, bu reponun "Genel" kısmında bulunan
 "VS Code'da bu font'u kullan (Roboto Mono).txt" dosyasında bulabilirsin.
@@ -150,14 +136,14 @@ Eğer ki GNOME'da default terminalini değiştirmek istiyorsan
     Eğer ki "Desktop Icons NG" isimli GNOME extension eklentisine uygun bir terminal uygulaması istiyorsan,
     "gnome-terminal" olan terminali sistemine kurabilirsin.
 
-    Sonrasında şu siteden https://github.com/Stunkymonkey/nautilus-open-any-terminal sitedeki uygulamayı kur
-    (ve haberin olsun komutların başında sudo yazmıyorsa komutların başına sudo yazman lazım).
+    Şu sitedeki https://github.com/Stunkymonkey/nautilus-open-any-terminal uygulamayı kur
+    (kurulum komutlarının başında sudo yazmıyorsa o komutların başına sudo yazarak kullan).
     Ardından yönergelere uyarak default terminali, kullanmak istediğin terminal yap
     (Dconf Editor ile yaptım ben. Dconf Editor uygulamasını flatpak olarak sistemine kurabilirsin).
     Terminal uygulamasını klayve kısayoluyla açmak için ayarlardan yapmış olduğun klavye kısayolu ayarını
     değiştirmeyi unutma.
     Terminalin adı "Terminal" veya "Console" ise komutları "gnome-terminal", "kgx" veya "ptyxis" olabilir.
-    Ve eğer ki Nautilus'ta "Open Terminal Here" diye bir şey yazmıyorsa bilgisayarını yeniden başlat.
+    Eğer ki Nautilus'ta sağ tık yaptığında "Open Terminal Here" yazmıyorsa bilgisayarını yeniden başlat.
 }
 
 Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyorsan
@@ -173,58 +159,3 @@ Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak
 
 Boot menüsünde çıkan kernel seçenekleri sayısını ayarlamak için:
     https://discussion.fedoraproject.org/t/old-kernels-removal/77046
-
-Eğer ki NVIDIA ekran kartı kullanıyorsan ve Wayland'de problemler yaşıyorsan X11'e geçebilirsin ama ilk önce
-Wayland'e şans ver. Bi bak. Olmazsa X11'e geçmek için şunları yap
-{
-    KDE Plazma'da
-    {
-        İlk önce şu komutu gir: sudo nano /etc/sddm.conf
-
-        Ve dosya içinde "[General]" kısmında "DisplayServer" ile ilgili ayarı "DisplayServer=x11" yap.
-
-        Ardından şu komutu gir: sudo dnf install plasma-workspace-x11 -y
-
-        Ve bilgisayarını yeniden başlat.
-
-        Ardından sistemine giriş yapmak için şifreni girmeden öncesinde sol üstte (orda yoksa başka bir yerde)
-        masaüstü ortamı seçeneği olarak Plazma (veya Plazma (Wayland)) değil, Plazma (X11)'i seç.
-
-        Ardından şifreni girip sistemine giriş yap.
-
-        Sonrasında şu komutu gir: sudo dnf install vdpauinfo libva-vdpau-driver libva-utils -y
-
-        Eğer ki komut çalışmaz ve "libva-vdpau-driver" paketini bulamama ile ilgili mesaj yazarsa bu komutu
-        gir: sudo dnf install vdpauinfo libva-utils -y
-
-        Ardından şu "https://github.com/JoseExposito/touchegg" siteden Fedora'ya göre kurma yönergelerine
-        uyarak touchegg'i sistemine kur.
-
-        Bilgisayarı yeniden başlattıktan sonra Fedora, mouse acceleration açık gibi çalışıyor olabilir. Eğer
-        ki mouse acceleration açık gibi hissediyorsan mouse acceleration'ı aç kapa yap.
-
-        Taskbar'a (alttaki uzun çubuk) sağ tık yap ve "Show panel configuration"a tıkla. NVIDIA GPU ile X11
-        kullanmak, şu şu şeylerde sıkıntı çıkarabilir gibi bi yazı olması lazım. Onun yanındaki "Fix it"
-        butonuna tıkla ve fix edince "Exit edit mode" butonuna tıkla.
-    }
-    GNOME'da (GNOME 49'dan itibaren artık bunu yapamayabilirsin.)
-    {
-        İlk önce şu komutu gir: sudo dnf install gnome-session-xsession -y
-
-        Ardından bilgisayarını yeniden başlat.
-
-        Sistemine giriş yapmak için kullanıcını seç ve şifreni girmeden öncesinde sağ alt kısımdaki (orada
-        yoksa başka bir yerdeki) dişli çark görünümlü butona tıkla ve seçenek olarak "GNOME" yerine
-        "GNOME on Xorg" seçeneğini seç ve şifreni girerek sistemine giriş yap.
-
-        Ardından şu komutu gir: sudo dnf install vdpauinfo libva-vdpau-driver libva-utils -y
-
-        Ardından şu "https://github.com/JoseExposito/touchegg" siteden Fedora'ya göre kurma yönergelerine
-        uyarak touchegg'i sistemine kur.
-
-        Sonra Fedora'nın uygulama mağazasından "Extension Manager"ı flathub şekliyle yükle ve Extension
-        Manager'dan "X11 Gestures" eklentisini yükle.
-    }
-
-    Kaynak : https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/7/
-}

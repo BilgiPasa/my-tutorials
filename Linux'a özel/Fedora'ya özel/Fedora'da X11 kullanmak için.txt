@@ -1,0 +1,53 @@
+Fedora'da X11 kullanmak için
+{
+    KDE Plazma'da
+    {
+        İlk önce şu komutu gir: sudo nano /etc/sddm.conf
+
+        Ve dosya içinde "[General]" kısmında "DisplayServer" ile ilgili ayarı "DisplayServer=x11" yap.
+
+        Ardından şu komutu gir: sudo dnf install plasma-workspace-x11 -y
+
+        Ve bilgisayarını yeniden başlat.
+
+        Ardından sistemine giriş yapmak için şifreni girmeden öncesinde sol üstte (orda yoksa başka bir yerde)
+        masaüstü ortamı seçeneği olarak Plazma (veya Plazma (Wayland)) değil, Plazma (X11)'i seç.
+
+        Ardından şifreni girip sistemine giriş yap.
+
+        Sonrasında şu komutu gir: sudo dnf install vdpauinfo libva-vdpau-driver libva-utils -y
+
+        Eğer ki komut çalışmaz ve "libva-vdpau-driver" paketini bulamama ile ilgili mesaj yazarsa bu komutu
+        gir: sudo dnf install vdpauinfo libva-utils -y
+
+        Ardından şu "https://github.com/JoseExposito/touchegg" siteden Fedora'ya göre kurma yönergelerine
+        uyarak touchegg'i sistemine kur.
+
+        Bilgisayarı yeniden başlattıktan sonra Fedora, mouse acceleration açık gibi çalışıyor olabilir. Eğer
+        ki mouse acceleration açık gibi hissediyorsan mouse acceleration'ı aç kapa yap.
+
+        Taskbar'a (alttaki uzun çubuk) sağ tık yap ve "Show panel configuration"a tıkla. NVIDIA GPU ile X11
+        kullanmak, şu şu şeylerde sıkıntı çıkarabilir gibi bi yazı olması lazım. Onun yanındaki "Fix it"
+        butonuna tıkla ve fix edince "Exit edit mode" butonuna tıkla.
+    }
+    GNOME'da (GNOME 49'dan itibaren artık bunu yapamayabilirsin.)
+    {
+        İlk önce şu komutu gir: sudo dnf install gnome-session-xsession -y
+
+        Ardından bilgisayarını yeniden başlat.
+
+        Sistemine giriş yapmak için kullanıcını seç ve şifreni girmeden öncesinde sağ alt kısımdaki (orada
+        yoksa başka bir yerdeki) dişli çark görünümlü butona tıkla ve seçenek olarak "GNOME" yerine
+        "GNOME on Xorg" seçeneğini seç ve şifreni girerek sistemine giriş yap.
+
+        Ardından şu komutu gir: sudo dnf install vdpauinfo libva-vdpau-driver libva-utils -y
+
+        Ardından şu "https://github.com/JoseExposito/touchegg" siteden Fedora'ya göre kurma yönergelerine
+        uyarak touchegg'i sistemine kur.
+
+        Sonra Fedora'nın uygulama mağazasından "Extension Manager"ı flathub şekliyle yükle ve Extension
+        Manager'dan "X11 Gestures" eklentisini yükle.
+    }
+
+    Kaynak : https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/7/
+}

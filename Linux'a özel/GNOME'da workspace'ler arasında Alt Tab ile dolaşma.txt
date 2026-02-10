@@ -1,0 +1,8 @@
+GNOME'da farklı workspace'lerdeki açık penceler arasında Alt + Tab yaparak dolaşmak istiyorsan terminale şu
+komutu gir:
+    gsettings set org.gnome.shell.window-switcher current-workspace-only false
+
+Bunu kapatmak istiyorsan terminale şu komutu gir:
+    gsettings set org.gnome.shell.window-switcher current-workspace-only true
+
+Haberin olsun, eğer ki Alt + Tab'ı "Switch windows"a ayarladıysan bunun etkisini görebilirsin.

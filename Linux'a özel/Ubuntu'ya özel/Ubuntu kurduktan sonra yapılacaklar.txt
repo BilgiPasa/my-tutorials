@@ -1,7 +1,10 @@
 Haberin olsun. Bu yapılacaklar listemi, Ubuntu'nun GNOME versiyonu için yaptım.
 
-İlk önce, software updater uygulamasıyla sistemini güncelleştir. Güncelleme bitince gerekiyorsa bilgisayarını
-yeniden başlat.
+Kurulum yaparken "Insall recommended proprietary software?" kısmındaki checkbox'ların hepsine tıkla ve öyle
+devam et.
+
+Kurulum sonrası, "Software Updater" uygulamasıyla sistemini güncelleştir. Güncelleme bitince gerekiyorsa
+bilgisayarını yeniden başlat.
 
 Ardından, terminale şu komutları gir
 {
