@@ -6,8 +6,8 @@ Eğer ki 1.21.6 gibi yeni bir sürüm indireceksen Fabric olarak indir ve şu mo
     Entitiy Culling,
     Mod Menu,
     Lithium,
+    Dynamic FPS,
     LambDynamicLights,
-    OkZoomer,
-    Dynamic FPS.
+    OkZoomer.
 
 Eğer ki 1.8.9 gibi eski bir sürüm indireceksen Forge olarak indir ve sadece OptiFine'ı kur.
