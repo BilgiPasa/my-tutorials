@@ -1,4 +1,5 @@
-Başlamadan önce, kendi distrona göre olan yapılacaklar listeni takip et. Oradaki işin bitince buradan devam et.
+Başlamadan önce, kullandığın distro'ya göre olan yapılacaklar listeni takip et. Oradaki işin bitince buradan
+devam et.
 
 VS Code'u şu sitedeki yönergelere uyarak kur:
     https://code.visualstudio.com/docs/setup/linux#_install-vs-code-on-linux

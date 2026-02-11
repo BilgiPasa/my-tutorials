@@ -8,7 +8,7 @@ Source oyun motoru ile yapılmış oyunlar için fare hassasiyetini 3.28 yap ve 
 Redmatch 2'de normal fare hassasiyetini 1.44 yap, ads fare hassasiyetini 1.44 yap ve scoped fare
 hassasiyetini 0.72 yap.
 
-Repo'da fare hassasiyetini 32 yap.
+REPO'da fare hassasiyetini 32 yap.
 
 Onlar haricindeki oyunlar için fare hassasiyetini 64 yap.
 (Proton ile çalışan Unity ile yapılmış oyunlar da dahil.)
