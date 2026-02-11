@@ -51,8 +51,8 @@ KDE Plazma kullanıyorsan "Discover"ı aç. "Settings"e gel. Orada bulunan "Fedo
 menüde sağ üst kısımda Flathub'ı ekleme butonu çıkması lazım. Eğer ki Flathub reposu silinirse o butona
 tıklayarak Flathub reposunu ekle.)
 
-NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak : https://rpmfusion.org/Howto/NVIDIA)
-(CUDA sürücülerinin adında xorg ve x11 geçiyor ama Wayland'de de çalışıyor yani haberin olsun.)
+NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak: https://rpmfusion.org/Howto/NVIDIA)
+(CUDA sürücülerinin adında "xorg" ve "x11" yazıyor ama Wayland'de de çalışıyor yani haberin olsun.)
 {
     sudo dnf update -y
     sudo dnf install akmod-nvidia -y
@@ -115,8 +115,8 @@ GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında:
     Kısayolu "Ctrl + Alt + T" olsun. Komutu ise kullandığın terminalin komutu ne ise o olsun.
     (Yüklü gelen terminalin komutu "ptyxis" olabilir.)
 
-Sistemine Roboto Mono fontunu kur. Nasıl kurabileceğinin yönergelerini, bu reponun "Genel" kısmında bulunan
-"VS Code'da bu fontu kullan (Roboto Mono).txt" dosyasında bulabilirsin.
+Sistemine Roboto Mono fontunu kur. Nasıl kurabileceğine dair yönergeleri, bu GitHub deposunda bulunan "Genel"
+klasörünün içindeki "VS Code'da bu fontu kullan (Roboto Mono).txt" dosyasında bulabilirsin.
 
 Eğer ki GNOME'daki default terminali kullanmak istiyorsan
 {

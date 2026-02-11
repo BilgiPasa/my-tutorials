@@ -35,8 +35,8 @@ Flatpak olarak bu uygulamaları kur:
     VLC
     Zoom
 
-Eğer ki ONLYOFFICE'te "Times New Roman" font'u kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
-Times New Roman font'unu indir ve sistemine kur.
+Eğer ki ONLYOFFICE'te "Times New Roman" fontu kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
+Times New Roman fontunu indir ve sistemine kur.
 
 ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio ve Steam'de yapılacakları yap.
 

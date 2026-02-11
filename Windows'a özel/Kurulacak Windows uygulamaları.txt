@@ -32,5 +32,5 @@ Minecraft Launcher içinden Minecraft Bedrock Edition'ı ve Minecraft Legends'ı
 
 Eğer ki Microsoft Office kullanmıyorsan winget ile ONLYOFFICE Desktop Editors'ı sistemine kur.
 
-Eğer ki ONLYOFFICE'te "Times New Roman" font'u kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
-Times New Roman font'unu indir ve sistemine kur.
+Eğer ki ONLYOFFICE'te "Times New Roman" fontu kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
+Times New Roman fontunu indir ve sistemine kur.

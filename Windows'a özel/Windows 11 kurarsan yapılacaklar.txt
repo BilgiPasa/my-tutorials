@@ -40,8 +40,8 @@ Gereksiz olduğunu düşündüğün uygulamaları sil. (Örnek: Copilot, Clipcha
 
 Notepad'de yazı denetimini, otomatik yazı düzeltmeyi ve Copilot'u devre dışı bırak.
 
-Sistemine Roboto Mono fontunu kur. Nasıl kurabileceğinin yönergelerini, bu reponun "Genel" kısmında bulunan
-"VS Code'da bu fontu kullan (Roboto Mono).txt" dosyasında bulabilirsin.
+Sistemine Roboto Mono fontunu kur. Nasıl kurabileceğine dair yönergeleri, bu GitHub deposunda bulunan "Genel"
+klasörünün içindeki "VS Code'da bu fontu kullan (Roboto Mono).txt" dosyasında bulabilirsin.
 
 Windows'un terminal uygulaması sisteminde kurulu değilse Windows Store'dan kur. Terminal uygulamasını aç.
 Üstteki artı butonunun yanındaki aşağı ok butonuna tıkla ve oradaki menüden ayarları aç.
