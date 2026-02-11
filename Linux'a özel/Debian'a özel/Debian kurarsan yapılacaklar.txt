@@ -8,9 +8,11 @@ NVIDIA sürücülerini kurmak için
     (Eğer ki çözüm yöntemimde sorun yaşarsan şu siteye git ve kendi çözümünü bul ve buraya yaz:
         https://wiki.debian.org/NvidiaGraphicsDrivers)
 
-    Terminale şu komutu gir: sudo apt install linux-headers-amd64
+    Terminale şu komutu gir:
+        sudo apt install linux-headers-amd64
 
-    Ardından şu komutu gir: sudo nano /etc/apt/sources.list
+    Ardından şu komutu gir:
+        sudo nano /etc/apt/sources.list
 
     ve şu satırı
     {
@@ -24,9 +26,11 @@ NVIDIA sürücülerini kurmak için
 
     ve kaydet.
 
-    Ardından terminale şu komutu gir: sudo apt update && sudo apt upgrade
+    Ardından terminale şu komutu gir:
+        sudo apt update && sudo apt upgrade
 
-    Ardından şu komutu gir: sudo apt install nvidia-kernel-dkms nvidia-driver firmware-misc-nonfree
+    Ardından şu komutu gir:
+        sudo apt install nvidia-kernel-dkms nvidia-driver firmware-misc-nonfree
 
     Eğer ki bir problem yoksa sistemini yeniden başlat ve giriş yaparken X11 session'ını seç.
 }
@@ -91,33 +95,20 @@ arkaplan'a çift tıkladığında bütün her şeyi seçme ayarını da kapat.
 GNOME kullanıyorsan (nokyan'ın) "Resources" uygulamasını flatpak olarak uygulama mağazasından indir.
 
 GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında:
-    "Switch windows"u "Alt + Tab" yap.
+    "Switch applications"ı "Super + Tab" olarak ayarla.
 
-    "Hide all normal windows"u "Super + D" yap.
+    "Switch windows"u "Alt + Tab" olarak ayarla.
 
-    "Resources" adında bir kısayol yap. Kısayolu "Ctrl + Shift + Escape" olsun. Komutu ise
+    "Hide all normal windows"u "Super + D" olarak ayarla.
+
+    "Nautilus" adında bir kısayol oluştur. Kısayolu "Super + E" olsun. Komutu ise "nautilus" olsun.
+
+    "Resources" adında bir kısayol oluştur. Kısayolu "Ctrl + Shift + Escape" olsun. Komutu ise
     "flatpak run net.nokyan.Resources" olsun.
 
-    "Nautilus" adında bir kısayol yap. Kısayolu "Super + E" olsun. Komutu ise "nautilus" olsun.
-
-    Eğer ki "Ctrl + Alt + T" komutu terminal açmazsa "Terminal" ismine bir kısayol yap. Kısayolu
-    "Ctrl + Alt + T" olsun. Komutu ise o terminalin komutu ne ise o olsun. (Komut; "ptyxis", "gnome-terminal",
-    "kgx" veya başka bişey olabilir.)
-
-    İstersen "Switch applications"ı "Super + Tab" yap.
-    (İstersen bu keybind'ların hepsini kullanabilirsin ve aşağıda "farklı virtual desktop'lardaki açık
-    penceler arasında Alt + Tab yaparak dolaşma"yı açmayabilirsin. Ya da en son keybind'ı girmeyip aşağıda
-    "farklı virtual desktop'lardaki açık penceler arasında Alt + Tab yaparak dolaşma"yı açabilirsin.)
-
-GNOME'da eğer ki farklı virtual desktop'lardaki açık penceler arasında Alt + Tab yaparak dolaşmak istiyorsan
-(Eğer ki Alt + Tab'ı "Switch windows"a ayarladıysan bunun etkisini görebilirsin.)
-{
-    gsettings set org.gnome.shell.window-switcher current-workspace-only false
-}
-Bunu kapatmak istiyorsan
-{
-    gsettings set org.gnome.shell.window-switcher current-workspace-only true
-}
+    Eğer ki "Ctrl + Alt + T" kısayolu terminal açmazsa "Terminal" isminde bir kısayol oluştur.
+    Kısayolu "Ctrl + Alt + T" olsun. Komutu ise kullandığın terminalin komutu ne ise o olsun.
+    (Yüklü gelen terminalin komutu "ptyxis" olabilir.)
 
 Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyorsan
 {

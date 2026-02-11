@@ -1,0 +1,18 @@
+Şu siteye bak: https://discourse.gnome.org/t/how-do-you-change-default-terminal/10010/3
+
+Eğer ki Nautilus'ta, kullanmak istediğin terminal için "Open Terminal Here" yazmıyorsa:
+    Şu sitedeki https://github.com/Stunkymonkey/nautilus-open-any-terminal uygulamayı kur
+    (kurulum komutlarının başında sudo yazmıyorsa o komutların başına sudo yazarak kullan).
+
+    Ardından yönergelere uyarak default terminali, kullanmak istediğin terminal yap
+    (Dconf Editor ile yaptım ben. Dconf Editor uygulamasını flatpak olarak sistemine kurabilirsin).
+
+    Terminal uygulamasını klayve kısayoluyla açmak için ayarlardan yapmış olduğun klavye kısayolu ayarını
+    değiştirmeyi unutma.
+
+    Terminalin adı "Terminal" veya "Console" ise komutları "gnome-terminal", "kgx" veya "ptyxis" olabilir.
+
+    Eğer ki Nautilus'ta sağ tık yaptığında "Open Terminal Here" yazmıyorsa bilgisayarını yeniden başlat.
+
+Eğer ki "Desktop Icons NG" isimli GNOME extension eklentisine uygun bir terminal uygulaması istiyorsan,
+"gnome-terminal" olan terminali sistemine kurabilirsin.

@@ -1,4 +1,4 @@
-Yönergelerini takip ettiğim video : https://www.youtube.com/watch?v=gOZT9NiMn2o&t=798s
+Yönergelerini takip ettiğim video: https://www.youtube.com/watch?v=gOZT9NiMn2o&t=798s
 
 Haberin olsun, yönergeleri NVIDIA GPU'ya göre anlatacağım.
 

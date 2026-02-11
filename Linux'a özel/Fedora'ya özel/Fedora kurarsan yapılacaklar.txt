@@ -116,9 +116,9 @@ GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında:
     (Yüklü gelen terminalin komutu "ptyxis" olabilir.)
 
 Sistemine Roboto Mono fontunu kur. Nasıl kurabileceğinin yönergelerini, bu reponun "Genel" kısmında bulunan
-"VS Code'da bu font'u kullan (Roboto Mono).txt" dosyasında bulabilirsin.
+"VS Code'da bu fontu kullan (Roboto Mono).txt" dosyasında bulabilirsin.
 
-Eğer ki GNOME'da default terminalini değiştirmek istemiyorsan
+Eğer ki GNOME'daki default terminali kullanmak istiyorsan
 {
     Terminal uygulamasını aç. Sağ üstteki 3 çizgi menüden "Preferences"ı aç.
     "Profiles" kısmına gel ve profil adını "Main Profile" yap.
@@ -130,20 +130,6 @@ Eğer ki GNOME'da default terminalini değiştirmek istemiyorsan
     "Restore Window Size" kısmından çıkan yerdeki seçenekleri fastfetch'e göre ayarla.
     (Coloumns'u 97, Rows'u 29 yap. Olmazsa değişirirsin.)
     Sonra "Behaviour" menüsünde en aşağıya in ve "Set as Default Terminal"e tıkla.
-}
-Eğer ki GNOME'da default terminalini değiştirmek istiyorsan
-{
-    Eğer ki "Desktop Icons NG" isimli GNOME extension eklentisine uygun bir terminal uygulaması istiyorsan,
-    "gnome-terminal" olan terminali sistemine kurabilirsin.
-
-    Şu sitedeki https://github.com/Stunkymonkey/nautilus-open-any-terminal uygulamayı kur
-    (kurulum komutlarının başında sudo yazmıyorsa o komutların başına sudo yazarak kullan).
-    Ardından yönergelere uyarak default terminali, kullanmak istediğin terminal yap
-    (Dconf Editor ile yaptım ben. Dconf Editor uygulamasını flatpak olarak sistemine kurabilirsin).
-    Terminal uygulamasını klayve kısayoluyla açmak için ayarlardan yapmış olduğun klavye kısayolu ayarını
-    değiştirmeyi unutma.
-    Terminalin adı "Terminal" veya "Console" ise komutları "gnome-terminal", "kgx" veya "ptyxis" olabilir.
-    Eğer ki Nautilus'ta sağ tık yaptığında "Open Terminal Here" yazmıyorsa bilgisayarını yeniden başlat.
 }
 
 Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyorsan
@@ -157,7 +143,7 @@ Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak
     Yaptığın değişiklikler, sisteminden çıkıp geri giriş yapınca etki gösterir.
 }
 
-Boot menüsünde çıkan kernel seçenekleri sayısını ayarlamak için:
+Boot menüsünde çıkan kernel seçenekleri sayısını ayarlamak istiyorsan:
     https://discussion.fedoraproject.org/t/old-kernels-removal/77046
 
 Bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan "Kurulacak Linux uygulamaları.txt" dosyasına
