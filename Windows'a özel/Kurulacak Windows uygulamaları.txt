@@ -20,8 +20,8 @@ Fastfetch programını, terminale şu komutu girerek kur:
 
 GIMP'i Microsoft Store'dan kur. (Eğer ki PhotoGIMP ile kullanacaksan GIMP'i Microsoft Store'dan kurma.)
 
-VS Code'un kurulum dosyasını şu siteden indir ve sistemine kur:
-    https://code.visualstudio.com/Download
+VS Code'un kurulum dosyasını kendi sitesinden indir ve kur. Kurarken "Ek işlemleri seçin" kısmında
+"Windows Gezgini bağlam menüsüne Code İle Aç eylemini ekle" seçeneğini aç ve öyle kurulumu yap.
 
 ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio ve Steam'de yapılacakları yap.
 
