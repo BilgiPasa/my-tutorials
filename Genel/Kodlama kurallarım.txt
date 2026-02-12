@@ -5,6 +5,8 @@ Kod yazacaksan o kodu kendin yaz. (Yani sen kod yazacaksan o kodu makine değil,
 Autocomplete kullanmak istiyorsan kullan.
 
 Sevdiğin bir text editörünü veya IDE'yi kullan. (Ben şahsen VS Code'u kullanıyorum.)
+Not: VS Code'da hiçbir uyarıda, "Bu kaynaktan bir daha uyarı gösterme" seçeneğine tıklama.
+Not2: VS Code'da, Pylance tür denetimi etkinleştirme uyarısı gelirse kabul etme ve geç.
 
 Sevdiğin bir font'u kullan. (Ben şahsen Roboto Mono'yu kullanıyorum.)
 
