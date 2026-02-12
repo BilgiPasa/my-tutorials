@@ -1,4 +1,4 @@
-"Roboto Mono" font'unu indirmek için:
+"Roboto Mono" fontunu indirmek için:
     Şu siteye git "https://fonts.google.com/specimen/Roboto+Mono" ve sağ üstteki "Get font" butonuna tıkla.
     Sonra, "Download all"a tıkla ve font'u indir. İndirdikten sonra, bilgisayarındaki "Documents" kısmında
     "Roboto_Mono" adında bir klasör oluştur. Ardından; indirmiş olduğun zip dosyasının içindekileri, o
@@ -21,10 +21,14 @@ Eğer ki Windows kullanıyorsan:
     butonuna bas. Bilgisayarında "Documents" kısmına koymuş olduğun "Roboto_Mono" klasörünün içindeki
     "RobotoMono-VariableFont_wght.ttf" dosyasını seç ve o fontu ekle.
 
-Eğer ki VS Code ayarlarında, kullanmak istediğin font'u belirlemek istiyorsan:
-    VS Code'u aç. VS Code'da "Font Family" ayarındaki yazanları SAKIN SİLME! Yapacağın şey, o ayardaki
-    yazanların önüne "'Roboto Mono', " (çift tırnaksız bir şekilde) yazılı değilse yazmak. Yani örnek olarak, o
-    ayarda "'Droid Sans Mono', monospace" yazıyorsa senin yapacağın şey o yazıyı şu hale getirmek:
-        "'Roboto Mono', 'Droid Sans Mono', monospace"
-        (tekrardan söylüyorum, çift tırnaksız bir şekilde yazacaksın. Ben belirtmek için çift tırnaklı halde
-        yazdım buraya. Senin yazacağın yerlerde çift tırnaksız halde yazman lazım.)
+Eğer ki VS Code ayarlarında, kullanmak istediğin fontu belirlemek istiyorsan:
+    VS Code'u aç. VS Code'da "Font Family" ayarındaki yazanları SAKIN SİLME!
+
+    Yapacağın şey, o ayardaki yazanların soluna, şu yazılı değilse onu yazmak:
+        'Roboto Mono',
+
+    Yani örnek olarak, o ayarda şu yazıyorsa:
+        'Droid Sans Mono', monospace
+
+    Senin yapacağın şey o yazıyı şu hale getirmek:
+        'Roboto Mono', 'Droid Sans Mono', monospace
