@@ -4,6 +4,9 @@ devam et.
 VS Code'u şu sitedeki yönergelere uyarak kur:
     https://code.visualstudio.com/docs/setup/linux#_install-vs-code-on-linux
 
+VS Code'u kurduktan sonra VS Code'u aç. Sol alttaki "Accounts" kısmından "Backup and Sync Settings"e tıkla.
+Çıkan menüden "Sign in"e tıkla ve GitHub ile giriş yap.
+
 Sistemin Debian veya Fedora tabanlıysa ATLauncher'ın kurulum dosyasını kendi sitesinden indir ve kur ama eğer
 ki sistemin Arch Linux tabanlıysa şu AUR paketi ile ATLauncher'ı kur: atlauncher-bin
 
