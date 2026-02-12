@@ -7,6 +7,7 @@ Autocomplete kullanmak istiyorsan kullan.
 Sevdiğin bir text editörünü veya IDE'yi kullan. (Ben şahsen VS Code'u kullanıyorum.)
 Not: VS Code'da hiçbir uyarıda, "Bu kaynaktan bir daha uyarı gösterme" seçeneğine tıklama.
 Not2: VS Code'da, Pylance tür denetimi etkinleştirme uyarısı gelirse kabul etme ve geç.
+Not3: VS Code'da, sana önerilen uzantı varsa o uzantının üstüne sağ tıklayıp "Öneriyi Yoksay"a tıkla.
 
 Sevdiğin bir font'u kullan. (Ben şahsen Roboto Mono'yu kullanıyorum.)
 
