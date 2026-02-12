@@ -13,12 +13,15 @@ Winget kullanarak bu uygulamaları kur:
     OBS Studio
     Steam
     VLC
-    VS Code
     Zoom
 
-Fastfetch'i, terminale şu komutu girerek kur: winget install fastfetch
+Fastfetch programını, terminale şu komutu girerek kur:
+    winget install fastfetch
 
 GIMP'i Microsoft Store'dan kur. (Eğer ki PhotoGIMP ile kullanacaksan GIMP'i Microsoft Store'dan kurma.)
+
+VS Code'un kurulum dosyasını şu siteden indir ve sistemine kur:
+    https://code.visualstudio.com/Download
 
 ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio ve Steam'de yapılacakları yap.
 
