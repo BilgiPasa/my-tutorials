@@ -14,10 +14,6 @@
     "godotTools.lsp.serverPort": 6005,
     "redhat.telemetry.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
-    "settingsSync.ignoredSettings": [
-        "-window.zoomLevel"
-    ],
-    "window.zoomLevel": 2,
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.navigationControl.enabled": false,
