@@ -3,7 +3,7 @@ penceresinde çıkan "Enable third party repositories" seçeneğine tıkla ve 3.
 Eğer ki bunu açmayı unutup kurulum yaparsan uygulama mağazasındaki software repositories kısmından aç.
 
 Eğer ki başka bir ISO ile kurulum yaptıysan kurulum bitince terminale şu komutu girerek 3. parti depoları
-aktive et:
+sistemine kur:
     sudo dnf install fedora-workstation-repositories
 
 Fedora Workstation kuruyorsan ve kurulumda konum seçmeye geldiysen, oradaki arama kısmında konumunu yazma.
