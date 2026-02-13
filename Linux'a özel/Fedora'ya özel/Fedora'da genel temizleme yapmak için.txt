@@ -2,4 +2,4 @@ Fedora sisteminde genel temizleme yapmak için şu komutları kullanabilirsin:
     sudo dnf clean all
     sudo dnf autoremove
 
-Haberin olsun autoremove ile silme yaparken dikkat et, önemli bir şeyi silmesin.
+Not: autoremove ile silme işlemi yaparken dikkat et. Önemli bir şeyi silmesin.

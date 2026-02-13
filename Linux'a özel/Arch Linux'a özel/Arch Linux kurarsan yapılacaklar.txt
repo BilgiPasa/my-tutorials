@@ -1,6 +1,6 @@
 Yönergelerini takip ettiğim video: https://www.youtube.com/watch?v=gOZT9NiMn2o&t=798s
 
-Haberin olsun, yönergeleri NVIDIA GPU'ya göre anlatacağım.
+Aşağıdaki yönergeler, NVIDIA ekran kartı olan bir cihaz içindir.
 
 Arch'ın ISO'sunu açtıktan sonra "archinstall" yaz ve seçenekler olarak şunları seç.
 Archinstall language: English

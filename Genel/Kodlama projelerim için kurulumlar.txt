@@ -26,8 +26,7 @@ Linux kullanıyorsan şunları yap
     (Not: Bilgisayarında birden çok Java versiyonu yüklüyse ve bunları yönetmek istiyorsan
     "sudo alternatives --config java" komutunu gir. Buradaki versiyonlardan ana olarak kullanmak istediğini
     seç. Eğer ki eksi bir Java versiyonunu silmek istiyorsan silmemeni öneririm çünkü o Java versiyonuna bağlı
-    olan kullandığın uygulama veya paket olabilir. Örneğin ben Java 21'i silecektim ki meğer atlauncher
-    Java 21'i kullanıyormuş. O yüzden dikkali ol silme işlerinde felan.)
+    olan kullandığın uygulama veya paket olabilir.)
 
     Debian'da Java kurulum komutunun kaynağı: https://wiki.debian.org/Java
     Debian'da FFmpeg kurulum komutunun kaynağı: https://www.geeksforgeeks.org/linux-unix/how-to-install-ffmpeg-in-linux/
@@ -37,7 +36,7 @@ Linux kullanıyorsan şunları yap
     PIP kurulum komutlarının kaynağı: https://www.geeksforgeeks.org/python/how-to-install-pip-in-linux/
     Diğer komutları ise Manim Community'nin sayfasından baktım da yazdım.
 
-    Haberin olsun; texlive'ı kurmanın sebebi, Manim'de LaTeX'i kullanabilmen için.
+    Texlive'ı, Manim'de LaTeX'i kullanabilmek için kuruyorum.
 
     Python dosyalarını kullanacaksan .venv ile kullan. .venv kurmak için internete bağlan, F1'e bas ve arama
     yerine "Python: Ortam Oluşturun" veya "Python: Create Environment" yaz ve o seçeneğe tıkla. Çıkan menüde
@@ -75,8 +74,8 @@ Windows kullanıyorsan şunları yap
     pencereden Java'nın eski sürümlerini sil. Windows'ta sadece JDK kurman yeterli bu arada. Yani Windows'ta
     ayrıca JRE kurmana gerek yok.
 
-    MiKTeX'i şu siteden https://miktex.org/download normal bir şekilde sistemine kur. (MiKTeX'i, Manim'de
-    LaTeX'i kullanabilmek için kuruyorsun haberin olsun.)
+    MiKTeX'i şu siteden https://miktex.org/download normal bir şekilde sistemine kur.
+    (MiKTeX'i, Manim'de LaTeX'i kullanabilmek için kuruyorum.)
 
     Python dosyalarını kullanacaksan .venv ile kullan. .venv kurmak için internete bağlan, F1'e bas ve arama
     yerine "Python: Ortam Oluşturun" veya "Python: Create Environment" yaz ve o seçeneğe tıkla. Çıkan menüde
@@ -98,7 +97,7 @@ C# projesi oluşturacaksan yapılacaklar
 {
     İlk önce kendi oluşturacağın projenin adında boş bir klasör oluştur.
 
-    Ardından o oluşturduğun boş klasörü VSCode ile aç. Sonra F1'e tıkla ve ".NET: Yeni Proje"
+    Ardından o oluşturduğun boş klasörü VS Code ile aç. Sonra F1'e tıkla ve ".NET: Yeni Proje"
     (yani ".NET: New Project") olan seçeneği seç.
 
     Proje "Konsol Uygulaması" olsun (yani "Console App").
@@ -116,27 +115,27 @@ C# projesi oluşturacaksan yapılacaklar
 
 Java projesi oluşturacaksan yapılacaklar
 {
-    Projeyi oluşturmak istediğin yerde VSCode'u aç ve F1'e tıkla.
+    Projeyi oluşturmak istediğin yerde VS Code'u aç ve F1'e tıkla.
 
     Çıkan menüde "Java: Create Java Project" seçeneğini seç.
 
     Proje hali olarak "No Build Tools" seçeneğini seç.
 
-    Ardından ekrana çıkan proje kısmı seçme menüsünden (eğer ki o menüde çıkan dizin senin VSCode'da açmış
-    olduğun dizin ise) bir şeyi seçmeden direk "Select the project location"a tıkla. (Öyle değilse VSCode'da
+    Ardından ekrana çıkan proje kısmı seçme menüsünden (eğer ki o menüde çıkan dizin senin VS Code'da açmış
+    olduğun dizin ise) bir şeyi seçmeden direk "Select the project location"a tıkla. (Öyle değilse VS Code'da
     açmış olduğun dizine gel.)
 
     Ardından Java projene bir ad ver.
 
     Yeni bir pencere açılarak senin Java projeni göstermesi lazım.
 
-    Bu arada haberin olsun oluşturduğun Java projende .java dosyaların (evet aynı projede birkaç tane .java
-    dosyası koyabilirsin) "src" isimli klasörün içinde olması lazım ve adı ne istersen olabilir. Yani ismi
-    "App" olmak zorunda değil ama Class adın ile dosya adının uyuştuğuna emin ol.
+    Oluşturduğun Java projende .java dosyaların (evet, aynı projeye birkaç tane .java dosyası koyabilirsin)
+    "src" isimli klasörün içinde olması lazım. .java dosyalarının adı ne istersen olabilir. Yani ismi "App"
+    olmak zorunda değil ama Class adın ile dosya adının uyuştuğuna emin ol.
 
     Bu arada Java projesinin içineki "src" klasörünün içine başka bir yerden aldığın .java dosyasını koyacaksan
-    (genellikle ilk satırda olan) "package" satırını sil. Eğer ki VSCode projen özel bir package kullanıyor
-    ise o package satırındaki package adını VSCode projendeki package adı ne ise o yap.
+    (genellikle ilk satırda olan) "package" satırını sil. Eğer ki VS Code projen özel bir package kullanıyor
+    ise o package satırındaki package adını VS Code projendeki package adı ne ise o yap.
 }
 
 Not1:

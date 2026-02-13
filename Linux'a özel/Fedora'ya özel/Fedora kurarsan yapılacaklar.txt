@@ -52,7 +52,7 @@ menüde sağ üst kısımda Flathub'ı ekleme butonu çıkması lazım. Eğer ki
 tıklayarak Flathub repo'sunu ekle.)
 
 NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak: https://rpmfusion.org/Howto/NVIDIA)
-(CUDA sürücülerinin adında "xorg" ve "x11" yazıyor ama Wayland'de de çalışıyor yani haberin olsun.)
+(CUDA sürücülerinin adında "xorg" ve "x11" yazıyor ama Wayland'de de çalışıyor yani merak etme.)
 {
     sudo dnf update -y
     sudo dnf install akmod-nvidia -y

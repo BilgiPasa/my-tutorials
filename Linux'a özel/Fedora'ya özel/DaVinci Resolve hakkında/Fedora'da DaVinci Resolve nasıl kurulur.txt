@@ -1,4 +1,4 @@
-Haberin olsun, güncelleme yapmak için de bu tutorial'ı kullanabilirsin.
+Not: DaVinci Resolve'u güncellemek için de bu tutorial'ı kullanabilirsin diye sanıyorum.
 
 DaVinci Resolve'un zip dosyasını indirdikten sonra zip dosyasının içindekileri dışarı aktar.
 Ardından, dışarı aktardığın dosyaların bulunduğu konumda terminal aç ve şu 2 komutu gir:

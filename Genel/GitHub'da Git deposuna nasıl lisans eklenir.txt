@@ -4,9 +4,8 @@ Depo ana sayfasındaki "Add file" butonuna tıkla ve oradan "Create new file"a t
 istediğin dosya adı yerine (tırnaksız bir şekilde) "LICENSE" diye yaz. O yazma yerinin altında çıkan
 "Choose a license template" butonuna tıkla ve değişiklikler kaydedilmesin mi kısmında "OK"e tıkla.
 
-Çıkan ekranda bir lisans seç. Mesela örnek olarak MIT License'ı seçmek için oradaki MIT License butonuna tıkla.
-(HABERİN OLSUN BEN ÖRNEK NİYETİNDE MIT LICENSE'I SÖYLÜYORUM. SEN HANGİ LİSANSI KULLANMAK İSTİYORSAN ONU
-SEÇ VE KULLAN.)
+Çıkan ekranda bir lisans seç. Mesela, MIT License'ı seçmek için oradaki MIT License butonuna tıklayabilirsin.
+(MIT LICENSE'I ÖRNEK OLARAK SÖYLÜYORUM. SEN HANGİ LİSANSI KULLANMAK İSTİYORSAN ONU SEÇİP KULLANABİLİRSİN.)
 
 Lisans belirlerken eğer ki sağda yıl ve ad bilgileri çıkarsa onları değiştirip değiştirmemek sana kalmış.
 

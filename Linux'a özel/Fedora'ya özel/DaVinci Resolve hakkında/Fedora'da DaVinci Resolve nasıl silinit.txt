@@ -4,8 +4,8 @@ O programda işin bitince "/opt"ye bak. Orada "resolve" diye bir klasör varsa D
 silinmemiş demektir. Oradaki klasörü direk silmek için /opt içinde terminal aç ve şu komutu gir:
     sudo rm -r resolve
 
-Haberin olsun, terminalde rm komutunu kullandığında o komutu geri alamazsın. Sildiğin şey çöp kutusunu gitmez,
-kalıcı olarak silinir.
+Not: Terminalde rm komutunu kullandığında o komutu geri alamazsın. Sildiğin şey çöp kutusunu gitmez, kalıcı
+olarak silinir.
 
 Ve bu arada sisteminin home yolunun içindeki Documents klasöründe BlackmagicDesign isimli bir klasör, .cache
 klasöründe DaVinci_Resolve_Welcome isimli bir klasör ve .local klasörünün içindeki share klasörünün içinde

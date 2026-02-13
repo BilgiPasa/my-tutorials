@@ -5,4 +5,4 @@ komutu gir:
 Bunu kapatmak istiyorsan terminale şu komutu gir:
     gsettings set org.gnome.shell.window-switcher current-workspace-only true
 
-Haberin olsun, eğer ki Alt + Tab'ı "Switch windows"a ayarladıysan bunun etkisini görebilirsin.
+Eğer ki Alt + Tab'ı "Switch windows"a ayarladıysan bunun etkisini görebilirsin.

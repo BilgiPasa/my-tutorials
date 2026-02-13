@@ -1,5 +1,4 @@
-Sistemine, Ventoy'un Linux için olan çalıştırma dosyasını indir ve "VentoyGUI.x86_64" dosyasını terminal
-kullanarak çalıştır.
+Sistemine, Ventoy'un Windows için olan çalıştırma dosyasını indir ve "Ventoy2Disk.exe" dosyasını çalıştır.
 
 Sol üstteki "Option" menüsünden "Partition Style" kısmına gel ve "GPT" olanı seç.
 (Disk biçimlendirmesi olarak GPT'nin, MBR'den daha iyi olduğunu bildiğim için GPT seçmeni istiyorum.)

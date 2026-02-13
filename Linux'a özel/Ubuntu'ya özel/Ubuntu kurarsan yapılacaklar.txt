@@ -1,4 +1,4 @@
-Haberin olsun. Bu yapılacaklar listemi, Ubuntu'nun GNOME versiyonu için yaptım.
+Bu yapılacaklar listemi, Ubuntu'nun GNOME versiyonu için yaptım.
 
 Kurulum yaparken "Insall recommended proprietary software?" kısmındaki checkbox'ların hepsine tıkla ve öyle
 devam et.
