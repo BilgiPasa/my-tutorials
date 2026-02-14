@@ -46,10 +46,11 @@ Açtığında yapılacaklar
         makepkg -si
         yay -S pacseek
         sudo pacman -S flatpak
+
         (çıkan java-runtime seçeneklerinden default olanı seç. Çıkan opencl seçeneklerinden NVIDIA propriatery
         olanı seç (propriatery yazmıyorsa NVIDIA olanı seç ama nouveau olanı SEÇME!) Packages to cleanBuild
         için "I" yap. Diffs to show için "N" yap. Remove make dependicies için default ne ise o olsun. Bu son
-        3 seçenek aur paketi yüklerken çıkıyor. Yani normal.)
+        3 seçenek aur paketi yüklerken de çıkabilir. Yani normal.)
     }
 
     GNOME kullanıyorsan terminale şu komutu da gir:
