@@ -147,7 +147,15 @@ Not2:
     python ile uğraşacaksan ona göre kur.
 
 Not3:
-    Eğer ki kod projelerini aktaracaksan (ki artık burada maintain etmiyorum. O kod projelerini github
-    üzerinden maintain ediyorum), ve Python projelerinin klasörünün içinde ".venv" klösürü varsa ".venv"
-    klasörünü aktarma. (Diğerlerini aktaracaksan aktar ama .venv'ye elleme diyorum yani.) ".venv" klasörünü
-    kendi cihazında kurmak için yukarıda anlattığım yönergeleri takip et.
+    Eğer ki Python'da yapmış olduğun bir projenin dosyalarını bir yere aktaracaksan ve o projende .venv
+    klasörü varsa, .venv klasörünü aktarma. Diğer dosyaları aktar .venv'yi aktarma. .venv klasörünü kurmak
+    için yukarıda anlattığım yönergeleri takip et.
+
+Not4:
+    Eğer ki Python'da yapmış olduğun ve GitHub'da yönettiğin bir projen varsa ve o projende .venv klasörü
+    varsa, o projenin root klasöründe bir ".gitignore" dosyası oluştur. .gitignore dosyasının içine ise
+    .venv klasörün nerede ise konumunu yaz ve yanına bir eğik çizgi (/) koy. Örneğin .venv klasörün o
+    projenin root klasöründe ise .gitignore dosyasının içine şunu yaz: .venv/
+
+    .gitignore dosyası ile .venv klasörünü ihmal ettiğimiz için o projeyi clone'ladığında .venv klasörü gelmez.
+    .venv klasörünü kurmak için yukarıda anlattığım yönergeleri takip et.
