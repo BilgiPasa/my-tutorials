@@ -128,7 +128,7 @@ Eğer ki GNOME'daki default terminali kullanmak istiyorsan
     Cursor'dan "Cursor Shape"i "Underline" yap.
     "Behaviour" kısmına gel ve "Interface" kısmında "Restore Session"ı ve "Restore Window Size"ı kapat.
     "Restore Window Size" kısmından çıkan yerdeki seçenekleri fastfetch'e göre ayarla.
-    (Coloumns'u 97, Rows'u 30 yap. Olmazsa değişirirsin.)
+    (Coloumns'u 98, Rows'u 30 yap. Olmazsa değişirirsin.)
     Sonra "Behaviour" menüsünde en aşağıya in ve "Set as Default Terminal"e tıkla.
 }
 

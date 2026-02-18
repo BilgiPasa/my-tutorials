@@ -46,7 +46,7 @@ klasörünün içindeki "VS Code'da bu fontu kullan (Roboto Mono).txt" dosyasın
 Windows'un terminal uygulaması sisteminde kurulu değilse Windows Store'dan kur. Terminal uygulamasını aç.
 Üstteki artı butonunun yanındaki aşağı ok butonuna tıkla ve oradaki menüden ayarları aç.
 Soldaki "Startup" kısmında "Default Profile"ı "Windows Powershell" olarak ayarla, "Launch size"ı fastfetch'e
-göre ayarla. (Columns'u 113, Rows'u 29 yap. Olmazsa değişirirsin.)
+göre ayarla. (Columns'u 103, Rows'u 29 yap. Olmazsa değişirirsin.)
 Soldaki "Profiles" kısmının altındaki "Windows Powershell" kısmından "Additional settings" kısmından
 "Appereance" kısmına gir. Orada, "Text" kısmının altında "Font face"e (tırnaksız olarak) "Roboto Mono" yaz.
 "Font size"ı 16 yap. Aşağıda, "Cursor" kısmında "Cursor shape"i "Underscore" yap.
