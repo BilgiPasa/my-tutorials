@@ -1,0 +1,7 @@
+NVIDIA Powermizer modunu değiştirmek istiyorsan "home" yolunda bulunan ".nvidia-settings-rc" dosyasını aç.
+
+[GPU:0]/GPUPowerMizerMode=0 yazan bir yer olmalı. O kısımda =0 yerine =1 yaparsan performans moduna alırsın.
+
+Eski kalıne çevirmek için =1 yerine =0 yap.
+
+Yaptığın değişikliğin etki etmesi için bilgisayarını yeniden başlat.
