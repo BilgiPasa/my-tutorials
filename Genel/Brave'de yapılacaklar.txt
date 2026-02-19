@@ -1,29 +1,15 @@
 Bookmarks kısmını her zaman görünür yap. Başlangıç ekranını kendine göre ayarla.
 
-Ayarlar'da
-{
-    "Appereance" kısmında
-    {
+Ayarlarda:
+    "Appereance" kısmında:
         "Show autocomplete suggestions in address bar"da "Leo AI"ı kapat.
-
         "Use wide address bar"ı aç.
-    }
 
-    Leo
-    {
+    "Leo" kısmında:
         İlk 3 ayarı kapat.
-    }
 
-    Search Engine
-    {
+    "Search Engine" kısmında:
         2'sini de Google yap.
-    }
 
-    Extensions
-    {
-        "Get more extensions"a tıkla ve şu eklentileri kur
-        {
-            Dark Reader, Youtube-shorts block, Return Youtube Dislike
-        }
-    }
-}
+    "Extensions" kısmında "Get more extensions"a tıkla ve şu eklentileri kur:
+        Dark Reader, Youtube-shorts block, Return Youtube Dislike, Sound Booster - Max Volume & Deep Bass
