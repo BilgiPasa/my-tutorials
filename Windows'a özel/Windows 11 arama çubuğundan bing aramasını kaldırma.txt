@@ -1,4 +1,6 @@
 Yapmak için PowerShell'e bu komutu gir:
     reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Search" /v BingSearchEnabled /t REG_DWORD /d 0 /f
 
+Yukarıdaki komutu çalıştırdıktan sonra bilgisayarını yeniden başlat.
+
 Kaynak (bu sitedeki 5. metod): https://www.geeksforgeeks.org/techtips/how-to-remove-bing-search-from-windows/
