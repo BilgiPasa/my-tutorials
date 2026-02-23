@@ -43,14 +43,6 @@ GNOME kullanıyorsan terminale şu komutları gir
     sudo dnf install gnome-themes-extra -y
 }
 
-GNOME kullanıyorsan uygulama mağazasında sağ üstteki 3 çizgili menüden "Software Repositories"i aç. Orada eğer
-ki açık olan "Fedora Flatpaks" repo'su varsa kapat. (Bu, Flathub repo'sunu etkilememesi lazım.)
-
-KDE Plazma kullanıyorsan "Discover"ı aç. "Settings"e gel. Orada bulunan "Fedora Flatpaks" repo'su varsa sil.
-(Bu, Flathub repo'sunu etkilememesi lazım. Eğer ki bir sebepten dolayı Flathub repo'su silinirse oradaki
-menüde sağ üst kısımda Flathub'ı ekleme butonu çıkması lazım. Eğer ki Flathub repo'su silinirse o butona
-tıklayarak Flathub repo'sunu ekle.)
-
 NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak: https://rpmfusion.org/Howto/NVIDIA)
 (CUDA sürücülerinin adında "xorg" ve "x11" yazıyor ama Wayland'de de çalışıyor yani merak etme.)
 {
@@ -60,6 +52,16 @@ NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak: https://
 }
 
 Sürücüleri kurunca 5 dakika zamanlayıcı kur ve bekle. Ardından bilgisayarını yeniden başlat.
+
+GNOME kullanıyorsan uygulama mağazasında sağ üstteki 3 çizgili menüden "Software Repositories"i aç. Orada eğer
+ki açık olan "Fedora Flatpaks" repo'su varsa kapat. (Bu, Flathub repo'sunu etkilememesi lazım.)
+
+KDE Plazma kullanıyorsan "Discover"ı aç. "Settings"e gel. Orada bulunan "Fedora Flatpaks" repo'su varsa sil.
+(Bu, Flathub repo'sunu etkilememesi lazım. Eğer ki bir sebepten dolayı Flathub repo'su silinirse oradaki
+menüde sağ üst kısımda Flathub'ı ekleme butonu çıkması lazım. Eğer ki Flathub repo'su silinirse o butona
+tıklayarak Flathub repo'sunu ekle.)
+
+Ardından nolur nolmaz bilgisayarını yeniden başlat. (Repo'ları güncellemek için)
 
 GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı flatpak olarak kur. Ardından, Extension
 Manager'dan bu eklentileri sistemine kur:
