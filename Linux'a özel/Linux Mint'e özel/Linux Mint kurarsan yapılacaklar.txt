@@ -73,5 +73,5 @@ Time format'i UK yap ve "Apply system wide" tuşuna bas. Bilgisayarını kapatı
 
 Linux Mint kişiselliştirmesi için şu videoya bakabilirsin : https://www.youtube.com/watch?v=Q_Uoe5H4ORs
 
-Bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan "Kurulacak Linux uygulamaları.txt" dosyasına
-git ve kurmak istediğin uygulamaları sistemine kur.
+Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
+"Kurulacak Linux uygulamaları.txt" dosyasına git ve kurmak istediğin uygulamaları sistemine kur.

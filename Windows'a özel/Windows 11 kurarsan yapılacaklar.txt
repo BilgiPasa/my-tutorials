@@ -58,5 +58,5 @@ dosyasına bak ve Windows arama çubuğundan bing aramasını kaldır.
 Bu dosyanın bulunduğu dosya dizininde bulunan "Windows 11 sağ tık'ı Windows 10 gibi yapma.txt" dosyasına bak ve
 Windows 11 sağ tık'ını Windows 10 gibi yap.
 
-Bu dosyanın bulunduğu dosya dizininde bulunan "Kurulacak Windows uygulamaları.txt" dosyasına git ve kurmak
-istediğin uygulamaları sistemine kur.
+Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininde bulunan
+"Kurulacak Windows uygulamaları.txt" dosyasına git ve kurmak istediğin uygulamaları sistemine kur.

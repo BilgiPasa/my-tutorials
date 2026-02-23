@@ -87,5 +87,5 @@ playit.gg'yi çalıştırmak için terminale "playit" komutunu girmen yeterli.
 Bu dosyanın bulunduğu dosya dizininde "Ubuntu'da Esm Apps bildirimini kapatma.txt" diye bir dosya olmalı.
 Güncelleme yaptığında çıkan bildirimden rahatsız oluyorsan o dosyadaki yönergeleri denemeni öneririm.
 
-Bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan "Kurulacak Linux uygulamaları.txt" dosyasına
-git ve kurmak istediğin uygulamaları sistemine kur.
+Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
+"Kurulacak Linux uygulamaları.txt" dosyasına git ve kurmak istediğin uygulamaları sistemine kur.

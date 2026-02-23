@@ -39,3 +39,6 @@ Eğer ki Microsoft Office kullanmıyorsan winget ile ONLYOFFICE Desktop Editors'
 
 Eğer ki ONLYOFFICE'te "Times New Roman" fontu kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
 Times New Roman fontunu indir ve sistemine kur.
+
+Buradaki kurulum işlerin bitince, bu GitHub deposunda bulunan "Genel" klasörünün içindeki
+"Kodlama projelerim için kurulumlar.txt" dosyasına git ve kurmak istediğin şeyleri kur.

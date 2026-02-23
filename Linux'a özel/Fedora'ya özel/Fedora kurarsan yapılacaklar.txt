@@ -135,16 +135,16 @@ Eğer ki GNOME'daki default terminali kullanmak istiyorsan
 Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyorsan
 {
     GNOME'da, ayarlarda "System" kısmında gir ve orada "Region and Language" kısmına gir.
-    "Language"ı "English (United States)" seç ve "Formats"ı "United Kingdom (English)" seç.
-    Sisteminden çıkıp geri giriş yapınca etki gösterir.
+    Dil olarak "English (United States)"i seç ve "Formats" kısmında "United Kingdom (English)"i seç.
+    Yaptığın değişiklikler, sisteminden çıkıp geri giriş yapınca etki göstermeli.
 
-    KDE Plazma'da ayarlarda Region and Language ayarı olması lazım. Oraya gir.
-    Dil olarak Amerikan İngilizcesini seç ve formatlar olarak ise "C" seç.
-    Yaptığın değişiklikler, sisteminden çıkıp geri giriş yapınca etki gösterir.
+    KDE Plazma'da, ayarlarda "Region and Language" kısmına gir.
+    Dil olarak "American English"i seç ve ("Data and Storage Sizes" hariç) bütün formatları "C" olarak ayarla.
+    Yaptığın değişiklikler, sisteminden çıkıp geri giriş yapınca etki göstermeli.
 }
 
 Boot menüsünde çıkan kernel seçenekleri sayısını ayarlamak istiyorsan:
     https://discussion.fedoraproject.org/t/old-kernels-removal/77046
 
-Bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan "Kurulacak Linux uygulamaları.txt" dosyasına
-git ve kurmak istediğin uygulamaları sistemine kur.
+Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
+"Kurulacak Linux uygulamaları.txt" dosyasına git ve kurmak istediğin uygulamaları sistemine kur.

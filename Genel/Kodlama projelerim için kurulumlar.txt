@@ -91,6 +91,9 @@ Windows kullanıyorsan şunları yap
         pip3 install ursina speedtest-cli pygame-ce
 }
 
+Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininde bulunan "Git ve GitHub kurulumu.txt"
+dosyasına git ve istiyorsan Git ve GitHub kurulumunu yap.
+
 C# veya Java ile ilgili şeyler yapacaksan proje oluşturarak yap.
 
 C# projesi oluşturacaksan yapılacaklar

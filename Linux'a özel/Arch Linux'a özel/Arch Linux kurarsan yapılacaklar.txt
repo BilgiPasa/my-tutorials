@@ -64,5 +64,5 @@ Sistemine kurmak için terminalde "yay -S pacseek" komutunu kullanabilirsin.
 
 Ayarlardan mikrofon input sesini kısmayı unutma.
 
-Bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan "Kurulacak Linux uygulamaları.txt" dosyasına
-git ve kurmak istediğin uygulamaları sistemine kur.
+Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
+"Kurulacak Linux uygulamaları.txt" dosyasına git ve kurmak istediğin uygulamaları sistemine kur.

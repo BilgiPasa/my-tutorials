@@ -52,9 +52,10 @@ Affinity ve FL Studio'yu Lutris ise nasıl kurman gerekiyorsa ona göre sistemin
 kurabileceğine dair yönergeleri, bu dosyanın olduğu klasörde bulunan "Linux'ta Affinity nasıl kurulur.txt" ve
 "Linux'ta FL Studio nasıl kurulur.txt" dosyalarında bulabilirsin.
 
-Neden ONLYOFFICE ve VLC'yi flatpak olarak kurmayı tercih ettiğimi merak ediyorsan
-{
+Buradaki kurulum işlerin bitince, bu GitHub deposunda bulunan "Genel" klasörünün içindeki
+"Kodlama projelerim için kurulumlar.txt" dosyasına git ve kurmak istediğin şeyleri kur.
+
+Neden ONLYOFFICE ve VLC'yi flatpak olarak kurmayı tercih ettiğimi merak ediyorsan:
     1. Flatpak olarak yüklediğinde güncellemeler daha erkenden geliyor.
     2. Wayland kullanıyorsan, VLC'yi dnf ile kurma. Çünkü ses gelmeme sıkıntısı çıkabilir.
     3. Fedora'da ONLYOFFICE'i dnf ile kurmada sıkıntı yaşayabileceğin için flatpak olarak kur.
-}
