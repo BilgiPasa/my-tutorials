@@ -118,7 +118,7 @@ GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında:
     (Yüklü gelen terminalin komutu "ptyxis" olabilir.)
 
 Sistemine Roboto Mono fontunu kur. Nasıl kurabileceğine dair yönergeleri, bu GitHub deposunda bulunan "Genel"
-klasörünün içindeki "VS Code'da bu fontu kullan (Roboto Mono).txt" dosyasında bulabilirsin.
+klasörünün içindeki "Roboto Mono fontu nasıl kurulur.txt" dosyasında bulabilirsin.
 
 Eğer ki GNOME'daki default terminali kullanmak istiyorsan
 {

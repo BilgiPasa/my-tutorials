@@ -13,6 +13,7 @@ Winget kullanarak bu uygulamaları kur:
     OBS Studio
     Steam
     VLC
+    VSCodium
     Zoom
 
 Fastfetch programını, terminale şu komutu girerek kur:
@@ -20,12 +21,7 @@ Fastfetch programını, terminale şu komutu girerek kur:
 
 GIMP'i Microsoft Store'dan kur. (Eğer ki PhotoGIMP ile kullanacaksan GIMP'i Microsoft Store'dan kurma.)
 
-VS Code'un kurulum dosyasını kendi sitesinden indir ve kur. Kurarken, "Ek işlemleri seçin" kısmında
-"Windows Gezgini bağlam menüsüne Code İle Aç eylemini ekle" seçeneğini aç ve öyle kurulumu yap.
-VS Code'u kurduktan sonra VS Code'u aç. Sol alttaki "Accounts" kısmından "Backup and Sync Settings"e tıkla.
-Çıkan menüden "Sign in"e tıkla ve GitHub ile giriş yap.
-
-ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio ve Steam'de yapılacakları yap.
+ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, Steam ve VSCodium'da yapılacakları yap.
 
 Affinity, DaVinci Resolve, Everything, FL Studio ve playit.gg'nin kurulum dosyalarını kendi sitelerinden
 indirip sistemine kur.

@@ -1,4 +1,4 @@
-Not: Başlıktaki repo derken, terminal komutlarıyla kurmuş olduğun uygulamanın repo'sunu bahsediyorum.
+Not: Başlıkta repo derken, terminal komutlarıyla kurmuş olduğun uygulamanın repo'sunu bahsediyorum.
 
 Şu siteye bakmanı öneririm:
     https://docs.fedoraproject.org/en-US/quick-docs/adding-or-removing-software-repositories-in-fedora/

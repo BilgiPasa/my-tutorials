@@ -1,11 +1,10 @@
 Başlamadan önce, kullandığın distro'ya göre olan yapılacaklar listeni takip et. Oradaki işin bitince buradan
 devam et.
 
-VS Code'u şu sitedeki yönergelere uyarak kur:
-    https://code.visualstudio.com/docs/setup/linux#_install-vs-code-on-linux
+VSCodium'u şu sitedeki yönergelere uyarak kur:
+    https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo
 
-VS Code'u kurduktan sonra VS Code'u aç. Sol alttaki "Accounts" kısmından "Backup and Sync Settings"e tıkla.
-Çıkan menüden "Sign in"e tıkla ve GitHub ile giriş yap.
+VSCodium'u Fedora'da kurarken gpgcheck uyarısı verebilir ama işlem devam eder. Umursama ve kuruluma devam et.
 
 Sistemin Debian veya Fedora tabanlıysa ATLauncher'ın kurulum dosyasını kendi sitesinden indir ve kur ama eğer
 ki sistemin Arch Linux tabanlıysa şu AUR paketi ile ATLauncher'ı kur: atlauncher-bin
@@ -42,7 +41,7 @@ Flatpak olarak bu uygulamaları kur:
 Eğer ki ONLYOFFICE'te "Times New Roman" fontu kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
 Times New Roman fontunu indir ve sistemine kur.
 
-ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio ve Steam'de yapılacakları yap.
+ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, Steam ve VSCodium'da yapılacakları yap.
 
 DaVinci Resolve'u, kendi distrona göre nasıl kurman gerekiyorsa ona göre sistemine kur. Arch Linux, Debian,
 Fedora, Linux Mint ve Ubuntu'da nasıl kurabileceğine dair yönergeleri, distrolara özel olarak hazıladığım
