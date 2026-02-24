@@ -23,7 +23,6 @@ Ardından, şu eklentileri VSCodium'a kur:
     Bookmarks                                       (alefragnani)
     Bracket Select                                  (chunsen)
     C#                                              (dotnetdev-kr-custom)
-    clangd                                          (llvm-vs-code-extensions)
     C# Tools for Godot                              (neikeq)
     Extension Pack for Java                         (vscjava)
     godot-tools                                     (geequlim)

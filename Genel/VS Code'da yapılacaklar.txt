@@ -1,9 +1,0 @@
-Linux kullanıyorsan:
-    VS Code'u kurduktan sonra VS Code'u aç. Sol alttaki "Accounts" kısmından "Backup and Sync Settings"e tıkla.
-    Çıkan menüden "Sign in"e tıkla ve GitHub ile giriş yap.
-
-Windows kullanıyorsan:
-    VS Code'un kurulum dosyasını kendi sitesinden indir ve kur. Kurarken, "Ek işlemleri seçin" kısmında
-    "Windows Gezgini bağlam menüsüne Code İle Aç eylemini ekle" seçeneğini aç ve öyle kurulumu yap.
-    VS Code'u kurduktan sonra VS Code'u aç. Sol alttaki "Accounts" kısmından "Backup and Sync Settings"e tıkla.
-    Çıkan menüden "Sign in"e tıkla ve GitHub ile giriş yap.

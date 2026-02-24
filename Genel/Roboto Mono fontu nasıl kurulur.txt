@@ -21,8 +21,8 @@ Eğer ki Windows kullanıyorsan:
     butonuna bas. Bilgisayarında "Documents" kısmına koymuş olduğun "Roboto_Mono" klasörünün içindeki
     "RobotoMono-VariableFont_wght.ttf" dosyasını seç ve o fontu ekle.
 
-Eğer ki VSCodium ayarlarında, kullanmak istediğin fontu belirlemek için:
-    VSCodium'u aç. VSCodium'da "Font Family" ayarındaki yazanları SAKIN SİLME!
+Eğer ki VS Code ayarlarında, kullanmak istediğin fontu belirlemek için:
+    VS Code'u aç. VS Code'da "Font Family" ayarındaki yazanları SAKIN SİLME!
 
     Yapacağın şey, o ayardaki yazanların soluna, şu yazılı değilse onu yazmak:
         'Roboto Mono',
