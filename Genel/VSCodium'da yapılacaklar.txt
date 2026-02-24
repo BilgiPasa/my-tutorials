@@ -1,10 +1,11 @@
 VSCodium'u aç.
 
-Üst bardaki "Restricted mode" kısmında "Manage"a tıkla ve sol alttaki "Add Folder" butonu ile Masaüstü klasörün
+Üst bardaki "Restricted mode" kısmında "Manage"a tıkla ve sol alttaki "Add Folder" butonu ile masaüstü klasörün
 ile D klasörünü oraya güvenilen dosyalar olarak ekle. Ekledikten sonra ekrandaki "Trust" butonuna bas ve o
 kısmı kapat. "Welcome" kısmını da kapat.
 
-VSCodium'u tam ekran yap. Soldaki dik çubuktan "Search", "Source Control" ve "Run and Debug" kısımlarını gizle.
+VSCodium ekranını büyüt. Soldaki kenar çubuğundan "Search", "Source Control" ve "Run and Debug" kısımlarını
+gizle.
 
 VSCodium penceresinin en sol altındaki "Remote Host"u, yani "Open a Remote Window" yazan kısmı da gizle.
 
@@ -38,11 +39,11 @@ Eklentileri kurarken "Do you trust the publisher" penceresi çıkarsa "Trust Pub
 Material Icon Theme eklentisini kurunca, üstte dosya ikon teması seçme menüsü gelirse Material Icon Theme'i
 seç.
 
-Turkish Language Pack for Visual Studio Code eklentisini kurunca, sağ altta "Would you like to change
-VSCodium's display language to Turkish and restart?" bildirimi gelirse "Change Language and Restart" butonuna
-tıkla.
+Turkish Language Pack for Visual Studio Code eklentisini kurunca, sağ altta İngilizce olarak
+"Dili değiştirmek ister misiniz?" tarzında bir bildirim gelirse "Change Language and Restart" butonuna tıkla
+ve VSCodium'u yeniden başlat.
 
-Soldaki dik çubuktan "Bookmarks" ve "Godot Tools" kısımlarını gizle.
+Soldaki kenar çubuğundan "Godot Tools" kısmını gizle.
 
 Son olarak VSCodium'u kapat ve tekrar aç. (Sağ altta godot-tools eklentisinden gereksiz yere bildirim gelmemesi
 için bunu yapmanı istiyorum.)
