@@ -12,7 +12,6 @@
     "git.openRepositoryInParentFolders": "always",
     "godotTools.lsp.serverPort": 6005,
     "redhat.telemetry.enabled": true,
-    "security.workspace.trust.untrustedFiles": "open",
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.navigationControl.enabled": false,
