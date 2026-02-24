@@ -1,11 +1,17 @@
-Bu adımları VSCodium için de uygulayabilirsin. Ama eğer ki sisteminde hem VS Code hem de VSCodium kuruluysa,
-o eklediğin kısayol ile sadece VS Code'u açarsın.
-
-https://github.com/vanlocvo/Nautilus-OpenInVSCode sitesine git. Projenin GitHub sayfasında, indirme öncesi
-yapman gereken şeyler varsa yap ve o projenin zip dosyasını indir. Ardından, zip'ten dosyaları bir klasöre
-çıkar ve çıkarmış olduğun klasör içinde şu komutu gir: sudo ./install.sh
+https://github.com/vanlocvo/Nautilus-OpenInVSCode GitHub sayfasına git. Orada, "Dependency" olduğu söylenilen
+sistem paketini oradaki yönergeye uyarak kur. Ardından, o projenin zip dosyasını indir. Sonra, zip'teki
+dosyaları dışarı aktar. Dışarı aktarmış olduğun dosyaların bulunduğu yerde terminal aç ve şu komutu gir:
+    sudo ./install.sh
 
 Her user için kurayım mı sorusuna yes de ve bilgisayarında Nautilus açık ise Nautilus'u kapat.
 Ardından Nautilus'u yeniden başlatayım mı sorusuna yes de ve kurulumun bitmesini bekle.
 
 Kurulum bittikten sonra kurulum klasörünü silmeyi unutma.
+
+Bu adımları VSCodium için de uygulayabilirsin. Ama eğer ki sisteminde hem VS Code hem de VSCodium kuruluysa,
+o eklediğin kısayol ile sadece VS Code'u açarsın.
+
+Eğer ki VS Code'u silip VSCodium'u kurarsan veya VSCodium'u silip VS Code'u kurarsan bu kurduğun şeyi sil ve
+tekrar kur. Silmek için, yukarıdaki GitHub sayfasına git. Orada, "Uninstall" kısmındaki "All User" için silme
+komutunu kullanarak silme işlemini yap ve "Restart Nautilus" kısmındaki komutu kullarak Nautilus'u yeniden
+başlat. Kurulumu yeniden yapmak için yukarıdaki yönergeleri takip et.
