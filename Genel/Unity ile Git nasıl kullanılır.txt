@@ -1,4 +1,4 @@
-Bir GitHub repo'su oluştur ve oluştururken .gitignore hali olarak Unity'yi seç.
+Bir GitHub repo'su oluştur ve oluştururken .gitignore seçeneklerinden Unity'yi seç.
 
 Repo'yu oluşturunca clone'la ve Unity projeni o klasörün içinde oluştur.
 

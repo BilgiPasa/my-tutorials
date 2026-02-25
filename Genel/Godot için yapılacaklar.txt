@@ -4,7 +4,7 @@ Godot'u ilk açtığında; Godot, İngilizce değilse sağ üstteki ayarlar kıs
 Godot'un görünümünü beğenmediysen o ayarlar menüsünden "Style"ı "Classic" yap ve "Color Preset"i "Godot 3" yap.
 Eğer ki normal haline geri dönmek istiyorsan "Style"ı "Modern" yap ve "Color Preset"i "Default" yap.
 
-Godot'ta bir proje oluştur veya var olan bir projeye gir.
+Godot'ta yeni bir proje oluştur veya var olan bir projeye gir.
 
 "Editor Settings"e gir ve "Advanced Settings" ayarını aç.
 

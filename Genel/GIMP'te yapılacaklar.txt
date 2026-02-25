@@ -11,7 +11,7 @@ Sağ üstteki menülerin sıralaması:
     Patterns
     Device Status
 
-Edit > Keyboard Shortcuts içinde "Clone" tool'una "V" kısayolunu ata. "Pencil" tool'una da "C" kısayolunu ata.
+Edit > Keyboard Shortcuts içinde "Clone" tool'una "N" kısayolunu ata. "Pencil" tool'una da "C" kısayolunu ata.
 
 Kullandığın Layer'ın kenarlarında bulunan sarı hattı bir seferliğine kapatmak için "View" menüsüne tıkla ve
 oradan "Show Layer Boundary"i kapat. Eğer ki bu ayarın hep kapalı olmasını istiyorsan "Edit" kısmından
