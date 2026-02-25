@@ -1,0 +1,3 @@
+Linux'ta:
+    /home/$USER/.config/VSCodium/User
+    ($USER yerine, sistemindeki kullanıcı adını yaz.)

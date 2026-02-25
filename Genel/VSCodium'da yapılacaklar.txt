@@ -11,9 +11,8 @@ VSCodium penceresinin en sol altındaki "Remote Host"u, yani "Open a Remote Wind
 
 VSCodium'u kapat.
 
-Bu dosyanın bulunduğu dosya dizininde bulunan "VSCodium config dosyam" klasörünü aç ve içindeki "settings.json"
-dosyasını kopyala ve /home/$USER/.config/VSCodium/User yerine yapıştır. $USER yerinde sistemindeki kullanıcı
-adın bulunmalı.
+Bu dosyanın bulunduğu dosya dizininde bulunan "VSCodium config dosyası yedeğim" klasörünü aç, içindeki
+"settings.json" dosyasını kopyala ve yapıştırman gereken yere yapıştır.
 
 VSCodium'u aç.
 
