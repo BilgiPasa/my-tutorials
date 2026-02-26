@@ -12,14 +12,14 @@ Linux kullanıyorsan şunları yap
         {
             sudo apt update
             sudo apt-get install python3-tk python3-pip
-            sudo apt install default-jre default-jdk texlive-full build-essential python3-dev libcairo2-dev libpango1.0-dev ffmpeg
+            sudo apt install default-jre default-jdk texlive-full build-essential python3-dev libcairo2-dev libpango1.0-dev ffmpeg gcc g++
         }
 
         Sistemin Fedora tabanlı ise
         {
-            sudo dnf update
-            sudo dnf swap ffmpeg-free ffmpeg --allowerasing
-            sudo dnf install java-latest-openjdk.x86_64 java-latest-openjdk-devel.x86_64 python3-tkinter texlive-scheme-full python3-devel pkg-config cairo-devel pango-devel python3-pip
+            sudo dnf update -y
+            sudo dnf swap ffmpeg-free ffmpeg --allowerasing -y
+            sudo dnf install java-latest-openjdk.x86_64 java-latest-openjdk-devel.x86_64 python3-tkinter python3-pip texlive-scheme-full python3-devel pkg-config cairo-devel pango-devel gcc gcc-c++ -y
         }
     }
 
@@ -27,16 +27,6 @@ Linux kullanıyorsan şunları yap
     "sudo alternatives --config java" komutunu gir. Buradaki versiyonlardan ana olarak kullanmak istediğini
     seç. Eğer ki eksi bir Java versiyonunu silmek istiyorsan silmemeni öneririm çünkü o Java versiyonuna bağlı
     olan kullandığın uygulama veya paket olabilir.)
-
-    Debian'da Java kurulum komutunun kaynağı: https://wiki.debian.org/Java
-    Debian'da FFmpeg kurulum komutunun kaynağı: https://www.geeksforgeeks.org/linux-unix/how-to-install-ffmpeg-in-linux/
-    Fedora'da Java kurulum komutunun kaynağı: https://docs.fedoraproject.org/en-US/quick-docs/installing-java/
-    Fedora için FFmpeg komutunun kaynağı (Fedora 37 başlıklı kısma bak): https://rpmfusion.org/CommonBugs
-    Tkinter (tk) kurulum komutlarının kaynağı: https://stackoverflow.com/questions/76105218/why-does-tkinter-or-turtle-seem-to-be-missing-or-broken-shouldnt-it-be-part
-    PIP kurulum komutlarının kaynağı: https://www.geeksforgeeks.org/python/how-to-install-pip-in-linux/
-    Diğer komutları ise Manim Community'nin sayfasından baktım da yazdım.
-
-    Texlive'ı, Manim'de LaTeX'i kullanabilmek için kuruyorum.
 
     Python dosyalarını kullanacaksan .venv ile kullan. .venv kurmak için internete bağlan, F1'e bas ve arama
     yerine "Python: Ortam Oluşturun" veya "Python: Create Environment" yaz ve o seçeneğe tıkla. Çıkan menüde
@@ -49,6 +39,17 @@ Linux kullanıyorsan şunları yap
 
     Yukarıdaki yönergeleri takip ettikten sonra, VS Code'daki sanal alan içindeki terminalde şu komutları gir:
         pip3 install manim speedtest-cli pygame-ce ursina
+
+    Kaynaklar:
+        Debian'da Java kurulum komutunun kaynağı: https://wiki.debian.org/Java
+        Debian'da FFmpeg kurulum komutunun kaynağı: https://www.geeksforgeeks.org/linux-unix/how-to-install-ffmpeg-in-linux/
+        Fedora'da Java kurulum komutunun kaynağı: https://docs.fedoraproject.org/en-US/quick-docs/installing-java/
+        Fedora için FFmpeg komutunun kaynağı (Fedora 37 başlıklı kısma bak): https://rpmfusion.org/CommonBugs
+        Tkinter (tk) kurulum komutlarının kaynağı: https://stackoverflow.com/questions/76105218/why-does-tkinter-or-turtle-seem-to-be-missing-or-broken-shouldnt-it-be-part
+        PIP kurulum komutlarının kaynağı: https://www.geeksforgeeks.org/python/how-to-install-pip-in-linux/
+        Fedora'da GCC kurulum komutunun kaynağı: https://developer.fedoraproject.org/tech/languages/c/c_installation.html
+        Fedora'da G++ kurulum komutunun kaynağı: https://developer.fedoraproject.org/tech/languages/c/cpp_installation.html
+        Debian'da "texlive-full build-essential python3-dev libcairo2-dev libpango1.0-dev" paketlerini ve Fedora'da "texlive-scheme-full python3-devel pkg-config cairo-devel pango-devel" paketlerini ise Manim Community'nin sayfasından baktım da yazdım.
 }
 
 Windows kullanıyorsan şunları yap

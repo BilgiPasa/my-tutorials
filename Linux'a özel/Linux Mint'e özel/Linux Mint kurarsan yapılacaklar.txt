@@ -9,9 +9,9 @@ Linux Mint'i harici bir SSD'ye kuracaksan bu videodaki yönergeleri takip et ("I
 Linux Mint'i kurduktan sonra kurman gereken sürücüleri kur ve sistem güncellemelerini yap. Güncelleme sonunda
 bilgisayarını yeniden başlatman gerekiyorsa yap.
 
-Ayarlardan Power Management'a gel. Ekran kararma ve kapanma sürelerini ayarla ve "Power Mode"u "Performance"
-yap. Ayrıca; ayarlardan "Mouse Acceleration"ı "Constant" yap, bluetooth'u kapat, gestures'ı aç ve mikrofon input
-sesini kısmayı unutma.
+Ayarlardan sistem temasını karanlık tema olarak ayarla, sistem güç modunu "Performance" yap, "Dim Screen"
+ayarını kapat, ekran kilitleme ve sistem kapanma zamanlarını ayarla, bluetooth'u kapat, touchpad ayarlarından
+"Tap to Click"i aç, fare ayarlarından "Mouse Acceleration"ı kapat ve mikrofon input sesini kısmayı unutma.
 
 Ardından şu komutları gir
 {

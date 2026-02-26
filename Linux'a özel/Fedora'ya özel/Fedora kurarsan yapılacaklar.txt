@@ -3,16 +3,18 @@ penceresinde çıkan "Enable third party repositories" seçeneğine tıkla ve 3.
 Eğer ki bunu açmayı unutup kurulum yaparsan uygulama mağazasındaki software repositories kısmından aç.
 
 Eğer ki başka bir ISO ile kurulum yaptıysan kurulum bitince terminale şu komutu girerek 3. parti depoları
-sistemine kur:
-    sudo dnf install fedora-workstation-repositories
+sistemine kur
+{
+    sudo dnf install fedora-workstation-repositories -y
+}
 
 Fedora Workstation kuruyorsan ve kurulumda konum seçmeye geldiysen, oradaki arama kısmında konumunu yazma.
 Oradaki haritadan seç ve devam et. (Harita üstündeki simgenin gitmesi için haritada simgesiz olan kısma tıkla ve
 sonra kendi konumuna tıkla ve "Next" de.) Çünkü arama kısmına yazıp devam etmeye çalışırsan Fedora donabilir.
 
-Ayarlardan sistem güç modunu "Performance" yap, "Dim Screen" ayarını kapat, ekran kilitleme zamanını ayarla,
-bluetooth'u kapat, touchpad ayarlarından "Tap to Click"i aç, fare ayarlarından "Mouse Acceleration"ı kapat ve
-mikrofon input sesini kısmayı unutma.
+Ayarlardan sistem temasını karanlık tema olarak ayarla, sistem güç modunu "Performance" yap, "Dim Screen"
+ayarını kapat, ekran kilitleme ve sistem kapanma zamanlarını ayarla, bluetooth'u kapat, touchpad ayarlarından
+"Tap to Click"i aç, fare ayarlarından "Mouse Acceleration"ı kapat ve mikrofon input sesini kısmayı unutma.
 
 Ardından, sistem güncellemelerini uygulama mağazasından yap ve uygulamada çıkan "Restart" tuşu ile bilgisayarını
 yeniden başlat.
@@ -43,6 +45,12 @@ GNOME kullanıyorsan terminale şu komutları gir
     sudo dnf install gnome-themes-extra -y
 }
 
+XFCE kullanıyorsan terminale şu komutu gir
+{
+    sudo dnf install gnome-software -y
+    flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+}
+
 NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak: https://rpmfusion.org/Howto/NVIDIA)
 (CUDA sürücülerinin adında "xorg" ve "x11" yazıyor ama Wayland'de de çalışıyor yani merak etme.)
 {
@@ -53,8 +61,9 @@ NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak: https://
 
 Sürücüleri kurunca 5 dakika zamanlayıcı kur ve bekle. Ardından bilgisayarını yeniden başlat.
 
-GNOME kullanıyorsan uygulama mağazasında sağ üstteki 3 çizgili menüden "Software Repositories"i aç. Orada eğer
-ki açık olan "Fedora Flatpaks" repo'su varsa kapat. (Bu, Flathub repo'sunu etkilememesi lazım.)
+GNOME veya XFCE kullanıyorsan GNOME'un uygulama mağazasında sağ üstteki 3 çizgili menüden
+"Software Repositories"i aç. Orada eğer ki açık olan "Fedora Flatpaks" repo'su varsa kapat.
+(Bu, Flathub repo'sunu etkilememesi lazım.)
 
 KDE Plazma kullanıyorsan "Discover"ı aç. "Settings"e gel. Orada bulunan "Fedora Flatpaks" repo'su varsa sil.
 (Bu, Flathub repo'sunu etkilememesi lazım. Eğer ki bir sebepten dolayı Flathub repo'su silinirse oradaki
@@ -98,6 +107,15 @@ ekleyebilirsin) "GNOME Tweaks"i aç, "Windows" kısmına gel ve "Titlebar Button
 
 KDE Plazma'da Dolphin (dosya yöneticisi) açıldığında home folder'ını açmasının ayarını yap. Dolphin'de
 arkaplan'a çift tıkladığında bütün her şeyi seçme ayarını da kapat.
+
+XFCE'de "Settings Manager"da "Keyboard" kısmına gir. "Application Shortcuts" kısmını aç ve orada "Alt + F3"
+için hangi kısayol kullanılıyorsa aynısını Super tuşu (Windows tuşu) için de ekle.
+
+XFCE'de "Settings Manager"da "Panel kısmına gir. Orada "Panel 2" ayarlarını aç ve Panel 2'yi sil. (Panel 2,
+alttaki küçük panel olmalı.)
+
+XFCE'de "Settings Manager"da "Session and Startup" kısmına gir. "Application Autostart" kısmını aç. Orada
+"Clipman" seçeneğini aç ve "dnfdragora-updater" seçeneğini kapat.
 
 GNOME kullanıyorsan (nokyan'ın) "Resources" uygulamasını flatpak olarak uygulama mağazasından indir.
 

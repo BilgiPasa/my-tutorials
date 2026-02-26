@@ -20,4 +20,4 @@ Icon kısmı için yapman gereken şey şu:
 yap ya da şu komutu girerek yap: chmod +x <.desktop dosyasının konumu>).
 
 Artık uygulama menüsünde kısayolun çıkması lazım. Eğer ki çıkmıyorsa veya çıkıyor ama belirlediğin ikon
-gözükmüyorsa sisteminden çıkıp tekrardan gir. (Yani log out / log in yap.)
+gözükmüyorsa sisteminden çıkış yap ve tekrardan giriş yap.

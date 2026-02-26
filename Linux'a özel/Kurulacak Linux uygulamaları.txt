@@ -4,14 +4,6 @@ devam et.
 VS Code'u şu sitedeki yönergelere uyarak kur:
     https://code.visualstudio.com/docs/setup/linux#_install-vs-code-on-linux
 
-VS Code'u kurduktan sonra VS Code'u aç. Sol alttaki "Accounts" kısmından "Backup and Sync Settings"e tıkla.
-Çıkan menüden "Sign in"e tıkla ve GitHub ile giriş yap. Giriş yaptıktan sonra, sağ altta İngilizce olarak
-"Dili değiştirmek ister misiniz?" tarzında bir bildirim gelirse "Change Language and Restart" butonuna tıkla
-ve VS Code'u yeniden başlat. Ardından, masaüstünden bir text dosyasını VS Code'da aç. Kısıtlı Modda açması
-lazım. En sol alttaki "Kısıtlı Mod" butonuna tıkla, çıkan menüde aşağı scroll yap, sol alttaki "Add Folder"
-butonu ile masaüstü klasörün ile D klasörünü oraya güvenilen dosyalar olarak ekle. Ekledikten sonra, o menüdeki
-"Güven" butonuna bas ve o menüyü kapat. Son olarak, soldaki kenar çubuğundan "Godot Tools" kısmını gizle.
-
 Sistemin Debian veya Fedora tabanlıysa ATLauncher'ın kurulum dosyasını kendi sitesinden indir ve kur ama eğer
 ki sistemin Arch Linux tabanlıysa şu AUR paketi ile ATLauncher'ı kur: atlauncher-bin
 
@@ -44,10 +36,9 @@ Flatpak olarak bu uygulamaları kur:
     VLC
     Zoom
 
-Eğer ki ONLYOFFICE'te "Times New Roman" fontu kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
-Times New Roman fontunu indir ve sistemine kur.
+ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, Steam ve VS Code'da yapılacakları yap.
 
-ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio ve Steam'de yapılacakları yap.
+ONLYOFFICE için yapılacakları da yap.
 
 DaVinci Resolve'u, kendi distrona göre nasıl kurman gerekiyorsa ona göre sistemine kur. Arch Linux, Debian,
 Fedora, Linux Mint ve Ubuntu'da nasıl kurabileceğine dair yönergeleri, distrolara özel olarak hazıladığım

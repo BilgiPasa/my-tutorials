@@ -16,9 +16,9 @@ Ardından, terminale şu komutları gir
     sudo apt install playit
 }
 
-Ayarlardan sistem güç modunu "Performance" yap, "Dim Screen" ayarını kapat, ekran kilitleme zamanını ayarla,
-bluetooth'u kapat, touchpad ayarlarından "Tap to Click"i aç, fare ayarlarından "Mouse Acceleration"ı kapat ve
-mikrofon input sesini kısmayı unutma.
+Ayarlardan sistem temasını karanlık tema olarak ayarla, sistem güç modunu "Performance" yap, "Dim Screen"
+ayarını kapat, ekran kilitleme ve sistem kapanma zamanlarını ayarla, bluetooth'u kapat, touchpad ayarlarından
+"Tap to Click"i aç, fare ayarlarından "Mouse Acceleration"ı kapat ve mikrofon input sesini kısmayı unutma.
 
 Flatpak'i şu sitedeki yönergelere uyarak kur: https://flatpak.org/setup/Ubuntu
 

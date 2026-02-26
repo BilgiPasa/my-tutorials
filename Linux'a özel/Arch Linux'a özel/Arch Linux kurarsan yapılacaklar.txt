@@ -59,10 +59,12 @@ Açtığında yapılacaklar
     Komutlarla işin bitice bilgisayarını yeniden başlat.
 }
 
+Ayarlardan sistem temasını karanlık tema olarak ayarla, sistem güç modunu "Performance" yap, "Dim Screen"
+ayarını kapat, ekran kilitleme ve sistem kapanma zamanlarını ayarla, bluetooth'u kapat, touchpad ayarlarından
+"Tap to Click"i aç, fare ayarlarından "Mouse Acceleration"ı kapat ve mikrofon input sesini kısmayı unutma.
+
 İstersen paket kurulumu yöneticisi olarak pacseek uygulamasını kullanabilirsin.
 Sistemine kurmak için terminalde "yay -S pacseek" komutunu kullanabilirsin.
-
-Ayarlardan mikrofon input sesini kısmayı unutma.
 
 Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
 "Kurulacak Linux uygulamaları.txt" dosyasına git ve kurmak istediğin uygulamaları sistemine kur.

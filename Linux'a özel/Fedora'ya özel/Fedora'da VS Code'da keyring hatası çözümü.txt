@@ -1,0 +1,14 @@
+GNOME'da:
+    Terminale şu komutu gir:
+        gio trash ~/.local/share/keyrings; gnome-session-quit --logout
+
+    Bu komut, Fedora sisteminden çıkış yaptırır. Çıkış yaptıktan sonra tekrardan giriş yap.
+
+XFCE'de:
+    Terminale şu komutu gir:
+        gio trash ~/.local/share/keyrings
+
+    Ardından, Fedora sisteminden çıkış yap ve tekrardan giriş yap.
+
+Yukarıdaki çözüm işe yaramazsa şu siteye bak:
+    https://forums.linuxmint.com/viewtopic.php?t=439152

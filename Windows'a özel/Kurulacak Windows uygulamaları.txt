@@ -22,15 +22,11 @@ GIMP'i Microsoft Store'dan kur. (Eğer ki PhotoGIMP ile kullanacaksan GIMP'i Mic
 
 VS Code'un kurulum dosyasını kendi sitesinden indir ve kur. Kurarken, "Ek işlemleri seçin" kısmında
 "Windows Gezgini bağlam menüsüne Code İle Aç eylemini ekle" seçeneğini aç ve öyle kurulumu yap.
-VS Code'u kurduktan sonra VS Code'u aç. Sol alttaki "Accounts" kısmından "Backup and Sync Settings"e tıkla.
-Çıkan menüden "Sign in"e tıkla ve GitHub ile giriş yap. Giriş yaptıktan sonra, sağ altta İngilizce olarak
-"Dili değiştirmek ister misiniz?" tarzında bir bildirim gelirse "Change Language and Restart" butonuna tıkla
-ve VS Code'u yeniden başlat. Ardından, masaüstünden bir text dosyasını VS Code'da aç. Kısıtlı Modda açması
-lazım. En sol alttaki "Kısıtlı Mod" butonuna tıkla, çıkan menüde aşağı scroll yap, sol alttaki "Add Folder"
-butonu ile masaüstü klasörün ile D klasörünü oraya güvenilen dosyalar olarak ekle. Ekledikten sonra, o menüdeki
-"Güven" butonuna bas ve o menüyü kapat. Son olarak, soldaki kenar çubuğundan "Godot Tools" kısmını gizle.
 
-ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio ve Steam'de yapılacakları yap.
+ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, Steam ve VS Code'da yapılacakları yap.
+
+Eğer ki Microsoft Office kullanmıyorsan winget ile ONLYOFFICE Desktop Editors'ı sistemine kur ve ONLYOFFICE
+için yapılacakları da yap.
 
 Affinity, DaVinci Resolve, Everything, FL Studio ve playit.gg'nin kurulum dosyalarını kendi sitelerinden
 indirip sistemine kur.
@@ -39,11 +35,6 @@ Minecraft Launcher'ın kurulum dosyasını şu siteden indir ve sistemine kur:
     https://www.minecraft.net/en-us/download
 
 Minecraft Launcher içinden Minecraft Bedrock Edition'ı ve Minecraft Legends'ı sistemine kur.
-
-Eğer ki Microsoft Office kullanmıyorsan winget ile ONLYOFFICE Desktop Editors'ı sistemine kur.
-
-Eğer ki ONLYOFFICE'te "Times New Roman" fontu kurulu gelmediyse ONLYOFFICE'i kurduktan sonra internetten
-Times New Roman fontunu indir ve sistemine kur.
 
 Buradaki kurulum işlerin bitince, bu GitHub deposunda bulunan "Genel" klasörünün içindeki
 "Kodlama projelerim için kurulumlar.txt" dosyasına git ve kurmak istediğin şeyleri kur.

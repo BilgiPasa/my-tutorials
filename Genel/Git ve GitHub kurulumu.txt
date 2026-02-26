@@ -3,20 +3,25 @@ GitHub hesabın yoksa bir GitHub hesabı oluştur. Ardından, istersen bir GitHu
 Eğer ki Windows kullanıyorsan sonraki adımları yapmak yerine GitHub Desktop uygulamasını kullanabilirsin.
 (Ama ben kullanmıyorum. GitHub'ı terminalde kullanmayı tercih ediyorum.)
 
-Eğer ki Windows kullanıyorsan Git'i, terminale şu komutu girerek kur: winget install -e --id Git.Git
+Eğer ki Windows kullanıyorsan Git'i, terminale şu komutu girerek kur:
+    winget install -e --id Git.Git
 
-Eğer ki Linux kullanıyorsan Git, sisteminde zaten yüklü olabilir veya GitHub CLI kurduğunda otomatik
-kurulabilir.
+Eğer ki sistemin Debian tabanlıysa Git'i, terminale şu komutları girerek kur:
+    sudo apt-get update
+    sudo apt-get install git-all
+
+Eğer ki sistemin Fedora tabanlıysa Git'i, terminale şu komutu girerek kur:
+    sudo dnf install git-all -y
 
 Masaütünde (veya başka istediğin bir yerde) "GitHub" isimli bir klasör oluştur. Kullanacağım GitHub depolarını
 bu klasöre klonla.
 
 Git'i terminalde kullanmak ve GitHub ile bağlamak için GitHub CLI'ı kur.
 
-Sistemin Debian tabanlı ise şu sitedeki komutları kullanarak GitHub CLI'ı sistemine kur:
+Sistemin Debian tabanlıysa şu sitedeki komutları kullanarak GitHub CLI'ı sistemine kur:
     https://github.com/cli/cli/blob/trunk/docs/install_linux.md#debian
 
-Sistemin Fedora tabanlı ise şu sitedeki komutları kullanarak GitHub CLI'ı sistemine kur:
+Sistemin Fedora tabanlıysa şu sitedeki komutları kullanarak GitHub CLI'ı sistemine kur:
     https://github.com/cli/cli/blob/trunk/docs/install_linux.md#rpm
 
 Windows kullanıyorsan şu sitedeki komutu kullanarak GitHub CLI'ı sistemine kur:
@@ -42,3 +47,5 @@ Son olarak, terminale bu komutları gir
 
 Git config'ine girmiş olduğun maili ve ismi görmek için şu komutu kullanabilirsin:
     git config --list
+
+Linux'ta Git kurulumları komutlarının kaynağı: https://github.com/git-guides/install-git#install-git-on-linux
