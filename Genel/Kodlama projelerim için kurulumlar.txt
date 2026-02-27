@@ -1,6 +1,6 @@
 Linux kullanıyorsan şunları yap
 {
-    Başlamadan önce, kendi distrona göre olan yapılacaklar listeni ve Linux'ta kurulacak uygulamalar listeni
+    Başlamadan önce, kendi distrona göre olan yapılacaklar listeni ve Linux'ta kurulacak programlar listeni
     takip et. Oradaki işlerin bitince buradan devam et.
 
     .NET'i, şu sitedeki yönergelere uyarak sistemine kur:
@@ -54,7 +54,7 @@ Linux kullanıyorsan şunları yap
 
 Windows kullanıyorsan şunları yap
 {
-    Başlamadan önce, Windows kurduktan sonra yapılacaklar listeni ve Windows'ta kurulacak uygulamalar listeni
+    Başlamadan önce, Windows kurduktan sonra yapılacaklar listeni ve Windows'ta kurulacak programlar listeni
     takip et. Oradaki işin bitince buradan devam et.
 
     .NET SDK'in kurulum dosyalarını şu siteden indir ve kur:

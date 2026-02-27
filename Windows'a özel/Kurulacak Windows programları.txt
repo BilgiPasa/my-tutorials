@@ -1,22 +1,19 @@
 Başlamadan önce, Windows için yapılacaklar listeni takip et. Oradaki işin bitince buradan devam et.
 
-Winget kullanarak bu uygulamaları kur:
+Winget kullanarak bu programları kur:
     ATLauncher
     Audacity
     Bitwarden
     Blender
     Brave
+    Fastfetch
     FFmpeg
-    FFmpegforAudacity
     Handbrake
     Localsend
     OBS Studio
     Steam
     VLC
     Zoom
-
-Fastfetch programını, terminale şu komutu girerek kur:
-    winget install fastfetch
 
 GIMP'i Microsoft Store'dan kur. (Eğer ki PhotoGIMP ile kullanacaksan GIMP'i Microsoft Store'dan kurma.)
 

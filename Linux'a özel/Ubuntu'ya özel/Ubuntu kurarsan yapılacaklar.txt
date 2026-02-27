@@ -88,4 +88,4 @@ Bu dosyanın bulunduğu dosya dizininde "Ubuntu'da Esm Apps bildirimini kapatma.
 Güncelleme yaptığında çıkan bildirimden rahatsız oluyorsan o dosyadaki yönergeleri denemeni öneririm.
 
 Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
-"Kurulacak Linux uygulamaları.txt" dosyasına git ve kurmak istediğin uygulamaları sistemine kur.
+"Kurulacak Linux programları.txt" dosyasına git ve kurmak istediğin programları sistemine kur.

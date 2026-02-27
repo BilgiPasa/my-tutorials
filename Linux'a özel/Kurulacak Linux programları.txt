@@ -17,7 +17,7 @@ Sistemin Arch Linux tabanlıysa terminale şu komutu girerek Steam'i kur: sudo p
 
 GNOME kullanıyorsan sistem paketi olarak GNOME Mines'ı sistemine kur.
 
-Flatpak olarak bu uygulamaları kur:
+Flatpak olarak bu programları kur:
     Audacity
     Bitwarden
     Blender

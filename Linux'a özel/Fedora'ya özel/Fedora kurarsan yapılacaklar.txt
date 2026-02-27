@@ -192,4 +192,4 @@ Boot menüsünde çıkan kernel seçenekleri sayısını ayarlamak istiyorsan:
     https://discussion.fedoraproject.org/t/old-kernels-removal/77046
 
 Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
-"Kurulacak Linux uygulamaları.txt" dosyasına git ve kurmak istediğin uygulamaları sistemine kur.
+"Kurulacak Linux programları.txt" dosyasına git ve kurmak istediğin programları sistemine kur.

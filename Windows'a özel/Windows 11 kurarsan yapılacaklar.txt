@@ -70,4 +70,4 @@ Bu dosyanın bulunduğu dosya dizininde bulunan "Windows 11 sağ tık'ı Windows
 Windows 11 sağ tık'ını Windows 10 gibi yap.
 
 Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininde bulunan
-"Kurulacak Windows uygulamaları.txt" dosyasına git ve kurmak istediğin uygulamaları sistemine kur.
+"Kurulacak Windows programları.txt" dosyasına git ve kurmak istediğin programları sistemine kur.
