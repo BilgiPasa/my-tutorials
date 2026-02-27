@@ -7,7 +7,7 @@
 Eğer ki GNOME, Cinnamon veya XFCE kullanıyorsan:
     Şu siteye git "https://github.com/FontManager/font-manager" ve o uygulamayı, hangi distro'yu kullanıyorsan
     ona göre sistemine kur. (Kurulum için kullanılan komutların başına sudo koyman gerekebilir.)
-    Ardından, "Font Manager"ı aç ve sol üstte "Browse" yazan yere tıkla. Ardından, "Manage" seçeneğine tıkla.
+    Ardından, "Font Manager"ı aç. Sol üstte "Browse" yazan yere tıkla ve çıkan menüden "Manage"a tıkla.
     En sol üstteki butonun yanındaki artı butonuna tıkla ve bilgisayarında "Documents" kısmına koymuş olduğun
     "Roboto_Mono" klasörünün içindeki "RobotoMono-VariableFont_wght.ttf" dosyasını seç ve o fontu ekle.
 
