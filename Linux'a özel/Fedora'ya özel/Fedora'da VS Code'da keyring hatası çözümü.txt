@@ -5,8 +5,8 @@ Ardından, Fedora sisteminden çıkış yap ve tekrar giriş yap.
 
 Eğer ki problem yine oluyorsa 2 farklı çözüm önerim var:
     1:
-        Terminale şu komutu girip "Passwords and Keys" uygulamasını sil:
-            sudo dnf remove seahorse -y
+        Terminale şu komutu girip bazı paketleri sil:
+            sudo dnf remove seahorse gnome-keyring -y
 
         Ardından, şu komutu tekrar gir:
             gio trash ~/.local/share/keyrings
@@ -14,5 +14,5 @@ Eğer ki problem yine oluyorsa 2 farklı çözüm önerim var:
         Ardından, Fedora sisteminden tekrar çıkış yap ve tekrar giriş yap.
 
     2:
-        "Passwords and Keys" uygulamasını silmek istemiyorsan şu siteye bak:
+        O paketleri silmek istemiyorsan şu siteye bak:
             https://forums.linuxmint.com/viewtopic.php?t=439152

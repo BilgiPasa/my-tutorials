@@ -50,7 +50,7 @@ XFCE kullanıyorsan terminale şu komutları gir
 {
     sudo dnf install gnome-software -y
     flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-    sudo dnf remove seahorse -y
+    sudo dnf remove seahorse gnome-keyring -y
 }
 
 NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak: https://rpmfusion.org/Howto/NVIDIA)
