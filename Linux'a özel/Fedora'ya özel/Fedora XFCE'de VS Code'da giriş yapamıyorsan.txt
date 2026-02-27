@@ -1,0 +1,7 @@
+XFCE'de VS Code, keyring ile ilgili hata veriyorsa terminale şu komutu gir:
+    gio trash ~/.local/share/keyrings
+
+Ardından, Fedora sisteminden çıkış yap ve tekrar giriş yap. Ardından, bir daha VS Code'u açınca eğer ki keyring
+oluşturmanı isterse, "Cancel"a tıklamak yerine hiçbir şey yazmadan "Continue"ya bas ve keyring oluşturma.
+
+O işe yaramazsa şu siteye bak: https://forums.linuxmint.com/viewtopic.php?t=439152
