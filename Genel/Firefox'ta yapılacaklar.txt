@@ -1,3 +1,5 @@
+Firefox ayarlarında, "General" kısmında, "Open previous windows and tabs" ayarını aç.
+
 Şu eklentileri Firefox'a kur:
     uBlock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
 

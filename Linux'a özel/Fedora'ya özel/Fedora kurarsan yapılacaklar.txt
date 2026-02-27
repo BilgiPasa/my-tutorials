@@ -45,10 +45,12 @@ GNOME kullanıyorsan terminale şu komutları gir
     sudo dnf install gnome-themes-extra -y
 }
 
-XFCE kullanıyorsan terminale şu komutu gir
+XFCE kullanıyorsan terminale şu komutları gir
+(seahorse'u, beni fazla rahatsız ettiğinden siliyorum)
 {
     sudo dnf install gnome-software -y
     flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+    sudo dnf remove seahorse -y
 }
 
 NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak: https://rpmfusion.org/Howto/NVIDIA)
@@ -120,6 +122,7 @@ XFCE'de "Settings Manager"da "Session and Startup" kısmına gir. "Application A
 GNOME kullanıyorsan (nokyan'ın) "Resources" uygulamasını flatpak olarak uygulama mağazasından indir.
 
 GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında:
+{
     "Switch applications"ı "Super + Tab" olarak ayarla.
 
     "Switch windows"u "Alt + Tab" olarak ayarla.
@@ -134,25 +137,49 @@ GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında:
     Eğer ki "Ctrl + Alt + T" kısayolu terminal açmazsa "Terminal" isminde bir kısayol oluştur.
     Kısayolu "Ctrl + Alt + T" olsun. Komutu ise kullandığın terminalin komutu ne ise o olsun.
     (Yüklü gelen terminalin komutu "ptyxis" olabilir.)
+}
 
 Sistemine Roboto Mono fontunu kur. Nasıl kurabileceğine dair yönergeleri, bu GitHub deposunda bulunan "Genel"
 klasörünün içindeki "Roboto Mono fontu nasıl kurulur.txt" dosyasında bulabilirsin.
 
-Eğer ki GNOME'daki default terminali kullanmak istiyorsan
+GNOME'daki default terminali kullanmak istiyorsan
 {
-    Terminal uygulamasını aç. Sağ üstteki 3 çizgi menüden "Preferences"ı aç.
-    "Profiles" kısmına gel ve profil adını "Main Profile" yap.
-    "Appearance" kısmına gel ve "Palette" kısmında "Show All Palettes"e tıkla.
-    Oradan "Argonaut"u seç. "Show Fewer Palettes"e tıkla ve aşağıya in. "Use System Font"u kapat.
-    Custom Font olarak "Roboto Mono Regular"ı seç ve font boyutunu 16 yap.
-    Cursor'dan "Cursor Shape"i "Underline" yap.
-    "Behaviour" kısmına gel ve "Interface" kısmında "Restore Session"ı ve "Restore Window Size"ı kapat.
-    "Restore Window Size" kısmından çıkan yerdeki seçenekleri fastfetch'e göre ayarla.
-    (Coloumns'u 98, Rows'u 30 yap. Olmazsa değişirirsin.)
-    Sonra "Behaviour" menüsünde en aşağıya in ve "Set as Default Terminal"e tıkla.
+    Terminal uygulamasını aç. Sağ üstteki 3 çizgili menüden "Preferences"ı aç.
+
+    "Profiles" kısmında:
+        Profil adını "Main Profile" yap.
+
+    "Appearance" kısmında:
+        "Palette" kısmında "Show All Palettes"e tıkla.
+
+        Oradan "Argonaut"u seç. "Show Fewer Palettes"e tıkla ve aşağıya in. "Use System Font"u kapat.
+
+        Custom Font olarak "Roboto Mono Regular"ı seç ve font boyutunu 16 yap.
+
+        Cursor'dan "Cursor Shape"i "Underline" yap.
+
+    "Behaviour" kısmında:
+        "Interface" kısmında "Restore Session"ı ve "Restore Window Size"ı kapat.
+
+        "Restore Window Size" kısmından çıkan yerdeki seçenekleri fastfetch'e göre ayarla.
+
+        "Behaviour" menüsünde en aşağıya in ve "Set as Default Terminal" butonuna tıkla.
 }
 
-Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyorsan
+XFCE'deki default terminali kullanmak istiyorsan
+{
+    Terminal uygulamasını aç. Sol üstte "Edit" yazan menüden "Preferences"ı aç.
+
+    "General" kısmında:
+        "Cursor" kısmında, "Cursor shape"i "Underline" yap ve "Cursor Blinks" ayarını aç.
+
+    "Appearance" kısmında:
+        Font olarak "Roboto Mono Regular"ı seç ve font boyutunu 16 yap.
+
+        "Opening New Windows" kısmındaki terminal büyüklüğü ayarlarını fastfetch'e göre ayarla.
+}
+
+Saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyorsan
 {
     GNOME'da, ayarlarda "System" kısmında gir ve orada "Region and Language" kısmına gir.
     Dil olarak "English (United States)"i seç ve "Formats" kısmında "United Kingdom (English)"i seç.

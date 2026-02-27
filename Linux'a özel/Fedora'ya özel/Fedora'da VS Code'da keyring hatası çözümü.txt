@@ -1,14 +1,18 @@
-GNOME'da:
-    Terminale şu komutu gir:
-        gio trash ~/.local/share/keyrings; gnome-session-quit --logout
+Terminale şu komutu gir:
+    gio trash ~/.local/share/keyrings
 
-    Bu komut, Fedora sisteminden çıkış yaptırır. Çıkış yaptıktan sonra tekrardan giriş yap.
+Ardından, Fedora sisteminden çıkış yap ve tekrar giriş yap.
 
-XFCE'de:
-    Terminale şu komutu gir:
-        gio trash ~/.local/share/keyrings
+Eğer ki problem yine oluyorsa 2 farklı çözüm önerim var:
+    1:
+        Terminale şu komutu girip "Passwords and Keys" uygulamasını sil:
+            sudo dnf remove seahorse -y
 
-    Ardından, Fedora sisteminden çıkış yap ve tekrardan giriş yap.
+        Ardından, şu komutu tekrar gir:
+            gio trash ~/.local/share/keyrings
 
-Yukarıdaki çözüm işe yaramazsa şu siteye bak:
-    https://forums.linuxmint.com/viewtopic.php?t=439152
+        Ardından, Fedora sisteminden tekrar çıkış yap ve tekrar giriş yap.
+
+    2:
+        "Passwords and Keys" uygulamasını silmek istemiyorsan şu siteye bak:
+            https://forums.linuxmint.com/viewtopic.php?t=439152

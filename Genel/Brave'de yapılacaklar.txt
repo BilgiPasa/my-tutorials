@@ -1,5 +1,7 @@
 Bookmarks kısmını her zaman görünür yap. Başlangıç ekranını kendine göre ayarla.
 
+Brave ana ekranında, sağ üstteki 3 çizgili menüden ayarlara gir.
+
 Ayarlarda:
     "Appereance" kısmında:
         "Show autocomplete suggestions in address bar"da "Leo AI"ı kapat.
@@ -13,3 +15,7 @@ Ayarlarda:
 
     "Extensions" kısmında "Get more extensions"a tıkla ve şu eklentileri kur:
         Dark Reader, Youtube-shorts block, Return Youtube Dislike, Sound Booster - Max Volume & Deep Bass
+
+Brave ana ekranında; sağ üstteki 3 çizgili menüden "Passwords and autofill" kısmında bulunan
+"Password Manager", "Payment methods" ve "Addresses and more" kısımlarına teker teker gir ve bütün
+seçenekleri kapat.
