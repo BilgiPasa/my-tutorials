@@ -1,0 +1,14 @@
+Thunar'ı aç. Sol üstteki "Edit" kısmından "Configure custom actions"a tıkla. Çıkan pencerede, sağdaki artı
+butonuna tıkla. Çıkan yeni pencerede aşağıdaki işlemleri yap.
+
+"Basic" kısmında:
+    "Name" kısmına şunu yaz: Open in Code
+
+    "Command" kısmına şunu yaz: code %F
+
+"Appereance Conditions" kısmında:
+    "Appears if section contains" kısmında "Directories" ve "Other files" seçeneklerini işaretle.
+
+Ardından sağ alttaki "OK" butonuna tıkla.
+
+Kaynak: https://fr0stb1rd.gitlab.io/posts/add-open-with-vscode-to-thunar-xfce/
