@@ -1,6 +1,6 @@
 "Roboto Mono" fontunu indirmek için:
     Şu siteye git "https://fonts.google.com/specimen/Roboto+Mono" ve sağ üstteki "Get font" butonuna tıkla.
-    Sonra, "Download all"a tıkla ve font'u indir. İndirdikten sonra, bilgisayarındaki "Documents" kısmında
+    Sonra, "Download all"a tıkla ve fontu indir. İndirdikten sonra, bilgisayarındaki "Documents" kısmında
     "Roboto_Mono" adında bir klasör oluştur. Ardından; indirmiş olduğun zip dosyasının içindekileri, o
     "Roboto_Mono" klasörünün içine çıkar. Çıkarma işlemi bitince, indirmiş olduğun zip dosyasını sil.
 

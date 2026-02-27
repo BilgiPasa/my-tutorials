@@ -27,7 +27,7 @@ Sistemin Fedora tabanlıysa şu sitedeki komutları kullanarak GitHub CLI'ı sis
 Windows kullanıyorsan şu sitedeki komutu kullanarak GitHub CLI'ı sistemine kur:
     https://github.com/cli/cli/blob/trunk/docs/install_windows.md#winget
 
-Windows kullanıyorsan GitHub CLI'ı kurduktan sonra terminali kapat ve tekrardan aç.
+Windows kullanıyorsan GitHub CLI'ı kurduktan sonra terminali kapat ve tekrar aç.
 
 Ardından, GitHub hesabınla giriş yapmak için terminale şu komutu gir:
     gh auth login

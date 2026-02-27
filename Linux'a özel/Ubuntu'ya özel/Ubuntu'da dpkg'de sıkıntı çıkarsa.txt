@@ -1,7 +1,17 @@
-Bir paketi kurarken sorun çıkarırsa ve sudo apt upgrade yapmıyorsan çözümü şu
+Bir paketi kurarken sorun çıkarırsa ve "sudo apt upgrade" yapamıyorsan çözümü şu
 {
-    "sudo apt upgrade" yaz. Şu pakette sıkıntı var tarzı bir yazı çıkabilir. Sıkıntılı olan paketin adını
-    unutma. "sudo dpkg --remove --force-all (sıkıntı paketin adı)" yaz. Sonra tekrardan "sudo apt update" yap.
+    Terminale şu komutları gir:
+        sudo apt update
+        sudo apt upgrade
+
+    Şu pakette sıkıntı var tarzı bir yazı çıkabilir, o sıkıntı olan paketin adını unutma.
+
+    Ardından, terminale şu komutu gir (<sıkıntılı paketin adı> kısmına sıkıntı olan paketin adını yaz):
+        sudo dpkg --remove --force-all <sıkıntılı paketin adı>
+
+    Ardından, terminale tekrar şu komutları gir:
+        sudo apt update
+        sudo apt upgrade
 }
 
 Daha fazla bilgi için: https://askubuntu.com/questions/88371/apt-synaptic-needs-to-reinstall-package-but-cant-find-the-archive-for-it
