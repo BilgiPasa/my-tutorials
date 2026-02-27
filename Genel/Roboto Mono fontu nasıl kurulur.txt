@@ -4,7 +4,7 @@
     "Roboto_Mono" adında bir klasör oluştur. Ardından; indirmiş olduğun zip dosyasının içindekileri, o
     "Roboto_Mono" klasörünün içine çıkar. Çıkarma işlemi bitince, indirmiş olduğun zip dosyasını sil.
 
-Eğer ki GNOME veya Cinnamon kullanıyorsan:
+Eğer ki GNOME, Cinnamon veya XFCE kullanıyorsan:
     Şu siteye git "https://github.com/FontManager/font-manager" ve o uygulamayı hangi distro'yu kullanıyorsan
     ona göre indir. Sonra, "Font Manager"ı aç. Sol üstte "Browse" yazan yere tıkla. Sonra, "Manage" seçeneğine
     tıkla. En sol üstteki butonun yanındaki artı butonuna tıkla ve bilgisayarında "Documents" kısmına koymuş
