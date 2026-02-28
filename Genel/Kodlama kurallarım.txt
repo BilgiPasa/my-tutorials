@@ -13,9 +13,7 @@ Sevdiğin bir font'u kullan. (Ben şahsen Roboto Mono'yu kullanıyorum.)
 
 Gereksiz yere yorum satırı yazma.
 
-Şartlı ifadeler, döngüler ve fonksiyonların öncesine ve sonrasına bir satır boşluk bırak.
-
-Bir dilde kod yazdığında, kodun son hali, o dilin yazım stiline uyacak şekilde olsun.
+Şartlı ifadeler, döngüler ve fonksiyonların öncesine ve sonrasına birer satır boşluk bırak.
 
 Değişken adları, fonksiyon adları, class adları, obje adları, dosya adları ve klasör adları açıklayıcı olsun
 ama (alt tireler, kısa çizgiler ve boşluklar dahil) 30 karakteri geçmesin.
