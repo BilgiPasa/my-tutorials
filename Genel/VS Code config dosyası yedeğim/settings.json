@@ -7,7 +7,6 @@
     "editor.fontSize": 16,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "files.autoSave": "afterDelay",
     "git.autofetch": true,
     "git.openRepositoryInParentFolders": "always",
     "godotTools.lsp.serverPort": 6005,
