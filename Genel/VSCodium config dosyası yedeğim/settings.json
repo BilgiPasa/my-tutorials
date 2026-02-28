@@ -3,6 +3,7 @@
     "editor.fontSize": 16,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
     "git.autofetch": true,
     "git.openRepositoryInParentFolders": "always",
     "godotTools.lsp.serverPort": 6005,
@@ -12,5 +13,5 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.navigationControl.enabled": false,
     "workbench.secondarySideBar.defaultVisibility": "hidden",
-    "workbench.startupEditor": "none",
+    "workbench.startupEditor": "none"
 }
