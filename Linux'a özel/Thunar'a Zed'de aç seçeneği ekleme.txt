@@ -2,9 +2,9 @@ Thunar'ı aç. Sol üstteki "Edit" kısmından "Configure custom actions"a tıkl
 butonuna tıkla. Çıkan yeni pencerede aşağıdaki işlemleri yap.
 
 "Basic" kısmında:
-    "Name" kısmına şunu yaz: Open in Code
+    "Name" kısmına şunu yaz: Open in Zed
 
-    "Command" kısmına şunu yaz: code %F
+    "Command" kısmına şunu yaz: zed %F
 
     "Use Startup Notification" ayarını aç.
 
@@ -12,5 +12,3 @@ butonuna tıkla. Çıkan yeni pencerede aşağıdaki işlemleri yap.
     "Appears if section contains" kısmında "Directories" ve "Other files" seçeneklerini işaretle.
 
 Ardından sağ alttaki "OK" butonuna tıkla.
-
-Kaynak: https://fr0stb1rd.gitlab.io/posts/add-open-with-vscode-to-thunar-xfce/
