@@ -17,13 +17,15 @@ Ayarlar uygulamasından Hesaplar > Oturum açma seçenekleri sayfasında Ek ayar
 amacıyla bu cihazdaki Microsoft hesapları için yalnızca Windows Hello oturum açmaya izin ver (Önerilen)"
 ayarını kapat.
 
-Ayarlar uygulamasından Kişiselleştirme > Kilit ekranı sayfasında:
+Ayarlar uygulamasından Kişiselleştirme > Kilit ekranı sayfasında
+{
     "Kilit ekranınızı kişiselleştirin" ayarını "Resim" olarak ayarla.
 
     "Kilit ekranınızda eğlenceli bilgileri, ipuçlarını, ilginç numaraları ve çok daha fazlasını görün" ayarını
     kapat.
 
     "Kilit ekranı durumu" ayarını "Yok" olarak ayarla.
+}
 
 Denetim masasından Denetim Masası\Donanım ve Ses\Güç Seçenekleri\Sistem Ayarları kısmından hızlı başlatma
 ayarını kapat.
@@ -56,9 +58,9 @@ Terminal uygulamasında
     "Appereance" kısmına gir.
 
     "Appereance" kısmında:
-        "Text" kısmının altında "Font face"e (tırnaksız olarak) "Roboto Mono" yaz.
+        "Text" kısmının altında, "Font face"e şunu yaz: Roboto Mono
 
-        "Font size"ı 16 yap. Aşağıda, "Cursor" kısmında "Cursor shape"i "Underscore" yap.
+        "Font size"ı 16 yap.
 
     Son olarak Sağ alttaki "Save" butonuna tıkla.
 }

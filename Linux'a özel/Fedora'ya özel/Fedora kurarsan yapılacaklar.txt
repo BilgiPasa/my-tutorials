@@ -3,10 +3,8 @@ penceresinde çıkan "Enable third party repositories" seçeneğine tıkla ve 3.
 Eğer ki bunu açmayı unutup kurulum yaparsan uygulama mağazasındaki software repositories kısmından aç.
 
 Eğer ki başka bir ISO ile kurulum yaptıysan kurulum bitince terminale şu komutu girerek 3. parti depoları
-sistemine kur
-{
+sistemine kur:
     sudo dnf install fedora-workstation-repositories -y
-}
 
 Fedora Workstation kuruyorsan ve kurulumda konum seçmeye geldiysen, oradaki arama kısmında konumunu yazma.
 Oradaki haritadan seç ve devam et. (Harita üstündeki simgenin gitmesi için haritada simgesiz olan kısma tıkla ve
@@ -154,8 +152,6 @@ GNOME'daki default terminali kullanmak istiyorsan
 
         Custom Font olarak "Roboto Mono Regular"ı seç ve font boyutunu 16 yap.
 
-        Cursor'dan "Cursor Shape"i "Underline" yap.
-
     "Behaviour" kısmında:
         "Interface" kısmında "Restore Session"ı ve "Restore Window Size"ı kapat.
 
@@ -169,7 +165,7 @@ XFCE'deki default terminali kullanmak istiyorsan
     Terminal uygulamasını aç. Sol üstte "Edit" yazan menüden "Preferences"ı aç.
 
     "General" kısmında:
-        "Cursor" kısmında, "Cursor shape"i "Underline" yap ve "Cursor Blinks" ayarını aç.
+        "Cursor" kısmındaki "Cursor Blinks" ayarını aç.
 
     "Appearance" kısmında:
         Font olarak "Roboto Mono Regular"ı seç ve font boyutunu 16 yap.
