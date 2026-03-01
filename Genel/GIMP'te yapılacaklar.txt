@@ -4,9 +4,9 @@ sağ üstteki menülerin olduğu yere taşı ve sol kısmı en ince haline getir
 Sağ üstteki menülerin sıralaması:
     Tool Options
     Brushes
+    Undo History
     Fonts
     Images
-    Undo History
     Document History
     Patterns
     Device Status
