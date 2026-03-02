@@ -1,7 +1,7 @@
 Not: Başlıkta repo derken, terminal komutlarıyla kurmuş olduğun uygulamanın repo'sunu bahsediyorum.
 
 Şu siteye bakmanı öneririm:
-    https://docs.fedoraproject.org/en-US/quick-docs/adding-or-removing-software-repositories-in-fedora/
+    https://docs.fedoraproject.org/en-US/quick-docs/adding-or-removing-software-repositories-in-fedora/#_removing_repositories
 
 Önerilerim:
     Sileceğin uygulamanın sadece kendisini sil, dependency'lerini silme. Yani örneğin bir paket kurmadan önce
