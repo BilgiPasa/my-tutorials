@@ -19,5 +19,5 @@ Son olarak, DaVinci Resolve'u aç.
 
 Kaynak1: https://www.youtube.com/watch?v=To4CTyp-YcM
 Kaynak2: https://www.youtube.com/watch?v=HXykLpQ4dZE
-Kaynak1'in yorumlarından libxcrypt-compat'i gördüm.
-fuse, fuse-libs ve mesa-libGLU'yu; DaVinci Resolve'u kurarken çıkan sıkıntılara çözüm olarak buldum.
+libxcrypt-compat'i, karşıma çıkan sıkıntıma çözüm olarak Kaynak1 videosundaki yorumdan buldum.
+fuse, fuse-libs ve mesa-libGLU'yu; karşıma çıkan sıkıntılara çözüm olarak buldum.
