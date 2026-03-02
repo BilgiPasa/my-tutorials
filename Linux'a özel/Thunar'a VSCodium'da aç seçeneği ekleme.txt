@@ -1,0 +1,14 @@
+Thunar'ı aç. Sol üstteki "Edit" kısmından "Configure custom actions"a tıkla. Çıkan pencerede, sağdaki artı
+butonuna tıkla. Çıkan yeni pencerede aşağıdaki işlemleri yap.
+
+"Basic" kısmında:
+    "Name" kısmına şunu yaz: Open in Codium
+
+    "Command" kısmına şunu yaz: codium %F
+
+    "Use Startup Notification" ayarını aç.
+
+"Appereance Conditions" kısmında:
+    "Appears if section contains" kısmında "Directories" ve "Other files" seçeneklerini işaretle.
+
+Ardından sağ alttaki "OK" butonuna tıkla.
