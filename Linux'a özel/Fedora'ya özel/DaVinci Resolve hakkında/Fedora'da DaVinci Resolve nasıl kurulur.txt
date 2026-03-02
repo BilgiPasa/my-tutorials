@@ -1,25 +1,23 @@
 Not: DaVinci Resolve'u güncellemek için de bu tutorial'ı kullanabilirsin diye sanıyorum.
 
 DaVinci Resolve'un zip dosyasını indirdikten sonra zip dosyasının içindekileri dışarı aktar.
-Ardından, dışarı aktardığın dosyaların bulunduğu konumda terminal aç ve şu 2 komutu gir:
-    sudo dnf install libxcrypt-compat fuse fuse-libs
+
+Ardından, dışarı aktardığın dosyaların bulunduğu konumda terminal aç ve şu komutları gir:
+    sudo dnf install libxcrypt-compat fuse fuse-libs mesa-libGLU
     sudo SKIP_PACKAGE_CHECK=1 ./(DaVinci Resolve kurulum dosyasının adı) -i
 
-Kurulumu ve terms and conditions'ı kabul et ve kurulumun bitmesini bekle.
+"Terms and Conditions"ı kabul et ve kurulumun bitmesini bekle.
 
-Kurduktan sonra dosya yöneticinde /opt/resolve yerine gel ve "libs" isimli klasöre sağ tıkla ve "Open"
-seçeneklerinde "Open in Console" seçeneğini seç. Ardından, terminale şu komutları gir:
+Kurduktan sonra, dosya yöneticinde /opt/resolve yerine gel. "libs" isimli klasöre sağ tıkla ve "Open"
+seçeneklerinde "Open in Console" seçeneğine tıkla.
+
+Ardından, ekrana çıkan terminalde şu komutları gir:
     sudo mkdir disabled
     sudo mv -t disabled libglib* libgio* libgmodule*
 
-Sonrasında DaVinci Resolve'u açmaya çalış.
-
-Eğer ki DaVinci Resolve açılmıyorsa ve terminalden çalıştırma dosyasında gidip DaVinci Resolve'u
-çalıştırırsan (yani "/opt/resolve/bin" klasörüne terminalle gidip "./resolve" diyerek çalıştırırsan
-(komutları çift tırnaksız şekilde yaz)) ve hata olarak "./resolve: error while loading shared libraries
-libGLU.so.1: cannot open shared object file: No such file or directory" diye bir yazı çıkıyorsa terminale şu
-komutu gir: sudo dnf install mesa-libGLU
+Son olarak, DaVinci Resolve'u aç.
 
 Kaynak1: https://www.youtube.com/watch?v=To4CTyp-YcM
 Kaynak2: https://www.youtube.com/watch?v=HXykLpQ4dZE
-libxcrypt-compat'i kurmayı, Kaynak1'in yorumlarında önerildiği için yaptım ve çalıştı!
+Kaynak1'in yorumlarından libxcrypt-compat'i gördüm.
+fuse, fuse-libs ve mesa-libGLU'yu; DaVinci Resolve'u kurarken çıkan sıkıntılara çözüm olarak buldum.
