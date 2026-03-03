@@ -1,3 +1,9 @@
-Python'da speedtest'i indireceğin zaman "pip install speedtest" YAZMA !
-Onun yerine "pip install speedtest-cli" YAZ !
+Python'da, kurmuş olduğun speedtest'i şu komut ile sil:
+    pip3 uninstall speedtest
+
+Ardından, şu komut ile speedtest'i kur:
+    pip3 install speedtest-cli
+
+Ardından, Python'u kullandığın uygulamayı kapat ve geri aç.
+
 Sorunun çözülmesi lazım.

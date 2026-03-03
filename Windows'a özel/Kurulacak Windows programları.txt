@@ -7,7 +7,6 @@ Winget kullanarak bu programları kur:
     Blender
     Brave
     Fastfetch
-    FFmpeg
     Handbrake
     Localsend
     OBS Studio
