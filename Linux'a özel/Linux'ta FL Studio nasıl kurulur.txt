@@ -16,7 +16,7 @@ Bottles ile kurmak istiyorsan
 {
     İlk önce, Bottles'ı ve Flatseal'ı sistemine flatpak olarak kur.
 
-    Ardından, şu linkteki tutorial'ı takip et:
+    Ardından, şu linkteki rehberi takip et:
         https://github.com/Torbuntu/fl-studio-linux-setup
 
     FL Studio'yu ilk açtığında

@@ -1,0 +1,22 @@
+Yazdığın rehber anlaşılır olsun.
+
+Rehberini Türkçe olarak yazarken Türkçe yazım ve noktalama kurallarına uysun.
+
+Rehber başlığında "yapmak / etmek" kelimelerini kullanmak yerine "yapma / etme" kelimelerini kullan.
+
+Bazı fiilleri kullanım örneklerim:
+    (NOT: ÖRNEKLERİMDE HATA OLABİLİR)
+    Bir dosyayı internetten indirirsin veya internete yüklersin.
+    Paketi sistemine kurarsın. (Paket dosyası, sistemine indirilir ve kurulur.)
+    Uygulamayı sistemine kurarsın.
+    Uygulamayı sisteminden silersin/kaldırırsın.
+    Oyunu sistemine kurarsın.
+    Oyunu sisteminden silersin/kaldırırsın.
+    Sistemini güncellersin.
+    İşletim sistemini bilgisayarına kurarsın.
+    Bilgisayarını yeniden başlatırsın.
+
+Rehberlerinde bahsettiğin uygulamaları, kendi sitelerinde kendi adları nasıl bahsediliyorsa öyle şekilde
+bahset. Yani,
+    Visual Studio Code uygulamasını bahsederken "VS Code" diye yaz. "VSCode" olarak değil.
+    VSCodium uygulamasını bahsederken "VSCodium" diye yaz. "VS Codium" olarak değil.
