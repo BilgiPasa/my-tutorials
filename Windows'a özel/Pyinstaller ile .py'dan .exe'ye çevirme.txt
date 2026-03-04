@@ -6,7 +6,7 @@ yapılmışsa) şunu komut istemine yaz: pyinstaller --onefile --noconsole dosya
 Ama eğer ki python uygulaman bir konsol uygulaması ise şunu komut istemine yaz:
     pyinstaller --onefile dosya.py
 
-Ve "dist" kısmındaki dosyayı çalıştırırsan oyunun konsolsuz bir şekilde açılması lazım.
+"dist" kısmındaki dosyayı çalıştırırsan oyunun konsolsuz bir şekilde açılması lazım.
 
 Eğer ki açılırken hata veriyor ve şu paket bulunamadı diyorsa
 {

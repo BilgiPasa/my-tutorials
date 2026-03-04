@@ -33,7 +33,7 @@ Linux kullanıyorsan şunları yap
     Venv'yi seç ve yorumlayıcı olarak sağında "Genel" yazanı seç. Ardından VS Code'u KAPAT VE AÇ. Sonrasında
     bir Python dosyasını çalıştır. Sağ altta yorumlayıcı olarak .venv kullanıldığını görüyorsan .venv çalışıyor
     demektir. (Nolur nolmaz Python ile ilgili bilgisayarın kendi terminalinde bir şey kurarsan veya silersen,
-    .venv sanal ortamını sil ve yeniden oluştur.) (Ve eğer ki kuracağın şeyi .venv'ye değil de bilgisayara
+    .venv sanal ortamını sil ve yeniden oluştur.) (Eğer ki kuracağın şeyi .venv'ye değil de bilgisayara
     kurarsan o kurduklarını "pip3 uninstall paket_adı" yazarak sil ve o şeyleri .venv'de kur. Bir problem
     çıktığı için değil, nolur nolmaz bir problem çıkmaması için bunu yapmanı öneriyorum.)
 
@@ -83,7 +83,7 @@ Windows kullanıyorsan şunları yap
     Venv'yi seç ve yorumlayıcı olarak sağında "Genel" yazanı seç. Ardından VS Code'u KAPAT VE AÇ. Sonrasında
     bir Python dosyasını çalıştır. Sağ altta yorumlayıcı olarak .venv kullanıldığını görüyorsan .venv çalışıyor
     demektir. (Nolur nolmaz Python ile ilgili bilgisayarın kendi terminalinde bir şey kurarsan veya silersen,
-    .venv sanal ortamını sil ve yeniden oluştur.) (Ve eğer ki kuracağın şeyi .venv'ye değil de bilgisayara
+    .venv sanal ortamını sil ve yeniden oluştur.) (Eğer ki kuracağın şeyi .venv'ye değil de bilgisayara
     kurarsan o kurduklarını "pip3 uninstall paket_adı" yazarak sil ve o şeyleri .venv'de kur. Bir problem
     çıktığı için değil, nolur nolmaz bir problem çıkmaması için bunu yapmanı öneriyorum.)
 

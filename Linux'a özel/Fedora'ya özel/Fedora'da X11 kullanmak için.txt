@@ -4,11 +4,11 @@ Fedora'da X11 kullanmak için
     {
         İlk önce şu komutu gir: sudo nano /etc/sddm.conf
 
-        Ve dosya içinde "[General]" kısmında "DisplayServer" ile ilgili ayarı "DisplayServer=x11" yap.
+        Açtığın dosya içinde "[General]" kısmında "DisplayServer" ile ilgili ayarı "DisplayServer=x11" yap.
 
         Ardından şu komutu gir: sudo dnf install plasma-workspace-x11 -y
 
-        Ve bilgisayarını yeniden başlat.
+        Ardından bilgisayarını yeniden başlat.
 
         Ardından sistemine giriş yapmak için şifreni girmeden öncesinde sol üstte (orda yoksa başka bir yerde)
         masaüstü ortamı seçeneği olarak Plazma (veya Plazma (Wayland)) değil, Plazma (X11)'i seç.
