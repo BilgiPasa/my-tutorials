@@ -1,0 +1,36 @@
+C ve C++ için:
+    C/C++
+
+C# için:
+    .NET Install Tool
+    C#
+    C# Dev Kit
+
+Java için:
+    Extension Pack for Java
+
+Python için:
+    Pylance
+    Python
+    Python Debugger
+
+Godot için:
+    godot-tools
+    Mono Debug
+
+    Godot'ta C# kullanmak için:
+        C# Tools for Godot
+        Ve yukarıda bahsettiğim C# eklentileri.
+
+Unity için:
+    Unity
+    Ve yukarıda bahsettiğim C# eklentileri.
+
+Önerdiğim diğer eklentiler:
+    Better Comments
+    Bookmarks
+    Bracket Select
+    Marp for VS Code
+    Material Icon Theme
+    Trailing Spaces
+    Turkish Language Pack for Visual Studio Code
