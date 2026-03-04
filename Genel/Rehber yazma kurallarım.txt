@@ -2,7 +2,7 @@ Yazdığın rehber anlaşılır olsun.
 
 Rehberini Türkçe olarak yazarken Türkçe yazım ve noktalama kurallarına uysun.
 
-Rehber başlığında "yapmak / etmek" kelimelerini kullanmak yerine "yapma / etme" kelimelerini kullan.
+Rehber başlığında "yapmak/etmek" kelimelerini kullanmak yerine "yapma/etme" kelimelerini kullan.
 
 Bazı fiilleri kullanım örneklerim:
     (NOT: ÖRNEKLERİMDE HATA OLABİLİR)

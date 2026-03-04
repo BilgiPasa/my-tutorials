@@ -1,3 +1,3 @@
 Linux'ta:
-    /home/$USER/.config/Code/User
+    /home/$USER/.config/Code/User/
     ($USER yerine, sistemindeki kullanıcı adını yaz.)
