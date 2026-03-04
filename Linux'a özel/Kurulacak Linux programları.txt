@@ -40,6 +40,9 @@ ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, Steam ve VS Code'da yap
 
 ONLYOFFICE için yapılacakları da yap.
 
+Nano için, bu dosyanın olduğu klasörde bulunan "Nano ayar dosyası yedeğim" klasörüne bak. O klasördeki ayar
+dosyasını kopyala ve bulunması gereken yere yapıştır.
+
 DaVinci Resolve'u, kendi distrona göre nasıl kurman gerekiyorsa ona göre sistemine kur. Arch Linux, Debian,
 Fedora, Linux Mint ve Ubuntu'da nasıl kurabileceğine dair yönergeleri, distrolara özel olarak hazıladığım
 klasörlerden bulabilirsin.
