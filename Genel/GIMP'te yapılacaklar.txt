@@ -12,6 +12,7 @@ Sağ üstteki menülerin sıralaması:
     Device Status
 
 Edit > Keyboard Shortcuts içinde "Clone" tool'una "N" kısayolunu ata. "Pencil" tool'una da "C" kısayolunu ata.
+Ardından sağ alttaki "OK" butonuna tıkla.
 
 Kullandığın Layer'ın kenarlarında bulunan sarı hattı bir seferliğine kapatmak için "View" menüsüne tıkla ve
 oradan "Show Layer Boundary"i kapat. Eğer ki bu ayarın hep kapalı olmasını istiyorsan "Edit" kısmından
