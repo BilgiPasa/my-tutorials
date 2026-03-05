@@ -60,7 +60,7 @@ Terminal uygulamasında
     "Appereance" kısmında:
         "Text" kısmının altında, "Font face"e şunu yaz: Roboto Mono
 
-        "Font size"ı 16 yap.
+        "Font size"ı 16 yap. Aşağıda, "Cursor" kısmında "Cursor shape"i "Filled Box" yap.
 
     Son olarak Sağ alttaki "Save" butonuna tıkla.
 }
