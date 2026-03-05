@@ -143,19 +143,15 @@ Java projesi oluşturacaksan yapılacaklar
 }
 
 Not1:
-    VS Code'da run and debug butonunu gizleyip geri açamıyorsan sağ üstte üç nokta kısmına sağ tık yap ve "run
-    and debug" seçeneğine tıkla.
-
-Not2:
     Aynı python sanal ortamını hem Linux'ta hem de Windows'ta kullanamazsın. O yüzden hangi işletim sisteminde
     python ile uğraşacaksan ona göre kur.
 
-Not3:
+Not2:
     Eğer ki Python'da yapmış olduğun bir projenin dosyalarını bir yere aktaracaksan ve o projende .venv
     klasörü varsa, .venv klasörünü aktarma. Diğer dosyaları aktar .venv'yi aktarma. .venv klasörünü kurmak
     için yukarıda anlattığım yönergeleri takip et.
 
-Not4:
+Not3:
     Eğer ki Python'da yapmış olduğun ve GitHub'da yönettiğin bir projen varsa ve o projende .venv klasörü
     varsa, o projenin root klasöründe bir ".gitignore" dosyası oluştur. .gitignore dosyasının içine ise
     .venv klasörün nerede ise konumunu yaz ve yanına bir eğik çizgi (/) koy. Örneğin .venv klasörün o

@@ -20,5 +20,13 @@ Son olarak; eğer ki VS Code'da Java kodunu, sağ üstteki "Run Java" butonuna b
 solunda "Hata Ayıkla" bölümü gözüküyorsa o bölümü gizle.
 
 Not1: VS Code'da hiçbir uyarıda, "Bu kaynaktan bir daha uyarı gösterme" seçeneğine tıklama.
+
 Not2: VS Code'da, Pylance tür denetimi etkinleştirme uyarısı gelirse kabul etme ve geç.
+
 Not3: VS Code'da, sana önerilen uzantı varsa o uzantının üstüne sağ tıklayıp "Öneriyi Yoksay"a tıkla.
+
+Not4: VS Code'da run and debug butonunu gizleyip geri açamıyorsan sağ üstte üç nokta kısmına sağ tık yap ve
+"run and debug" seçeneğine tıkla.
+
+Not5: Java'da debug ettikten sonra, çalıştırma butonu debug'da kaldıysa "Extension Pack for Java" eklenti
+paketini sil, VS Code'u kapat. VS Code'u tekrar aç ve Extension Pack for Java'yı tekrar kur.
