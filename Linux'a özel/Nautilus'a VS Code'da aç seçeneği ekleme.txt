@@ -1,10 +1,11 @@
-https://github.com/vanlocvo/Nautilus-OpenInVSCode GitHub sayfasına git. Orada, "Dependency" olduğu söylenilen
-sistem paketini oradaki yönergeye uyarak kur. Ardından, o projenin zip dosyasını indir. Sonra, zip'teki
-dosyaları dışarı aktar. Dışarı aktarmış olduğun dosyaların bulunduğu yerde terminal aç ve şu komutu gir:
+https://github.com/vanlocvo/Nautilus-OpenInVSCode GitHub sayfasına git.
+Orada, "Dependency" olduğu söylenilen sistem paketini oradaki yönergeye uyarak kur.
+Ardından, o projenin zip dosyasını indir ve o zip'teki dosyaları dışarı aktar.
+Dışarı aktarmış olduğun dosyaların bulunduğu yerde terminal aç ve şu komutu gir:
     sudo ./install.sh
 
 Her user için kurayım mı sorusuna yes de ve bilgisayarında Nautilus açık ise Nautilus'u kapat.
-Ardından Nautilus'u yeniden başlatayım mı sorusuna yes de ve kurulumun bitmesini bekle.
+Ardından Nautilus'u yeniden başlatayım mı sorusuna da yes de ve kurulumun bitmesini bekle.
 
 Kurulum bittikten sonra kurulum klasörünü silmeyi unutma.
 
