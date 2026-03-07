@@ -24,8 +24,8 @@ m4a'dan mp3'e çevirmek için kullandığım komut ("-hwaccel cuda" ile NVIDIA G
 DaVinci Resolve'dan export ettiğin mov uzantılı videoyu mp4'e çevirmek için Handbrake uygulamasını kullan.
 Handbrake'te çevireceğin videoyu seçtikten sonra "Video" kısmında:
     Eğer ki NVIDIA ekran kartın varsa "Video Encoder" olarak "H.264 (NVEnc)" ayarını seç.
-    "Framerate"i 60 yap.
-    "Constant Framerate" seçeneğini seç.
+    "Framerate"i "Same as source" yap.
+    "Variable Framerate" seçeneği seçili kalsın.
     "Color Range"i "Same as source" yap.
     "Bitrate (kbps)" seçeneğini seç ve 36000 olarak ayarla.
     "Preset" ise "medium" olarak kalsın.
