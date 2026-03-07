@@ -25,15 +25,15 @@ DaVinci Resolve'dan export ettiğin mov uzantılı videoyu mp4'e çevirmek için
 Handbrake'te çevireceğin videoyu seçtikten sonra "Video" kısmında:
     Eğer ki NVIDIA ekran kartın varsa "Video Encoder" olarak "H.264 (NVEnc)" ayarını seç.
     "Framerate"i 60 yap.
-    "Bitrate (kbps)" ayarını aç ve 36000 olarak ayarla.
+    "Constant Framerate" seçeneğini seç.
     "Color Range"i "Same as source" yap.
+    "Bitrate (kbps)" seçeneğini seç ve 36000 olarak ayarla.
     "Preset" ise "medium" olarak kalsın.
 
-("OBS Studio'da yapılacaklar.txt" dosyasında ekran kaydı için bitrate ayarını 36000 olarak ayarlamıştım.
-Belki değiştirmiş olabilirim. Sen videoyu çekerken bitrate olarak ne kullandıysan çevirme bitrate değeri olarak
-onu yaz.)
-
-Çevirdiğin videoların kalitelerini karşılaştırmak için Identity uygulamasını kullanabilirsin. (Flathub'da var.)
+Notlar:
+    "OBS Studio'da yapılacaklar.txt" dosyasında ekran kaydı için bitrate ayarını 36000 olarak ayarlamıştım.
+    Sen videoyu çekerken bitrate olarak ne kullandıysan çevirme bitrate değeri olarak onu yazabilirsin.
+    Çevirdiğin videoların kalitelerini karşılaştırmak için (Flathub'dan) Identity uygulamasını kullanabilirsin.
 
 FFmpeg çevirme komutlarını böyle bir şekilde değiştirmemde esinlendiğim kaynaklar:
     https://brushlesswhoop.com/converting-fpv-footage-for-davinci-resolve/ (Siteye giremiyoran Tor ile gir.)
