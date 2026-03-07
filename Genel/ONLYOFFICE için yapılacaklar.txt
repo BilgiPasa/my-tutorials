@@ -1,4 +1,4 @@
 Ayarlardan "Interface theme" ayarını "Contrast Dark" olarak ayarla ve alttaki "Apply" butonuna tıkla.
 
-Eğer ki ONLYOFFICE'te "Times New Roman" fontu kurulu gelmediyse, internetten Times New Roman fontunu indir
-ve sistemine kur.
+Eğer ki ONLYOFFICE'te "Times New Roman" fontu kurulu gelmediyse, şu siteden Times New Roman fontunu indir
+ve sistemine kur: https://font.download/font/times-new-roman
