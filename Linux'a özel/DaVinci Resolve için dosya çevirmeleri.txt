@@ -22,6 +22,7 @@ m4a'dan mp3'e çevirmek için kullandığım komut ("-hwaccel cuda" ile NVIDIA G
 }
 
 DaVinci Resolve'dan export ettiğin mov uzantılı videoyu mp4'e çevirmek için Handbrake uygulamasını kullan.
+
 Handbrake'te çevireceğin videoyu seçtikten sonra "Video" kısmında:
     Eğer ki NVIDIA ekran kartın varsa "Video Encoder" olarak "H.264 (NVEnc)" ayarını seç.
     "Framerate"i "Same as source" yap.
@@ -30,7 +31,7 @@ Handbrake'te çevireceğin videoyu seçtikten sonra "Video" kısmında:
     "Bitrate (kbps)" seçeneğini seç ve 36000 olarak ayarla.
     "Preset" ise "medium" olarak kalsın.
 
-Notlar:
+Not:
     "OBS Studio'da yapılacaklar.txt" dosyasında ekran kaydı için bitrate ayarını 36000 olarak ayarlamıştım.
     Sen videoyu çekerken bitrate olarak ne kullandıysan çevirme bitrate değeri olarak onu yazabilirsin.
     Çevirdiğin videoların kalitelerini karşılaştırmak için (Flathub'dan) Identity uygulamasını kullanabilirsin.
