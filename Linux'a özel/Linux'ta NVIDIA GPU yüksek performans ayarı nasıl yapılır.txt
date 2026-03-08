@@ -1,0 +1,23 @@
+Dosya yöneticinden home/$USER/ dosya yoluna gel. ($USER yerinde kullanıcı adın olmalı.)
+
+Orada bulunan ".nvidia-settings-rc" dosyasını aç. O dosya yoksa NVIDIA X Server Settings uygulamasını aç ve
+kapat. O dosyanın oluşması lazım.
+
+Açtığın o dosyada "# Attributes:" kısmının altında "[GPU:0]/GPUPowerMizerMode=0" gibi bir yazı olmalı. Belki
+[GPU:0] yerine [GPU:1] falan yazıyordur o önemli değil.
+
+O ayarda, =0 yerine =1 diye değiştirirsen yüksek performans ayarını seçmiş olursun.
+
+Yani örnek olarak:
+    [GPU:0]/GPUPowerMizerMode=0 yerine
+
+    [GPU:0]/GPUPowerMizerMode=1 diye değiştirirsen yüksek performans ayarını seçmiş olursun.
+
+Değişikliği yaptıktan sonra dosyayı kaydetmeyi unutma.
+
+Eski haline çevirmek için o ayar dosyasında =1 yaptığın yeri =0 diye değiştirip kaydedebilirsin.
+
+Eğer ki NVIDIA X Server Settings ayarlarını sıfırlamak istersen:
+    .nvidia-settings-rc dosyasını sil, NVIDIA X Server Settings uygulamasını aç ve kapat.
+
+Yaptığın değişikliklerin etki etmesi için bilgisayarını yeniden başlatman lazım mı emin değilim.
