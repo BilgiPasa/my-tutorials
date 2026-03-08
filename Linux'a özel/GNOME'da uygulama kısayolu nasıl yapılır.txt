@@ -9,15 +9,18 @@ Terminal = false
 StartupNotify = true
 
 Dosya yolu yazarken eğer ki dosya yolunda boşluklu bir ada sahip klasörün veya dosyan varsa onu tek tırnak
-içine alarak yaz. Yoksa çalışmayabilir.
+içine alarak yaz. Eğer ki o klasör veya dosya adında tek tırnak varsa çift tırnak içine alarak yaz. Yoksa
+çalışmayabilir.
 
 Icon kısmı için yapman gereken şey şu:
     ~/.local/share/icons klasörüne gir (icons klasörü yoksa oluştur ve gir).
     Sonra, kullanmak istediğin ikonu o klasörün içine at.
     Ardından, "Icon" kısmına ikonun adını direk yaz. Örnek: GodotIcon.svg
 
-Üsttekileri yaptıktan sonra, bu yapmış olduğun .desktop dosyasını çalıştırılabilir yap (ya sağ click menüsünden
-yap ya da şu komutu girerek yap: chmod +x <.desktop dosyasının konumu>).
+Üsttekileri yaptıktan sonra, bu yapmış olduğun .desktop dosyasını çalıştırılabilir yap.
 
-Artık uygulama menüsünde kısayolun çıkması lazım. Eğer ki çıkmıyorsa veya çıkıyor ama belirlediğin ikon
-gözükmüyorsa sisteminden çıkış yap ve tekrar giriş yap.
+(Bir dosyayı nasıl çalıştırılabilir yapabileceğini bilmiyosan bu dosyanın bulunduğu dosya dizininde bulunan
+"Linux'ta bir dosyayı çalıştırılabilir yapmak için.txt" dosyasına bakabilirsin.)
+
+Artık uygulama menüsünde, hazırlamış olduğun kısayolun gözükmesi lazım. Eğer ki kısayol gözükmüyorsa veya
+gözüküyor ama belirlediğin ikon gözükmüyorsa, sisteminden çıkış yap ve tekrar giriş yap.

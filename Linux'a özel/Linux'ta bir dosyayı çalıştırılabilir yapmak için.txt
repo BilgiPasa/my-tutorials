@@ -1,0 +1,12 @@
+2 farklı şekilde Linux'ta bir dosyayı çalıştırılabilir yapabilirsin.
+
+Yöntem 1:
+    O dosyaya sağ tıkla. Ekrana çıkan sağ tık menüsünden "Properties"e tıkla.
+    Çıkan pencerede "Executable as Program" ayarını açarsan o dosyayı çalıştırılabilir yapabilirsin.
+
+Yöntem 2:
+    O dosyanın bulunduğu yerde terminal açıp, o terminale şu komutu girerek de çalıştırılabilir yapabilirsin:
+        chmod +x <dosyanın adı>
+
+    Not:
+        Komutta <dosyanın adı> yazan yere, çalıştırılabilir yapmak istediğin dosyanın adını yaz.

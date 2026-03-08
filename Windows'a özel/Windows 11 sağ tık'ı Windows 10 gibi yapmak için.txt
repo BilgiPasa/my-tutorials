@@ -1,8 +1,10 @@
-Yapmak için PowerShell'e şu komutu gir: reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+PowerShell'e şu komutu gir:
+    reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 
 İşlemin etki göstermesi için bilgisayarı yeniden başlat.
 
-Eski haline döndürmek için PowerShell'e şu komutu gir: reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
+Eski haline döndürmek için PowerShell'e şu komutu gir:
+    reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f
 
 İşlemin etki göstermesi için bilgisayarı yeniden başlat.
 

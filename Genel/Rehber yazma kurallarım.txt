@@ -2,7 +2,8 @@ Yazdığın rehber anlaşılır olsun.
 
 Rehberini Türkçe olarak yazarken Türkçe yazım ve noktalama kurallarına uysun.
 
-Rehber başlığında "yapmak/etmek" kelimelerini kullanmak yerine "yapma/etme" kelimelerini kullan.
+Bu GitHub deposunda rehber yazarken rebher başlığında "bişey bişey yapmak/etmek" veya "bişey bişey yapma/etme"
+diye yazma. Onların yerine "bişey bişey yapmak/etmek için" diye yaz.
 
 Bazı fiilleri kullanım örneklerim:
     (NOT: ÖRNEKLERİMDE HATA OLABİLİR)
