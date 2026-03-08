@@ -1,0 +1,9 @@
+Eğer ki bundan rahatsız değilsen bir şey yapmana gerek yok.
+
+Ama eğer ki her bilgisayarı açışında GRUB'ın açılmasını istiyorsan şu komutları terminale gir:
+    sudo grub2-editenv - unset menu_auto_hide
+    sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+
+1. komut ile ayarlıyorsun, 2. komut ile yaptığın ayarı uyguluyorsun.
+
+Kaynak: https://www.reddit.com/r/Fedora/comments/1ffpify/system_boots_directly_into_fedora_without/

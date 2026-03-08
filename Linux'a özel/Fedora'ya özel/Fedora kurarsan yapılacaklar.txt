@@ -184,8 +184,5 @@ Saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyors
     Yaptığın değişiklikler, sisteminden çıkıp geri giriş yapınca etki göstermeli.
 }
 
-Boot menüsünde çıkan kernel seçenekleri sayısını ayarlamak istiyorsan:
-    https://discussion.fedoraproject.org/t/old-kernels-removal/77046
-
 Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
 "Kurulacak Linux programları.txt" dosyasına git ve kurmak istediğin programları sistemine kur.
