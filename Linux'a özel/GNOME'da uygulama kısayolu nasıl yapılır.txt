@@ -1,10 +1,10 @@
 ~/.local/share/applications yerinde bir tane .desktop uzantılı dosya oluştur ve ardından içine şunları yaz :
 
 [Desktop Entry]
-Name = <buraya uygulama adını yaz>
-Exec = <buraya uygulama dosyasının konumunu yaz ve aşağıdaki uyarımı oku>
+Name = (buraya uygulama adını yaz)
+Exec = (buraya uygulama dosyasının konumunu yaz ve aşağıdaki uyarımı oku)
 Type = Application
-Icon = <bu kısım için ne yapman gerektiğini aşağıda anlatıyorum>
+Icon = (bu kısım için ne yapman gerektiğini aşağıda anlatıyorum)
 Terminal = false
 StartupNotify = true
 

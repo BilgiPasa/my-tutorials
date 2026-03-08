@@ -4,8 +4,9 @@ Geçmişin tamamını temizlemek istiyorsan terminale şu komutu gir:
 Terminal geçmişini görmek için terminale şu komutu gir:
     history
 
-Geçmişteki belli bir komutu silmek istiyorsan terminale şu komutu gir (<sıra no> yerine, terminale "history"
-komutunu girince, silmek istediğin komut için çıkan sıra numarasını yaz):
-    history -d <sıra no>
+Terminale "history" komutunu girdiğinde çıkan sırada, komutların sıra numaralarını görebilirsin.
+
+Geçmişteki belli bir komutu silmek istiyorsan terminale şu komutu gir:
+    history -d (sıra numarası)
 
 Kaynak: https://opensource.com/article/18/6/history-command

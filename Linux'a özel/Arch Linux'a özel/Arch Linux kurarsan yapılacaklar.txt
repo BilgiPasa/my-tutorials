@@ -5,9 +5,9 @@ Aşağıdaki yönergeler, NVIDIA ekran kartı olan bir cihaz içindir.
 Arch'ın ISO'sunu açtıktan sonra "archinstall" yaz ve seçenekler olarak şunları seç.
 Archinstall language: English
 Mirrors (sırasıyla): Türkiye, Worldwide
-Locales: Keyboard layout => trq
-          Locale language => en_US
-          Locale encoding => UTF-8
+Locales: Keyboard layout -> trq
+          Locale language -> en_US
+          Locale encoding -> UTF-8
 Disc configuration: Use a best-effort default partition layout
                      SSD'ni space ile seç ve enter yap, ext4'ü seç, /home ayrı olsun mu kısmına hayır de.
 Disc encription yapma.
@@ -17,9 +17,9 @@ Swap: Default ne ise o olsun.
 Hostname'i kendin koyarsın.
 Root password olmasın
 User account'ta kendini ekle ve super user yap.
-Profile: Type => Desktop => istediğin bir masaüstü ortamını space ile seç ve enter yap.
-          Graphics driver => NVIDIA (propriatery)
-          Greeter => Default ne ise o olsun.
+Profile: Type -> Desktop -> istediğin bir masaüstü ortamını space ile seç ve enter yap.
+          Graphics driver -> NVIDIA (propriatery)
+          Greeter -> Default ne ise o olsun.
 Audio: Pipewire
 Kernel: linux
 Additional packages: fastfetch firefox

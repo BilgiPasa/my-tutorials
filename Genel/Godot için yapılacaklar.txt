@@ -10,13 +10,13 @@ Godot'ta yeni bir proje oluştur veya var olan bir projeye gir.
 
 General kısmında:
     Interface > Editor kısmında:
-        Code Font Size => 20
+        Code Font Size -> 20
         "Code Font" yerinde Roboto Mono fontunun dosyasının yerini belirt.
 
     Text Editor > Completion kısmında:
-        Idle Parse Delay => 0.5
-        Idle Parse Delay With Errors Found => 0.25
-        Code Complete Delay => 0.25
+        Idle Parse Delay -> 0.5
+        Idle Parse Delay With Errors Found -> 0.25
+        Code Complete Delay -> 0.25
 
 Shortcuts kısmında:
     Arama kısmına "Add Child Node" yaz. Oradaki Add Child Node kısayolunun sağındaki artı butonuna tıkla ve

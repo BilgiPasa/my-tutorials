@@ -21,3 +21,5 @@ Rehberlerinde bahsettiğin uygulamaları, kendi sitelerinde kendi adları nasıl
 bahset. Yani,
     Visual Studio Code uygulamasını bahsederken "VS Code" diye yaz. "VSCode" olarak değil.
     VSCodium uygulamasını bahsederken "VSCodium" diye yaz. "VS Codium" olarak değil.
+
+Rehber yazarken ok olarak "=>" yerine "->" kullan.

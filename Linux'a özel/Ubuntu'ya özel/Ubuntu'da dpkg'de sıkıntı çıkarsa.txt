@@ -6,8 +6,8 @@ Bir paketi kurarken sorun çıkarırsa ve "sudo apt upgrade" yapamıyorsan çöz
 
     Şu pakette sıkıntı var tarzı bir yazı çıkabilir, o sıkıntı olan paketin adını unutma.
 
-    Ardından, terminale şu komutu gir (<sıkıntılı paketin adı> kısmına sıkıntı olan paketin adını yaz):
-        sudo dpkg --remove --force-all <sıkıntılı paketin adı>
+    Ardından, terminale şu komutu gir:
+        sudo dpkg --remove --force-all (sıkıntılı paketin adı)
 
     Ardından, terminale tekrar şu komutları gir:
         sudo apt update

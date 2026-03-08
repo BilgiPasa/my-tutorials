@@ -16,12 +16,12 @@ Recording Settings kısmında:
     (NVIDIA kullanıyorsan, "NVIDIA NVENC H.264" seçeneğini seç.)
 
 Encoder Settings kısmında:
-    Rate Control => Constant Bitrate
-    Bitrate => 36000 Kbps
+    Rate Control -> Constant Bitrate
+    Bitrate -> 36000 Kbps
     "Preset" olarak ya "Slower (Better Quality)" ya da "Slow (Good Quality)"yi seç.
-    Tuning => High Quality
-    Multipass Mode => Two Passes (Quarter Resolution)
-    Profile => high
+    Tuning -> High Quality
+    Multipass Mode -> Two Passes (Quarter Resolution)
+    Profile -> high
 
 "Apply"a tıklayarak ayarlarını kaydet ve "OK"e tıkla.
 
