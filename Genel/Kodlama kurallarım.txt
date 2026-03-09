@@ -18,9 +18,8 @@ Gerektiğinde bir adı kısaltabilirsin.
 Ad kısaltmak için bu kısaltmaları kullanabilirsin:
     array -> arr
     camera -> cam
-    collider -> coll
-    collision polygon -> coll polygon
-    collision shape -> coll shape
+    box/capsule/sphere collider -> box/capsule/sphere coll
+    collision polygon/shape -> coll polygon/shape
     degree -> deg
     field of view -> FOV
     frames per second -> fps

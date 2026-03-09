@@ -14,9 +14,9 @@ Sistemin açıldıktan sonra terminale şu komutu gir:
 
 Eğer ki update sonrasında "The following upgrades have been deferred due to phasing" yazıyor ise endişelenme,
 bu normal. Bu yazı Linux Mint'te de çıkıyor. Yani "The following upgrades have been deferred due to phasing"
-yazması "ESM Apps" şeyinin kapanmadığı anlamına gelmiyor, merak etme.
+yazması "esm-apps" şeyinin kapanmadığı anlamına gelmiyor, merak etme.
 
-"ESM Apps" bildirimlerin kapanmış olmalı. AMA eğer ki Ubuntu Pro alırsan yukarıdaki yönergelerle değiştirmiş
+"esm-apps" bildirimlerin kapanmış olmalı. AMA eğer ki Ubuntu Pro alırsan yukarıdaki yönergelerle değiştirmiş
 olduğun dosyadaki yorum satırı yapmış olduğun yerleri eski haline getir. (O değiştirmiş olduğun kısımları
 unutmamak için yorum haline getirdiğin yerlerde başa # koy ve yanına boşluk KOYMA. Boşluk koyarsan sanki o
 kısım başta da öyleymiş gibi zannedebilirsin.)

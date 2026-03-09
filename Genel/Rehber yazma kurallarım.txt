@@ -2,9 +2,6 @@ Yazdığın rehber anlaşılır olsun.
 
 Rehberini Türkçe olarak yazarken Türkçe yazım ve noktalama kurallarına uysun.
 
-Bu GitHub deposunda rehber yazarken rebher başlığında "bişey bişey yapmak/etmek" veya "bişey bişey yapma/etme"
-diye yazma. Onların yerine "bişey bişey yapmak/etmek için" diye yaz.
-
 Bazı fiilleri kullanım örneklerim:
     (NOT: ÖRNEKLERİMDE HATA OLABİLİR)
     Bir dosyayı internetten indirirsin veya internete yüklersin.
@@ -17,9 +14,12 @@ Bazı fiilleri kullanım örneklerim:
     İşletim sistemini bilgisayarına kurarsın.
     Bilgisayarını yeniden başlatırsın.
 
+Rehber yazarken ok olarak "=>" yerine "->" kullan.
+
 Rehberlerinde bahsettiğin uygulamaları, kendi sitelerinde kendi adları nasıl bahsediliyorsa öyle şekilde
 bahset. Yani,
     Visual Studio Code uygulamasını bahsederken "VS Code" diye yaz. "VSCode" olarak değil.
     VSCodium uygulamasını bahsederken "VSCodium" diye yaz. "VS Codium" olarak değil.
 
-Rehber yazarken ok olarak "=>" yerine "->" kullan.
+Bu GitHub deposunda rehber yazarken rebher başlığında "bişey bişey yapmak/etmek" veya "bişey bişey yapma/etme"
+diye yazma. Onların yerine "bişey bişey yapmak/etmek için" diye yaz.
