@@ -1,11 +1,13 @@
 Bir GitHub repo'su oluştur ve oluştururken .gitignore seçeneklerinden Unity'yi seç.
 
-Repo'yu oluşturunca clone'la ve Unity projeni o klasörün içinde oluştur.
+Repo oluşturduktan sonra o repo'yu clone'la.
 
-Sonrasında oluşturulmuş olan .gitignore dosyasını Unity projenin içine koy.
+Ardından, Unity projeni o klasörün içinde oluştur veya var olan bir Unity projesini o repo klasörünün içine koy.
 
-Son olarak Unity projende Project Settings > Version Control kısmında "Mode" olarak "Visible Meta Files" seçili
-olduğundan ve Project Settings > Editor > Asset Serialization kısmında "Mode" olarak "Force Text" seçili
-olduğundan emin ol.
+Ardından, repo'da bulunan .gitignore dosyasını Unity projesinin içine koy.
 
-Projende değişiklik yapınca normal bi şekilde git add, git commit ve git push'unu yapabilirsin.
+Ardından; Unity projende Project Settings > Version Control kısmında, "Mode" olarak "Visible Meta Files"ın
+seçili olduğundan ve Project Settings > Editor > Asset Serialization kısmında, "Mode" olarak "Force Text"in
+seçili olduğundan emin ol.
+
+Bunları yaptıktan sonra; normal bi şekilde git add, git commit ve git push'unu yapabilirsin.
