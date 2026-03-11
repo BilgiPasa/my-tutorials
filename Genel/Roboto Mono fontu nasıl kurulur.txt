@@ -20,10 +20,10 @@ Eğer ki Windows kullanıyorsan:
     butonuna bas. Biraz önce zip'ten çıkarmış olduğun dosyalardan "RobotoMono-VariableFont_wght.ttf" isimli
     dosyayı seç ve o fontu ekle.
 
-Eğer ki VS Code ayarlarında, kullanmak istediğin fontu belirlemek için:
+VS Code ayarlarında Roboto Mono fontunu kullanmak için:
     VS Code'u aç. VS Code'da "Font Family" ayarındaki yazanları SAKIN SİLME!
 
-    Yapacağın şey, o ayardaki yazanların soluna, şu yazılı değilse onu yazmak:
+    Yapacağın şey; o ayardaki yazanların soluna, şu yazılı değilse onu yazmak:
         'Roboto Mono',
 
     Yani örnek olarak, o ayarda şu yazıyorsa:
