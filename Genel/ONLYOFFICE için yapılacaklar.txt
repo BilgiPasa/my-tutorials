@@ -7,6 +7,9 @@ Eğer ki ONLYOFFICE'te "Times New Roman" fontu kurulu gelmediyse, şu siteden Ti
 ve sistemine kur:
     https://font.download/font/times-new-roman
 
+Eğer ki ONLYOFFICE'te "Calibri" fontu kurulu gelmediyse, şu siteden Calibri fontunu indir ve sistemine kur:
+    https://www.fonttr.com/calibri-font
+
 Eğer ki ONLYOFFICE'te "Arial" fontu kurulu gelmediyse, şu siteden Arial fontunu indir ve sistemine kur:
     https://font.download/font/arial
 

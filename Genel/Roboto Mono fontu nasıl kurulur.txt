@@ -1,26 +1,24 @@
 "Roboto Mono" fontunu indirmek için:
     Şu siteye git "https://fonts.google.com/specimen/Roboto+Mono" ve sağ üstteki "Get font" butonuna tıkla.
-    Sonra, "Download all"a tıkla ve fontu indir. İndirdikten sonra, bilgisayarındaki "Documents" kısmında
-    "Roboto_Mono" adında bir klasör oluştur. Ardından; indirmiş olduğun zip dosyasının içindekileri, o
-    "Roboto_Mono" klasörünün içine çıkar. Çıkarma işlemi bitince, indirmiş olduğun zip dosyasını sil.
+    Sonra, "Download all"a tıkla ve fontu indir. İndirdikten sonra, indirmiş olduğun zip dosyasının içindeki
+    dosyaları bilgisayarının istediğin bir yerine çıkar.
 
 Eğer ki GNOME, Cinnamon veya XFCE kullanıyorsan:
     Şu siteye git "https://github.com/FontManager/font-manager" ve o uygulamayı, hangi distro'yu kullanıyorsan
     ona göre sistemine kur. (Kurulum için kullanılan komutların başına sudo koyman gerekebilir.)
     Ardından, "Font Manager"ı aç. Sol üstte "Browse" yazan yere tıkla ve çıkan menüden "Manage"a tıkla.
-    En sol üstteki butonun yanındaki artı butonuna tıkla ve bilgisayarında "Documents" kısmına koymuş olduğun
-    "Roboto_Mono" klasörünün içindeki "RobotoMono-VariableFont_wght.ttf" dosyasını seç ve o fontu ekle.
+    En sol üstteki butonun yanındaki artı butonuna tıkla. Biraz önce zip'ten çıkarmış olduğun dosyalardan
+    "RobotoMono-VariableFont_wght.ttf" isimli dosyayı seç ve o fontu ekle.
 
 Eğer ki KDE Plazma kullanıyorsan:
-    "Fonts" uygulamasını aç ve "Font Management" kısmına gel. "Install from file" seçeneğine tıkla ve
-    bilgisayarında "Documents" kısmına koymuş olduğun "Roboto_Mono" klasörünün içindeki
-    "RobotoMono-VariableFont_wght.ttf" dosyasını seç ve o fontu ekle. Sonrasında, gerekiyorsa sistemini yeniden
-    başlat.
+    "Fonts" uygulamasını aç ve "Font Management" kısmına gel. "Install from file" seçeneğine tıkla.
+    Biraz önce zip'ten çıkarmış olduğun dosyalardan "RobotoMono-VariableFont_wght.ttf" isimli dosyayı seç ve o
+    fontu ekle. Sonrasında, gerekiyorsa sistemini yeniden başlat.
 
 Eğer ki Windows kullanıyorsan:
     Windows'un arama kısmına "Yazı tipi ayarları" yaz ve çıkan menüde "Yazı tiplerine göz atın ve yükleyin"
-    butonuna bas. Bilgisayarında "Documents" kısmına koymuş olduğun "Roboto_Mono" klasörünün içindeki
-    "RobotoMono-VariableFont_wght.ttf" dosyasını seç ve o fontu ekle.
+    butonuna bas. Biraz önce zip'ten çıkarmış olduğun dosyalardan "RobotoMono-VariableFont_wght.ttf" isimli
+    dosyayı seç ve o fontu ekle.
 
 Eğer ki VS Code ayarlarında, kullanmak istediğin fontu belirlemek için:
     VS Code'u aç. VS Code'da "Font Family" ayarındaki yazanları SAKIN SİLME!
