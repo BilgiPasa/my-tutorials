@@ -9,3 +9,5 @@ ve sistemine kur:
 
 Eğer ki ONLYOFFICE'te "Arial" fontu kurulu gelmediyse, şu siteden Arial fontunu indir ve sistemine kur:
     https://font.download/font/arial
+
+Arial fontunu sistemine kurarken sadece "ARIAL.TTF" adındaki dosyayı kullan.
