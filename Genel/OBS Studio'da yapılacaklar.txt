@@ -2,7 +2,7 @@
 oluştur. Ardından OBS Studio'yu aç.
 
 OBS Studio'yu ilk açtığında "Optimize just for recording"li seçeneğini seç ve "Next"e tıkla.
-Resolution'da "Display 1"i ve FPS'te "60"ı seç. "Next"e tıkla ve ayarları kaydet.
+Resolution'da "Display 1"i seç. FPS'te "60"ı seç ve "Next"e tıkla. Ardından, "Apply Settings"e tıkla.
 
 Ana menüde "Sources" kısmında "Screen Capture" ekle. Eklerken kendi ekranını seç.
 
@@ -12,16 +12,32 @@ Ayarlar kısmında "Output" kısmını aç ve "Output Mode"u "Advanced" yap.
 
 Recording Settings kısmında:
     "Recording Path"i, o oluşturduğun OBS Studio Captures klasörüne ayarla.
-    "Video Encoder"ını kendi ekran kartına göre seç.
-    (NVIDIA kullanıyorsan, "NVIDIA NVENC H.264" seçeneğini seç.)
+    "Recording Format" olarak "Hybrid MP4 (.mp4)" seçili kalsın.
 
-Encoder Settings kısmında:
-    Rate Control -> Constant Bitrate
-    Bitrate -> 36000 Kbps
-    "Preset" olarak ya "Slower (Better Quality)" ya da "Slow (Good Quality)"yi seç.
-    Tuning -> High Quality
-    Multipass Mode -> Two Passes (Quarter Resolution)
-    Profile -> high
+    AV1 video codec'i ve FLAC ses codec'inde çıktı almak istiyorsan: (DaVinci Resolve Linux için öneririm.)
+        "Video Encoder"ında "AV1" bulunan seçeneğini seç.
+        (Eğer ki birden fazla AV1 yazan seçenek varsa kendi ekran kartın için olan seçeneği seç.)
+
+        "Video Encoder"ında "FLAC" bulunan seçeneğini seç.
+
+        Encoder Settings kısmında:
+            Rate Control -> CQP
+            Constant QP -> 24
+            Preset -> Okay
+
+    H.264 video codec'i ve AAC ses codec'inde çıktı almak istiyorsan:
+        "Video Encoder"ında "H.264" bulunan seçeneğini seç.
+        (Eğer ki birden fazla H.264 yazan seçenek varsa kendi ekran kartın için olan seçeneği seç.)
+
+        "Audio Encoder"ında "libfdk AAC" seçeneğini seç.
+
+        Encoder Settings kısmında:
+            Rate Control -> Constant QP
+            Constant QP -> 24
+            Preset -> Slow (Good Quality)
+            Tuning -> High Quality
+            Multipass Mode -> Two Passes (Quarter Resolution)
+            Profile -> high
 
 "Apply"a tıklayarak ayarlarını kaydet ve "OK"e tıkla.
 
@@ -29,7 +45,7 @@ Eğer ki yanlış bir ayar yaparsan
 {
     OBS Studio'nun ana ekranında "File" kısmında "Show Settings Folder" kısmına tıkla.
     OBS Studio'yu kapat ve o klasör içindeki bütün dosyaları sil.
-    Sonrasında OBS Studio'yu geri aç ve yapılacakları yap.
+    Sonrasında OBS Studio'yu geri aç ve yapılacakları tekrar baştan yap.
 
     Kaynak: https://youtu.be/us3yiCOVrh8
 }

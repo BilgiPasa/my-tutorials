@@ -1,13 +1,13 @@
-DaVinci Resolve ücretsiz versiyonu için mp4'ten mov'a (hem video hem ses codec'ini) çevirmek için kullandığım
-komut ("-hwaccel cuda" ile NVIDIA GPU acceleration kullanıyorum komutta)
+DaVinci Resolve ücretsiz versiyonu için mp4'ten mov'a, hem video codec'ini hem de ses codec'ini çevirmek için
+kullandığım komut ("-hwaccel cuda" ile NVIDIA GPU acceleration kullanıyorum komutta)
 {
     mkdir transcoded; for i in *.mp4; do ffmpeg -hwaccel cuda -i "$i" -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a alac "transcoded/${i%.*}.mov"; done
 
     Asıl komut kaynağı: https://wiki.archlinux.org/title/DaVinci_Resolve#Workaround_for_DaVinci_Resolve_Free
 }
 
-DaVinci Resolve Studio versiyonu için ses codec'ini çevirmek için kullandığım komut ("-hwaccel cuda" ile
-NVIDIA GPU acceleration kullanıyorum komutta)
+DaVinci Resolve Studio versiyonu için sadece ses codec'ini çevirmek için komut ("-hwaccel cuda" ile NVIDIA GPU
+acceleration kullanıyorum komutta)
 {
     mkdir transcoded; for i in *.mp4; do ffmpeg -hwaccel cuda -i "$i" -c:v copy -c:a alac "transcoded/${i%.*}.mov"; done
 
@@ -28,17 +28,15 @@ Handbrake'te çevireceğin videoyu seçtikten sonra "Video" kısmında:
     "Framerate"i "Same as source" yap.
     "Variable Framerate" seçeneği seçili kalsın.
     "Color Range"i "Same as source" yap.
-    "Bitrate (kbps)" seçeneğini seç ve 36000 olarak ayarla.
+    "Constant Quality" seçeneğini 24 olarak ayarla.
     "Preset" ise "medium" olarak kalsın.
 
 Not:
-    "OBS Studio'da yapılacaklar.txt" dosyasında ekran kaydı için bitrate ayarını 36000 olarak ayarlamıştım.
-    Sen videoyu çekerken bitrate olarak ne kullandıysan çevirme bitrate değeri olarak onu yazabilirsin.
     Çevirdiğin videoların kalitelerini karşılaştırmak için (Flathub'dan) Identity uygulamasını kullanabilirsin.
 
 FFmpeg çevirme komutlarını böyle bir şekilde değiştirmemde esinlendiğim kaynaklar:
     https://brushlesswhoop.com/converting-fpv-footage-for-davinci-resolve/ (Siteye giremiyoran Tor ile gir.)
     https://stackoverflow.com/questions/44510765/gpu-accelerated-video-processing-with-ffmpeg
 
-Handbrake'te encoder ayarı değiştirmemin sebebi, GPU acceleration kullanabilmek için.
+Handbrake'te GPU acceleration kullanabilmek için video encoder ayarı olarak "(NVEnc)" yazan ayarı seçtim.
 Kaynak: https://youtu.be/Ahc7PpV7uQ4
