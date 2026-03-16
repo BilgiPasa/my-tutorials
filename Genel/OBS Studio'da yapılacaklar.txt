@@ -20,7 +20,7 @@ Ayarlar kısmında "Output" kısmını aç ve "Output Mode"u "Advanced" yap.
         Audio Encoder -> libfdk AAC
         Rate Control -> Constant Bitrate
         Bitrate -> 36000 Kbps
-        Preset -> Slower (Better Quality)
+        Preset -> Slow (Good Quality)
         Tuning -> High Quality
         Multipass Mode -> Two Passes (Quarter Resolution)
         Profile -> high
