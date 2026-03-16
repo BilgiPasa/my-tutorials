@@ -10,36 +10,21 @@ Ayarlar kısmında "Output" kısmını aç ve "Output Mode"u "Advanced" yap.
 
 "Recording" kısmına gel.
 
-Recording Settings kısmında:
+"Recording Settings" ve "Encoder Settings" kısımlarında:
     "Recording Path"i, o oluşturduğun OBS Studio Captures klasörüne ayarla.
     "Recording Format" olarak "Hybrid MP4 (.mp4)" seçili kalsın.
 
-    AV1 video codec'i ve FLAC ses codec'inde çıktı almak istiyorsan: (DaVinci Resolve Linux için öneririm.)
-        "Video Encoder"ında "AV1" bulunan seçeneğini seç.
-        (Eğer ki birden fazla AV1 yazan seçenek varsa kendi ekran kartın için olan seçeneği seç.)
+    "NVIDIA NVENC AV1" desteklemeyen bir NVIDIA GPU'n varsa şu ayarları yap:
+        Video Encoder -> NVIDIA NVENC H.264
+        Audio Encoder -> libfdk AAC
+        Rate Control -> Constant Bitrate
+        Bitrate -> 36000 Kbps
+        Preset -> Slow (Good Quality)
+        Tuning -> High Quality
+        Multipass Mode -> Two Passes (Quarter Resolution)
+        Profile -> high
 
-        "Video Encoder"ında "FLAC" bulunan seçeneğini seç.
-
-        Encoder Settings kısmında:
-            Rate Control -> CQP
-            Constant QP -> 24
-            Preset -> Okay
-
-    H.264 video codec'i ve AAC ses codec'inde çıktı almak istiyorsan:
-        "Video Encoder"ında "H.264" bulunan seçeneğini seç.
-        (Eğer ki birden fazla H.264 yazan seçenek varsa kendi ekran kartın için olan seçeneği seç.)
-
-        "Audio Encoder"ında "libfdk AAC" seçeneğini seç.
-
-        Encoder Settings kısmında:
-            Rate Control -> Constant QP
-            Constant QP -> 24
-            Preset -> Slow (Good Quality)
-            Tuning -> High Quality
-            Multipass Mode -> Two Passes (Quarter Resolution)
-            Profile -> high
-
-"Apply"a tıklayarak ayarlarını kaydet ve "OK"e tıkla.
+"Apply"a tıklayarak ayarlarını kaydet. Ardından "OK"e tıkla.
 
 Eğer ki yanlış bir ayar yaparsan
 {

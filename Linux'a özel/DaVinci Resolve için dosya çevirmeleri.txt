@@ -28,15 +28,17 @@ Handbrake'te çevireceğin videoyu seçtikten sonra "Video" kısmında:
     "Framerate"i "Same as source" yap.
     "Variable Framerate" seçeneği seçili kalsın.
     "Color Range"i "Same as source" yap.
-    "Constant Quality" seçeneğini 24 olarak ayarla.
-    "Preset" ise "medium" olarak kalsın.
+    "Bitrate (kbps)" seçeneğini seç ve 36000 olarak ayarla.
+    "Preset"i ise "slow" olarak ayarla.
 
 Not:
+    "OBS Studio'da yapılacaklar.txt" dosyasında ekran kaydı için bitrate ayarını 36000 olarak ayarlamıştım.
+    Sen videoyu çekerken bitrate olarak ne kullandıysan çevirme bitrate değeri olarak onu yazabilirsin.
     Çevirdiğin videoların kalitelerini karşılaştırmak için (Flathub'dan) Identity uygulamasını kullanabilirsin.
 
 FFmpeg çevirme komutlarını böyle bir şekilde değiştirmemde esinlendiğim kaynaklar:
     https://brushlesswhoop.com/converting-fpv-footage-for-davinci-resolve/ (Siteye giremiyoran Tor ile gir.)
     https://stackoverflow.com/questions/44510765/gpu-accelerated-video-processing-with-ffmpeg
 
-Handbrake'te GPU acceleration kullanabilmek için video encoder ayarı olarak "(NVEnc)" yazan ayarı seçtim.
+Handbrake'te, GPU acceleration kullanabilmek için video encoder ayarı olarak "(NVEnc)" yazan ayarı seçtim.
 Kaynak: https://youtu.be/Ahc7PpV7uQ4
