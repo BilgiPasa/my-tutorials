@@ -2,9 +2,9 @@ Yazdığın kod anlaşılır olsun.
 
 Kod yazacaksan o kodu kendin yaz. (Yani sen kod yazacaksan o kodu makine değil, sen yaz.)
 
-Sevdiğin programları kullan.
+Sevdiğin kod düzenleme uygulamalarını kullan. (Ben şahsen VS Code ve Nano'yu kullanıyorum.)
 
-Sevdiğin bir font'u kullan. (Ben şahsen Roboto Mono'yu kullanıyorum.)
+Sevdiğin bir fontu kullan. (Ben şahsen Roboto Mono'yu kullanıyorum.)
 
 Gereksiz yere yorum satırı yazma.
 
@@ -55,3 +55,12 @@ Değişkenleri oluştururken tiplerine göre sıralı bir şekilde yaz (C# dilin
     bool trueOrFalse;
     char someCharacter;
     string someText;
+
+VS Code'da "Better Comments" eklentisini kurarak yorum satırlarının başına karakter veya yazı yazarak farklı
+renklerde yapabilirsin. O farklı renklerde yorum satırlarını yazarken "//*", "//!", "//?" ve "//TODO" şeklinde
+yazmak yerine "// *", "// !", "// ?" ve "// TODO" şeklinde yaz. Yani "//" ile yanındaki sembol veya yazı
+arasında bir boşluk olsun. Çünkü nano kullanırken "//*" yazarsan ve sonrasında "*/" yazmazsan, sonraki
+satırları da yorum satırıymış gibi aynı renge boyuyor. O yüzden "// *" diye yaz.
+
+Eskiden yapmış olduğun ve artık uğraşmadığın veya uğraşmak istemediğin projelerde eğer ki bu kurallara uymayan
+kodlar varsa gidip düzeltmeye uğraşma. Öylece kalsınlar.
