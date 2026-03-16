@@ -30,7 +30,7 @@ Eğer ki yanlış bir ayar yaparsan
 {
     OBS Studio'nun ana ekranında "File" kısmında "Show Settings Folder" kısmına tıkla.
     OBS Studio'yu kapat ve o klasör içindeki bütün dosyaları sil.
-    Sonrasında OBS Studio'yu geri aç ve yapılacakları tekrar baştan yap.
+    Sonrasında OBS Studio'yu geri aç ve yapılacakları tekrar yap.
 
     Kaynak: https://youtu.be/us3yiCOVrh8
 }
