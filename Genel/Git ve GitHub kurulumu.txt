@@ -11,7 +11,7 @@ Eğer ki sistemin Debian tabanlıysa Git'i, terminale şu komutları girerek kur
     sudo apt-get install git-all
 
 Eğer ki sistemin Fedora tabanlıysa Git'i, terminale şu komutu girerek kur:
-    sudo dnf install git-all -y
+    sudo dnf install git-all
 
 Masaütünde (veya başka istediğin bir yerde) "GitHub" isimli bir klasör oluştur. Kullanacağım GitHub depolarını
 bu klasöre klonla.

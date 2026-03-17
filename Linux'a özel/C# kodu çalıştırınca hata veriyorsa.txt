@@ -5,7 +5,9 @@ sistemine kur: dotnet-sdk-aot-10.0
 
 İndirme komutları
 {
-    Debian tabanlı sistemler için: sudo apt install dotnet-sdk-aot-10.0
+    Debian tabanlı sistemler için:
+        sudo apt install dotnet-sdk-aot-10.0
 
-    Fedora tabanlı sistemler için: sudo dnf install dotnet-sdk-aot-10.0
+    Fedora tabanlı sistemler için:
+        sudo dnf install dotnet-sdk-aot-10.0
 }

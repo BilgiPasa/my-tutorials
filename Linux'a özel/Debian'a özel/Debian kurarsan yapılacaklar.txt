@@ -86,7 +86,8 @@ arkaplan'a çift tıkladığında bütün her şeyi seçme ayarını da kapat.
 
 GNOME kullanıyorsan (nokyan'ın) "Resources" uygulamasını flatpak olarak uygulama mağazasından indir.
 
-GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında:
+GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında
+{
     "Switch applications"ı "Super + Tab" olarak ayarla.
 
     "Switch windows"u "Alt + Tab" olarak ayarla.
@@ -101,6 +102,7 @@ GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında:
     Eğer ki "Ctrl + Alt + T" kısayolu terminal açmazsa "Terminal" isminde bir kısayol oluştur.
     Kısayolu "Ctrl + Alt + T" olsun. Komutu ise kullandığın terminalin komutu ne ise o olsun.
     (Yüklü gelen terminalin komutu "ptyxis" olabilir.)
+}
 
 Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyorsan
 {

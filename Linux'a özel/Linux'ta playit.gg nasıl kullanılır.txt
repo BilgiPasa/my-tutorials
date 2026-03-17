@@ -1,14 +1,17 @@
-Bu siteye git: https://playit.gg/download/linux
-
 Eğer ki Debian tabanlı bir dağıtım kullanıyorsan
 {
-    İlk önce; "sudo apt install curl" komutunu, ardından da sitede Debian için kurulum komutlarını kullanarak
-    playit'i sistemine kur.
+    İlk önce, terminale şu komutu gir:
+        sudo apt install curl
+
+    Ardından, https://playit.gg/download/linux sitesinde Debian için kurulum komutlarını kullanarak playit'i
+    sistemine kur.
 
     Ardından, playit'i çalıştırmak için terminale "playit" komutunu girmen yeterli.
 }
 Eğer ki başka bir dağıtım kullanıyorsan (Örnek: Fedora, Arch Linux vs.)
 {
+    Şu siteye git: https://playit.gg/download/linux
+
     Raw Binaries kısmında x86-64 butonuna tıkla ve indir.
 
     Ardından indirdiğin çalıştırma dosyasının olduğu yere terminal aç ve şu komutu gir:
