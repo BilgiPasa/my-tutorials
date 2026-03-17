@@ -33,5 +33,7 @@ Minecraft Launcher'ın kurulum dosyasını şu siteden indir ve sistemine kur:
 
 Minecraft Launcher içinden Minecraft Bedrock Edition'ı ve Minecraft Legends'ı sistemine kur.
 
+Eğer ki sanal makinelerle uğraşmak istiyorsan VirtualBox uygulamasını kullanabilirsin.
+
 Buradaki kurulum işlerin bitince, bu GitHub deposunda bulunan "Genel" klasörünün içindeki
 "Git ve GitHub kurulumu.txt" dosyasına git ve istersen Git ve GitHub kurulumunu yap.

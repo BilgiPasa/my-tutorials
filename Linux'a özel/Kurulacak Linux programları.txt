@@ -51,6 +51,8 @@ Affinity ve FL Studio'yu Lutris ise nasıl kurman gerekiyorsa ona göre sistemin
 kurabileceğine dair yönergeleri, bu dosyanın olduğu klasörde bulunan "Linux'ta Affinity nasıl kurulur.txt" ve
 "Linux'ta FL Studio nasıl kurulur.txt" dosyalarında bulabilirsin.
 
+Eğer ki sanal makinelerle uğraşmak istiyorsan Boxes uygulamasını kullanabilirsin.
+
 Buradaki kurulum işlerin bitince, bu GitHub deposunda bulunan "Genel" klasörünün içindeki
 "Git ve GitHub kurulumu.txt" dosyasına git ve istersen Git ve GitHub kurulumunu yap.
 
