@@ -52,7 +52,7 @@ kurabileceğine dair yönergeleri, bu dosyanın olduğu klasörde bulunan "Linux
 "Linux'ta FL Studio nasıl kurulur.txt" dosyalarında bulabilirsin.
 
 Buradaki kurulum işlerin bitince, bu GitHub deposunda bulunan "Genel" klasörünün içindeki
-"Kodlama projelerim için kurulumlar.txt" dosyasına git ve kurmak istediğin şeyleri kur.
+"Git ve GitHub kurulumu.txt" dosyasına git ve istersen Git ve GitHub kurulumunu yap.
 
 Neden ONLYOFFICE ve VLC'yi flatpak olarak kurmayı tercih ettiğimi merak ediyorsan:
     1. Flatpak olarak yüklediğinde güncellemeler daha erkenden geliyor.
