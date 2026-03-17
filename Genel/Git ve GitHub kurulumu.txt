@@ -8,10 +8,10 @@ Eğer ki Windows kullanıyorsan Git'i, terminale şu komutu girerek kur:
 
 Eğer ki sistemin Debian tabanlıysa Git'i, terminale şu komutları girerek kur:
     sudo apt-get update
-    sudo apt-get install git-all
+    sudo apt-get install git-all -y
 
 Eğer ki sistemin Fedora tabanlıysa Git'i, terminale şu komutu girerek kur:
-    sudo dnf install git-all
+    sudo dnf install git-all -y
 
 Masaütünde (veya başka istediğin bir yerde) "GitHub" isimli bir klasör oluştur. Kullanacağım GitHub depolarını
 bu klasöre klonla.
