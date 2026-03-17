@@ -1,8 +1,5 @@
 Debian kurmak için ISO dosyasına şu siteden kolayca ulaşabilirsin: https://www.debian.org/
 
-GNOME kullanıyorsan terminale şu komutu gir:
-    touch ~/Templates/'Empty text file'.txt
-
 NVIDIA sürücülerini kurmak için
 {
     (Eğer ki çözüm yöntemimde sorun yaşarsan şu siteye git ve kendi çözümünü bul ve buraya yaz:
@@ -27,7 +24,7 @@ NVIDIA sürücülerini kurmak için
     ve kaydet.
 
     Ardından terminale şu komutu gir:
-        sudo apt update && sudo apt upgrade
+        sudo apt update && sudo apt upgrade -y
 
     Ardından şu komutu gir:
         sudo apt install nvidia-kernel-dkms nvidia-driver firmware-misc-nonfree
@@ -35,22 +32,17 @@ NVIDIA sürücülerini kurmak için
     Eğer ki bir problem yoksa sistemini yeniden başlat ve giriş yaparken X11 session'ını seç.
 }
 
-Kurulumda bir pop-up çıkabilir. Pop-up'ı kabul et ve ardından bilgisayarını yeniden başlat.
-
-NVIDIA sürücülerini kurma yönergelerimin kaynakları:
-    https://wiki.debian.org/NvidiaGraphicsDrivers
-    https://www.youtube.com/watch?v=mOIzYxVD4d0&list=PPSV&t=73s
+NVIDIA sürücülerini kurarken bir pop-up çıkabilir. Pop-up'ı kabul et ve ardından bilgisayarını yeniden başlat.
 
 Ardından terminalde şu komutları gir
 {
-    sudo apt update
-    sudo apt install fastfetch adwaita-qt
-    sudo apt purge libreoffice*
-    curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
-    echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list
-    sudo apt update
-    sudo apt install playit
+    sudo apt update && sudo apt upgrade -y
+    sudo apt install fastfetch adwaita-qt ffmpeg curl -y
+    sudo apt purge libreoffice* -y
 }
+
+GNOME kullanıyorsan terminale şu komutu gir:
+    touch ~/Templates/'Empty text file'.txt
 
 Ayarlardan sistem temasını karanlık tema olarak ayarla, sistem güç modunu "Performance" yap, "Dim Screen"
 ayarını kapat, ekran kilitleme ve sistem kapanma zamanlarını ayarla, bluetooth'u kapat, touchpad ayarlarından
@@ -120,7 +112,11 @@ Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak
     İngilizcesi'ni seç, formatlar olarak ise "C" seç. Sisteminden çıkıp geri giriş yapınca etki gösterir.
 }
 
-playit.gg'yi çalıştırmak için terminale "playit" komutunu girmen yeterli.
-
 Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
 "Kurulacak Linux programları.txt" dosyasına git ve kurmak istediğin programları sistemine kur.
+
+NVIDIA sürücülerini kurma yönergelerimin kaynakları:
+    https://wiki.debian.org/NvidiaGraphicsDrivers
+    https://www.youtube.com/watch?v=mOIzYxVD4d0&list=PPSV&t=73s
+
+Debian'da FFmpeg kurulum komutunun kaynağı: https://www.geeksforgeeks.org/linux-unix/how-to-install-ffmpeg-in-linux/

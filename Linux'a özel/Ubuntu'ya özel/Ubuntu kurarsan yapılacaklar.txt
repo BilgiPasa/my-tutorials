@@ -9,11 +9,23 @@ bilgisayarını yeniden başlat.
 Ardından, terminale şu komutları gir
 {
     touch ~/Templates/'Empty text file'.txt
-    sudo apt install adwaita-qt curl
-    curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
-    echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data ./" | sudo tee /etc/apt/sources.list.d/playit-cloud.list
-    sudo apt update
-    sudo apt install playit
+    sudo apt update && sudo apt upgrade -y
+    sudo apt install adwaita-qt ffmpeg curl -y
+    sudo apt purge libreoffice* -y
+}
+
+Fastfetch'i sistemine kurmak için için
+{
+    Eğer ki kullandığın Ubuntu sürümü, 25.04'ten daha gerideyse terminale şu komutları gir
+    {
+        sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
+        sudo apt update
+        sudo apt install fastfetch
+    }
+    Eğer ki kullandığın Ubuntu sürümü, 25.04 veya daha ilerideyse terminale şu komutları gir
+    {
+        sudo apt install fastfetch
+    }
 }
 
 Ayarlardan sistem temasını karanlık tema olarak ayarla, sistem güç modunu "Performance" yap, "Dim Screen"
@@ -82,11 +94,11 @@ Eğer ki saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak
     Sisteminden çıkıp geri giriş yapınca etki gösterir.
 }
 
-playit.gg'yi çalıştırmak için terminale "playit" komutunu girmen yeterli.
-
 Bu dosyanın bulunduğu dosya dizininde "Ubuntu'da esm-apps bildirimini kapatmak için.txt" diye bir dosya olmalı.
 Terminalde güncelleme yaptığında "esm-apps" bildirim çıkıyorsa ve bundan rahatsız oluyorsan o dosyadaki
 yönergelere bakmanı öneririm.
 
 Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
 "Kurulacak Linux programları.txt" dosyasına git ve kurmak istediğin programları sistemine kur.
+
+Ubuntu'da FFmpeg kurulum komutunun kaynağı: https://www.geeksforgeeks.org/linux-unix/how-to-install-ffmpeg-in-linux/

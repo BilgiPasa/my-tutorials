@@ -6,7 +6,8 @@ Winget kullanarak bu programları kur:
     Bitwarden
     Blender
     Brave
-    Fastfetch
+    Fastfetch (Şu komut ile: winget install fastfetch)
+    FFmpeg (Şu komut ile: winget install ffmpeg)
     Handbrake
     Localsend
     OBS Studio

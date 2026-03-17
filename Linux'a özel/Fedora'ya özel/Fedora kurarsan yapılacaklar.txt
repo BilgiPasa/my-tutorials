@@ -34,6 +34,7 @@ Fedora masaüstü ortamın ne olursa olsun terminale şu komutları gir
 {
     sudo dnf update -y
     sudo dnf install fastfetch mesa-libGLU -y
+    sudo dnf swap ffmpeg-free ffmpeg --allowerasing -y
     sudo dnf remove libreoffice* -y
 }
 
@@ -186,3 +187,5 @@ Saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istiyors
 
 Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
 "Kurulacak Linux programları.txt" dosyasına git ve kurmak istediğin programları sistemine kur.
+
+Fedora için FFmpeg kurulum komutunun kaynağı (Fedora 37 başlıklı kısma bak): https://rpmfusion.org/CommonBugs
