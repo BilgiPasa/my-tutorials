@@ -20,11 +20,11 @@ Godot için:
 
     Godot'ta C# kullanmak için:
         C# Tools for Godot
-        ve yukarıda bahsettiğim C# eklentileri.
+        ve yukarıda bahsettiğim C# için eklentiler.
 
 Unity için:
     Unity
-    ve yukarıda bahsettiğim C# eklentileri.
+    ve yukarıda bahsettiğim C# için eklentiler.
 
 Önerdiğim diğer eklentiler:
     Better Comments
