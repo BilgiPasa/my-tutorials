@@ -1,0 +1,13 @@
+Eğer ki 1.21.11 gibi yeni bir sürüm kuracaksan Fabric olarak kur ve şu modları kur:
+    Fabric API
+    Sodium
+    Cloth Config Api
+    Ferritecore
+    Entitiy Culling
+    Mod Menu
+    Lithium
+    Dynamic FPS
+    LambDynamicLights
+    OkZoomer
+
+Eğer ki 1.8.9 gibi eski bir sürüm kuracaksan Forge olarak kur ve sadece OptiFine'ı kur.

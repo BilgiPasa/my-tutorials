@@ -12,7 +12,7 @@ Eğer ki başka bir dağıtım kullanıyorsan (Örnek: Fedora, Arch Linux vs.)
 {
     Şu siteye git: https://playit.gg/download/linux
 
-    Raw Binaries kısmında x86-64 butonuna tıkla ve indir.
+    "Direct Downloads" kısmındaki "Linux x86-64 (amd64)" halini indir.
 
     Ardından indirdiğin çalıştırma dosyasının olduğu yere terminal aç ve şu komutu gir:
         chmod +x playit-linux-amd64

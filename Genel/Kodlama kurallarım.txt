@@ -45,17 +45,6 @@ Ad kısaltmak için bu kısaltmaları kullanabilirsin:
 
     Genel olarak kullanabileceğin başka kısaltmalar olursa buraya yaz. (Sıra alfabetik olarak kalsın.)
 
-Değişkenleri oluştururken tiplerine göre sıralı bir şekilde yaz (C# dilinden örnek):
-    byte verySmallNumber;
-    short smallNumber
-    int number;
-    long bigNumber;
-    float decimalNumber;
-    double bigDecimalNumber;
-    bool trueOrFalse;
-    char someCharacter;
-    string someText;
-
 VS Code'da "Better Comments" eklentisini kurarak yorum satırlarının başına karakter veya yazı yazarak farklı
 renklerde yapabilirsin. O farklı renklerde yorum satırlarını yazarken "//*", "//!", "//?" ve "//TODO" şeklinde
 yazmak yerine "// *", "// !", "// ?" ve "// TODO" şeklinde yaz. Yani "//" ile yanındaki sembol veya yazı
