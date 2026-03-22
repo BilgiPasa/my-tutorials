@@ -11,6 +11,7 @@
     "git.openRepositoryInParentFolders": "always",
     "godotTools.lsp.serverPort": 6005,
     "inlineChat.affordance": "off",
+    "python.analysis.typeCheckingMode": "off",
     "redhat.telemetry.enabled": true,
     "workbench.editor.enablePreview": false,
     "workbench.editor.scrollToSwitchTabs": true,
