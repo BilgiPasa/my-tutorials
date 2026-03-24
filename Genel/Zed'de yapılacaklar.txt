@@ -9,3 +9,5 @@ Ardından, şu eklentileri Zed'e kur:
     Comments Highlighter
     Java
     GDScript
+
+Ardından, Zed'de GDScript'i düzgünce kullanmak için "https://github.com/GDQuest/zed-gdscript" GitHub repo'sundaki "How to install" ve "Configuration" başlığı altındaki yapman gerekenleri yap. ("Formatting" ve "Debugging" kısımlarını yapman gerekmiyor. Çünkü formatter ve Debugger kurmana gerek yok.)
