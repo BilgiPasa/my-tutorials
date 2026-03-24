@@ -13,7 +13,6 @@
     "inlineChat.affordance": "off",
     "python.analysis.typeCheckingMode": "off",
     "redhat.telemetry.enabled": true,
-    "workbench.editor.enablePreview": false,
     "workbench.editor.scrollToSwitchTabs": true,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.navigationControl.enabled": false,
