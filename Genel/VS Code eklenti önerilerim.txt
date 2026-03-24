@@ -30,7 +30,6 @@ Unity için:
     Better Comments
     Bookmarks
     Bracket Select
-    Marp for VS Code
     Material Icon Theme
     Trailing Spaces
     Turkish Language Pack for Visual Studio Code

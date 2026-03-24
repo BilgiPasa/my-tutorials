@@ -17,8 +17,12 @@ Winget kullanarak bu programları kur:
 
 GIMP'i Microsoft Store'dan kur. (Eğer ki PhotoGIMP ile kullanacaksan GIMP'i Microsoft Store'dan kurma.)
 
-VS Code'un kurulum dosyasını kendi sitesinden indir ve kur. Kurarken, "Ek işlemleri seçin" kısmında
-"Windows Gezgini bağlam menüsüne Code İle Aç eylemini ekle" seçeneğini aç ve öyle kurulumu yap.
+VS Code'un kurulum dosyasını kendi sitesinden indir ve kur. Kurarken, "Ek işlemleri seçin" kısmında şu
+seçeneklerin açık olduğuna emin ol ve öyle kurulumu yap:
+    Windows Gezgini bağlam menüsüne "Code İle Aç" eylemini ekle
+    Windows Gezgini dizin bağlam menüsüne "Code İle Aç" eylemini ekle
+    Code uygulamasını desteklenen dosya türleri için bir düzenleyici olarak kayıt et
+    PATH'e ekle
 
 ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, Steam ve VS Code'da yapılacakları yap.
 
