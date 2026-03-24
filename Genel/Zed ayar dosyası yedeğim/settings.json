@@ -1,0 +1,24 @@
+{
+    "autosave": "on_focus_change",
+    "base_keymap": "VSCode",
+    "buffer_font_family": "Roboto Mono",
+    "buffer_font_size": 22.0,
+    "disable_ai": true,
+    "format_on_save": "off",
+
+    "preview_tabs": {
+        "enabled": false
+    },
+
+    "scroll_sensitivity": 0.75,
+    "show_whitespaces": "trailing",
+    "tab_size": 4,
+
+    "theme": {
+        "dark": "Ayu Dark",
+        "light": "Ayu Light",
+        "mode": "system"
+    },
+
+    "ui_font_size": 22.0
+}
