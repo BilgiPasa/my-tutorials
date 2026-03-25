@@ -2,12 +2,12 @@ Zed'i aç, sonra geri kapat.
 
 Ardından, Zed ayar dosyanı olması gereken yere koy.
 
-Ardından Zed'i aç ve sağ yukarıdan GitHub ile giriş yap.
-
 Ardından, şu eklentileri Zed'e kur:
     C# (Arama kısmına CSharp yazarsan çıkabilir.)
     Comments Highlighter
     Java
     GDScript
 
-Ardından, Zed'de GDScript'i düzgünce kullanmak için "https://github.com/GDQuest/zed-gdscript" GitHub repo'sundaki "How to install" ve "Configuration" başlığı altındaki yapman gerekenleri yap. ("Formatting" ve "Debugging" kısımlarını yapman gerekmiyor. Çünkü formatter ve Debugger kurmana gerek yok.)
+Ardından, Zed'de GDScript'i düzgünce kullanmak için "https://github.com/GDQuest/zed-gdscript" GitHub
+repo'sundaki "How to install" ve "Configuration" başlığı altındaki yapman gerekenleri yap.
+("Formatting" ve "Debugging" kısımlarını yapman gerekmiyor. Çünkü formatter ve Debugger kurmana gerek yok.)

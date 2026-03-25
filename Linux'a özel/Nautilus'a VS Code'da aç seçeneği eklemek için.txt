@@ -4,15 +4,17 @@ Ardından, o projenin zip dosyasını indir ve o zip'teki dosyaları dışarı a
 Dışarı aktarmış olduğun dosyaların bulunduğu yerde terminal aç ve şu komutu gir:
     sudo ./install.sh
 
-Her user için kurayım mı sorusuna yes de ve bilgisayarında Nautilus açık ise Nautilus'u kapat.
+Her user için kurayım mı sorusuna yes de. Nautilus açık ise Nautilus'u kapat.
 Ardından Nautilus'u yeniden başlatayım mı sorusuna da yes de ve kurulumun bitmesini bekle.
 
 Kurulum bittikten sonra kurulum klasörünü silmeyi unutma.
+
+Eklediğin bu seçeneği kaldırmak için yukarıdaki GitHub sayfasına git.
+Orada, "Uninstall" kısmındaki "All User" için silme komutunu kullanarak silme işlemini yap.
+Nautilus açık ise Nautilus'u kapat. "Restart Nautilus" kısmındaki komutu kullarak Nautilus'u yeniden başlat.
 
 Bu adımları VSCodium için de uygulayabilirsin. Ama eğer ki sisteminde hem VS Code hem de VSCodium kuruluysa,
 o eklediğin kısayol ile sadece VS Code'u açarsın.
 
 Eğer ki VS Code'u silip VSCodium'u kurarsan veya VSCodium'u silip VS Code'u kurarsan bu kurduğun şeyi sil ve
-tekrar kur. Silmek için, yukarıdaki GitHub sayfasına git. Orada, "Uninstall" kısmındaki "All User" için silme
-komutunu kullanarak silme işlemini yap ve "Restart Nautilus" kısmındaki komutu kullarak Nautilus'u yeniden
-başlat. Kurulumu yeniden yapmak için yukarıdaki yönergeleri takip et.
+tekrar kur.

@@ -1,4 +1,4 @@
-Zed'i silmeden önce Zed'i aç ve giriş yapmış olduğun GitHub hesabından çıkış yap ve Zed'i kapat.
+Zed'i silmeden önce Zed'i aç. GitHub ile giriş yaptıysan GitHub hesabından çıkış yap ve Zed'i kapat.
 
 Ardından, sistemindeki terminali aç ve şu komutu gir:
     zed --uninstall
