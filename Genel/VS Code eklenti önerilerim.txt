@@ -6,14 +6,6 @@ C# için:
     C#
     C# Dev Kit
 
-Java için:
-    Extension Pack for Java
-
-Python için:
-    Pylance
-    Python
-    Python Debugger
-
 Godot için:
     godot-tools
     Mono Debug
@@ -22,13 +14,20 @@ Godot için:
         C# Tools for Godot
         ve yukarıda bahsettiğim C# için eklentiler.
 
+Java için:
+    Extension Pack for Java
+
+Python için:
+    Pylance
+    Python
+    Python Debugger
+
 Unity için:
     Unity
     ve yukarıda bahsettiğim C# için eklentiler.
 
 Önerdiğim diğer eklentiler:
     Better Comments
-    Bookmarks
     Bracket Select
     Material Icon Theme
     Trailing Spaces
