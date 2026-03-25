@@ -1,4 +1,12 @@
-DaVinci Resolve ücretsiz versiyonu için hem video codec'ini hem de ses codec'ini çevirmek için kullandığım komut
+Sadece video codec'ini çevirmek için kullandığım komut
+("-hwaccel cuda" ile NVIDIA GPU acceleration kullanıyorum komutta)
+{
+    mkdir transcoded; for i in *.mp4; do ffmpeg -hwaccel cuda -i "$i" -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a copy "transcoded/${i%.*}.mov"; done
+
+    Asıl komut kaynağı: https://wiki.archlinux.org/title/DaVinci_Resolve#Workaround_for_DaVinci_Resolve_Free
+}
+
+Hem video codec'ini hem de ses codec'ini çevirmek için kullandığım komut
 ("-hwaccel cuda" ile NVIDIA GPU acceleration kullanıyorum komutta)
 {
     mkdir transcoded; for i in *.mp4; do ffmpeg -hwaccel cuda -i "$i" -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a alac "transcoded/${i%.*}.mov"; done
@@ -6,7 +14,7 @@ DaVinci Resolve ücretsiz versiyonu için hem video codec'ini hem de ses codec'i
     Asıl komut kaynağı: https://wiki.archlinux.org/title/DaVinci_Resolve#Workaround_for_DaVinci_Resolve_Free
 }
 
-DaVinci Resolve Studio versiyonu için sadece ses codec'ini çevirmek için komut
+Sadece ses codec'ini çevirmek için komut
 ("-hwaccel cuda" ile NVIDIA GPU acceleration kullanıyorum komutta)
 {
     mkdir transcoded; for i in *.mp4; do ffmpeg -hwaccel cuda -i "$i" -c:v copy -c:a alac "transcoded/${i%.*}.mov"; done
