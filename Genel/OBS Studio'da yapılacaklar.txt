@@ -17,7 +17,7 @@ Ayarlar kısmında "Output" kısmını aç ve "Output Mode"u "Advanced" yap.
 
     "NVIDIA NVENC AV1" desteklemeyen bir NVIDIA GPU'n varsa şu ayarları yap:
         Video Encoder -> NVIDIA NVENC H.264
-        Audio Encoder -> FFmpeg FLAC
+        Audio Encoder -> FFmpeg ALAC
         Rate Control -> Constant Bitrate
         Bitrate -> 30000 Kbps
         Preset -> Slow (Good Quality)
@@ -37,4 +37,4 @@ Eğer ki yanlış bir ayar yaparsan
 }
 
 Linux'ta DaVinci Resolve için, AAC codec'ini başka bir codec'e çevirmeye uğraşmamak için OBS'te Audio Encoder
-olarak FLAC'i seçtim.
+olarak ALAC'ı seçtim.
