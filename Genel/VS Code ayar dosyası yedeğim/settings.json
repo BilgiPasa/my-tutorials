@@ -14,6 +14,7 @@
     "inlineChat.affordance": "off",
     "python.analysis.typeCheckingMode": "off",
     "redhat.telemetry.enabled": true,
+    "terminal.integrated.stickyScroll.enabled": false,
     "workbench.colorTheme": "Dark Modern",
     "workbench.editor.scrollToSwitchTabs": true,
     "workbench.iconTheme": "material-icon-theme",
