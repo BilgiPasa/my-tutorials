@@ -48,7 +48,6 @@ sistemine kur:
     Appindicator and KStatusNotifierItem Support (3v1n0'nun)
     Blur my Shell (aunetx'in)
     Clipboard Indicator (Tudmotu'nun)
-    Removable Drive Menu (fmuellner'in)
     Touchpad On Off (r_mano'nun)
 
 Alphabetic App Grid eklentisinin ayarlarına gir ve "Position of ordered folders" ayarını "End" olarak ayarla.
