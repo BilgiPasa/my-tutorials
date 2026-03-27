@@ -11,9 +11,12 @@ Alt çubuğun solundaki "Kısıtlı Mod" butonuna tıkla, çıkan menüde aşağ
 butonu ile masaüstü klasörün ile D klasörünü oraya güvenilen dosyalar olarak ekle. Ekledikten sonra, o
 menüdeki "Güven" butonuna bas ve o menüyü kapat.
 
+Eğer ki VS Code arayüzün küçükse "Ctrl" ile "+" tuşlarına basarak arayüzü büyütebilirsin.
+(Şahsen; 17 inçlik 1920x1080 çözünürlükteki bir ekranda, Linux'ta VS Code'u 2 kez büyüterek kullanıyorum.)
+
 Eğer ki alt çubuğun solunda "Uzak Ana Bilgisayar" bölümü gözüküyorsa o bölümü gizle.
 
-Eğer ki VS Code ekranını "Ctrl" ile "+" tuşlarına basarak büyüttüğünde, alt çubuğun sağında
+Eğer ki VS Code arayüzünü "Ctrl" ile "+" tuşlarına basarak büyüttüğünde, alt çubuğun sağında
 "Pencere Yakınlaştırma" bölümü gözüküyorsa o bölümü gizle.
 
 Son olarak; eğer ki VS Code'da Java kodunu, sağ üstteki "Run Java" butonuna basıp çalıştırdığında, alt çubuğun
