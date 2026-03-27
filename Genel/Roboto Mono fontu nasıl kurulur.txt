@@ -3,8 +3,13 @@
     Sonra, "Download all"a tıkla ve fontu indir. İndirdikten sonra, indirmiş olduğun zip dosyasının içindeki
     dosyaları bilgisayarının istediğin bir yerine çıkar.
 
-Eğer ki GNOME, Cinnamon veya XFCE kullanıyorsan:
-    Şu siteye git "https://github.com/FontManager/font-manager" ve o uygulamayı, hangi distro'yu kullanıyorsan
+Eğer ki GNOME kullanıyorsan:
+    Sisteminde "Fonts" isimli bir uygulama kurulu olmalı. Biraz önce zip'ten çıkarmış olduğun dosyalardan
+    "RobotoMono-VariableFont_wght.ttf" isimli dosyayı, Fonts uygulamasıyla aç. Açılan pencerenin sağ üstündeki
+    install butonuna tıklayarak o fontu sistemine kur.
+
+Eğer ki Cinnamon veya XFCE kullanıyorsan:
+    https://github.com/FontManager/font-manager sitesine git ve o uygulamayı, hangi distro'yu kullanıyorsan
     ona göre sistemine kur. (Kurulum için kullanılan komutların başına sudo koyman gerekebilir.)
     Ardından, "Font Manager"ı aç. Sol üstte "Browse" yazan yere tıkla ve çıkan menüden "Manage"a tıkla.
     En sol üstteki butonun yanındaki artı butonuna tıkla. Biraz önce zip'ten çıkarmış olduğun dosyalardan
@@ -31,3 +36,10 @@ VS Code ayarlarında Roboto Mono fontunu kullanmak için:
 
     Senin yapacağın şey o yazıyı şu hale getirmek:
         'Roboto Mono', 'Droid Sans Mono', monospace
+
+Not:
+    Linux'ta fontların şu 2 klasörde saklanalabilir:
+        /home/$USER/.local/share/fonts/
+        /usr/share/fonts/
+
+    ($USER yerinde sistemindeki kullanıcı adın bulunmalı.)
