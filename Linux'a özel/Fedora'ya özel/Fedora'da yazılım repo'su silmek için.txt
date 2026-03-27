@@ -3,6 +3,8 @@ Not: Başlıkta repo derken, terminal komutlarıyla kurmuş olduğun uygulamanı
 Şu siteye bakmanı öneririm:
     https://docs.fedoraproject.org/en-US/quick-docs/adding-or-removing-software-repositories-in-fedora/#_removing_repositories
 
+    Not: Root olarak o komutu girmen gerektiği için gireceğin komutun başına sudo koy.
+
 Önerilerim:
     Sileceğin uygulamanın sadece kendisini sil, dependency'lerini silme. Yani örneğin bir paket kurmadan önce
     o pakete bağlı olan başka bir paket kurduysan o bağlı paketi silme. Onun yerine, asıl uygulamayı ve onun
