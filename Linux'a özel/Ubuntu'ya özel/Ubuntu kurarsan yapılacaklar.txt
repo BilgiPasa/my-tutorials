@@ -58,7 +58,7 @@ daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işa
 Ayarlardan "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
 
 "GNOME Tweaks"i sistem paketi olarak sistemine kur. Ardından, GNOME Tweaks'te "Middle Click Paste" ayarı
-kapalıysa aç ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı "Adwaita-dark" olarak ayarla.
+açıksa kapat ve "Appearance" kısmındaki "Styles" kısmından "Legacy Applications"ı "Adwaita-dark" olarak ayarla.
 
 Nautilus'ta (dosya yöneticisi) Desktop klasörünü ve kendi istediğin klasörleri sol menüde kısayol olarak
 ayarla. Nautilus'ta Ctrl + , (kontrol + virgül) kısayoluyla "Preferences" menüsünü aç ve orada
