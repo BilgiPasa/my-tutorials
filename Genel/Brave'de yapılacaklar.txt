@@ -19,10 +19,3 @@ Ayarlarda:
 Brave ana ekranında; sağ üstteki 3 çizgili menüden "Passwords and autofill" kısmında bulunan
 "Password Manager", "Payment methods" ve "Addresses and more" kısımlarına teker teker gir ve bütün
 seçenekleri kapat.
-
-Brave'in arama kısmına şunu yaz ve o sayfaya gir:
-    brave://flags/
-
-O açtığın sayfada "Middle button autoscroll" ayarını "Enabled" olarak ayarla ve o sekmeyi kapat.
-
-Son ayarın etki etmesi için Brave'i kapat ve geri aç.

@@ -2,11 +2,6 @@ Firefox ayarlarında "General" kısmında:
     "Startup" kısmında:
         "Open previous windows and tabs" ayarını aç.
 
-    General kısmında en aşağıya kaydır.
-
-    "Browsing" kısmında:
-        "Use autoscrolling" ayarını aç.
-
 Şu eklentileri Firefox'a kur:
     uBlock Origin, Dark Reader, Youtube-shorts block, Return Youtube Dislike, "Dark" isminde bir tema
 
