@@ -1,11 +1,12 @@
 Başlamadan önce, kullandığın distro'ya göre olan yapılacaklar listeni takip et. Oradaki işin bitince buradan
 devam et.
 
-VS Code'u şu sitedeki yönergelere uyarak kur:
-    https://code.visualstudio.com/docs/setup/linux#_install-vs-code-on-linux
+VSCodium'u şu sitedeki yönergelere uyarak kur:
+    https://vscodium.com/#install
 
-Sistemin Debian veya Fedora tabanlıysa ATLauncher'ın kurulum dosyasını kendi sitesinden indir ve kur ama eğer
-ki sistemin Arch Linux tabanlıysa şu AUR paketi ile ATLauncher'ı kur: atlauncher-bin
+Sistemin Debian veya Fedora tabanlıysa ATLauncher'ın kurulum dosyasını kendi sitesinden indir ve kur.
+
+Eğer ki sistemin Arch Linux tabanlıysa "atlauncher-bin" AUR paketi ile ATLauncher'ı sistemine kur.
 
 Sistemin Debian tabanlıysa şu siteden Steam'in .deb dosyasını indir ve kur:
     https://store.steampowered.com/about/
@@ -13,7 +14,8 @@ Sistemin Debian tabanlıysa şu siteden Steam'in .deb dosyasını indir ve kur:
 Sistemin Fedora tabanlıysa şu sitedeki yönergelere uyarak Steam'i kur:
     https://docs.fedoraproject.org/en-US/gaming/proton/
 
-Sistemin Arch Linux tabanlıysa terminale şu komutu girerek Steam'i kur: sudo pacman -S steam
+Sistemin Arch Linux tabanlıysa terminale şu komutu girerek Steam'i kur:
+    sudo pacman -S steam
 
 GNOME kullanıyorsan sistem paketi olarak GNOME Mines'ı sistemine kur.
 
@@ -36,7 +38,7 @@ Flatpak olarak bu programları kur:
     VLC
     Zoom
 
-ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, Steam ve VS Code'da yapılacakları yap.
+ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, Steam ve VSCodium'da yapılacakları yap.
 
 ONLYOFFICE için yapılacakları da yap.
 
