@@ -9,6 +9,7 @@ Ardından, alt çubuğun solundaki "Restricted Mode" butonuna tıkla. Çıkan me
 Ekledikten sonra, o menüdeki "Trust" butonuna bas ve o menüyü kapat.
 
 Ardından, sol çubuktaki "Extensions" menüsünden şu eklentileri kur:
+    BasedPyright (detachhead'in)
     Better Comments (aaron-bond'un)
     Bracket Select (chunsen)
     C# (muhammad-sammy'nin) (Arama kısmına CSharp diye yazarsan çıkabilir.)
@@ -19,34 +20,43 @@ Ardından, sol çubuktaki "Extensions" menüsünden şu eklentileri kur:
     Material Icon Theme (PKief'in)
     Python (ms-python'un)
     Trailing Spaces (shardulm94'ün)
+    Turkish Language Pack for Visual Studio Code (MS-CEINTL'in)
+
+Bu eklentileri kurdukran sonra sağ altta İngilizce olarak "Dili değiştirmek ister misiniz?" tarzında bir
+bildirim gelirse "Change Language and Restart" butonuna tıkla ve VSCodium'u yeniden başlat.
 
 Eğer ki "clangd" eklentisini kurduysan, sistemine clangd paketini kur.
 Fedora için kurulum komutu: sudo dnf install clangd
 
-Ardından, VSCodium'un sol çubuğundaki "Source Control", "Run and Debug", "Godot Tools" ve "Accounts"
-menülerini gizle.
+Eğer ki "Python" eklentisini kurduğunda, yanında "Python Environments" eklentisi de kurulduysa
+"Python Environments" eklentisini sil.
 
-Ardından, sol çubuktaki "Explorer" menüsünü aç ve o menünün aşağısındaki "Outline" ve "Timeline" bölümlerini
-gizle.
+Ardından, VSCodium'un sol çubuğundaki "Kaynak Denetimi", "Çalıştırma ve Hata Ayıklama", "Godot Tools" ve
+"Hesaplar" menülerini gizle.
 
-Ardından, sol çubuktaki "Extensions" menüsünü aç ve o menünün aşağısındaki "Recommended" bölümünü gizle.
+Ardından, sol çubuktaki "Gezgin" menüsünü aç ve o menünün aşağısındaki "Anahat" ve "Zaman Çizelgesi"
+bölümlerini gizle.
 
-Ardından, alt çubuğun solunda "Remote Host" bölümü gözüküyorsa o bölümü gizle.
+Ardından, sol çubuktaki "Uzantılar" menüsünü aç ve o menünün aşağısındaki "Önerilen" bölümünü gizle.
+
+Ardından, alt çubuğun solunda "Uzak Ana Bilgisayar" bölümü gözüküyorsa o bölümü gizle.
 
 Eğer ki VSCodium arayüzün küçükse "Ctrl" ile "+" tuşlarına basarak arayüzü büyütebilirsin.
 (Şahsen; 17 inçlik 1920x1080 çözünürlükteki bir ekranda, Linux'ta VSCodium'u 2 kez büyüterek kullanıyorum.)
 
-Eğer ki VSCodium arayüzünü "Ctrl" ile "+" tuşlarına basarak büyütürsen alt çubuğun sağında "Window Zoom"
-bölümü gözükür. İstersen o bölümü de gizleyebilirsin.
+Eğer ki VSCodium arayüzünü "Ctrl" ile "+" tuşlarına basarak büyütürsen alt çubuğun sağında
+"Pencere Yakınlaştırma" bölümü gözükür. İstersen o bölümü de gizleyebilirsin.
 
-Eğer ki C# projesi açtığında, Omnisharp kurulumu bittikten sonra, "Required assets to build and debug are
+Eğer ki bir C# projesi açtığında, Omnisharp kurulumu bittikten sonra, "Required assets to build and debug are
 missing from ..." gibi bir uyarı çıkarsa "Don't ask again" seçeneğine tıkla. Çünkü C# projelerinde, projeyi
 terminalden oluşturup terminalden çalıştırmanı istiyorum.
+
+Eğer ki bir Python projesi açtığında sol çubukta "Test" menüsü varsa o bölümü gizle. 
 
 Son olarak; eğer ki VSCodium'da Java kodunu, sağ üstteki "Run Java" butonuna basıp çalıştırdığında, alt çubuğun
 solunda "Hata Ayıkla" bölümü gözüküyorsa o bölümü gizle.
 
-Not1: VSCodium'da hiçbir uyarıda, "Don’t show me a warning from this source again" gibi bir seçeneğe tıklama.
+Not1: VSCodium'da hiçbir uyarıda, "Bu kaynaktan bir daha uyarı gösterme" seçeneğine tıklama.
 
 Not2: VSCodium'da run and debug butonunu gizleyip geri açamıyorsan sağ üstte üç nokta kısmına sağ tık yap ve
 "run and debug" seçeneğine tıkla.
