@@ -2,7 +2,7 @@ Yazdığın kod anlaşılır olsun.
 
 Kod yazacaksan o kodu kendin yaz. (Yani sen kod yazacaksan o kodu makine değil, sen yaz.)
 
-Sevdiğin kod düzenleme uygulamalarını kullan. (Şahsen, VS Code ve Nano'yu kullanıyorum.)
+Sevdiğin programları kullan.
 
 Sevdiğin bir fontu kullan. (Şahsen, Roboto Mono'yu kullanıyorum.)
 
