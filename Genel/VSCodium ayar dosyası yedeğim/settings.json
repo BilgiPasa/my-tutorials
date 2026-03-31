@@ -1,0 +1,19 @@
+{
+    "editor.fontFamily": "'Roboto Mono', 'Droid Sans Mono', monospace",
+    "editor.fontSize": 16,
+    "editor.selectionClipboard": false,
+    "editor.stickyScroll.enabled": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "git.openRepositoryInParentFolders": "always",
+    "godotTools.lsp.serverPort": 6005,
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.navigationControl.enabled": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.startupEditor": "none"
+}

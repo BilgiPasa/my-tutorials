@@ -1,0 +1,51 @@
+VSCodium'u kurduktan sonra VSCodium'u aç ve geri kapat.
+
+Ardından, VSCodium ayar dosyanı olması gereken yere koy.
+
+Ardından, masaüstünden bir text dosyasını VSCodium'da aç. O dosyayı "Restricted Mode"da açtır.
+
+Ardından, alt çubuğun solundaki "Restricted Mode" butonuna tıkla. Çıkan menüde aşağı scroll yap, sol alttaki
+"Add Folder" butonunu kullanarak masaüstü klasörün ile D klasörünü oraya güvenilen dosyalar olarak ekle.
+Ekledikten sonra, o menüdeki "Trust" butonuna bas ve o menüyü kapat.
+
+Ardından, sol çubuktaki "Extensions" menüsünden şu eklentileri kur:
+    Better Comments (aaron-bond'un)
+    Bracket Select (chunsen)
+    C# (muhammad-sammy'nin) (Arama kısmına CSharp diye yazarsan çıkabilir.)
+    C# Tools for Godot (neikeq'in)
+    clangd (llvm-vs-code-extensions'ın)
+    Extension Pack for Java (vscjava'nın)
+    godot-tools (geequlim'in)
+    Material Icon Theme (PKief'in)
+    Python (ms-python'un)
+    Trailing Spaces (shardulm94'ün)
+
+Eğer ki "clangd" eklentisini kurduysan, sistemine clangd paketini kur.
+Fedora için kurulum komutu: sudo dnf install clangd
+
+Ardından, VSCodium'un sol çubuğundaki "Source Control", "Run and Debug", "Godot Tools" ve "Accounts"
+menülerini gizle.
+
+Ardından, sol çubuktaki "Explorer" menüsünü aç ve o menünün aşağısındaki "Outline" ve "Timeline" bölümlerini
+gizle.
+
+Ardından, sol çubuktaki "Extensions" menüsünü aç ve o menünün aşağısındaki "Recommended" bölümünü gizle.
+
+Ardından, alt çubuğun solunda "Remote Host" bölümü gözüküyorsa o bölümü gizle.
+
+Eğer ki VSCodium arayüzün küçükse "Ctrl" ile "+" tuşlarına basarak arayüzü büyütebilirsin.
+(Şahsen; 17 inçlik 1920x1080 çözünürlükteki bir ekranda, Linux'ta VSCodium'u 2 kez büyüterek kullanıyorum.)
+
+Eğer ki VSCodium arayüzünü "Ctrl" ile "+" tuşlarına basarak büyütürsen alt çubuğun sağında "Window Zoom"
+bölümü gözükür. İstersen o bölümü de gizleyebilirsin.
+
+Son olarak; eğer ki VSCodium'da Java kodunu, sağ üstteki "Run Java" butonuna basıp çalıştırdığında, alt çubuğun
+solunda "Hata Ayıkla" bölümü gözüküyorsa o bölümü gizle.
+
+Not1: VSCodium'da hiçbir uyarıda, "Bu kaynaktan bir daha uyarı gösterme" seçeneğine tıklama.
+
+Not2: VSCodium'da run and debug butonunu gizleyip geri açamıyorsan sağ üstte üç nokta kısmına sağ tık yap ve
+"run and debug" seçeneğine tıkla.
+
+Not3: Java'da debug ettikten sonra, çalıştırma butonu debug'da kaldıysa "Extension Pack for Java" eklenti
+paketini sil, VSCodium'u kapat. VSCodium'u tekrar aç ve Extension Pack for Java'yı tekrar kur.

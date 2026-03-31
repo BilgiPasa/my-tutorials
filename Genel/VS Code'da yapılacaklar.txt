@@ -8,8 +8,8 @@ gelirse "Change Language and Restart" butonuna tıkla ve VS Code'u yeniden başl
 Ardından, masaüstünden bir text dosyasını VS Code'da aç. O dosyayı Kısıtlı Modda açtır.
 
 Alt çubuğun solundaki "Kısıtlı Mod" butonuna tıkla, çıkan menüde aşağı scroll yap, sol alttaki "Add Folder"
-butonu ile masaüstü klasörün ile D klasörünü oraya güvenilen dosyalar olarak ekle. Ekledikten sonra, o
-menüdeki "Güven" butonuna bas ve o menüyü kapat.
+butonunu kullanarak masaüstü klasörün ile D klasörünü oraya güvenilen dosyalar olarak ekle. Ekledikten sonra,
+o menüdeki "Güven" butonuna bas ve o menüyü kapat.
 
 Eğer ki VS Code arayüzün küçükse "Ctrl" ile "+" tuşlarına basarak arayüzü büyütebilirsin.
 (Şahsen; 17 inçlik 1920x1080 çözünürlükteki bir ekranda, Linux'ta VS Code'u 2 kez büyüterek kullanıyorum.)
