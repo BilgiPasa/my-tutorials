@@ -17,5 +17,5 @@ Bu adımları VSCodium için de uygulayabilirsin. Ancak, eğer ki sisteminde hem
 o eklediğin kısayol sadece VS Code için çalışır. O yüzden, eğer ki VSCodium için bu kısayolu ekleyeceksen ve
 sisteminde VS Code da varsa; VS Code'u sil, bu kısayolu ekle ve sonrasında istersen VS Code'u tekrar kur.
 
-Eğer ki VS Code'u silip VSCodium'u kurarsan veya VSCodium'u silip VS Code'u kurarsan, yeni kurduğun
-uygulama için bu kısayolun çalışması için bu kısayolu sil ve tekrar kur.
+Eğer ki VS Code'u silip VSCodium'u kurarsan veya VSCodium'u silip VS Code'u kurarsan, yeni kurduğun uygulama
+için bu kısayolun çalışması için bu kısayolu sil ve tekrar kur.
