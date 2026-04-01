@@ -62,3 +62,7 @@ Neden ONLYOFFICE ve VLC'yi flatpak olarak kurmayı tercih ettiğimi merak ediyor
     1. Flatpak olarak yüklediğinde güncellemeler daha erkenden geliyor.
     2. Wayland kullanıyorsan, VLC'yi dnf ile kurma. Çünkü ses gelmeme sıkıntısı çıkabilir.
     3. Fedora'da ONLYOFFICE'i dnf ile kurmada sıkıntı yaşayabileceğin için flatpak olarak kur.
+
+Not:
+    VSCodium kuruyorum çünkü VS Code yerine VSCodium kullanmak istiyorum. VS Code'un Linux versiyonu var ve
+    düzgün de çalışıyor ama VS Code yerine VSCodium kullanmak istiyorum.

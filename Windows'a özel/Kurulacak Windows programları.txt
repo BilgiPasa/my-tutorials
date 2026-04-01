@@ -41,3 +41,8 @@ Eğer ki sanal makinelerle uğraşmak istiyorsan VirtualBox uygulamasını kulla
 
 Buradaki kurulum işlerin bitince, bu GitHub deposunda bulunan "Genel" klasörünün içindeki
 "Git ve GitHub kurulumu.txt" dosyasına git ve istersen Git ve GitHub kurulumunu yap.
+
+Not:
+    VS Code kurup VSCodium kurmuyorum çünkü VSCodium'da Unity eklentisi yok. Zaten Unity kullanmayı bıraktım
+    ama nolur nolmaz eski projelerime erişmem gerekirse diye Windows'a Unity kuruyorum. O yüzden VS Code
+    kuruyorum. Yoksa Linux'ta VSCodium kullanıyorum.
