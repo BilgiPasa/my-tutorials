@@ -12,7 +12,7 @@ butonunu kullanarak masaüstü klasörün ile D klasörünü oraya güvenilen do
 o menüdeki "Güven" butonuna bas ve o menüyü kapat.
 
 Eğer ki VS Code arayüzün küçükse "Ctrl" ile "+" tuşlarına basarak arayüzü büyütebilirsin.
-(Şahsen; 17 inçlik 1920x1080 çözünürlükteki bir ekranda, Linux'ta VS Code'u 2 kez büyüterek kullanıyorum.)
+(Kendim; 17 inçlik 1920x1080 çözünürlükteki bir ekranda, Linux'ta VS Code'u 2 kez büyüterek kullanıyorum.)
 
 Eğer ki alt çubuğun solunda "Uzak Ana Bilgisayar" bölümü gözüküyorsa o bölümü gizle.
 
