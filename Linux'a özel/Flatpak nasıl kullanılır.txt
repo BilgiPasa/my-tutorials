@@ -9,7 +9,9 @@ Flathub'ı kullanarak flatpak olarak uygulama kurmanın 3 yolu var.
 
 Genel olarak 1. yolu kullanmanı öneririm.
 
-2. yolu kullanarak kurmak için terminale şu komutu gir: flatpak install flathub (uygulamanın ID'si)
+2. yolu kullanarak kurmak için terminale şu komutu gir:
+    flatpak install flathub (uygulamanın ID'si)
+
 Mesela Lutris'i flatpak olarak kurmak istediğimde çok uzun sürüyordu ben de o yüzden terminali kullandım.
 
 Bir flatpak uygulamasının ID'sini aramak için terminale şu komutu gir:
@@ -17,7 +19,7 @@ Bir flatpak uygulamasının ID'sini aramak için terminale şu komutu gir:
 
 3. yolu, zorunda kaldığında kullanmanı öneririm.
 
-Eğer ki flatpak uygulama indirmede sıkıntı çıkarsa terminale şu komutu gir:
+Eğer ki flatpak olarak uygulama kurmada sıkıntı çıkarsa terminale şu komutu gir:
     sudo flatpak repair
 
 Flatpak olarak kurduğun uygulamayı silmenin de 3 yolu var.
