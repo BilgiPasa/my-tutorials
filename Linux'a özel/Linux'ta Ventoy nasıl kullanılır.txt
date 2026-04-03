@@ -1,5 +1,9 @@
-Sistemine, Ventoy'un Linux için olan çalıştırma dosyasını indir ve "VentoyGUI.x86_64" dosyasını terminal
-kullanarak çalıştır.
+Sistemine, Ventoy'un Linux için olan çalıştırma dosyasını indir ve indirdiğin şıkıştırılmış dosyanın
+içindekileri dışarı aktar.
+
+Dışarı aktardığın dosyalardan "VentoyGUI.x86_64" dosyasını terminal kullanarak çalıştır.
+Terminalde çalıştırmak için o dosyanın bulunduğu yerde terminal aç ve şu komutu gir:
+    ./VentoyGUI.x86_64
 
 Sol üstteki "Option" menüsünden "Partition Style" kısmına gel ve "GPT" olanı seç.
 (Disk biçimlendirmesi olarak GPT'nin, MBR'den daha iyi olduğunu bildiğim için GPT seçmeni istiyorum.)

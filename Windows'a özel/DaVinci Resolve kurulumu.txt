@@ -1,3 +1,4 @@
-Yükleme sitesi: https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion
+Kurulum dosyasının sitesi: https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion
 
-İndirdiğin zip dosyasının içindekileri çıkar ve çıkan kurulum dosyasını çalıştırarak DaVinci Resolve'u kur.
+İndirdiğin zip dosyasının içindekileri dışarı aktar ve dışarı aktardığın kurulum dosyasını çalıştırarak
+DaVinci Resolve'u kur.
