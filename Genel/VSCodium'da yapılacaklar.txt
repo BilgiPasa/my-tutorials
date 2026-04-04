@@ -39,11 +39,6 @@ Ardından, VSCodium'un sol çubuğundaki "Kaynak Denetimi", "Çalıştırma ve H
 Ardından, sol çubuktaki "Gezgin" menüsünü aç ve o menünün aşağısındaki "Anahat" ve "Zaman Çizelgesi"
 bölümlerini gizle.
 
-Ardından, sol çubuktaki "Uzantılar" menüsünü aç ve o menünün aşağısındaki "Önerilen" bölümünü gizle.
-
-Ardından o "Uzantılar" menüsünde, üstteki "Uzantılar" yazısına sağ tıkla ve "Devre dışı" seçeneğine tıklayarak
-devre dışı olan eklentilerin gösterildiği bölümü göster ve o bölümü küçült.
-
 Ardından, alt çubuğun solunda "Uzak Ana Bilgisayar" bölümü gözüküyorsa o bölümü gizle.
 
 Eğer ki VSCodium arayüzün küçükse "Ctrl" ile "+" tuşlarına basarak arayüzü büyütebilirsin.
