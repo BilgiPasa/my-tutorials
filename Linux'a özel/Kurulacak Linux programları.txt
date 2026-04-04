@@ -28,10 +28,10 @@ Flatpak olarak bu programları kur:
     Gradia
     Handbrake
     Hex Colordle
-    LibreOffice (Ana uygulama)
     LocalSend
     Lutris
     OBS Studio
+    ONLYOFFICE Desktop Editors
     Shortwave
     Solanum
     Video Trimmer
@@ -40,8 +40,7 @@ Flatpak olarak bu programları kur:
 
 ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, Steam ve VSCodium'da yapılacakları yap.
 
-LibreOffice, eğer ki sisteminde sistem paketi olarak kuruluysa sil ve flatpak olarak kur. Ardından,
-LibreOffice için yapılacakları yap.
+ONLYOFFICE için yapılacakları da yap.
 
 Nano için, bu dosyanın olduğu klasörde bulunan "Nano ayar dosyası yedeğim" klasörüne bak. O klasördeki ayar
 dosyasını kopyala ve bulunması gereken yere yapıştır.
@@ -62,6 +61,7 @@ Buradaki kurulum işlerin bitince, bu GitHub deposunda bulunan "Genel" klasörü
 Neden bazı uygulamaları flatpak olarak kurmayı tercih ettiğimi merak ediyorsan:
     1. Flatpak olarak kurduğunda güncellemeler daha erkenden geliyor.
     2. Wayland kullanıyorsan VLC'yi dnf ile kurma. Çünkü ses gelmeme sıkıntısı çıkabilir.
+    3. Fedora'da ONLYOFFICE'i dnf ile kurmada sıkıntı yaşayabileceğin için flatpak olarak kur.
 
 Not:
     VSCodium kuruyorum çünkü VS Code yerine VSCodium kullanmak istiyorum. VS Code'un Linux versiyonu var ve

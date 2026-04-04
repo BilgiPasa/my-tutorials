@@ -26,6 +26,9 @@ seçeneklerin açık olduğuna emin ol ve öyle kurulumu yap:
 
 ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, Steam ve VS Code'da yapılacakları yap.
 
+Eğer ki Microsoft Office kullanmıyorsan winget ile ONLYOFFICE Desktop Editors'ü sistemine kur ve ONLYOFFICE
+için yapılacakları da yap.
+
 Affinity, DaVinci Resolve, Everything, FL Studio ve playit.gg'nin kurulum dosyalarını kendi sitelerinden
 indirip sistemine kur.
 
