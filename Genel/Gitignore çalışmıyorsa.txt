@@ -8,3 +8,5 @@ Ardından, GitHub repo'nda terminal aç ve şu komutları git:
     git add .
 
 Şimdi, ignore'lanması gereken bütün dosyaların/klasörlerin ignore'lanması lazım.
+
+Kaynak: https://stackoverflow.com/questions/25436312/gitignore-not-working
