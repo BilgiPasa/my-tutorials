@@ -1,2 +1,14 @@
+# Shows trailing spaces as gray
+extendsyntax default color ,gray "[[:space:]]+$"
+
+# Enabes auto indentation
 set autoindent
+
+# Sets the shortcut helper's text color as green and removes its background color
+set keycolor green
+
+# Sets tab size to 4
 set tabsize 4
+
+# Sets the title's text color as green and removes its background color
+set titlecolor green
