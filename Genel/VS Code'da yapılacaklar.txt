@@ -28,8 +28,10 @@ Not2: VS Code'da, Pylance tür denetimi etkinleştirme uyarısı gelirse kabul e
 
 Not3: VS Code'da, sana önerilen uzantı varsa o uzantının üstüne sağ tıklayıp "Öneriyi Yoksay"a tıkla.
 
-Not4: VS Code'da run and debug butonunu gizleyip geri açamıyorsan sağ üstte üç nokta kısmına sağ tık yap ve
-"run and debug" seçeneğine tıkla.
+Not4:
+    VS Code'da run and debug butonunu gizleyip geri açamıyorsan sağ üstte üç nokta kısmına sağ tık yap ve
+    "run and debug" seçeneğine tıkla.
 
-Not5: Java'da debug ettikten sonra, çalıştırma butonu debug'da kaldıysa "Extension Pack for Java" eklenti
-paketini sil, VS Code'u kapat. VS Code'u tekrar aç ve Extension Pack for Java'yı tekrar kur.
+Not5:
+    Java'da debug ettikten sonra, çalıştırma butonu debug'da kaldıysa "Extension Pack for Java" eklenti
+    paketini sil, VS Code'u kapat. VS Code'u tekrar aç ve Extension Pack for Java'yı tekrar kur.
