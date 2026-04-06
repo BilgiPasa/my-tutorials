@@ -38,9 +38,7 @@ Flatpak olarak bu programları kur:
     VLC
     Zoom
 
-ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, Steam ve VSCodium'da yapılacakları yap.
-
-ONLYOFFICE için yapılacakları da yap.
+ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, ONLYOFFICE, Steam ve VSCodium'da yapılacakları yap.
 
 Nano için, bu dosyanın olduğu klasörde bulunan "Nano ayar dosyası yedeğim" klasörüne bak. O klasördeki ayar
 dosyasını kopyala ve bulunması gereken yere yapıştır.

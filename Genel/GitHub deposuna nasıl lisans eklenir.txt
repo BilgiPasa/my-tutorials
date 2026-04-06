@@ -1,4 +1,4 @@
-Lisans eklemek istediğin Git deponu (depo = repository = repo) GitHub'da aç.
+Lisans eklemek istediğin deponu (depo = repository = repo) GitHub'da aç.
 
 Depo ana sayfasındaki "Add file" butonuna tıkla ve oradan "Create new file"a tıkla. Çıkan ekranda eklemek
 istediğin dosya adı yerine (tırnaksız bir şekilde) "LICENSE" diye yaz. O yazma yerinin altında çıkan
