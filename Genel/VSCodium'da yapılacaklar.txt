@@ -27,7 +27,10 @@ bildirim gelirse "Change Language and Restart" butonuna tıkla ve VSCodium'u yen
 
 Eğer ki "clangd" eklentisini kurduysan, sistemine clangd paketini kur.
 
-Fedora için clangd kurulum komutu:
+Debian tabanlı sistemler için clangd kurulum komutu:
+    sudo apt install clangd
+
+Fedora tabanlı sistemler için clangd kurulum komutu:
     sudo dnf install clangd
 
 Eğer ki "Python" eklentisini kurduğunda, yanında "Python Environments" eklentisi de kurulduysa
