@@ -21,12 +21,9 @@ Ardından, sol çubuktaki "Extensions" menüsünden şu eklentileri kur:
     Python (ms-python'un)
     Trailing Spaces (shardulm94'ün)
     Turkish Language Pack for Visual Studio Code (MS-CEINTL'in)
-    Vim (vscodevim'in)
 
 Bu eklentileri kurdukran sonra sağ altta İngilizce olarak "Dili değiştirmek ister misiniz?" tarzında bir
 bildirim gelirse "Change Language and Restart" butonuna tıkla ve VSCodium'u yeniden başlat.
-
-Eğer ki Vim eklentisini kullanmak istemiyorsan o eklentiyi devre dışı bırak, VSCodium'u kapat ve geri aç.
 
 Eğer ki "clangd" eklentisini kurduysan, sistemine clangd paketini kur.
 
@@ -65,9 +62,13 @@ Son olarak; eğer ki VSCodium'da bir Java dosyasını, sağ üstteki "Run Java" 
 Not1: VSCodium'da hiçbir uyarıda, "Bu kaynaktan bir daha uyarı gösterme" seçeneğine tıklama.
 
 Not2:
+    Eğer ki VSCodium'u Vim gibi kullanmak istersen şu eklentiyi kurabilirsin:
+        Vim (vscodevim'in)
+
+Not3:
     VSCodium'da run and debug butonunu gizleyip geri açamıyorsan sağ üstte üç nokta kısmına sağ tık yap ve
     "run and debug" seçeneğine tıkla.
 
-Not3:
+Not4:
     Java'da debug ettikten sonra, çalıştırma butonu debug'da kaldıysa "Extension Pack for Java" eklenti
     paketini sil, VSCodium'u kapat. VSCodium'u tekrar aç ve Extension Pack for Java'yı tekrar kur.
