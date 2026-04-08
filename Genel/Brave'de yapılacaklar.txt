@@ -15,7 +15,7 @@ Ayarlarda:
 
     "Extensions" kısmında "Get more extensions"a tıkla ve şu eklentileri kur:
         Dark Reader
-        Hide Google AI Overviews
+        Hide or Collapse Google AI Overviews
         Return Youtube Dislike
         Sound Booster - Max Volume & Deep Bass
         Unhook - Remove YouTube Recommended & Shorts
