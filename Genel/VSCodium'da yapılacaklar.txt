@@ -62,13 +62,13 @@ Son olarak; eğer ki VSCodium'da bir Java dosyasını, sağ üstteki "Run Java" 
 Not1: VSCodium'da hiçbir uyarıda, "Bu kaynaktan bir daha uyarı gösterme" seçeneğine tıklama.
 
 Not2:
-    Eğer ki VSCodium'u Vim gibi kullanmak istersen şu eklentiyi kurabilirsin:
-        Vim (vscodevim'in)
-
-Not3:
     VSCodium'da run and debug butonunu gizleyip geri açamıyorsan sağ üstte üç nokta kısmına sağ tık yap ve
     "run and debug" seçeneğine tıkla.
 
-Not4:
+Not3:
     Java'da debug ettikten sonra, çalıştırma butonu debug'da kaldıysa "Extension Pack for Java" eklenti
     paketini sil, VSCodium'u kapat. VSCodium'u tekrar aç ve Extension Pack for Java'yı tekrar kur.
+
+Not4:
+    Eğer ki VSCodium'u Vim gibi kullanmak istersen şu eklentiyi kurabilirsin:
+        Vim (vscodevim'in)

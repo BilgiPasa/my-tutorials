@@ -26,6 +26,9 @@ seçenekleri kapat.
 
 Kurduğun eklentilerden sırasıya "Dark Reader", "Sound Booster" ve "Unhook"u pin'le.
 
+"Hide or Collapse Google AI Overviews" eklentisine tıkla. "Block AI summaries" ayarını kapat ve
+"Collapse instead of hide" ayarını aç.
+
 Unhook eklentisinde bütün seçenekleri kapat ve sadece şu seçenekleri aç:
     Hide Home Feed
     Redirect to Subscriptions
