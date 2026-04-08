@@ -15,7 +15,6 @@ Ayarlarda:
 
     "Extensions" kısmında "Get more extensions"a tıkla ve şu eklentileri kur:
         Dark Reader
-        Hide or Collapse Google AI Overviews
         Return Youtube Dislike
         Sound Booster - Max Volume & Deep Bass
         Unhook - Remove YouTube Recommended & Shorts
@@ -25,9 +24,6 @@ Brave ana ekranında; sağ üstteki 3 çizgili menüden "Passwords and autofill"
 seçenekleri kapat.
 
 Kurduğun eklentilerden sırasıya "Dark Reader", "Sound Booster" ve "Unhook"u pin'le.
-
-"Hide or Collapse Google AI Overviews" eklentisine tıkla. "Block AI summaries" ayarını kapat ve
-"Collapse instead of hide" ayarını aç.
 
 Unhook eklentisinde bütün seçenekleri kapat ve sadece şu seçenekleri aç:
     Hide Home Feed
