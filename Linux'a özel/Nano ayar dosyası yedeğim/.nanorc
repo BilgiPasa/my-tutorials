@@ -1,8 +1,11 @@
+# Sets tab size to 4
+set tabsize 4
+
 # Enabes auto indentation
 set autoindent
 
-# Sets tab size to 4
-set tabsize 4
+# Enables soft wrapping
+set softwrap
 
 # Displays line numbers
 set linenumbers
