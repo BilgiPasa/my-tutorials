@@ -21,9 +21,12 @@ Ardından, sol çubuktaki "Extensions" menüsünden şu eklentileri kur:
     Python (ms-python'un)
     Trailing Spaces (shardulm94'ün)
     Turkish Language Pack for Visual Studio Code (MS-CEINTL'in)
+    Vim (vscodevim'in)
 
 Bu eklentileri kurdukran sonra sağ altta İngilizce olarak "Dili değiştirmek ister misiniz?" tarzında bir
 bildirim gelirse "Change Language and Restart" butonuna tıkla ve VSCodium'u yeniden başlat.
+
+Eğer ki Vim eklentisini kullanmak istemiyorsan o eklentiyi devre dışı bırak, VSCodium'u kapat ve geri aç.
 
 Eğer ki "clangd" eklentisini kurduysan, sistemine clangd paketini kur.
 
