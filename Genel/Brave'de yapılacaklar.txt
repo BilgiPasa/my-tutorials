@@ -1,4 +1,4 @@
-Bookmarks kısmını her zaman görünür yap. Başlangıç ekranını kendine göre ayarla.
+Başlangıç ekranını kendine göre ayarla.
 
 Brave ana ekranında, sağ üstteki 3 çizgili menüden ayarlara gir.
 
@@ -11,11 +11,32 @@ Ayarlarda:
         İlk 3 ayarı kapat.
 
     "Search Engine" kısmında:
-        2'sini de Google yap.
+        2'sini de "Google" yap.
 
     "Extensions" kısmında "Get more extensions"a tıkla ve şu eklentileri kur:
-        Dark Reader, Youtube-shorts block, Return Youtube Dislike, Sound Booster - Max Volume & Deep Bass
+        Dark Reader
+        Hide Google AI Overviews
+        Return Youtube Dislike
+        Sound Booster - Max Volume & Deep Bass
+        Unhook - Remove YouTube Recommended & Shorts
 
 Brave ana ekranında; sağ üstteki 3 çizgili menüden "Passwords and autofill" kısmında bulunan
 "Password Manager", "Payment methods" ve "Addresses and more" kısımlarına teker teker gir ve bütün
 seçenekleri kapat.
+
+Kurduğun eklentilerden sırasıya "Dark Reader", "Sound Booster" ve "Unhook"u pin'le.
+
+Unhook eklentisinde bütün seçenekleri kapat ve sadece şu seçenekleri aç:
+    Hide Home Feed
+    Redirect to Subscriptions
+    Hide Video Sidebar
+    Hide Recommended
+    Hide Live Chat
+    Hide Playlist
+    Hide Fundraiser
+    Hide Shorts
+    Hide Merchs, Tickets, Offers
+    Hide Inapt Search Results
+    Hide More From YouTube
+    Disable Autoplay
+    Disable Annotations
