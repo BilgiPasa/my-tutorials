@@ -15,8 +15,6 @@ Winget kullanarak bu programları kur:
     VLC
     Zoom
 
-GIMP'i Microsoft Store'dan kur. (Eğer ki PhotoGIMP ile kullanacaksan GIMP'i Microsoft Store'dan kurma.)
-
 VS Code'un kurulum dosyasını kendi sitesinden indir ve kur. Kurarken, "Ek işlemleri seçin" kısmında şu
 seçeneklerin açık olduğuna emin ol ve öyle kurulumu yap:
     Windows Gezgini bağlam menüsüne "Code İle Aç" eylemini ekle
@@ -24,13 +22,13 @@ seçeneklerin açık olduğuna emin ol ve öyle kurulumu yap:
     Code uygulamasını desteklenen dosya türleri için bir düzenleyici olarak kayıt et
     PATH'e ekle
 
+Affinity, DaVinci Resolve, Everything, FL Studio, GIMP ve playit.gg'nin kurulum dosyalarını kendi sitelerinden
+indirip sistemine kur.
+
 ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, Steam ve VS Code'da yapılacakları yap.
 
 Eğer ki Microsoft Office kullanmıyorsan winget ile ONLYOFFICE Desktop Editors'ü sistemine kur ve ONLYOFFICE'te
 yapılacakları da yap.
-
-Affinity, DaVinci Resolve, Everything, FL Studio ve playit.gg'nin kurulum dosyalarını kendi sitelerinden
-indirip sistemine kur.
 
 Minecraft Launcher'ın kurulum dosyasını şu siteden indir ve sistemine kur:
     https://www.minecraft.net/en-us/download
