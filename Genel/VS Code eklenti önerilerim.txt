@@ -26,6 +26,9 @@ Unity için:
     Unity
     ve yukarıda bahsettiğim C# için eklentiler.
 
+VS Code'u Vim gibi kullanmak için:
+    Vim
+
 Önerdiğim diğer eklentiler:
     Better Comments
     Bracket Select
