@@ -68,7 +68,3 @@ Not2:
 Not3:
     Java'da debug ettikten sonra, çalıştırma butonu debug'da kaldıysa "Extension Pack for Java" eklenti
     paketini sil, VSCodium'u kapat. VSCodium'u tekrar aç ve Extension Pack for Java'yı tekrar kur.
-
-Not4:
-    Eğer ki VSCodium'u Vim gibi kullanmak istersen şu eklentiyi kurabilirsin:
-        Vim (vscodevim'in)
