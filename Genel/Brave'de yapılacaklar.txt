@@ -39,3 +39,7 @@ Unhook eklentisinde bütün seçenekleri kapat ve sadece şu seçenekleri aç:
     Hide More From YouTube
     Disable Autoplay
     Disable Annotations
+
+Not:
+    Eğer ki Brave'de Whatsapp Web kullanıyorsan Brave Shields'ı Whatsapp Web için kapat. Yoksa Whatsapp Web'de
+    bazı şeyler çalışmayabilir.
