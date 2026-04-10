@@ -1,3 +1,6 @@
 İlk önce, sistemine Node.js kur.
+
 Ardından, CMD'ye "npm install --global speed-test" komutunu gir.
-Yükleme işlemi bittikten sonra, speed-test yapmak için CMD'ye "speed-test" komutunu gir.
+
+Kurulum işlemi bittikten sonra, speed-test yapmak için CMD'ye şu komutu gir:
+    speed-test
