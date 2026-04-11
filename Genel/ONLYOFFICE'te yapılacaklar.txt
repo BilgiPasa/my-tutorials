@@ -1,6 +1,5 @@
 Ayarlarda:
     İlk önce, "Interface theme" ayarını "Contrast Dark" olarak ayarla.
-    Ardından, "Open file" ayarını "On its own window" olarak ayarla.
     Ardından, "Spelling language detection" ayarını "Disabled" olarak ayarla.
     Ardından, o ayarlar sayfasını aşağıya kaydır ve "Use AI functions" seçeneğini kapat.
     Ardından, alttaki "Apply" butonuna tıkla.
