@@ -2,6 +2,7 @@
     "basedpyright.analysis.inlayHints.callArgumentNames": false,
     "basedpyright.analysis.inlayHints.variableTypes": false,
     "basedpyright.analysis.typeCheckingMode": "basic",
+    "csharp.suppressBuildAssetsNotification": true,
     "editor.fontFamily": "'Roboto Mono', 'Droid Sans Mono', monospace",
     "editor.fontSize": 16,
     "editor.selectionClipboard": false,
