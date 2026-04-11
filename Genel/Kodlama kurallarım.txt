@@ -29,6 +29,7 @@ Ad kısaltmak için bu kısaltmaları kullanabilirsin:
     magnitude -> mag
     manager -> mng
     maximum -> max
+    middle -> mid
     minimum -> min
     multiplier -> mult
     normalized -> normd
