@@ -6,7 +6,7 @@ Sevdiğin kod düzenleme uygulamalarını kullan. (Kendim, VSCodium ve Nano text
 
 Sevdiğin bir fontu kullan. (Kendim, Roboto Mono fontunu kullanıyorum.)
 
-Gereksiz yere yorum satırı yazma.
+Açıklama eklemenin iyi olabileceğini düşündüğün yerlere açıklayıcı yorum satırları ekle.
 
 Şartlı ifadeler, döngüler ve fonksiyonların öncesine ve sonrasına birer satır boşluk bırak.
 
