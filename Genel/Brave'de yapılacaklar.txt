@@ -1,5 +1,8 @@
 Başlangıç ekranını kendine göre ayarla.
 
+Brave aramasında herhangi bir şey arat. Arama sonucu ekranının sağ üstündenki çark simgesine tıkla ve çıkan
+menüde "Answer with AI" seçeneğini kapat.
+
 Brave ana ekranında, sağ üstteki 3 çizgili menüden ayarlara gir.
 
 Ayarlarda:
@@ -10,9 +13,6 @@ Ayarlarda:
     "Leo" kısmında:
         İlk 3 ayarı kapat.
 
-    "Search Engine" kısmında:
-        2'sini de "Google" yap.
-
     "Extensions" kısmında "Get more extensions"a tıkla ve şu eklentileri kur:
         Dark Reader
         Return Youtube Dislike
@@ -20,8 +20,8 @@ Ayarlarda:
         Unhook - Remove YouTube Recommended & Shorts
 
 Brave ana ekranında; sağ üstteki 3 çizgili menüden "Passwords and autofill" kısmında bulunan
-"Password Manager", "Payment methods" ve "Addresses and more" kısımlarına teker teker gir ve bütün
-seçenekleri kapat.
+"Password Manager", "Payment methods" ve "Addresses and more" kısımlarına teker teker gir ve bütün seçenekleri
+kapat.
 
 Kurduğun eklentilerden sırasıya "Dark Reader", "Sound Booster" ve "Unhook"u pin'le.
 
