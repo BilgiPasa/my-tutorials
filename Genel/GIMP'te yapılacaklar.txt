@@ -15,8 +15,8 @@ Edit > Keyboard Shortcuts içinde "Clone" tool'una "N" kısayolunu ata. "Pencil"
 Ardından, "OK" butonuna tıkla.
 
 Kullandığın Layer'ın kenarlarında bulunan sarı hattı tamamiyle kapatmak için "Edit" kısmından "Preferences"a
-tıkla. Çıkan penceredeki sol kısımdan "Appearance" yazan yere tıkla. Çıkan menüde
-"Default Appearance in Normal Mode" yazan yerin altındaki "Show layer boundary" seçeneğini kapat ve "OK"
+tıkla. Çıkan pencerede, sol kısımdaki menüyü aşağı kaydır ve "Appearance" yazan yere tıkla. Çıkan menüde
+"Default Appearance in Normal Mode" kısmında bulunan "Show layer boundary" seçeneğini kapat ve "OK"
 butonuna tıkla.
 
 GIMP'te ayarlarını sıfırlamak için:
