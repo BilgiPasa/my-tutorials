@@ -1,0 +1,13 @@
+Git repo'sunun bulunduğu yerde terminal aç ve şu komutu gir:
+    git log
+
+İstediğin commit'in commit ID'sini kopyala ve o arayüzden çık.
+
+Ardından, terminale şu komutu gir: (COMMIT yazan yerde commit ID'n olmalı.)
+    git diff COMMIT^!
+
+Açılan arayüzde, o commit ile o commit'ten bir önceki commit arasındaki değişiklikleri görebilirsin.
+
+Notlar:
+    Git terminal arayüzünde hareket etmek için ok tuşlarını kullanabilirsin.
+    Git terminal arayüzünden çıkmak için "q" tuşuna basabilirsin.
