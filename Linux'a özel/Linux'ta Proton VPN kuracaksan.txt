@@ -1,0 +1,3 @@
+Proton VPN'i sistemine kuracaksan flatpak halini kur. Kendi sitesindeki yönergelere göre kurmaya uğraşma.
+
+Bu arada, Linux'ta Roblox oynamak için "Sober" uygulamasını kullanabilirsin.
