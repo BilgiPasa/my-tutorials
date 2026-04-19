@@ -11,8 +11,11 @@ Alt çubuğun solundaki "Kısıtlı Mod" butonuna tıkla, çıkan menüde aşağ
 butonunu kullanarak masaüstü klasörün ile D klasörünü oraya güvenilen dosyalar olarak ekle. Ekledikten sonra,
 o menüdeki "Güven" butonuna bas ve o menüyü kapat.
 
-Eğer ki VS Code arayüzün küçükse "Ctrl" ile "+" tuşlarına basarak arayüzü büyütebilirsin.
-(Kendim; 17 inçlik 1920x1080 çözünürlükteki bir ekranda, Linux'ta VS Code'u 2 kez büyüterek kullanıyorum.)
+Eğer ki VS Code arayüzün küçükse "Ctrl" tuşu ile NumLock'taki "+" tuşuna basarak arayüzü büyütebilirsin.
+(17 inçlik 1920x1080 çözünürlükteki bir ekranda, Linux'ta VS Code'u 2 kez büyüterek kullanıyorum.)
+
+VS Code arayüzünü büyüttüysen ve eksi haline getirmek istiyorsan "Ctrl" tuşu ile NumLock'taki "0" tuşuna
+basarak eski haline getirebilirsin.
 
 Eğer ki alt çubuğun solunda "Uzak Ana Bilgisayar" bölümü gözüküyorsa o bölümü gizle.
 
@@ -34,4 +37,4 @@ Not4:
 
 Not5:
     Java'da debug ettikten sonra, çalıştırma butonu debug'da kaldıysa "Extension Pack for Java" eklenti
-    paketini sil, VS Code'u kapat. VS Code'u tekrar aç ve Extension Pack for Java'yı tekrar kur.
+    paketini kaldır, VS Code'u kapat. VS Code'u tekrar aç ve Extension Pack for Java'yı tekrar kur.

@@ -4,8 +4,8 @@ Eğer ki Nautilus'ta, kullanmak istediğin terminal için "Open Terminal Here" y
     Şu sitedeki https://github.com/Stunkymonkey/nautilus-open-any-terminal uygulamayı kur
     (kurulum komutlarının başında sudo yazmıyorsa o komutların başına sudo yazarak kullan).
 
-    Ardından yönergelere uyarak default terminali, kullanmak istediğin terminal yap
-    (Dconf Editor ile yaptım ben. Dconf Editor uygulamasını flatpak olarak sistemine kurabilirsin).
+    Ardından yönergelere uyarak default terminali, kullanmak istediğin terminal yap.
+    (Ben "dconf-editor"ü kullanarak yaptım. dconf-editor uygulamasını flatpak olarak sistemine kurabilirsin.)
 
     Terminal uygulamasını klayve kısayoluyla açmak için ayarlardan yapmış olduğun klavye kısayolu ayarını
     değiştirmeyi unutma.

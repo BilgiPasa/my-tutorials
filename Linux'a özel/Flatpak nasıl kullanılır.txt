@@ -12,7 +12,7 @@ Genel olarak 1. yolu kullanmanı öneririm.
 2. yolu kullanarak kurmak için terminale şu komutu gir:
     flatpak install flathub (uygulamanın ID'si)
 
-Mesela Lutris'i flatpak olarak kurmak istediğimde çok uzun sürüyordu ben de o yüzden terminali kullandım.
+Mesela Lutris'i flatpak olarak kurmak istediğimde çok uzun sürüyordu o yüzden terminali kullandım.
 
 Bir flatpak uygulamasının ID'sini aramak için terminale şu komutu gir:
     sudo flatpak search (uygulamanın adı)

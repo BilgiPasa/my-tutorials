@@ -17,7 +17,7 @@ Ardından, sol çubuktaki "Extensions" menüsünden şu eklentileri kur:
     clangd (llvm-vs-code-extensions'ın)
     Extension Pack for Java (vscjava'nın)
     godot-tools (geequlim'in)
-    Material Icon Theme (PKief'in)
+    Material Icon Theme (PKief'in) (Bu eklentiyi kurduktan sonra ikon teması olarak bunu seç.)
     Python (ms-python'un)
     Trailing Spaces (shardulm94'ün)
     Turkish Language Pack for Visual Studio Code (MS-CEINTL'in)
@@ -34,7 +34,7 @@ Fedora tabanlı sistemler için clangd kurulum komutu:
     sudo dnf install clangd
 
 Eğer ki "Python" eklentisini kurduğunda, yanında "Python Environments" eklentisi de kurulduysa
-"Python Environments" eklentisini sil.
+"Python Environments" eklentisini kaldır.
 
 Ardından, VSCodium'un sol çubuğundaki "Kaynak Denetimi", "Çalıştırma ve Hata Ayıklama", "Godot Tools" ve
 "Hesaplar" menülerini gizle.
@@ -44,8 +44,11 @@ bölümlerini gizle.
 
 Ardından, alt çubuğun solunda "Uzak Ana Bilgisayar" bölümü gözüküyorsa o bölümü gizle.
 
-Eğer ki VSCodium arayüzün küçükse "Ctrl" ile "+" tuşlarına basarak arayüzü büyütebilirsin.
-(Kendim; 17 inçlik 1920x1080 çözünürlükteki bir ekranda, Linux'ta VSCodium'u 2 kez büyüterek kullanıyorum.)
+Eğer ki VSCodium arayüzün küçükse "Ctrl" tuşu ile NumLock'taki "+" tuşuna basarak arayüzü büyütebilirsin.
+(17 inçlik 1920x1080 çözünürlükteki bir ekranda, Linux'ta VSCodium'u 2 kez büyüterek kullanıyorum.)
+
+VSCodium arayüzünü büyüttüysen ve eksi haline getirmek istiyorsan "Ctrl" tuşu ile NumLock'taki "0" tuşuna
+basarak eski haline getirebilirsin.
 
 Eğer ki VSCodium arayüzünü "Ctrl" ile "+" tuşlarına basarak büyütürsen alt çubuğun sağında
 "Pencere Yakınlaştırma" bölümü gözükebilir. O bölüm gözükürse o bölümü de gizle.
@@ -63,4 +66,4 @@ Not2:
 
 Not3:
     Java'da debug ettikten sonra, çalıştırma butonu debug'da kaldıysa "Extension Pack for Java" eklenti
-    paketini sil, VSCodium'u kapat. VSCodium'u tekrar aç ve Extension Pack for Java'yı tekrar kur.
+    paketini kaldır, VSCodium'u kapat. VSCodium'u tekrar aç ve Extension Pack for Java'yı tekrar kur.
