@@ -53,6 +53,10 @@ basarak eski haline getirebilirsin.
 Eğer ki VSCodium arayüzünü "Ctrl" ile "+" tuşlarına basarak büyütürsen alt çubuğun sağında
 "Pencere Yakınlaştırma" bölümü gözükebilir. O bölüm gözükürse o bölümü de gizle.
 
+Eğer ki bir dosya açtığında alt çubuğun sağında "Düzenleyici Girintisi" bölümü gözüküyorsa o bölümü gizle.
+
+Eğer ki bir C dosyası açtığında alt çubuğun solunda "clangd (Uzantı)" bölümü gözüküyorsa o bölümü gizle.
+
 Eğer ki bir Python dosyası açtığında sol çubukta "Test" menüsü varsa o bölümü gizle.
 
 Son olarak; eğer ki VSCodium'da bir Java dosyasını, sağ üstteki "Run Java" butonuna basıp çalıştırdığında, alt
