@@ -2,9 +2,7 @@ Yazdığın kod anlaşılır olsun.
 
 Kod yazacaksan o kodu kendin yaz. (Yani sen kod yazacaksan o kodu makine değil, sen yaz.)
 
-Sevdiğin kod düzenleme uygulamalarını kullan. (Kendim, VSCodium ve Nano text editörlerini kullanıyorum.)
-
-Sevdiğin bir fontu kullan. (Kendim, Roboto Mono fontunu kullanıyorum.)
+Kullanmayı sevdiğin programları ve kullanmayı sevdiğin fontu kullan.
 
 Açıklama eklemenin iyi olabileceğini düşündüğün yerlere açıklayıcı yorum satırları ekle.
 
@@ -46,11 +44,11 @@ Ad kısaltmak için bu kısaltmaları kullanabilirsin:
 
     Genel olarak kullanabileceğin başka kısaltmalar olursa buraya yaz. (Sıra alfabetik olarak kalsın.)
 
-VS Code'da "Better Comments" eklentisini kurarak yorum satırlarının başına karakter veya yazı yazarak farklı
-renklerde yapabilirsin. O farklı renklerde yorum satırlarını yazarken "//*", "//!", "//?" ve "//TODO" şeklinde
-yazmak yerine "// *", "// !", "// ?" ve "// TODO" şeklinde yaz. Yani "//" ile yanındaki sembol veya yazı
-arasında bir boşluk olsun. Çünkü nano kullanırken "//*" yazarsan ve sonrasında "*/" yazmazsan, sonraki
-satırları da yorum satırıymış gibi aynı renge boyuyor. O yüzden "// *" diye yaz.
+VS Code veya VSCodium'da "Better Comments" eklentisini kurarak yorum satırlarının başına karakter veya yazı
+yazarak yorum satırlarını farklı renklerde yapabilirsin. O yorum satırlarını yazarken
+"//*", "//!", "//?" ve "//TODO" şeklinde yazmak yerine "// *", "// !", "// ?" ve "// TODO" şeklinde yaz.
+Yani "//" ile yanındaki sembol veya yazı arasında bir boşluk olsun. Çünkü nano kullanırken "//*" yazarsan
+ve sonrasında "*/" yazmazsan, sonraki satırları da yorum satırıymış gibi aynı renge boyuyor.
 
 Eskiden yapmış olduğun ve artık uğraşmadığın veya uğraşmak istemediğin projelerde eğer ki bu kurallara uymayan
 kodlar varsa gidip düzeltmeye uğraşma. Öylece kalsınlar.
