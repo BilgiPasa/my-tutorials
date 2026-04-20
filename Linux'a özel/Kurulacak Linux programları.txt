@@ -63,4 +63,4 @@ Neden bazı uygulamaları flatpak olarak kurmayı tercih ettiğimi merak ediyors
 
 Not:
     VSCodium kuruyorum çünkü VS Code yerine VSCodium kullanmak istiyorum. VS Code'un Linux versiyonu var ve
-    düzgün de çalışıyor ama VS Code yerine VSCodium kullanmak istiyorum.
+    düzgün de çalışıyor ama VSCodium kullanmak istediğimden VSCodium kuruyorum.
