@@ -1,22 +1,23 @@
 Dosya yöneticinden home/$USER/ dosya yoluna gel. ($USER yerinde kullanıcı adın olmalı.)
 
-Orada bulunan ".nvidia-settings-rc" dosyasını aç. O dosya yoksa NVIDIA X Server Settings uygulamasını aç ve
-kapat. O dosyanın oluşması lazım.
+Orada bulunan ".nvidia-settings-rc" dosyasını aç. O dosya yoksa "NVIDIA X Server Settings" uygulamasını aç ve
+açılan pencerenin sağ altındaki "Quit" tuşuna basarak pencereyi kapat. O dosyanın oluşması lazım.
 
-Açtığın o dosyada "# Attributes:" kısmının altında "[GPU:0]/GPUPowerMizerMode=0" gibi bir yazı olmalı.
+Açtığın o dosyada, "# Attributes:" kısmının altında "[GPU:0]/GPUPowerMizerMode=0" gibi bir yazı olmalı.
 
-O ayarda, =0 yerine =1 diye değiştirirsen yüksek performans ayarını seçmiş olursun.
+O ayarda, =0 kısmını =1 diye değiştir.
 
-Yani örnek olarak:
-    [GPU:0]/GPUPowerMizerMode=0 yerine
+Demek istediğim:
+    [GPU:0]/GPUPowerMizerMode=0 kısmını
 
-    [GPU:0]/GPUPowerMizerMode=1 diye değiştirirsen yüksek performans ayarını seçmiş olursun.
+    [GPU:0]/GPUPowerMizerMode=1 diye değiştir.
 
 Değişikliği yaptıktan sonra dosyayı kaydetmeyi unutma.
 
-Eski haline çevirmek için o ayar dosyasında =1 yaptığın yeri =0 diye değiştirip kaydedebilirsin.
+Eski haline çevirmek için o ayar dosyasında =1 yaptığın yeri =0 diye değiştirip kaydet.
 
-Eğer ki NVIDIA X Server Settings ayarlarını sıfırlamak istersen:
-    .nvidia-settings-rc dosyasını sil, NVIDIA X Server Settings uygulamasını aç ve kapat.
+Eğer ki ".nvidia-settings-rc" ayarlarını sıfırlamak için:
+    ".nvidia-settings-rc" dosyasını sil, "NVIDIA X Server Settings" uygulamasını aç ve açılan pencerenin sağ
+    altındaki "Quit" tuşuna basarak pencereyi kapat.
 
 Yaptığın değişikliklerin etki etmesi için bilgisayarını yeniden başlatman lazım mı emin değilim.
