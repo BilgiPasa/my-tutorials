@@ -44,15 +44,6 @@ bölümlerini gizle.
 
 Ardından, alt çubuğun solunda "Uzak Ana Bilgisayar" bölümü gözüküyorsa o bölümü gizle.
 
-Eğer ki VSCodium arayüzün küçükse "Ctrl" tuşu ile NumLock'taki "+" tuşuna basarak arayüzü büyütebilirsin.
-(17 inçlik 1920x1080 çözünürlükteki bir ekranda, Linux'ta VSCodium'u 2 kez büyüterek kullanıyorum.)
-
-VSCodium arayüzünü büyüttüysen ve eksi haline getirmek istiyorsan "Ctrl" tuşu ile NumLock'taki "0" tuşuna
-basarak eski haline getirebilirsin.
-
-Eğer ki VSCodium arayüzünü "Ctrl" ile "+" tuşlarına basarak büyütürsen alt çubuğun sağında
-"Pencere Yakınlaştırma" bölümü gözükebilir. O bölüm gözükürse o bölümü de gizle.
-
 Eğer ki bir dosya açtığında alt çubuğun sağında "Düzenleyici Girintisi" bölümü gözüküyorsa o bölümü gizle.
 
 Eğer ki bir C dosyası açtığında alt çubuğun solunda "clangd (Uzantı)" bölümü gözüküyorsa o bölümü gizle.
