@@ -1,0 +1,7 @@
+Commit'lerin açıklayıcı olsun.
+
+Commit'lerin ingilizce olsun.
+
+Commit'lerde -ing veya -ed kullanma. Emir verir gibi; "add", "remove", "update", "fix" şekilde commit'ler yaz.
+
+Bu konu hakkında bir stackoverflow yanıtı: https://stackoverflow.com/questions/3580013/should-i-use-past-or-present-tense-in-git-commit-messages/3580764#3580764
