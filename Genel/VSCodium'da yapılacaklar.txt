@@ -1,4 +1,4 @@
-VSCodium'u kurduktan sonra VSCodium'u aç ve geri kapat.
+VSCodium'u kurduktan sonra VSCodium'u aç ve kapat.
 
 Ardından, VSCodium ayar dosyanı olması gereken yere koy.
 
@@ -42,7 +42,7 @@ Ardından, VSCodium'un sol çubuğundaki "Kaynak Denetimi", "Çalıştırma ve H
 Ardından, sol çubuktaki "Gezgin" menüsünü aç ve o menünün aşağısındaki "Anahat" ve "Zaman Çizelgesi"
 bölümlerini gizle.
 
-Ardından, alt çubuğun solunda "Uzak Ana Bilgisayar" bölümü gözüküyorsa o bölümü gizle.
+Eğer ki alt çubuğun solunda "Uzak Ana Bilgisayar" bölümü gözüküyorsa o bölümü gizle.
 
 Eğer ki bir dosya açtığında alt çubuğun sağında "Düzenleyici Girintisi" bölümü gözüküyorsa o bölümü gizle.
 
