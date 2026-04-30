@@ -1,7 +1,9 @@
 GNOME'un uygulama mağazası olan gnome-software, "Refreshing Data" ekranında donup kaldıysa:
-    İlk önce, gnome-system-monitor'ü aç ve oradan gnome-software'ın çalıştırmasını durdur. (End proccess)
+    İlk önce, gnome-software'ı kapat.
 
     Ardından, terminale şu komutu gir:
         pkcon refresh force
 
     Ardından, gnome-software'ı aç ve biraz bekle. Bir süre sonra açılması lazım.
+
+Kaynak: https://discussion.fedoraproject.org/t/my-gnome-software-is-stuck-on-this-page-please-help-me-resolve-the-issue/179730
