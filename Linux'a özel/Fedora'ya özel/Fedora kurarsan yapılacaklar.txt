@@ -1,0 +1,199 @@
+Eğer ki Fedora Workstation ISO'su veya Fedora KDE Plasma Desktop ISO'su ile kurulum yaptıysan başlangıç
+penceresinde çıkan "Enable third party repositories" seçeneğine tıkla ve 3. parti depoları aktive et.
+Eğer ki bunu açmayı unutup kurulum yaparsan uygulama mağazasındaki software repositories kısmından aç.
+
+Eğer ki başka bir ISO ile kurulum yaptıysan kurulum bitince terminale şu komutu girerek 3. parti depoları
+sistemine kur:
+    sudo dnf install fedora-workstation-repositories -y
+
+Fedora Workstation kuruyorsan ve kurulumda konum seçmeye geldiysen, oradaki arama kısmında konumunu yazma.
+Oradaki haritadan seç ve devam et. (Harita üstündeki simgenin gitmesi için haritada simgesiz olan kısma tıkla ve
+sonra kendi konumuna tıkla ve "Next" de.) Çünkü arama kısmına yazıp devam etmeye çalışırsan Fedora donabilir.
+
+Ayarlardan sistem temasını karanlık tema olarak ayarla, sistem güç modunu "Performance" yap, "Dim Screen"
+ayarını kapat, ekran kilitleme ve sistem kapanma zamanlarını ayarla, bluetooth'u kapat, fare ayarlarından
+"Mouse Acceleration"ı kapat ve mikrofon input sesini kısmayı unutma.
+
+Ardından, sistem güncellemelerini uygulama mağazasından yap ve uygulamada çıkan "Restart" tuşu ile bilgisayarını
+yeniden başlat.
+
+Fedora'da dnf'i daha hızlı yapmak için
+{
+    Terminale şu komutu gir:
+        sudo nano /etc/dnf/dnf.conf
+
+    Açılan dosyanın içine, "[main]" KISMININ ALTINA şu 2 şeyi yaz
+    {
+        max_parallel_downloads=10
+        fastestmirror=True
+    }
+
+    Ardından, dosyayı kaydet ve nano'yu kapat.
+}
+
+Fedora masaüstü ortamın ne olursa olsun terminale şu komutları gir
+{
+    sudo dnf update -y
+    sudo dnf install fastfetch mesa-libGLU -y
+    sudo dnf swap ffmpeg-free ffmpeg --allowerasing -y
+    sudo dnf remove libreoffice* -y
+}
+
+GNOME kullanıyorsan terminale şu komutu gir
+{
+    touch ~/Templates/'Empty text file'.txt
+}
+
+XFCE kullanıyorsan terminale şu komutları gir
+{
+    sudo dnf install gnome-software -y
+    flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+}
+
+NVIDIA sürücülerini kuracaksan terminale şu komutları gir (Kaynak: https://rpmfusion.org/Howto/NVIDIA)
+(CUDA sürücülerinin adında "xorg" ve "x11" yazıyor ama Wayland'de de çalışıyor yani merak etme.)
+{
+    sudo dnf update -y
+    sudo dnf install akmod-nvidia -y
+    sudo dnf install xorg-x11-drv-nvidia-cuda -y
+}
+
+Sürücüleri kurunca 5 dakika zamanlayıcı kur ve bekle. Ardından bilgisayarını yeniden başlat.
+
+GNOME veya XFCE kullanıyorsan GNOME'un uygulama mağazasında sağ üstteki 3 çizgili menüden
+"Software Repositories"i aç. Orada eğer ki açık olan "Fedora Flatpaks" repo'su varsa kapatmaya çalış.
+
+KDE Plazma kullanıyorsan "Discover"ı aç. "Settings"e gel. Orada bulunan "Fedora Flatpaks" repo'su varsa
+kapatmaya çalış.
+
+Eğer ki "Fedora Flatpaks" repo'sunu kapatamıyorsan terminale şu komutu girerek o repo'yu sisteminden kaldır:
+    flatpak remote-delete fedora
+
+"Fedora Flatpaks" repo'sunu kaldırmak ile alakalı daha fazla bilgi için: https://discussion.fedoraproject.org/t/tutorial-how-to-replace-the-fedora-flatpak-repo-with-flathub/44320
+
+Eğer ki "Fedora Flatpaks" repo'sunu sisteminden kaldırırsan kullandığın uygulama mağazasını kullanarak
+"Fedora Flatpaks (testing)" repo'sunu da sisteminden kaldır.
+
+GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı flatpak olarak kur. Ardından, Extension
+Manager'dan bu eklentileri sistemine kur:
+    Alphabetic App Grid (stuarthayhurst'ın)
+    Appindicator and KStatusNotifierItem Support (3v1n0'nun)
+    Blur my Shell (aunetx'in)
+    Clipboard Indicator (Tudmotu'nun)
+    Touchpad On Off (r_mano'nun)
+
+GNOME'da Extension Manager'da "System Extensions" kısmındaki "Background Logo" eklentisini KAPAT! Yoksa 2 kere
+Super tuşuna basıp uygulamaların olduğu yere gelirken ekranda takılma olabiliyor veya sağ alttaki logo
+takılabiliyor.
+
+GNOME'da Alphabetic App Grid eklentisinin ayarlarına gir ve "Position of ordered folders" ayarını "End" olarak
+ayarla.
+
+GNOME'da Blur my Shell eklentisinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override background"
+kısmında daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
+
+GNOME'da ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
+
+GNOME'da, Nautilus'ta (dosya yöneticisi)
+{
+    Desktop klasörünü ve kendi istediğin klasörleri sol menüde kısayol olarak ayarla.
+
+    Ctrl + , (kontrol + virgül) kısayoluyla "Preferences" menüsünü aç ve orada "Sort Folders Before Files"
+    ayarını (ilk ayar olması lazım) aç.
+
+    Gizli dosyaları gösterme ayarını da aç.
+}
+
+KDE Plazma'da, Dolphin'de (dosya yöneticisi)
+{
+    Dolphin açıldığında "Home" directory'sini açması için ayar yap.
+
+    Arkaplan'a çift tıkladığında bütün her şeyi seçme ayarını kapat.
+
+    Gizli dosyaları gösterme ayarını aç.
+}
+
+XFCE'de, Thunar'da (dosya yöneticisi) gizli dosyaları gösterme ayarını aç.
+
+XFCE'de "Settings Manager"da "Keyboard" kısmına gir. "Application Shortcuts" kısmını aç ve orada "Alt + F3"
+için hangi kısayol kullanılıyorsa aynısını Super tuşu (Windows tuşu) için de ekle.
+
+XFCE'de "Settings Manager"da "Panel kısmına gir. Orada "Panel 2" ayarlarını aç ve Panel 2'yi sil. (Panel 2,
+alttaki küçük panel olmalı.)
+
+XFCE'de "Settings Manager"da "Session and Startup" kısmına gir. "Application Autostart" kısmını aç. Orada
+"Clipman" seçeneğini aç ve "dnfdragora-updater" seçeneğini kapat.
+
+GNOME veya XFCE kullanıyorsan (nokyan'ın) "Resources" uygulamasını flatpak olarak uygulama mağazasından kur.
+
+GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında:
+{
+    "Switch windows"u "Alt + Tab" olarak ayarla.
+
+    "Switch applications"ı "Super + Tab" olarak ayarla.
+
+    "Hide all normal windows"u "Super + D" olarak ayarla.
+
+    "Nautilus" adında bir kısayol oluştur. Kısayolu "Super + E" olsun. Komutu ise "nautilus" olsun.
+
+    "Resources" adında bir kısayol oluştur. Kısayolu "Ctrl + Shift + Escape" olsun. Komutu ise
+    "flatpak run net.nokyan.Resources" olsun.
+
+    Eğer ki "Ctrl + Alt + T" kısayolu sistem terminalini açmazsa "Terminal" isminde bir kısayol oluştur.
+    Kısayolu "Ctrl + Alt + T" olsun. Komutu ise kullandığın terminalin komutu ne ise o olsun.
+    (Sisteme kurulu gelen terminalin komutu "ptyxis" olabilir.)
+}
+
+Sistemine Roboto Mono fontunu kur. Nasıl kurabileceğine dair yönergeleri, bu git deposunda bulunan "Genel"
+klasörünün içindeki "Roboto Mono fontu nasıl kurulur.txt" dosyasında bulabilirsin.
+
+GNOME'daki default terminali kullanmak istersen
+{
+    Terminal uygulamasını aç. Sağ üstteki 3 çizgili menüden "Preferences"ı aç.
+
+    "Profiles" kısmında:
+        Profil adını "Main Profile" yap.
+
+    "Appearance" kısmında:
+        "Palette" kısmında "Show All Palettes"e tıkla.
+
+        Oradan "Argonaut"u seç. "Show Fewer Palettes"e tıkla ve aşağıya in. "Use System Font"u kapat.
+
+        Custom Font olarak "Roboto Mono Regular"ı seç ve font boyutunu 16 yap.
+
+    "Behaviour" kısmında:
+        "Interface" kısmında "Restore Session"ı ve "Restore Window Size"ı kapat.
+
+        "Restore Window Size" kısmından çıkan yerdeki seçenekleri fastfetch'e göre ayarla.
+
+        "Behaviour" menüsünde en aşağıya in ve "Set as Default Terminal" butonuna tıkla.
+}
+
+XFCE'deki default terminali kullanmak istersen
+{
+    Terminal uygulamasını aç. Sol üstte "Edit" yazan menüden "Preferences"ı aç.
+
+    "General" kısmında:
+        "Cursor" kısmındaki "Cursor Blinks" ayarını aç.
+
+    "Appearance" kısmında:
+        Font olarak "Roboto Mono Regular"ı seç ve font boyutunu 16 yap.
+
+        "Opening New Windows" kısmındaki terminal boyutu ayarlarını fastfetch'e göre ayarla.
+}
+
+Eğer ki sistem saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istersen
+{
+    GNOME'da, ayarlarda "System" kısmında gir ve orada "Region and Language" kısmına gir.
+    Dil olarak "English (United States)"i seç ve "Formats" kısmında "United Kingdom (English)"i seç.
+    Yaptığın değişiklikler, sisteminden çıkıp geri giriş yapınca etki göstermeli.
+
+    KDE Plazma'da, ayarlarda "Region and Language" kısmına gir.
+    Dil olarak "American English"i seç ve ("Data and Storage Sizes" hariç) bütün formatları "C" olarak ayarla.
+    Yaptığın değişiklikler, sisteminden çıkıp geri giriş yapınca etki göstermeli.
+}
+
+Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
+"Kurulacak Linux programları.txt" dosyasına git ve kurmak istediğin programları sistemine kur.
+
+Fedora için FFmpeg kurulum komutunun kaynağı (Fedora 37 başlıklı kısma bak): https://rpmfusion.org/CommonBugs

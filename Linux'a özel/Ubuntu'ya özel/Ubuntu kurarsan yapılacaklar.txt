@@ -1,0 +1,118 @@
+Bu yapılacaklar listemi, Ubuntu'nun GNOME versiyonu için yaptım.
+
+Kurulum yaparken "Insall recommended proprietary software?" kısmındaki checkbox'ların hepsine tıkla ve öyle
+devam et.
+
+Kurulum sonrası, "Software Updater" uygulamasıyla sistemini güncelleştir. Güncelleme bitince gerekiyorsa
+bilgisayarını yeniden başlat.
+
+Ardından, terminale şu komutları gir
+{
+    touch ~/Templates/'Empty text file'.txt
+    sudo apt update && sudo apt upgrade -y
+    sudo apt install fastfetch ffmpeg curl -y
+    sudo apt purge libreoffice* -y
+}
+
+Ayarlardan sistem temasını karanlık tema olarak ayarla, sistem güç modunu "Performance" yap, "Dim Screen"
+ayarını kapat, ekran kilitleme ve sistem kapanma zamanlarını ayarla, bluetooth'u kapat, fare ayarlarından
+"Mouse Acceleration"ı kapat ve mikrofon input sesini kısmayı unutma.
+
+Flatpak'i şu sitedeki yönergelere uyarak kur: https://flatpak.org/setup/Ubuntu
+
+Eğer ki snap'leri sisteminden kaldırmak istersen ilk önce Firefox'u veya başka ne tarayıcı kullanacaksan
+onu snap olmayacak şekilde sistemine kur. Ardından şu sitedeki yönergeleri takip et:
+    https://www.debugpoint.com/remove-snap-ubuntu/
+
+Eğer ki snap'leri kaldırdıysan home directory'sindeki "snap" klasörünü sil.
+
+Uygulama mağazasından "Extension Manager"ı flatpak olarak kur. Extension Manager'da, şu sistem eklentileri
+açık kalsın: (Diğer sistem eklentilerini kapat.)
+    Ubuntu AppIndicators
+    Ubuntu Tiling Assistant
+    Web Search Provider
+
+Ardından, Extension Manager'dan bu eklentileri sistemine kur:
+    Alphabetic App Grid (stuarthayhurst'ın)
+    Blur my Shell (aunetx'in)
+    Clipboard Indicator (Tudmotu'nun)
+    Touchpad On Off (r_mano'nun)
+
+Alphabetic App Grid eklentisinin ayarlarına gir ve "Position of ordered folders" ayarını "End" olarak ayarla.
+
+Blur my Shell eklentisinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override background" kısmında
+daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
+
+Ayarlardan "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
+
+Ayarlarda, "Appearance" kısmındaki "Accent Colour"u en soldaki mavi yap.
+
+"GNOME Tweaks"i sistem paketi olarak sistemine kur. Ardından, GNOME Tweaks'i aç ve şu ayarları yap
+{
+    "Appearance" kısmında:
+        "Cursor"ı "Adwaita (default)" yap.
+
+        "Icons"ı "Yaru-blue-dark" yap.
+
+        "Legacy Applications"ı "Adwaita-dark" yap.
+
+    "Sound" kısmında "System Sound Theme"i "Default" yap.
+
+    "Windows" kısmındaki "Titlebar Buttons" kısmında, "Maximize" ve "Minimize" seçeneklerini kapat.
+}
+
+Nautilus'ta (dosya yöneticisi)
+{
+    Desktop klasörünü ve kendi istediğin klasörleri sol menüde kısayol olarak ayarla.
+
+    Gizli dosyaları gösterme ayarını aç.
+}
+
+Ayarlarda klavye kısayolları kısmında
+{
+    "Nautilus" adında bir kısayol oluştur. Kısayolu "Super + E" olsun. Komutu ise "nautilus" olsun.
+
+    "Resources" adında bir kısayol oluştur. Kısayolu "Ctrl + Shift + Escape" olsun. Komutu ise "resources"
+    olsun.
+}
+
+Sistemine Roboto Mono fontunu kur. Nasıl kurabileceğine dair yönergeleri, bu git deposunda bulunan "Genel"
+klasörünün içindeki "Roboto Mono fontu nasıl kurulur.txt" dosyasında bulabilirsin.
+
+GNOME'daki default terminali kullanmak istersen
+{
+    Terminal uygulamasını aç. Sağ üstteki 3 çizgili menüden "Preferences"ı aç.
+
+    "Profiles" kısmında:
+        Profil adını "Main Profile" yap.
+
+    "Appearance" kısmında:
+        "Palette" kısmında "Show All Palettes"e tıkla.
+
+        Oradan "Argonaut"u seç. "Show Fewer Palettes"e tıkla ve aşağıya in. "Use System Font"u kapat.
+
+        Custom Font olarak "Roboto Mono Regular"ı seç ve font boyutunu 16 yap.
+
+    "Behaviour" kısmında:
+        "Interface" kısmında "Restore Session"ı ve "Restore Window Size"ı kapat.
+
+        "Restore Window Size" kısmından çıkan yerdeki seçenekleri fastfetch'e göre ayarla.
+
+        "Behaviour" menüsünde en aşağıya in ve "Set as Default Terminal" butonuna tıkla.
+}
+
+Eğer ki sistem saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istersen
+{
+    Ayarlarda "System" kısmında gir ve orada "Region and Language" kısmına gir.
+    "Language"ı "English (United States)" seç, "Formats"ı "United Kingdom (English)" seç.
+    Sisteminden çıkıp geri giriş yapınca etki gösterir.
+}
+
+Bu dosyanın bulunduğu dosya dizininde "Ubuntu'da esm-apps bildirimini kapatmak için.txt" diye bir dosya olmalı.
+Terminalde güncelleme yaptığında "esm-apps" bildirim çıkıyorsa ve bundan rahatsız oluyorsan o dosyadaki
+yönergelere bakmanı öneririm.
+
+Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
+"Kurulacak Linux programları.txt" dosyasına git ve kurmak istediğin programları sistemine kur.
+
+Ubuntu'da FFmpeg kurulum komutunun kaynağı: https://www.geeksforgeeks.org/linux-unix/how-to-install-ffmpeg-in-linux/

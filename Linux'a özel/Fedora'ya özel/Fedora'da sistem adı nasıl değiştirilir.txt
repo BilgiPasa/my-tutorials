@@ -1,0 +1,17 @@
+Fedora'da sistem adını değiştirmek istersen
+{
+    Eğer ki GNOME kullanıyorsan
+    {
+        Settings uygulamasını aç, System menüsüne gel, orada "About" kısmına tıkla ve "Device Name"ini
+        değiştir. Bilgisayarını yeniden başlat. "hostnamectl" komutu ile sistem adı değişmiş mi bak.
+    }
+    Eğer ki GNOME kullanmıyorsan (ama bunu GNOME'da da yapsan çalışır diye biliyorum.)
+    {
+        Terminale şu komutu gir: sudo nano /etc/hostname
+
+        Sonra nano ile açmış olduğun dosyaya istediğin sistem adını gir, kaydet ve kapat. Bilgisayarını
+        yeniden başlat. "hostnamectl" komutu ile sistem adı değişmiş mi bak.
+
+        Kaynak: https://docs.fedoraproject.org/en-US/bootc/hostname/
+    }
+}

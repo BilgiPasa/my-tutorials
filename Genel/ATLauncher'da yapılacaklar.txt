@@ -1,0 +1,6 @@
+"Settings" kısmında:
+    "General" kısmında "Enable Console"u kapat.
+    "Mods" kısmında "Default Mod Platform" ve "Default Export Platform"u "Modrinth" yap.
+    "Java/Minecraft" kısmında "Maximum Memory/Ram"i 6144 olarak ayarla ve aşağıdaki "Save" butonuna tıkla.
+
+"Account" kısmında ise Microsoft ile giriş yap.

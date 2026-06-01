@@ -1,0 +1,17 @@
+Handbrake'te bir videoyu mp4'e çevirmek için veya mp4 olan bir videonun boyutunu küçültmek için "Video"
+kısmında şu ayarları yapabilirsin:
+    Eğer ki NVIDIA ekran kartın varsa "Video Encoder" olarak "H.264 (NVEnc)" ayarını seç.
+    "Framerate"i "Same as source" yap.
+    "Variable Framerate" seçeneği seçili kalsın.
+    "Color Range"i "Same as source" yap.
+    "Bitrate (kbps)" seçeneğini seç ve 30000 olarak ayarla.
+    "Preset"i ise "slow" olarak ayarla.
+
+Not:
+    Bu dosyanın bulunduğu dosya dizininde bulunan "OBS Studio'da yapılacaklar.txt" dosyasında ekran kaydı için
+    bitrate ayarını 30000 olarak ayarlamıştım.
+    Sen videoyu çekerken bitrate olarak ne kullandıysan çevirme bitrate değeri olarak onu yazabilirsin.
+    Çevirdiğin videoların kalitelerini karşılaştırmak için (Flathub'dan) Identity uygulamasını kullanabilirsin.
+
+Handbrake'te, NVIDIA GPU acceleration kullanabilmek için "Video Encoder" ayarı olarak "H.264 (NVEnc)" yazdım.
+Kaynak: https://youtu.be/Ahc7PpV7uQ4

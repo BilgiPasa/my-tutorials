@@ -1,0 +1,53 @@
+Başlamadan önce, kullandığın distro'ya göre olan yapılacaklar listeni takip et. Oradaki işin bitince buradan
+devam et.
+
+VSCodium'u şu sitedeki yönergelere uyarak kur: https://vscodium.com/#install
+
+Sistemin Debian veya Fedora tabanlıysa ATLauncher'ın kurulum dosyasını kendi sitesinden indir ve kur.
+
+Eğer ki sistemin Arch Linux tabanlıysa "atlauncher-bin" AUR paketi ile ATLauncher'ı sistemine kur.
+
+Sistemin Debian tabanlıysa şu siteden Steam'in .deb dosyasını indir ve kur: https://store.steampowered.com/about/
+
+Sistemin Fedora tabanlıysa şu sitedeki yönergelere uyarak Steam'i kur: https://docs.fedoraproject.org/en-US/gaming/proton/
+
+Sistemin Arch Linux tabanlıysa terminale şu komutu girerek Steam'i kur:
+    sudo pacman -S steam
+
+GNOME kullanıyorsan sistem paketi olarak GNOME Mines'ı sistemine kur.
+
+Flatpak olarak bu programları kur:
+    Audacity
+    Bitwarden
+    Blender
+    Brave
+    GIMP
+    Gradia
+    Handbrake
+    Hex Colordle
+    LocalSend
+    OBS Studio
+    ONLYOFFICE Desktop Editors
+    Shortwave
+    Solanum
+    VLC
+    Zoom
+
+ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, ONLYOFFICE, Steam ve VSCodium'da yapılacakları yap.
+
+Nano için, bu dosyanın bulunduğu klasörde bulunan "Nano ayar dosyası yedeğim" klasörüne bak. O klasördeki ayar
+dosyasını kopyala ve bulunması gereken yere yapıştır.
+
+Eğer ki sanal makinelerle uğraşmak istersen Boxes uygulamasını flatpak olarak sistemine kurup kullanabilirsin.
+
+Buradaki kurulum işlerin bitince, bu git deposunda bulunan "Genel" klasörünün içindeki "Git kurulumu.txt"
+dosyasına git ve Git kurulumunu yap.
+
+Neden bazı uygulamaları flatpak olarak kurmayı tercih ettiğimi merak ediyorsan:
+    1. Flatpak olarak kurduğunda güncellemeler daha erkenden geliyor.
+    2. Wayland kullanıyorsan VLC'yi dnf ile kurma. Çünkü ses gelmeme sıkıntısı çıkabilir.
+    3. Fedora'da ONLYOFFICE'i dnf ile kurmada sıkıntı yaşayabileceğin için flatpak olarak kur.
+
+Not:
+    VSCodium kuruyorum çünkü VS Code yerine VSCodium kullanmak istiyorum. VS Code'un Linux versiyonu var ve
+    düzgün de çalışıyor ama VSCodium kullanmak istediğim için VSCodium kuruyorum.

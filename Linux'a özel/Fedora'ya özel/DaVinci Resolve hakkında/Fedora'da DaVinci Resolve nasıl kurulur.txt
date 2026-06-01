@@ -1,0 +1,23 @@
+Not: DaVinci Resolve'u güncellemek için de bu rehberi kullanabilirsin diye sanıyorum.
+
+DaVinci Resolve'un zip dosyasını indirdikten sonra zip dosyasının içindekileri dışarı aktar.
+
+Ardından, dışarı aktardığın dosyaların bulunduğu konumda terminal aç ve şu komutları gir:
+    sudo dnf install libxcrypt-compat fuse fuse-libs mesa-libGLU
+    sudo SKIP_PACKAGE_CHECK=1 ./(DaVinci Resolve kurulum dosyasının adı) -i
+
+"Terms and Conditions"ı kabul et ve kurulumun bitmesini bekle.
+
+Kurduktan sonra, dosya yöneticinde /opt/resolve yerine gel. "libs" isimli klasöre sağ tıkla ve "Open"
+seçeneklerinde "Open in Console" seçeneğine tıkla.
+
+Ardından, ekrana çıkan terminalde şu komutları gir:
+    sudo mkdir disabled
+    sudo mv -t disabled libglib* libgio* libgmodule*
+
+Son olarak, DaVinci Resolve'u aç.
+
+Kaynak1: https://www.youtube.com/watch?v=To4CTyp-YcM
+Kaynak2: https://www.youtube.com/watch?v=HXykLpQ4dZE
+libxcrypt-compat'i, karşıma çıkan sıkıntıma çözüm olarak Kaynak1 videosundaki yorumdan buldum.
+fuse, fuse-libs ve mesa-libGLU'yu; karşıma çıkan sıkıntılara çözüm olarak buldum.

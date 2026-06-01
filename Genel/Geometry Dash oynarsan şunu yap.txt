@@ -1,0 +1,8 @@
+Geometry Dash'i açtığında ana menüdeki ayarlar logosuna tıkla, "Account" seçeneğini seç ve "Load"a tıkla. Yani
+bulut kaydını indir.
+
+Geometry Dash'i oynadıktan sonra ana menüdeki ayarlar logosuna tıkla, "Account" seçeneğini seç ve "Save"e
+tıkla. Yani oyun gelişmeni buluta kaydet.
+
+Geometry Dash'te otomatik bulut kaydı olmadığı için bulut kaydını manuel olarak yapman lazım. O yüzden bunları
+yapmanı istiyorum.

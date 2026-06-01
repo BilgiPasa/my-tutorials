@@ -1,0 +1,30 @@
+GIMP'i tam ekran yap. Sol alttaki menülerin hepsini, menülerin üstündeki küçük karelerinden tutup teker teker
+sağ üstteki menülerin olduğu yere taşı ve sol kısmı en ince haline getir.
+
+Sağ üstteki menülerin sıralaması:
+    Tool Options
+    Brushes
+    Undo History
+    Fonts
+    Images
+    Document History
+    Patterns
+    Device Status
+
+Edit > Keyboard Shortcuts içinde:
+    "Clone" tool'unun "C" kısayolunu "N" tuşuna ata.
+    "Pencil" tool'unun kısayolunu da "C" tuşuna ata.
+    Ardından, "OK" butonuna tıkla.
+
+Edit > Preferences içinde:
+    Sol kısımdaki menüyü aşağı kaydır ve "Appearance" yazan yere tıkla.
+    Çıkan menüde "Default Appearance in Normal Mode" kısmında bulunan "Show layer boundary" seçeneğini kapat ve
+    "OK" butonuna tıkla. (Bu ayar, kullandığın layer'ın kenarlarında bulunan sarı hattı tamamiyle kapatır.)
+
+GIMP'te ayarlarını sıfırlamak için:
+    GIMP'i kapat. Linux kullanıyorsan /home/$USER/.config/GIMP/ dosya yoluna gel ve sıfırlamak istediğin GIMP
+    versiyonunun klasörünü sil. GIMP'i açınca o dosya yolunda yeniden klasör oluşmalı.
+    ($USER yerinde sistemindeki kullanıcı adın bulunmalı.)
+
+Sarı hattı kapatma ayarı ile ilgili GIMP'in dokümantasyonu:
+    https://docs.gimp.org/3.0/tr/gimp-view-show-layer-boundary.html

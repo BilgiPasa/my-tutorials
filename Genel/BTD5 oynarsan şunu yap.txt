@@ -1,0 +1,7 @@
+BTD5'i açtığında ana menüdeki ayarlar logosuna tıkla, bulut logosuna tıkla ve bulut kaydını indir.
+
+BTD5'i oynadıktan sonra ana menüdeki ayarlar logosuna tıkla, bulut logosuna tıkla ve oyun gelişmeni buluta
+kaydet.
+
+BTD5'te otomatik bulut kaydı olmadığı için bulut kaydını manuel olarak yapman lazım. O yüzden bunları yapmanı
+istiyorum.

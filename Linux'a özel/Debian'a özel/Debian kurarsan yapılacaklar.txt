@@ -1,0 +1,128 @@
+Debian kurmak için ISO dosyasına şu siteden kolayca ulaşabilirsin: https://www.debian.org/
+
+NVIDIA sürücülerini kurmak için
+{
+    (Eğer ki çözüm yöntemimde sorun yaşarsan şu siteye git ve kendi çözümünü bul ve buraya yaz:
+        https://wiki.debian.org/NvidiaGraphicsDrivers)
+
+    Terminale şu komutu gir:
+        sudo apt install linux-headers-amd64
+
+    Ardından şu komutu gir:
+        sudo nano /etc/apt/sources.list
+
+    ve şu satırı
+    {
+        deb http://deb.debian.org/debian/ trixie main non-free-firmware
+    }
+
+    şu satıra değiştir
+    {
+        deb http://deb.debian.org/debian/ trixie main contrib non-free non-free-firmware
+    }
+
+    ve kaydet.
+
+    Ardından terminale şu komutu gir:
+        sudo apt update && sudo apt upgrade -y
+
+    Ardından şu komutu gir:
+        sudo apt install nvidia-kernel-dkms nvidia-driver firmware-misc-nonfree
+
+    Eğer ki bir problem yoksa sistemini yeniden başlat ve giriş yaparken X11 session'ını seç.
+}
+
+NVIDIA sürücülerini kurarken bir pop-up çıkabilir. Pop-up'ı kabul et ve ardından bilgisayarını yeniden başlat.
+
+Ardından terminalde şu komutları gir
+{
+    sudo apt update && sudo apt upgrade -y
+    sudo apt install fastfetch ffmpeg curl -y
+    sudo apt purge libreoffice* -y
+}
+
+GNOME kullanıyorsan terminale şu komutu gir:
+    touch ~/Templates/'Empty text file'.txt
+
+Ayarlardan sistem temasını karanlık tema olarak ayarla, sistem güç modunu "Performance" yap, "Dim Screen"
+ayarını kapat, ekran kilitleme ve sistem kapanma zamanlarını ayarla, bluetooth'u kapat, fare ayarlarından
+"Mouse Acceleration"ı kapat ve mikrofon input sesini kısmayı unutma.
+
+Flatpak'i şu sitedeki yönergelere uyarak kur: https://flatpak.org/setup/Debian
+
+X11 kullanıyorsan "touchegg"i şu sitedeki yönergelere uyarak kur: https://github.com/JoseExposito/touchegg
+
+GNOME kullanıyorsan uygulama mağazasından "Extension Manager"ı flatpak olarak kur. Ardından, Extension
+Manager'dan bu eklentileri sistemine kur:
+    Alphabetic App Grid (stuarthayhurst'ın)
+    Appindicator and KStatusNotifierItem Support (3v1n0'nun)
+    Blur my Shell (aunetx'in)
+    Clipboard Indicator (Tudmotu'nun)
+    Touchpad On Off (r_mano'nun)
+
+GNOME'da Alphabetic App Grid eklentisinin ayarlarına gir ve "Position of ordered folders" ayarını "End" olarak
+ayarla.
+
+GNOME'da Blur my Shell eklentisinin ayarlarına gir, altta "Panel" kısmına tıkla. Sonra "Override background"
+kısmında daha fazla seçenek çıkar ve "Disable when a window is near" seçeneğini işaretle.
+
+GNOME'da ayarlar uygulamasının "Multitasking" kısmında "Hot Corner" ayarı açıksa kapat.
+
+GNOME'da, Nautilus'ta (dosya yöneticisi)
+{
+    Desktop klasörünü ve kendi istediğin klasörleri sol menüde kısayol olarak ayarla.
+
+    Ctrl + , (kontrol + virgül) kısayoluyla "Preferences" menüsünü aç ve orada "Sort Folders Before Files"
+    ayarını (ilk ayar olması lazım) aç.
+
+    Gizli dosyaları gösterme ayarını da aç.
+}
+
+KDE Plazma'da, Dolphin'de (dosya yöneticisi)
+{
+    Dolphin açıldığında "Home" directory'sini açması için ayar yap.
+
+    Arkaplan'a çift tıkladığında bütün her şeyi seçme ayarını kapat.
+
+    Gizli dosyaları gösterme ayarını aç.
+}
+
+XFCE'de, Thunar'da (dosya yöneticisi) gizli dosyaları gösterme ayarını aç.
+
+GNOME veya XFCE kullanıyorsan (nokyan'ın) "Resources" uygulamasını flatpak olarak uygulama mağazasından kur.
+
+GNOME kullanıyorsan ayarlarda klavye kısayolları kısmında
+{
+    "Switch applications"ı "Super + Tab" olarak ayarla.
+
+    "Switch windows"u "Alt + Tab" olarak ayarla.
+
+    "Hide all normal windows"u "Super + D" olarak ayarla.
+
+    "Nautilus" adında bir kısayol oluştur. Kısayolu "Super + E" olsun. Komutu ise "nautilus" olsun.
+
+    "Resources" adında bir kısayol oluştur. Kısayolu "Ctrl + Shift + Escape" olsun. Komutu ise
+    "flatpak run net.nokyan.Resources" olsun.
+
+    Eğer ki "Ctrl + Alt + T" kısayolu sistem terminalini açmazsa "Terminal" isminde bir kısayol oluştur.
+    Kısayolu "Ctrl + Alt + T" olsun. Komutu ise kullandığın terminalin komutu ne ise o olsun.
+}
+
+Eğer ki sistem saatini ve formatlarını Türkiye'ye göre uygun ama İngilizce yapmak istersen
+{
+    GNOME'da, ayarlarda "System" kısmında gir ve orada "Region and Language" kısmına gir.
+    "Language"ı "English (United States)" seç, "Formats"ı "United Kingdom (English)" seç.
+    Sisteminden çıkıp geri giriş yapınca etki gösterir.
+
+    KDE Plazma'da ayarlarda Region and Language ayarı olması lazım. Oraya gir, dil olarak Amerikan
+    İngilizcesi'ni seç, formatlar olarak ise "C" seç. Sisteminden çıkıp geri giriş yapınca etki gösterir.
+}
+
+Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
+"Kurulacak Linux programları.txt" dosyasına git ve kurmak istediğin programları sistemine kur.
+
+NVIDIA sürücülerini kurma yönergelerimin kaynakları:
+    https://wiki.debian.org/NvidiaGraphicsDrivers
+    https://www.youtube.com/watch?v=mOIzYxVD4d0&list=PPSV&t=73s
+
+Debian'da FFmpeg kurulum komutunun kaynağı: https://www.geeksforgeeks.org/linux-unix/how-to-install-ffmpeg-in-linux/

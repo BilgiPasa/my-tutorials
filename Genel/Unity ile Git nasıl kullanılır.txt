@@ -1,0 +1,13 @@
+İlk önce, bir git repo'su oluştur ve o repo'ya Unity için .gitignore dosyası ekle.
+
+Ardından, o repo'yu clone'la.
+
+Ardından, Unity projeni o klasörün içinde oluştur veya var olan bir Unity projesini o repo klasörünün içine koy.
+
+Ardından, repo'da bulunan .gitignore dosyasını Unity projesinin içine koy.
+
+Ardından; Unity projende Project Settings > Version Control kısmında, "Mode" olarak "Visible Meta Files"ın
+seçili olduğundan ve Project Settings > Editor > Asset Serialization kısmında, "Mode" olarak "Force Text"in
+seçili olduğundan emin ol.
+
+Bunları yaptıktan sonra; normal bi şekilde git add, git commit ve git push'unu yapabilirsin.

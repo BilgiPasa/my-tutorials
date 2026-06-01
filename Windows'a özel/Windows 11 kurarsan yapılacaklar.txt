@@ -1,0 +1,80 @@
+Kurulumu yaparken "Eski bilgisayarındaki bilgileri buraya aktarayım mı yoksa bunu yeni bir bilgisayar olarak
+mu tanıyayım" kısmına geline yeni bir bilgisayar olarak tanımasını iste.
+
+Kurulum tamamlanınca sağ alttaki OneDrive logosuna tıkla. Çıkan penceredeki çark butonuna tıkla. Çıkan menüde
+ayarlar seçeneğine tıkla ve OneDrive ayarlarını aç. Çıkan pencerede "Eşitle ve yedekle" kısmında
+"Önemli bilgisayar klasörlerini OneDrive'da yedekleyin" yazısının yanındaki "Yedeklemeyi yönet" butonuna tıkla.
+Çıkan pencerede hepsinin yedeklemesini teker teker kapat ve hepsinde kapatırken
+"Yalnızca benim Kişisel bilgisayar" seçeneğini seçip kapat. Sonra sağ alttaki OneDrive logosuna tekrar tıkla.
+Çıkan penceredeki çark butonuna tekrar tıkla. Çıkan menüde "Eşitlemeyi duraklat" seçeneğine tıkla ve çıkan
+"OneDrive'dan çık" seçeneğine tıkla. Sonra görev çubuğuna sağ tık yap ve göre yöneticisini aç. Görev
+yöneticisinde "Başlangıç uygulamaları" kısmına gel ve bilgisayarın açıldığında açılmasını istemediğin
+uygulamaların hepsini devre dışı bırak.
+
+Sistem temasını koyu tema yap.
+
+Ayarlar uygulamasından Hesaplar > Oturum açma seçenekleri sayfasında Ek ayarlar kısmında "Gelişmiş güvenlik
+amacıyla bu cihazdaki Microsoft hesapları için yalnızca Windows Hello oturum açmaya izin ver (Önerilen)"
+ayarını kapat.
+
+Ayarlar uygulamasından Kişiselleştirme > Kilit ekranı sayfasında
+{
+    "Kilit ekranınızı kişiselleştirin" ayarını "Resim" olarak ayarla.
+
+    "Kilit ekranınızda eğlenceli bilgileri, ipuçlarını, ilginç numaraları ve çok daha fazlasını görün" ayarını
+    kapat.
+
+    "Kilit ekranı durumu" ayarını "Yok" olarak ayarla.
+}
+
+Denetim masasından Denetim Masası\Donanım ve Ses\Güç Seçenekleri\Sistem Ayarları kısmından hızlı başlatma
+ayarını kapat.
+
+Dosya uzantıları göstermeyi aç. (Dosya gezgini, üç çizgi, seçenekler, görünüm, bilinen dosya türleri için
+uzantıları gizleyi kapat.)
+
+"Dosya Gezgini"nde gizli dosyaları gösterme ayarını aç.
+
+Eğer ki NVIDIA ekran kartın varsa NVIDIA App'in kurulum dosyasını kendi sitesinden indir ve kur. Ardından
+gereken NVIDIA ekran kartı sürücülerini indir. (Game Ready sürücüsünü tercih et.)
+
+Gereksiz olduğunu düşündüğün uygulamaları sil. (Örnek: Copilot, Clipchamp vs.)
+
+Notepad'de yazı denetimini, otomatik yazı düzeltmeyi ve Copilot'u devre dışı bırak.
+
+Sistemine Roboto Mono fontunu kur. Nasıl kurabileceğine dair yönergeleri, bu git deposunda bulunan "Genel"
+klasörünün içindeki "Roboto Mono fontu nasıl kurulur.txt" dosyasında bulabilirsin.
+
+Windows'un terminal uygulaması sisteminde kurulu değilse Windows Store'dan kur.
+
+Terminal uygulamasını aç ve şu komutları gir
+{
+    winget install fastfetch ffmpeg
+}
+
+Terminal uygulamasında
+{
+    Üstteki artı butonunun yanındaki aşağı ok butonuna tıkla ve oradaki menüden ayarları aç.
+
+    Soldaki "Startup" kısmında, "Default Profile"ı "Windows Powershell" olarak ayarla ve "Launch size"ı
+    fastfetch'e göre ayarla.
+
+    Soldaki "Profiles" kısmının altındaki "Windows Powershell" kısmından "Additional settings" kısmından
+    "Appereance" kısmına gir.
+
+    "Appereance" kısmında:
+        "Text" kısmının altında, "Font face"e şunu yaz: Roboto Mono
+
+        "Font size"ı 16 yap. Aşağıda, "Cursor" kısmında "Cursor shape"i "Filled Box" yap.
+
+    Son olarak Sağ alttaki "Save" butonuna tıkla.
+}
+
+Bu dosyanın bulunduğu dosya dizininde bulunan "Windows 11 arama çubuğundan bing aramasını kaldırmak için.txt"
+dosyasına bak ve Windows arama çubuğundan bing aramasını kaldır.
+
+Bu dosyanın bulunduğu dosya dizininde bulunan "Windows 11 sağ tık'ı Windows 10 gibi yapmak için.txt" dosyasına
+bak ve Windows 11 sağ tık'ını Windows 10 gibi yap.
+
+Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininde bulunan
+"Kurulacak Windows programları.txt" dosyasına git ve kurmak istediğin programları sistemine kur.

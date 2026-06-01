@@ -1,0 +1,12 @@
+Daha öncesinde git repo'nda var olan ve sonrasında ignore edip silmek istediğin dosyalar/klasörler için
+bir .gitignore dosyası oluşturdun ve içine hangi dosyaların/klasörlerin ignore'lanması gerektiğini yazdın.
+Ancak, baktığında ignore'lanması gereken dosyaların ignore'lanmadığını görüyorsan ilk önce yaptığın
+değişiklikleri add'le, commit'le ve push'la.
+
+Ardından, git repo'nda terminal aç ve şu komutları gir:
+    git rm -rf --cached .
+    git add .
+
+Şimdi, ignore'lanması gereken bütün dosyaların/klasörlerin ignore'lanması lazım.
+
+Kaynak: https://stackoverflow.com/questions/25436312/gitignore-not-working

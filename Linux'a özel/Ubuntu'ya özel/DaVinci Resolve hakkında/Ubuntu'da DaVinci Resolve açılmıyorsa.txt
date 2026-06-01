@@ -1,0 +1,17 @@
+Eğer ki MakeResolveDeb kullanarak DaVinci Resolve'u düzgün bir şekilde kurdun ama kullanamıyorsan DaVinci
+Resolve'u "/opt/resolve/bin/resolve" yerinden terminalle açmaya çalış. DaVinci Resolve açılmıyorsa ve
+"symbol lookup error: /lib64/libpango-1.0.so.0: undefined symbol: g_string_free_and_steal" hatası versiyorsa
+terminale şu komutu gir: sudo cp /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0 /opt/resolve/libs/
+
+Ardından DaVinci Resolve'u "/opt/resolve/bin/resolve" yerinden terminalle yeniden açmaya çalış. Hala
+açılmıyorsa ve "/opt/resolve/bin/resolve: symbol lookup error" hatası versiyorsa terminale teker teker şu
+komutları gir:
+    cd /opt/resolve/libs
+    sudo mkdir disabled-libraries
+    sudo mv libglib* disabled-libraries
+    sudo mv libgio* disabled-libraries
+    sudo mv libgmodule* disabled-libraries
+
+
+Kaynak 1: https://forum.blackmagicdesign.com/viewtopic.php?f=38&t=200276&p=1073051#p1056249
+Kaynak 2: https://www.reddit.com/r/davinciresolve/comments/1d7cr2w/optresolvebinresolve_symbol_lookup_error/?rdt=49015

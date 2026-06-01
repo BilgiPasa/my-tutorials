@@ -1,0 +1,2 @@
+Linux sistemini kapatırken veya açarken arkaplanda ne olduğunu görmek için sistem kapanırken veya açılırken
+bilgisayarın "ESC" (escape) tuşuna bas. O görünümü kapatmak için tekrardan ESC'ye bas.

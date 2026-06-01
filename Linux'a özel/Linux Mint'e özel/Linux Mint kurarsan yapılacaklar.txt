@@ -1,0 +1,81 @@
+Bu yapılacaklar listemi, Linux Mint'in Ubuntu tabanlı hali için yaptım.
+
+Linux Mint ISO'sunu bilgisayarında çalıştıracağın vakit COMPATIBILITY MODE ŞEKLİNDE GİRİŞ YAP!
+Compatibility değil de normal şekilde girersen kurulumda sıkıntı yaşayabilirsin. (Ben yaşamıştım.)
+
+Linux Mint'i kurarken "Install multimedia codecs" kısmındaki checkbox'a tıkla ve öyle devam et.
+
+Linux Mint'i harici bir SSD'ye kuracaksan bu videodaki yönergeleri takip et ("Install Linux Mint" programını
+çalıştırdıktan itibaren VİDEOYU SONUNA KADAR TAKİP ET!): https://youtu.be/thC3NSLEm1g?t=198
+
+Linux Mint'i kurduktan sonra kurman gereken sürücüleri kur ve sistem güncellemelerini yap. Güncelleme sonunda
+bilgisayarını yeniden başlatman gerekiyorsa yap.
+
+Ayarlardan sistem temasını karanlık tema olarak ayarla, sistem güç modunu "Performance" yap, "Dim Screen"
+ayarını kapat, ekran kilitleme ve sistem kapanma zamanlarını ayarla, bluetooth'u kapat, fare ayarlarından
+"Mouse Acceleration"ı kapat ve mikrofon input sesini kısmayı unutma.
+
+Ardından şu komutları gir
+{
+    sudo apt update && sudo apt upgrade -y
+    sudo apt install ffmpeg curl -y
+    sudo apt purge libreoffice* -y
+}
+
+Fastfetch'i sistemine kurmak için için
+{
+    Eğer ki Linux Mint'in tabanı olduğu Ubuntu'nun sürümü, 25.04'ten daha gerideyse terminale şu komutları gir
+    {
+        sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
+        sudo apt update
+        sudo apt install fastfetch
+    }
+    Eğer ki sürümü 25.04 veya daha ilerideyse terminale şu komutları gir
+    {
+        sudo apt install fastfetch
+    }
+}
+
+Uygulama mağazasında, "Preferences"da, doğrulanmamış flatpak paketlerine izin ver seçeneğini aç. Ardından
+Clocks'u flatpak olarak indir.
+
+Uygulama mağazasından, "Diodon"u sistem paketi olarak sistemine kur ve Diodon'un "Preferences" kısmında
+"Automatically paste selected item"ı kapat.
+
+Super tuşuna (Windows tuşuna) bas ve "Window Tiling" uygulamasına gir ve "Maximize, instead of tile, when
+dragging a window to the top edge" ayarını aç.
+
+"Files" uygulamasında "Edit" kısmında "Preferences" menüsünü aç. "Behaviour" kısmında "Executable Text Files"
+kısmını "Viev executable text files when they are opened" olarak ayarla.
+
+Ayrıca, Files uygulamasında gizli dosyaları gösterme ayarını aç.
+
+Arama kısmına "Effects" yaz. İstersen (eksi bir sistemin varsa) "Desktop and window effects"i kapat.
+
+Klavye kısayollarında
+{
+    "Toggle touchpad state"e "Ctrl + ." seçeneğini ekle.
+
+    "Toggle Looking Glass"ı "Ctrl + Alt + L" yap.
+
+    "Lock screen"i "Super + L" yap.
+
+    "Show the workspace selection screen"e "Super + Tab" seçeneğini ekle.
+
+    "Custom Shortcuts" kısmında yeni bir kısayol ekle ve adını "System Monitor", komutu "gnome-system-monitor",
+    kısayolu "Shift + Ctrl + Escape" yap.
+
+    (Klavye kısayolu olarak "Cycle through windows from all workspaces" kısayolunu DEĞİŞTİRME! Çünkü
+    "Ctrl + Alt + Tab" olması bence daha iyi.)
+}
+
+Languages uygulamasına gir, install or remove languages kısmında US, UK, Türkiye ve Kıbrıs haricinde hepsini
+sil. US, UK, Türkiye ve Kıbrıs paketlerinde eksiklik varsa hepsini yüklet. Language'ı US, Region'ı Türkiye ve
+Time format'i UK yap ve "Apply system wide" tuşuna bas. Bilgisayarını kapatıp açınca yenilenir sanırsam.
+
+Linux Mint kişiselliştirmesi için şu videoya bakabilirsin : https://www.youtube.com/watch?v=Q_Uoe5H4ORs
+
+Buradaki kurulum işlerin bitince, bu dosyanın bulunduğu dosya dizininden bir geri dizinde bulunan
+"Kurulacak Linux programları.txt" dosyasına git ve kurmak istediğin programları sistemine kur.
+
+Linux Mint'te FFmpeg kurulum komutunun kaynağı: https://www.geeksforgeeks.org/linux-unix/how-to-install-ffmpeg-in-linux/

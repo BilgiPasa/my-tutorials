@@ -1,0 +1,17 @@
+Git repo'sunun bulunduğu yerde terminal aç ve şu komutu gir:
+    git log
+
+İstediğin commit'in commit ID'sini kopyala ve o arayüzden çık.
+
+Ardından, terminale şu komutu gir: (COMMIT yazan yerde commit ID'n olmalı.)
+    git diff COMMIT^!
+
+Açılan arayüzde, o commit ile o commit'ten bir önceki commit arasındaki değişiklikleri görebilirsin.
+
+Notlar:
+    Git terminal arayüzünde hareket etmek için ok tuşlarını kullanabilirsin.
+    Git terminal arayüzünden çıkmak için "q" tuşuna basabilirsin.
+
+Kaynaklar:
+    https://stackoverflow.com/questions/17563726/how-can-i-see-the-changes-in-a-git-commit/17563864#17563864
+    https://stackoverflow.com/questions/436362/how-to-diff-a-commit-with-its-parent/449128#449128

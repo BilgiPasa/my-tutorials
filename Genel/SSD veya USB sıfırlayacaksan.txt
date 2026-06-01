@@ -1,0 +1,2 @@
+O SSD/USB'ye düzgün bir ad ver ve partition olarak exFAT seç. exFAT'i seçmeni istiyorum çünkü exFAT, hem Linux
+hem de Windows'a uyumlu.

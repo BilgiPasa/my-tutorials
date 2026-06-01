@@ -1,0 +1,4 @@
+GNOME'da VS Code, keyring ile ilgili hata veriyorsa terminale şu komutu gir:
+    gio trash ~/.local/share/keyrings; gnome-session-quit --logout
+
+O işe yaramazsa şu siteye bak: https://forums.linuxmint.com/viewtopic.php?t=439152

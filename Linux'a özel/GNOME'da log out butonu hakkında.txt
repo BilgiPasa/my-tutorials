@@ -1,0 +1,12 @@
+GNOME masaüstü ortamını kullanan sistemlerde eğer ki sadece 1 kullanıcı varsa ve eğer ki sadece 1 masaüstü
+oturumu varsa; GNOME, "log out" butonunu gizliyor. Ancak bu davranış her sistemde olmayabiliyor.
+Örneğin Ubuntu, bu butonun gizlenmemesi için ayar yaptığından dolayı "log out" butonu her daim gözüküyor.
+
+Eğer ki her daim o butonun gözükmesini istersen terminale şu komutu gir:
+    gsettings set org.gnome.shell always-show-log-out true
+
+Eğer ki her daim o butonun gözükmesini istemiyorsan terminale şu komutu gir:
+    gsettings set org.gnome.shell always-show-log-out false
+
+Bu bilginin kaynağı: https://www.youtube.com/watch?v=HcJJ7UldMc8
+Komut kaynağı: https://gitlab.gnome.org/GNOME/gnome-shell/-/work_items/9100#note_2720826

@@ -1,0 +1,40 @@
+Sadece video codec'ini çevirmek için komut
+("-hwaccel cuda" ayarı, NVIDIA GPU acceleration kullanabilmek için var.)
+{
+    mkdir transcoded; for i in *.mp4; do ffmpeg -hwaccel cuda -i "$i" -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a copy "transcoded/${i%.*}.mov"; done
+
+    Asıl komut kaynağı: https://wiki.archlinux.org/title/DaVinci_Resolve#Workaround_for_DaVinci_Resolve_Free
+}
+
+Hem video codec'ini hem de ses codec'ini çevirmek için komut
+("-hwaccel cuda" ayarı, NVIDIA GPU acceleration kullanabilmek için var.)
+{
+    mkdir transcoded; for i in *.mp4; do ffmpeg -hwaccel cuda -i "$i" -c:v dnxhd -profile:v dnxhr_hq -pix_fmt yuv422p -c:a alac "transcoded/${i%.*}.mov"; done
+
+    Asıl komut kaynağı: https://wiki.archlinux.org/title/DaVinci_Resolve#Workaround_for_DaVinci_Resolve_Free
+}
+
+Sadece ses codec'ini çevirmek için komut
+("-hwaccel cuda" ayarı, NVIDIA GPU acceleration kullanabilmek için var.)
+{
+    mkdir transcoded; for i in *.mp4; do ffmpeg -hwaccel cuda -i "$i" -c:v copy -c:a alac "transcoded/${i%.*}.mov"; done
+
+    Asıl komut kaynağı: https://wiki.archlinux.org/title/DaVinci_Resolve#Workaround_for_DaVinci_Resolve_Studio
+}
+
+m4a'dan mp3'e çevirmek için komut
+("-hwaccel cuda" ayarı, NVIDIA GPU acceleration kullanabilmek için var.)
+{
+    mkdir transcoded; for i in *.m4a; do ffmpeg -hwaccel cuda -i "$i" -acodec libmp3lame -aq 2 "transcoded/${i%.*}.mp3"; done
+
+    Asıl komut kaynağı: https://tinkering.vandoeselaar.com/convert-m4a-to-mp3-with-ffmpeg/
+}
+
+DaVinci Resolve'dan export ettiğin mov uzantılı videoyu mp4'e çevirmek için Handbrake uygulamasını kullan.
+
+Handbrake'te bir videoyu mp4'e çevirmek için yapabileceğin ayarlara, bu git deposunda bulunan "Genel"
+klasörünün içindeki "Handbrake ayarları.txt" dosyasından ulaşabilirsin.
+
+FFmpeg çevirme komutlarını böyle bir şekilde değiştirmemde esinlendiğim kaynaklar:
+    https://brushlesswhoop.com/converting-fpv-footage-for-davinci-resolve/ (Siteye giremiyoran Tor ile gir.)
+    https://stackoverflow.com/questions/44510765/gpu-accelerated-video-processing-with-ffmpeg

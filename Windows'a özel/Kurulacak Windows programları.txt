@@ -1,0 +1,39 @@
+Başlamadan önce, Windows için yapılacaklar listeni takip et. Oradaki işin bitince buradan devam et.
+
+Winget kullanarak bu programları kur:
+    ATLauncher
+    Audacity
+    Bitwarden
+    Blender
+    Brave
+    Handbrake
+    Localsend
+    OBS Studio
+    Steam
+    VLC
+    Zoom
+
+VS Code'un kurulum dosyasını kendi sitesinden indir ve kur. Kurarken, "Ek işlemleri seçin" kısmında şu
+seçeneklerin açık olduğuna emin ol ve öyle kurulumu yap:
+    Windows Gezgini bağlam menüsüne "Code İle Aç" eylemini ekle
+    Windows Gezgini dizin bağlam menüsüne "Code İle Aç" eylemini ekle
+    Code uygulamasını desteklenen dosya türleri için bir düzenleyici olarak kayıt et
+    PATH'e ekle
+
+Affinity, DaVinci Resolve, Everything, FL Studio, GIMP ve playit.gg'nin kurulum dosyalarını kendi sitelerinden
+indirip sistemine kur.
+
+ATLauncher, Blender, Brave, Fastfetch, GIMP, OBS Studio, Steam ve VS Code'da yapılacakları yap.
+
+Eğer ki Microsoft Office kullanmıyorsan winget ile ONLYOFFICE Desktop Editors'ü sistemine kur ve ONLYOFFICE'te
+yapılacakları da yap.
+
+Minecraft Launcher'ın kurulum dosyasını şu siteden indir ve sistemine kur: https://www.minecraft.net/en-us/download
+
+Minecraft Launcher içinden Minecraft Bedrock Edition'ı ve Minecraft Legends'ı sistemine kur.
+
+Eğer ki sanal makinelerle uğraşmak istersen VirtualBox uygulamasının kurulum dosyasını kendi sitesinden indirip,
+sistemine kurup kullanabilirsin.
+
+Buradaki kurulum işlerin bitince, bu git deposunda bulunan "Genel" klasörünün içindeki "Git kurulumu.txt"
+dosyasına git ve Git kurulumunu yap.

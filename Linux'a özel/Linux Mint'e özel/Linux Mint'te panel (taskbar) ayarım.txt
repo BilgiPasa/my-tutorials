@@ -1,0 +1,41 @@
+İstersen intelligently hide yap istersen always show yap.
+
+Panel height = 48
+
+Left zone
+{
+    Font size = 16
+    Colored icon size = 48
+    Symbolic icon size = 24
+}
+
+Center zone
+{
+    Font size = Allow theme to determine
+    Colored icon size = Scale to panel size optimally
+    Symbolic icon size = 24
+}
+
+Right zone
+{
+    Font size = 16
+    Colored icon size = 32
+    Symbolic icon size = 24
+}
+
+Başlangıç ikonuna sol tıkla ve "Configure"ü seç.
+
+Panel
+{
+    Icon size = 44
+
+    Eğer ki "Themes"te "Advanced Settings"te "Desktop" kısmında "Cinnamon" temasını kullanacaksan, "Use menu
+    animations"ı aç.
+}
+
+Menu
+{
+    Categories icon size = 36
+    Applications icon size = 36
+    Favorites icon size = 44
+}

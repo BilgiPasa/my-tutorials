@@ -1,0 +1,11 @@
+Ubuntu'da "sudo apt update && sudo apt upgrade" komutunu çalıştırdığında "[Waiting for headers]" yazıp takılı
+kalıyorsa çözüm olarak bir dosyayı değiştirebilirsin.
+
+O dosyayı nano'da açmak için terminale şu komutu gir:
+    sudo nano /etc/apt/sources.list.d/ubuntu.sources
+
+Açılan dosyada "http" yazan yerleri "https" olarak değiştir. (Yani http yazan yerlere s harfi ekle.)
+
+Ardından dosyayı kaydet ve kapat.
+
+Kaynak: https://www.reddit.com/r/Ubuntu/comments/oqqyek/comment/jy3n1gc/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button

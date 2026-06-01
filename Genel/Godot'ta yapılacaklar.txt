@@ -1,0 +1,54 @@
+Godot'un .NET halini indirdiğine emin ol. Öyle indirmediysen Godot'u sil ve .NET halini sitesinden indir.
+
+Godot'u ilk açtığında; Godot, İngilizce değilse sağ üstteki ayarlar kısmından dili İngilizce yap.
+
+Eğer ki Godot'un görünümünü beğenmediysen o ayarlar menüsünden "Style"ı "Classic" ve "Color Preset"i
+"Godot 3" yapabilirsin. Normal haline geri döndürmek için "Style"ı "Modern" ve "Color Preset"i "Default"
+yapabilirsin.
+
+Godot'ta yeni bir proje oluştur veya var olan bir projeye gir.
+
+"Editor Settings"e gir ve "Advanced Settings" ayarını aç.
+
+General kısmında:
+    Interface > Editor kısmında:
+        Code Font Size -> 20
+        "Code Font" yerinde Roboto Mono fontunun dosyasının yerini belirt.
+
+    Text Editor > Completion kısmında:
+        Idle Parse Delay -> 0.5
+        Idle Parse Delay With Errors Found -> 0.25
+        Code Complete Delay -> 0.25
+
+Shortcuts kısmında:
+    Arama kısmına "Add Child Node" yaz. Oradaki Add Child Node kısayolunun sağındaki artı butonuna tıkla ve
+    Shift + A event'ini, "Physical Keycode" olarak DEĞİL, "Keycode" olarak ekle.
+    (Keycode olarak eklemeni istememin sebebi, Ctrl + A kısayolu Keycode olarak bulunduğundan dolayı.)
+    Bunu yapmamın sebebi, Blender'daki Shift A kısayolu işlevini Godot'ta sağlamak için.
+
+Godot'u VS Code'da GDScript ile kullanmak istersen:
+    VS Code'da "godot-tools" eklentisini kur.
+
+    O eklentinin ayarlarını aç ve GDScript Language Server Port'u ayarına, Godot'ta "Editor Settings"te
+    General > Network > Language Server kısmında "Remote Port" kısmı neyse (bende şu an 6005 yazıyor mesela)
+    onu yaz.
+
+    Godot'ta "Editor Settings"te General > Text Editor > External kısmına gel, "Use External Editor"ı aç ve
+    "Exec Path"e (tırnaksız bir şekilde) "code" yaz. Oraya code yazıp enter tuşuna bastıktan sonra eğer ki
+    "Exec Flags"te otomatik olarak (tırnaksız bir şekilde) "{project} --goto {file}:{line}:{col}" yazmıyorsa
+    onu oraya yaz.
+
+    Artık Godot'ta script açmaya çalıştığında VS Code'dan açılması lazım. İlk kez açıldığında Godot
+    çalıştırma dosyasının nerede olduğunu belirtmeni isteyebilir. Onu belirttikten sonra VS Code'u yeniden
+    başlatma butonu çıkması lazım. Ona tıkla.
+
+Godot'u VS Code'da C# ile kullanmak istersen:
+    VS Code'da "C# Tools for Godot" eklentisini kur.
+
+    Godot'ta "Editor Settings"te General > Dotnet > Editor kısmında "Visual Studio Code" bulunan seçeneği seç
+    ve "Custom Exec Path" yerine (tırnaksız bir şekilde) "code" yaz.
+
+Eğer ki Godot'u PascalCase ile kullanmak istersen:
+    Project Settings'e gir, "Default Signal Callback Name"i (tırnaksız şekilde) "On{NodeName}{SignalName}" yap
+    ve "Default Signal Callback to Self Name"i (tırnaksız şekilde) "On{SignalName}" yap. "Scene Name Casing"
+    ve "Script Name Casing"te "PascalCase" seçeneğini seç.

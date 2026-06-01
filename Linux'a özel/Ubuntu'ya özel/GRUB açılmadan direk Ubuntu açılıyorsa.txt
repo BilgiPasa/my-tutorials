@@ -1,0 +1,33 @@
+Eğer ki bundan rahatsız değilsen bir şey yapmana gerek yok.
+
+Ancak, eğer ki her bilgisayarı açışında GRUB'ın açılmasını istersen:
+    İlk önce, terminale şu komutu gir:
+        sudo nano /etc/default/grub
+
+    Ardından, açılan dosyadaki şu satırı:
+        GRUB_TIMEOUT_STYLE=hidden
+
+    Şununla değiştir:
+        GRUB_TIMEOUT_STYLE=menu
+
+    Ardından, şu satırı:
+        GRUB_TIMEOUT=0
+
+    Şununla değiştir:
+        GRUB_TIMEOUT=5
+
+    Ardından, dosyayı kaydet ve kapat.
+
+    Ardından, terminale şu komutu gir:
+        sudo update-grub
+
+Eğer ki bu değişiklikleri yaptıktan sonra bu değişiklikleri geri almak istersen:
+    Değiştirdiğin dosyayı, terminale şu komutu girerek aç:
+        sudo nano /etc/default/grub
+
+    Ardından, değiştirdiğin satırları eski haline getir.
+
+    Ardından, terminale şu komutu gir:
+        sudo update-grub
+
+Kaynak: https://www.reddit.com/r/Ubuntu/comments/yi4zm5/comment/iuh5rrk/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button

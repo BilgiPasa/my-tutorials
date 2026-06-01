@@ -1,0 +1,4 @@
+Linux'ta, şu dosya yolu içinde: /home/$USER/.config/Code/User/
+Windows'ta, şu dosya yolu içinde: C:\Users\$USER\AppData\Roaming\Code\User\
+
+($USER yerinde sistemindeki kullanıcı adın bulunmalı.)

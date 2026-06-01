@@ -1,0 +1,39 @@
+VS Code'u kurduktan sonra VS Code'u aç. Sol alttaki "Accounts" kısmından "Backup and Sync Settings"e tıkla.
+
+Çıkan menüden "Sign in"e tıkla ve GitHub ile giriş yap.
+
+Giriş yaptıktan sonra, sağ altta İngilizce olarak "Dili değiştirmek ister misiniz?" tarzında bir bildirim
+gelirse "Change Language and Restart" butonuna tıkla ve VS Code'u yeniden başlat.
+
+Ardından, VS Code'u kapat. VS Code'un ayar dosyasının bulunduğu yere git. Orada bulunan ayar dosyasını sil
+ve oraya, bu git deposunda bulunan VS Code ayar dosyanı koy.
+(Window zoom ayarı GitHub ile eşitlenmediği için bunu yap.)
+
+Ardından, masaüstünden bir text dosyasını VS Code'da aç. O dosyayı "Kısıtlı Mod"da açtır.
+
+Alt çubuğun solundaki "Kısıtlı Mod" butonuna tıkla, çıkan menüde aşağı scroll yap, sol alttaki "Add Folder"
+butonunu kullanarak masaüstü klasörün ile D klasörünü oraya güvenilen dosyalar olarak ekle. Ekledikten sonra,
+o menüdeki "Güven" butonuna bas ve o menüyü kapat.
+
+Eğer ki alt çubuğun solunda "Uzak Ana Bilgisayar" bölümü gözüküyorsa o bölümü gizle.
+
+Eğer ki bir dosya açtığında alt çubuğun sağında "Düzenleyici Girintisi" bölümü gözüküyorsa o bölümü gizle.
+
+Eğer ki bir Python dosyası açtığında sol çubukta "Test" menüsü varsa o bölümü gizle.
+
+Son olarak; eğer ki VS Code'da Java kodunu, sağ üstteki "Run Java" butonuna basıp çalıştırdığında, alt çubuğun
+solunda "Hata Ayıkla" bölümü gözüküyorsa o bölümü gizle.
+
+Not1: VS Code'da hiçbir uyarıda, "Bu kaynaktan bir daha uyarı gösterme" seçeneğine tıklama.
+
+Not2: VS Code'da, Pylance tür denetimi etkinleştirme uyarısı gelirse kabul etme ve geç.
+
+Not3: VS Code'da, sana önerilen uzantı varsa o uzantının üstüne sağ tıklayıp "Öneriyi Yoksay"a tıkla.
+
+Not4:
+    VS Code'da run and debug butonunu gizleyip geri açamıyorsan sağ üstte üç nokta kısmına sağ tık yap ve
+    "run and debug" seçeneğine tıkla.
+
+Not5:
+    Java'da debug ettikten sonra, çalıştırma butonu debug'da kaldıysa "Extension Pack for Java" eklenti
+    paketini kaldır, VS Code'u kapat. VS Code'u tekrar aç ve Extension Pack for Java'yı tekrar kur.

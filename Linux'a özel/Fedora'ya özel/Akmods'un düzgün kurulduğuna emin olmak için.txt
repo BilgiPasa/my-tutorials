@@ -1,0 +1,2 @@
+Şu komutu girerek akmods düzgün kurulmuş mu bakabilirsin:
+    sudo akmods

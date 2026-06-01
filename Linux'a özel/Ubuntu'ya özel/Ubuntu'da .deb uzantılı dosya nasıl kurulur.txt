@@ -1,0 +1,10 @@
+2 farklı şekilde kurabilirsin.
+
+1. Yöntem:
+    O dosyayı, GNOME Software veya KDE Discover gibi bir uygulama mağazası programı kullanarak sistemine
+    kurabilirsin. Yani o dosyaya sağ tıklayıp, uygulama mağazası programı ile açmayı seçerek, çıkan pencerede
+    kurmak istediğin .deb uzantılı dosyayı sistemine kurabilirsin.
+
+2. Yöntem:
+    O paketin bulunduğu yerde terminal açıp, açtığın terminalde şu komutu girebilirsin:
+        sudo apt install ./(.deb uzantılı kurulum dosyası)

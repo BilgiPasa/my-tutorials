@@ -1,0 +1,7 @@
+VLC'yi aç.
+
+"Tools" menüsünden "Preferences"a tıklayarak "Preferences" menüsünü aç.
+(Ctrl + P (kontrol + P) kısayoluyla da "Preferences" menüsünü açabilirsin.)
+
+"Interface Settings" menüsünün "Look and feel" kısmında bulunan "Use a dark palette" seçeneğini aç.
+Ardından, sağ aşağıdaki "Save" butonuna tıkla.

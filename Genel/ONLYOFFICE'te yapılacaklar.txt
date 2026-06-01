@@ -1,0 +1,18 @@
+Ayarlarda:
+    İlk önce, "Interface theme" ayarını "Contrast Dark" olarak ayarla.
+    Ardından, "Spelling language detection" ayarını "Disabled" olarak ayarla.
+    Ardından, "Use graphic acceleration when avalible" seçeneğini aç.
+    Ardından, o ayarlar sayfasını aşağıya kaydır ve "Use AI functions" seçeneğini kapat.
+    Ardından, alttaki "Apply" butonuna tıkla.
+
+Eğer ki ONLYOFFICE'te "Times New Roman" fontu kurulu gelmediyse, şu siteden Times New Roman fontunu indir
+ve sistemine kur:
+    https://font.download/font/times-new-roman
+
+Eğer ki ONLYOFFICE'te "Calibri" fontu kurulu gelmediyse, şu siteden Calibri fontunu indir ve sistemine kur:
+    https://www.fonttr.com/calibri-font
+
+Eğer ki ONLYOFFICE'te "Arial" fontu kurulu gelmediyse, şu siteden Arial fontunu indir ve sistemine kur:
+    https://font.download/font/arial
+
+Arial fontunu sistemine kurarken sadece "ARIAL.TTF" adındaki dosyayı kullan.

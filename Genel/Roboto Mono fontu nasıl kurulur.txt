@@ -1,0 +1,42 @@
+"Roboto Mono" fontunu indirmek için:
+    Şu siteye git "https://fonts.google.com/specimen/Roboto+Mono" ve sağ üstteki "Get font" butonuna tıkla.
+    Sonra, "Download all"a tıkla ve fontu indir. İndirdikten sonra, indirmiş olduğun zip dosyasının içindeki
+    dosyaları bilgisayarının istediğin bir yerine çıkar.
+
+Eğer ki GNOME kullanıyorsan:
+    Sisteminde "Fonts" isimli bir uygulama kurulu olmalı. Biraz önce zip'ten çıkarmış olduğun dosyalardan
+    "RobotoMono-VariableFont_wght.ttf" isimli dosyayı, Fonts uygulamasıyla aç. Açılan pencerenin sağ üstündeki
+    install butonuna tıklayarak o fontu sistemine kur.
+
+Eğer ki Cinnamon veya XFCE kullanıyorsan:
+    GNOME'da kurulu gelen "Fonts" uygulaması eğer ki sisteminde kurulu değilse onu kur ve GNOME için yazdığım
+    yönergeleri takip et.
+
+Eğer ki KDE Plazma kullanıyorsan:
+    "Fonts" uygulamasını aç ve "Font Management" kısmına gel. "Install from file" seçeneğine tıkla.
+    Biraz önce zip'ten çıkarmış olduğun dosyalardan "RobotoMono-VariableFont_wght.ttf" isimli dosyayı seç ve o
+    fontu ekle. Sonrasında, gerekiyorsa sistemini yeniden başlat.
+
+Eğer ki Windows kullanıyorsan:
+    Windows'un arama kısmına "Yazı tipi ayarları" yaz ve çıkan menüde "Yazı tiplerine göz atın ve yükleyin"
+    butonuna bas. Biraz önce zip'ten çıkarmış olduğun dosyalardan "RobotoMono-VariableFont_wght.ttf" isimli
+    dosyayı seç ve o fontu ekle.
+
+VS Code veya VSCodium'da Roboto Mono fontunu kullanmak için:
+    Fontu kullanmak istediğin programı aç. Programdaki "Font Family" ayarındaki yazanları SAKIN SİLME!
+
+    Yapacağın şey; o ayardaki yazanların soluna, şu yazılı değilse onu yazmak:
+        'Roboto Mono',
+
+    Yani örnek olarak, o ayarda şu yazıyorsa:
+        'Droid Sans Mono', monospace
+
+    Senin yapacağın şey o yazıyı şu hale getirmek:
+        'Roboto Mono', 'Droid Sans Mono', monospace
+
+Not:
+    Linux'ta fontların şu 2 klasörde saklanalabilir:
+        /home/$USER/.local/share/fonts/
+        /usr/share/fonts/
+
+    ($USER yerinde sistemindeki kullanıcı adın bulunmalı.)

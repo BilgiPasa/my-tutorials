@@ -1,0 +1,20 @@
+# Set tab size to 4
+set tabsize 4
+
+# Enable auto indentation
+set autoindent
+
+# Display line numbers
+set linenumbers
+
+# Set the title's text color as white and remove its background color
+set titlecolor white
+
+# Set the line numbers' text color as white and remove its background color
+set numbercolor white
+
+# Set the shortcut helper's text color as white and remove its background color
+set keycolor white
+
+# Show trailing spaces as green when you open a "default" file
+extendsyntax default color ,green "[[:space:]]+$"

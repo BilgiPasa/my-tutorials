@@ -1,0 +1,4 @@
+Unity Hub'da Windows Mono ve Mac Mono'yu kurabilmek için terminale şu komutu gir: sudo pacman -S cpio
+
+Unity'i, Ubuntu tabanlı olmayan bir dağıtımda kullanmanı önermem ama eğer ki Unity Hub'ı sistemine kurduysan
+bu komutu terminale girmeni öneririm.

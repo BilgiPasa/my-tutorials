@@ -1,0 +1,55 @@
+Yazdığın kod anlaşılır olsun.
+
+Kod yazacaksan o kodu kendin yaz. (Yani sen kod yazacaksan o kodu makine değil, sen yaz.)
+
+Kullanmayı sevdiğin programları ve kullanmayı sevdiğin fontu kullan.
+
+Açıklama eklemenin iyi olabileceğini düşündüğün yerlere açıklayıcı yorum satırları ekle.
+
+Şartlı ifadeler, döngüler ve fonksiyonların öncesine ve sonrasına birer satır boşluk bırak.
+
+Değişken adları, fonksiyon adları, class adları, obje adları, dosya adları ve klasör adları açıklayıcı olsun
+ama (alt tireler, kısa çizgiler ve boşluklar dahil) 30 karakteri geçmesin.
+
+Gerektiğinde bir adı kısaltabilirsin.
+
+Ad kısaltmak için bu kısaltmaları kullanabilirsin:
+    array -> arr
+    camera -> cam
+    box/capsule/sphere collider -> box/capsule/sphere coll
+    collision polygon/shape -> coll polygon/shape
+    degree -> deg
+    field of view -> FOV
+    frames per second -> fps
+    image -> img
+    information -> info
+    object -> obj
+    magnitude -> mag
+    manager -> mng
+    maximum -> max
+    middle -> mid
+    minimum -> min
+    multiplier -> mult
+    normalized -> normd
+    number -> num
+    pointer -> ptr
+    position -> pos
+    radian -> rad
+    rigid body -> rb
+    rotation -> rot
+    static body -> sb
+    summation -> sum
+    temporary -> temp
+    velocity -> vel
+
+    Genel olarak kullanabileceğin başka kısaltmalar olursa buraya yaz. (Sıra alfabetik olarak kalsın.)
+
+VS Code veya VSCodium'da "Better Comments" eklentisini kurarak yorum satırlarının başına karakter veya yazı
+yazarak yorum satırlarını farklı renklerde yapabilirsin. O yorum satırlarını yazarken
+"//*", "//!", "//?" ve "//TODO" şeklinde yazmak yerine "// *", "// !", "// ?" ve "// TODO" şeklinde yaz.
+Yani "//" ile yanındaki sembol veya yazı arasında bir boşluk olsun. Çünkü nano'da "//*" yazarsan ve
+sonrasında "*/" yazmazsan, sonraki satırlar da yorum satırıymış gibi aynı renge boyanabiliyor. Ayrıca, arada
+bir boşluk bulununca bence daha güzel duruyor.
+
+Eskiden yapmış olduğun ve artık uğraşmadığın veya uğraşmak istemediğin projelerde eğer ki bu kurallara uymayan
+kodlar varsa gidip düzeltmeye uğraşma. Öylece kalsınlar.

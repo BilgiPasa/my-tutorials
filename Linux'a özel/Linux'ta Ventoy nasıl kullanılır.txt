@@ -1,0 +1,16 @@
+Sistemine, Ventoy'un Linux için olan çalıştırma dosyasını indir ve indirdiğin şıkıştırılmış dosyanın
+içindekileri dışarı aktar.
+
+Dışarı aktardığın dosyalardan "VentoyGUI.x86_64" dosyasını terminal kullanarak çalıştır.
+Terminalde çalıştırmak için o dosyanın bulunduğu yerde terminal aç ve şu komutu gir:
+    ./VentoyGUI.x86_64
+
+Sol üstteki "Option" menüsünden "Partition Style" kısmına gel ve "GPT" olanı seç.
+(Disk biçimlendirmesi olarak GPT'nin, MBR'den daha iyi olduğunu bildiğim için GPT seçmeni istiyorum.)
+
+Ardından, Ventoy kurmak istediğin USB'yi seç ve "Install"a tıkla.
+UYARI: Ventoy'u, seçtiğin USB'ye kurarsan o USB'deki bütün veriler silinir.
+
+Ventoy'u kurduktan sonra, Ventoy'a koymak istediğin ISO'ları o USB'ye yapıştır.
+
+Kaynak: https://www.youtube.com/watch?v=3PsRxJZTXEY

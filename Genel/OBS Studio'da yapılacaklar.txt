@@ -1,0 +1,49 @@
+İlk önce, kendi sisteminin home klasöründeki "Videos" klasörünün içine "OBS" diye bir klasör oluştur.
+Ardından, OBS Studio'yu aç.
+
+OBS Studio'yu ilk açtığında "Optimize just for recording"li seçeneğini seç ve "Next"e tıkla.
+Resolution'da "Display 1"i seç. FPS'te "60"ı seç ve "Next"e tıkla. Ardından, "Apply Settings"e tıkla.
+
+Ana menüde "Sources" kısmında "Screen Capture" ekle. Eklerken kendi ekranını seç.
+
+Ayarlar kısmında "Output" kısmını aç ve "Output Mode"u "Advanced" yap.
+
+"Recording" kısmına gel.
+
+"Recording Settings"te:
+    "Recording Path"i, o oluşturduğun OBS klasörüne ayarla.
+
+    "Generate File Name without Space" seçeneğini aç.
+
+    Recording Format -> "Hybrid MP4 (.mp4)"
+
+    Video Encoder -> "NVIDIA NVENC H.264"
+
+    Audio Encoder -> "libfdk AAC" (ama istersen "FFmpeg ALAC" seçeneğini de seçebilirsin.)
+
+"Encoder Settings"te:
+    Rate Control -> "Constant Bitrate"
+
+    Bitrate -> "30000 Kbps"
+
+    Preset -> "Slow (Good Quality)"
+
+    Tuning -> "High Quality"
+
+    Multipass Mode -> "Two Passes (Quarter Resolution)"
+
+    Profile -> "high"
+
+"Apply"a tıklayarak ayarları kaydet. Ardından "OK"e tıkla.
+
+Eğer ki yanlış bir ayar yaparsan
+{
+    OBS Studio'nun ana ekranındaki "File" kısmında "Show Settings Folder" seçeneğine tıkla.
+    OBS Studio'yu kapat ve o klasör içindeki bütün dosyaları sil.
+    Sonrasında OBS Studio'yu geri aç ve yapılacakları tekrar yap.
+
+    Kaynak: https://youtu.be/us3yiCOVrh8
+}
+
+Linux'ta DaVinci Resolve için, AAC codec'ini başka bir codec'e çevirmeye uğraşmamak için, OBS'te Audio Encoder
+olarak ALAC'ı seçebilirsin.

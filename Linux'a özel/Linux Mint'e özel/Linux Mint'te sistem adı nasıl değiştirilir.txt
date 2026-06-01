@@ -1,0 +1,2 @@
+Şu komutu gir, oradaki eski adını sil ve yenisini yaz: sudo nano /etc/hostname
+Ardından şu komutu gir, orada eski adını bul, o eksi adını sil ve yenisini yaz: sudo nano /etc/hosts

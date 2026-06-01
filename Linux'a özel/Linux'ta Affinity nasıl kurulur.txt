@@ -1,0 +1,20 @@
+Birkaç farklı kurma yöntemi var.
+
+1. yöntem: (Bu yöntemi kullanmanı öneririm.)
+    Şu siteye git ve istediğin şekilde kurulumu yap: https://github.com/seapear/AffinityOnLinux
+
+    Eğer ki Lutris ile kurulum yapıyorsan o yönergelerden "Get ready to launch" kısmını yapmayı unutma!
+
+    Aşağıdaki uyarımı oku!
+
+2. yöntem: (Bu yöntem çalışıyor mu emin değilim.)
+    Lutris'i sistemine flatpak olarak kur. Lutris'i aç ve ekranın sol altında kurulumlar bitene kadar
+    bekle. Oradaki kurulumlar bitince ekranın sol üstündeki artı butonuna tıkla. Çıkan pencerede
+    "Search the Lutris website for installers" seçeneğine tıkla. Çıkan menüde arama kısmına "Affinity" yaz.
+    Hangi sürümünü indirmek istersen onu seç ve kurulumu yap.
+
+    Aşağıdaki uyarımı oku!
+
+UYARI:
+    Lutris ile kurulum yaptıysan Affinity'yi kapattığında Lutris'te hala çalışıyor gözükebilir ve arkaplanda
+    RAM harcayabilir. O yüzden Affinity'i kapattıktan sonra Lutris'te hala çalışıyor gözüküyorsa DURDUR!

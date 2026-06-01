@@ -1,0 +1,65 @@
+Eğer ki sistemin Debian tabanlıysa Git'i, terminale şu komutları girerek kur:
+    sudo apt-get update
+    sudo apt-get install git-all -y
+
+Eğer ki sistemin Fedora tabanlıysa Git'i, terminale şu komutu girerek kur:
+    sudo dnf install git-all -y
+
+Eğer ki Windows kullanıyorsan Git'i, terminale şu komutu girerek kur:
+    winget install -e --id Git.Git
+
+Masaütünde (veya başka istediğin bir yerde) "Git" isimli bir klasör oluştur. Kullanacağın Git depolarını bu
+klasörde klonla.
+
+Git'i, GitHub ile bağlamak için GitHub CLI'ı kur.
+
+GitHub CLI kurulumu
+{
+    Sistemin Debian tabanlıysa şu sitedeki komutları kullanarak kur:
+        https://github.com/cli/cli/blob/trunk/docs/install_linux.md#debian
+
+    Sistemin Fedora tabanlıysa şu sitedeki komutları kullanarak kur:
+        https://github.com/cli/cli/blob/trunk/docs/install_linux.md#rpm
+
+    Windows kullanıyorsan şu sitedeki komutu kullanarak kur:
+        https://github.com/cli/cli/blob/trunk/docs/install_windows.md#winget
+
+    Windows kullanıyorsan GitHub CLI'ı kurduktan sonra terminali kapat ve tekrar aç.
+
+    Ardından, GitHub hesabınla giriş yapmak için terminale şu komutu gir:
+        gh auth login
+}
+
+Git'i, GitLab ile bağlamak için GitLab CLI'ı kur.
+
+GitLab CLI kurulumu
+{
+    Sistemin Debian tabanlıysa terminale şu komutları girerek GitLab CLI'ı kur:
+        curl -sSL "https://raw.githubusercontent.com/upciti/wakemeops/main/assets/install_repository" | sudo bash
+        sudo apt install glab
+
+    Sistemin Fedora tabanlıysa terminale şu komutu girerek GitLab CLI'ı kur:
+        sudo dnf install glab
+
+    Windows kullanıyorsan terminale şu komutu girerek GitLab CLI'ı kur:
+        winget install glab.glab
+
+    Windows kullanıyorsan GitLab CLI'ı kurduktan sonra terminali kapat ve tekrar aç.
+
+    Ardından, GitLab hesabınla giriş yapmak için terminale şu komutu gir:
+        glab auth login
+
+    (Giriş yaparken "Web" seçeneğini seç.)
+}
+
+Son olarak, terminale bu komutları gir
+{
+    git config --global user.email "(git için kullandığın mail'i buraya yaz)"
+    git config --global user.name "(git için kullandığın kullanıcı adını buraya yaz)"
+}
+
+Git config'ine girmiş olduğun mail'i ve ismi görmek için şu komutu kullanabilirsin:
+    git config --list
+
+Linux'ta Git kurulum komutlarının kaynağı: https://github.com/git-guides/install-git#install-git-on-linux
+GitLab CLI kurulum komutlarının kaynağı: https://gitlab.com/gitlab-org/cli/-/blob/main/docs/installation_options.md
