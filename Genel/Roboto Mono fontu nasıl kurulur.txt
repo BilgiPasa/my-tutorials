@@ -23,15 +23,15 @@ Eğer ki Windows kullanıyorsan:
     dosyayı seç ve o fontu ekle.
 
 VS Code veya VSCodium'da Roboto Mono fontunu kullanmak için:
-    Fontu kullanmak istediğin programı aç. Programdaki "Font Family" ayarındaki yazanları SAKIN SİLME!
+    VS Code veya VSCodium'u aç. Açtığın programdaki "Font Family" ayarına gel.
 
-    Yapacağın şey; o ayardaki yazanların soluna, şu yazılı değilse onu yazmak:
+    O ayardaki yazının soluna şunu yaz:
         'Roboto Mono',
 
     Yani örnek olarak, o ayarda şu yazıyorsa:
         'Droid Sans Mono', monospace
 
-    Senin yapacağın şey o yazıyı şu hale getirmek:
+    O yazıya şu şekilde bir ekleme yap:
         'Roboto Mono', 'Droid Sans Mono', monospace
 
 Not:
