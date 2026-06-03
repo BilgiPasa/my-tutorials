@@ -13,7 +13,7 @@ ama (alt tireler, kısa çizgiler ve boşluklar dahil) 30 karakteri geçmesin.
 
 Oluşturduğun adlarda kısaltmalar kullanabilirsin.
 
-Kullanabileceğin ad kısaltmaları:
+Kullanabileceğin kısaltmalar:
     array -> arr
     camera -> cam
     box/capsule/sphere collider -> box/capsule/sphere coll
@@ -48,3 +48,6 @@ yazarak yorum satırlarını farklı renklerde yapabilirsin. O yorum satırları
 Yani "//" ile yanındaki sembol veya yazı arasında bir boşluk olsun. Çünkü nano'da "//*" yazarsan ve
 sonrasında "*/" yazmazsan, sonraki satırlar da yorum satırıymış gibi aynı renge boyanabiliyor. Ayrıca, arada
 bir boşluk bulununca bence daha güzel duruyor.
+
+Arşivlediğin ve artık uğraşmak istemediğin projelerinde eğer ki isimlendirme veya yorum yazma kurallarına
+uymayan kodlar varsa düzeltmeye uğraşma. Öylece kalsınlar.
