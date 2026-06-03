@@ -42,8 +42,6 @@ Kullanabileceğin ad kısaltmaları:
     temporary -> temp
     velocity -> vel
 
-    Genel olarak kullanabileceğin başka kısaltmalar olursa buraya yaz. (Sıra alfabetik olarak kalsın.)
-
 VS Code veya VSCodium'da "Better Comments" eklentisini kurarak yorum satırlarının başına karakter veya yazı
 yazarak yorum satırlarını farklı renklerde yapabilirsin. O yorum satırlarını yazarken
 "//*", "//!", "//?" ve "//TODO" şeklinde yazmak yerine "// *", "// !", "// ?" ve "// TODO" şeklinde yaz.
