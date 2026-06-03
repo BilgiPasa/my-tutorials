@@ -1,6 +1,6 @@
 Yazdığın kod anlaşılır olsun.
 
-Kod yazacaksan o kodu kendin yaz. (Yani sen kod yazacaksan o kodu makine değil, sen yaz.)
+Kod yazmak istiyorsan o kodu kendin yaz. (Yani sen kod yazmak istiyorsan o kodu makine değil, sen yaz.)
 
 Kullanmayı sevdiğin programları ve kullanmayı sevdiğin fontu kullan.
 
@@ -11,9 +11,9 @@ Açıklama eklemenin iyi olabileceğini düşündüğün yerlere açıklayıcı 
 Değişken adları, fonksiyon adları, class adları, obje adları, dosya adları ve klasör adları açıklayıcı olsun
 ama (alt tireler, kısa çizgiler ve boşluklar dahil) 30 karakteri geçmesin.
 
-Gerektiğinde bir adı kısaltabilirsin.
+Oluşturduğun adlarda kısaltmalar kullanabilirsin.
 
-Ad kısaltmak için bu kısaltmaları kullanabilirsin:
+Kullanabileceğin ad kısaltmaları:
     array -> arr
     camera -> cam
     box/capsule/sphere collider -> box/capsule/sphere coll
@@ -51,5 +51,5 @@ Yani "//" ile yanındaki sembol veya yazı arasında bir boşluk olsun. Çünkü
 sonrasında "*/" yazmazsan, sonraki satırlar da yorum satırıymış gibi aynı renge boyanabiliyor. Ayrıca, arada
 bir boşluk bulununca bence daha güzel duruyor.
 
-Eskiden yapmış olduğun ve artık uğraşmadığın veya uğraşmak istemediğin projelerde eğer ki bu kurallara uymayan
-kodlar varsa gidip düzeltmeye uğraşma. Öylece kalsınlar.
+Artık uğraşmadığın veya uğraşmak istemediğin projelerde eğer ki bu kurallara uymayan kodlar veya herhangi bir
+yazım hatası varsa gidip düzeltmeye uğraşma. Öylece kalsınlar.
