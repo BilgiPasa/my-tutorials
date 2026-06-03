@@ -50,6 +50,3 @@ yazarak yorum satırlarını farklı renklerde yapabilirsin. O yorum satırları
 Yani "//" ile yanındaki sembol veya yazı arasında bir boşluk olsun. Çünkü nano'da "//*" yazarsan ve
 sonrasında "*/" yazmazsan, sonraki satırlar da yorum satırıymış gibi aynı renge boyanabiliyor. Ayrıca, arada
 bir boşluk bulununca bence daha güzel duruyor.
-
-Artık uğraşmadığın veya uğraşmak istemediğin projelerde eğer ki bu kurallara uymayan kodlar veya herhangi bir
-yazım hatası varsa gidip düzeltmeye uğraşma. Öylece kalsınlar.

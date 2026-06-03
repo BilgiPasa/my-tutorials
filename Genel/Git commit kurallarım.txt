@@ -2,6 +2,6 @@ Commit'lerin açıklayıcı olsun.
 
 Commit'lerin ingilizce olsun.
 
-Commit'lerde -ing veya -ed kullanma. Emir verir gibi; "add", "remove", "update", "fix" şeklinde commit'ler yaz.
+Commit'lerde -ing veya -ed kullanma. Emir verir gibi; "Add", "Remove", "Update", "Fix" şeklinde commit'ler yaz.
 
 Bu konu hakkında bir stackoverflow yanıtı: https://stackoverflow.com/a/3580764/17380287
