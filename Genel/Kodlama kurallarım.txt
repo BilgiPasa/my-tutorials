@@ -42,7 +42,7 @@ Kullanabileceğin ad kısaltmaları:
     temporary -> temp
     velocity -> vel
 
-VS Code veya VSCodium'da "Better Comments" eklentisini kurarak yorum satırlarının başına karakter veya yazı
+VS Code veya VSCodium'da "Better Comments" eklentisini kurarsan yorum satırlarının başına karakter veya yazı
 yazarak yorum satırlarını farklı renklerde yapabilirsin. O yorum satırlarını yazarken
 "//*", "//!", "//?" ve "//TODO" şeklinde yazmak yerine "// *", "// !", "// ?" ve "// TODO" şeklinde yaz.
 Yani "//" ile yanındaki sembol veya yazı arasında bir boşluk olsun. Çünkü nano'da "//*" yazarsan ve
