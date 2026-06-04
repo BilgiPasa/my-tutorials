@@ -1,0 +1,6 @@
+GNOME'da başlangıç uygulaması eklemek için:
+    "GNOME Tweaks"i sistem paketi olarak sistemine kur ve aç.
+
+    GNOME Tweaks'te "Startup Applications" kısmına gel.
+
+    O menüden başlangıç uygulaması ekleyebilirsin.

@@ -1,6 +1,8 @@
 GNOME'da uygulamalara büyütme ve küçültme butonları eklemek istersen:
     "GNOME Tweaks"i sistem paketi olarak sistemine kur ve aç.
+
     GNOME Tweaks'te "Windows" kısmına gel.
+
     "Titlebar Buttons" kısmından "Maximize" ile "Minimize" ayarlarını aç.
 
 Aslında, GNOME'da büyütme ve küçültme butonlarına ihtiyacın yok ama büyütme ve küçültme butonları istersen
