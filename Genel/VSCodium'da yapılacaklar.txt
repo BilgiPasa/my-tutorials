@@ -8,22 +8,11 @@ Ardından, alt çubuğun solundaki "Restricted Mode" butonuna tıkla. Çıkan me
 "Add Folder" butonunu kullanarak masaüstü klasörün ile D klasörünü oraya güvenilen dosyalar olarak ekle.
 Ekledikten sonra, o menüdeki "Trust" butonuna bas ve o menüyü kapat.
 
-Ardından, sol çubuktaki "Extensions" menüsünden şu eklentileri kur:
-    BasedPyright (detachhead'in)
-    Better Comments (aaron-bond'un)
-    Bracket Select (chunsen)
-    C# (muhammad-sammy'nin) (Arama kısmına CSharp diye yazarsan çıkabilir.)
-    C# Tools for Godot (neikeq'in)
-    clangd (llvm-vs-code-extensions'ın)
-    Extension Pack for Java (vscjava'nın)
-    godot-tools (geequlim'in)
-    Material Icon Theme (PKief'in) (Bu eklentiyi kurduktan sonra ikon teması olarak bunu seç.)
-    Python (ms-python'un)
-    Trailing Spaces (shardulm94'ün)
-    Turkish Language Pack for Visual Studio Code (MS-CEINTL'in)
+Ardından, sol çubuktaki "Extensions" menüsünü aç. Bu dosyanın bulunduğu dosya dizininde bulunan
+"VSCodium eklenti önerilerim.txt" dosyasında yazan eklentileri o menüde kur.
 
-Bu eklentileri kurdukran sonra sağ altta İngilizce olarak "Dili değiştirmek ister misiniz?" tarzında bir
-bildirim gelirse "Change Language and Restart" butonuna tıkla ve VSCodium'u yeniden başlat.
+Eklentileri kurdukran sonra sağ altta İngilizce olarak "Dili değiştirmek ister misiniz?" tarzında bir bildirim
+gelirse "Change Language and Restart" butonuna tıkla ve VSCodium'u yeniden başlat.
 
 Eğer ki "clangd" eklentisini kurduysan, sistemine clangd paketini kur.
 

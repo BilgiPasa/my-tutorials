@@ -1,0 +1,28 @@
+C ve C++ için:
+    clangd (llvm-vs-code-extensions'ın)
+
+C# için:
+    .NET Install Tool (ms-dotnettools'un)
+    C# (muhammad-sammy'nin) (Arama kısmına CSharp yazarsan çıkabilir.)
+
+Godot için:
+    godot-tools (geequlim'in)
+
+    Godot'ta C# kullanmak için:
+        C# Tools for Godot (neikeq'in)
+        ve yukarıda bahsettiğim C# için eklentiler.
+
+Java için:
+    Extension Pack for Java (vscjava'nın)
+
+Python için:
+    BasedPyright (detachhead'in)
+    Python (ms-python'un)
+    Python Debugger (ms-python'un)
+
+Önerdiğim diğer eklentiler:
+    Better Comments (aaron-bond'un)
+    Bracket Select (chunsen)
+    Material Icon Theme (PKief'in) (Bu eklentiyi kurduktan sonra ikon teması olarak bunu seç.)
+    Trailing Spaces (shardulm94'ün)
+    Turkish Language Pack for Visual Studio Code (MS-CEINTL'in)
