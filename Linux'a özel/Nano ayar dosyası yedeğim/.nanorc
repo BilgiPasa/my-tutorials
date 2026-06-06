@@ -1,3 +1,5 @@
+# For more info about nanorc: https://www.nano-editor.org/dist/v2.9/nanorc.5.html
+
 # Set tab size to 4
 set tabsize 4
 
@@ -10,11 +12,12 @@ set linenumbers
 # Set the title's text color as white and remove its background color
 set titlecolor white
 
-# Set the line numbers' text color as white and remove its background color
-set numbercolor white
+# Set the line numbers' text color as gray and remove its background color
+set numbercolor gray
 
 # Set the shortcut helper's text color as white and remove its background color
 set keycolor white
 
 # Show trailing spaces as green when you open a "default" file
+# Source: https://unix.stackexchange.com/questions/556643/nano-highlight-trailing-whitespaces#comment1551000_556645
 extendsyntax default color ,green "[[:space:]]+$"
