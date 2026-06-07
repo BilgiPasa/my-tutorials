@@ -52,7 +52,7 @@ GitLab CLI kurulumu
     (Giriş yaparken "Web" seçeneğini seç.)
 }
 
-Son olarak, terminale bu komutları gir
+Son olarak, terminale şu komutları gir
 {
     git config --global user.email "(git için kullandığın mail'i buraya yaz)"
     git config --global user.name "(git için kullandığın kullanıcı adını buraya yaz)"
