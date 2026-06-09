@@ -17,8 +17,6 @@ o menüdeki "Güven" butonuna bas ve o menüyü kapat.
 
 Eğer ki alt çubuğun solunda "Uzak Ana Bilgisayar" bölümü gözüküyorsa o bölümü gizle.
 
-Eğer ki bir dosya açtığında alt çubuğun sağında "Düzenleyici Girintisi" bölümü gözüküyorsa o bölümü gizle.
-
 Eğer ki bir Python dosyası açtığında sol çubukta "Test" menüsü varsa o bölümü gizle.
 
 Son olarak; eğer ki VS Code'da Java kodunu, sağ üstteki "Run Java" butonuna basıp çalıştırdığında, alt çubuğun

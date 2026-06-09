@@ -33,8 +33,6 @@ bölümlerini gizle.
 
 Eğer ki alt çubuğun solunda "Uzak Ana Bilgisayar" bölümü gözüküyorsa o bölümü gizle.
 
-Eğer ki bir dosya açtığında alt çubuğun sağında "Düzenleyici Girintisi" bölümü gözüküyorsa o bölümü gizle.
-
 Eğer ki bir C dosyası açtığında alt çubuğun solunda "clangd (Uzantı)" bölümü gözüküyorsa o bölümü gizle.
 
 Eğer ki bir Python dosyası açtığında sol çubukta "Test" menüsü varsa o bölümü gizle.

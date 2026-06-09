@@ -8,6 +8,7 @@
     "csharp.suppressBuildAssetsNotification": true,
     "editor.fontFamily": "'Roboto Mono', 'Droid Sans Mono', monospace",
     "editor.fontSize": 16,
+    "editor.insertSpaces": false,
     "editor.selectionClipboard": false,
     "editor.stickyScroll.enabled": false,
     "explorer.confirmDelete": false,
